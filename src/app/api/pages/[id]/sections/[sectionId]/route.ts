@@ -11,6 +11,7 @@ export async function PUT(req: Request, { params }: { params: Promise<{ id: stri
     }
     const { sectionId } = await params;
     const body = await req.json();
+    console.log("Updating section:", sectionId, "with data:", body);
     const section = await (prisma as any).pageSection.update({
       where: { id: sectionId },
       data: {
@@ -22,6 +23,7 @@ export async function PUT(req: Request, { params }: { params: Promise<{ id: stri
         isActive: body.isActive,
       },
     });
+    console.log("Section updated successfully:", section);
     return NextResponse.json(section);
   } catch (error) {
     return NextResponse.json({ error: "Failed to update section" }, { status: 500 });
