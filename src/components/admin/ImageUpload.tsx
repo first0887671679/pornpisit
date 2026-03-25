@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, useRef } from "react";
-import { upload } from "@vercel/blob/client";
 import { Button } from "@/components/ui/button";
 import { Upload, X, Loader2 } from "lucide-react";
 import Image from "next/image";
@@ -43,12 +42,21 @@ export default function ImageUpload({ value, onChange, label, className, aspectR
     setError("");
 
     try {
-      const blob = await upload(file.name, file, {
-        access: "public",
-        handleUploadUrl: "/api/upload",
+      const formData = new FormData();
+      formData.append("file", file);
+
+      const response = await fetch("/api/upload", {
+        method: "POST",
+        body: formData,
       });
 
-      onChange(blob.url);
+      const result = await response.json();
+
+      if (!response.ok) {
+        throw new Error(result.error || "อัพโหลดไม่สำเร็จ");
+      }
+
+      onChange(result.url);
     } catch (err: any) {
       setError(err?.message || "อัพโหลดไม่สำเร็จ กรุณาลองอีกครั้ง");
     } finally {
