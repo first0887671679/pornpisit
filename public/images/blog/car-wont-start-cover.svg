@@ -1,0 +1,51 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F1F5F9"/>
+      <stop offset="0.5" stop-color="#E2E8F0"/>
+      <stop offset="1" stop-color="#CBD5E1"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#F8FAFC" stop-opacity="0.95"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#0F172A" flood-opacity="0.1"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" rx="24" fill="url(#bg)"/>
+  
+  <path d="M1200 0L0 630V0H1200Z" fill="#DBEAFE" fill-opacity="0.3"/>
+  <circle cx="1050" cy="150" r="200" fill="#EF4444" fill-opacity="0.1"/>
+  <circle cx="150" cy="480" r="150" fill="#F97316" fill-opacity="0.1"/>
+
+  <rect x="60" y="60" width="1080" height="510" rx="32" fill="url(#panel)" filter="url(#shadow)"/>
+
+  <g transform="translate(100 120)">
+    <rect x="0" y="0" width="160" height="40" rx="20" fill="#EF4444" fill-opacity="0.1"/>
+    <text x="80" y="26" fill="#EF4444" font-size="18" font-weight="700" font-family="Arial, sans-serif" text-anchor="middle">คู่มือฉุกเฉิน 2026</text>
+    
+    <text x="0" y="100" fill="#0F172A" font-size="64" font-weight="800" font-family="Arial, sans-serif">รถสตาร์ทไม่ติด เงียบกริบ!</text>
+    <text x="0" y="170" fill="#334155" font-size="36" font-weight="700" font-family="Arial, sans-serif">เช็กด่วน 5 จุด ก่อนเสียเงินเรียกรถสไลด์</text>
+    <text x="0" y="230" fill="#64748B" font-size="24" font-family="Arial, sans-serif">สรุปสาเหตุ • วิธีเช็กด้วยตัวเอง • แนวทางแก้ไขฉุกเฉิน</text>
+
+    <g transform="translate(0 300)">
+      <rect x="0" y="0" width="250" height="120" rx="24" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2"/>
+      <circle cx="125" cy="40" r="20" fill="#FEE2E2"/>
+      <text x="125" y="80" fill="#0F172A" font-size="22" font-weight="700" font-family="Arial, sans-serif" text-anchor="middle">แบตเตอรี่เสื่อม?</text>
+      
+      <rect x="270" y="0" width="250" height="120" rx="24" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2"/>
+      <circle cx="395" cy="40" r="20" fill="#FEF08A"/>
+      <text x="395" y="80" fill="#0F172A" font-size="22" font-weight="700" font-family="Arial, sans-serif" text-anchor="middle">ไดสตาร์ทพัง?</text>
+
+      <rect x="540" y="0" width="250" height="120" rx="24" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2"/>
+      <circle cx="665" cy="40" r="20" fill="#BFDBFE"/>
+      <text x="665" y="80" fill="#0F172A" font-size="22" font-weight="700" font-family="Arial, sans-serif" text-anchor="middle">ปั๊มติ๊กเสีย?</text>
+      
+      <rect x="810" y="0" width="250" height="120" rx="24" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2"/>
+      <circle cx="935" cy="40" r="20" fill="#D9F99D"/>
+      <text x="935" y="80" fill="#0F172A" font-size="22" font-weight="700" font-family="Arial, sans-serif" text-anchor="middle">ระบบกุญแจ?</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF7ED"/>
+      <stop offset="1" stop-color="#FFEDD5"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" rx="28" fill="url(#bg)"/>
+  <text x="70" y="92" fill="#0F172A" font-size="46" font-weight="800" font-family="Arial, sans-serif">เมื่อไหร่ที่ต้องเรียกช่างด่วน?</text>
+  <text x="70" y="136" fill="#64748B" font-size="22" font-family="Arial, sans-serif">บริการนอกสถานที่ครอบคลุมพื้นที่ บางนา • ศรีนครินทร์ • แบริ่ง • ลาซาล • แพรกษา</text>
+
+  <rect x="70" y="190" width="510" height="460" rx="28" fill="#FFFFFF" stroke="#FDBA74" stroke-width="2"/>
+  <rect x="110" y="240" width="430" height="80" rx="16" fill="#FEE2E2"/>
+  <text x="325" y="290" fill="#DC2626" font-size="32" font-weight="800" font-family="Arial, sans-serif" text-anchor="middle">แบตเตอรี่เสื่อม/หมด</text>
+  <text x="110" y="380" fill="#475569" font-size="24" font-family="Arial, sans-serif">• บิดกุญแจแล้วเงียบ ไฟหน้าไม่ติด</text>
+  <text x="110" y="430" fill="#475569" font-size="24" font-family="Arial, sans-serif">• หน้าปัดกระพริบ ไดสตาร์ทหมุนอืด</text>
+  <text x="110" y="480" fill="#475569" font-size="24" font-family="Arial, sans-serif">• แบตเตอรี่ใช้งานเกิน 1.5 - 2 ปี</text>
+  <rect x="110" y="530" width="430" height="80" rx="40" fill="#EA580C"/>
+  <text x="325" y="578" fill="#FFFFFF" font-size="24" font-weight="800" font-family="Arial, sans-serif" text-anchor="middle">เปลี่ยนแบตนอกสถานที่ 24 ชม.</text>
+
+  <rect x="620" y="190" width="510" height="460" rx="28" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2"/>
+  <rect x="660" y="240" width="430" height="80" rx="16" fill="#FEF08A"/>
+  <text x="875" y="290" fill="#CA8A04" font-size="32" font-weight="800" font-family="Arial, sans-serif" text-anchor="middle">ไดชาร์จเสีย/มีปัญหา</text>
+  <text x="660" y="380" fill="#475569" font-size="24" font-family="Arial, sans-serif">• พ่วงแบตแล้วติด แต่ถอดสายแล้วดับ</text>
+  <text x="660" y="430" fill="#475569" font-size="24" font-family="Arial, sans-serif">• มีรูปแบตเตอรี่โชว์ตอนขับขี่</text>
+  <text x="660" y="480" fill="#475569" font-size="24" font-family="Arial, sans-serif">• เพิ่งเปลี่ยนแบตใหม่ แต่ไฟหมดอีก</text>
+  <rect x="660" y="530" width="430" height="80" rx="40" fill="#0F172A"/>
+  <text x="875" y="578" fill="#FFFFFF" font-size="24" font-weight="800" font-family="Arial, sans-serif" text-anchor="middle">ต้องนำรถเข้าอู่ซ่อมไดนาโม</text>
+</svg>

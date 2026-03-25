@@ -1,0 +1,134 @@
+import { Metadata } from "next";
+import { SITE_CONFIG, generateBreadcrumbJsonLd, generateWebPageJsonLd } from "@/lib/seo";
+import { ensureServicePages, getServicePageData } from "@/lib/ensureServicePages";
+import ServicePageRenderer from "@/components/ServicePageRenderer";
+
+export const revalidate = 60;
+
+const SLUG = "contact-us";
+const FALLBACK_TITLE = `เบอร์โทรช่างซ่อมรถ นอกสถานที่ 24 ชม. บางนา ศรีนครินทร์ | FIRSTCARCENTER`;
+const FALLBACK_DESC = "ต้องการช่างด่วน? เบอร์โทรติดต่อช่างซ่อมรถนอกสถานที่ ปะยาง เปลี่ยนแบต ไดชาร์จ โซนบางนา ศรีนครินทร์ เทพารักษ์ แพรกษา พร้อมออกเดินทางทันที โทรเลยตลอด 24 ชม.";
+
+export async function generateMetadata(): Promise<Metadata> {
+  await ensureServicePages();
+  const page = await getServicePageData(SLUG);
+  const title = page?.seoTitle || FALLBACK_TITLE;
+  const description = page?.seoDescription || FALLBACK_DESC;
+  return {
+    title,
+    description,
+    keywords: page?.seoKeywords?.split(",") || [
+      "ติดต่อช่างซ่อมรถ","เบอร์โทรช่างซ่อมรถ","ช่างซ่อมรถ 24 ชม",
+      "ช่างซ่อมรถ บางนา","ช่างซ่อมรถ ศรีนครินทร์","ช่างซ่อมรถ สมุทรปราการ",
+      "เรียกช่างซ่อมรถด่วน","ช่างซ่อมรถนอกสถานที่ เทพารักษ์","ช่างซ่อมรถนอกสถานที่ แพรกษา",
+    ],
+    alternates: { canonical: `/${SLUG}` },
+    openGraph: {
+      title, description,
+      url: `${SITE_CONFIG.url}/${SLUG}`,
+      type: "website",
+      siteName: SITE_CONFIG.siteName,
+      locale: SITE_CONFIG.locale,
+      images: [{ url: SITE_CONFIG.ogImage, width: 1200, height: 630, alt: `ติดต่อ ${SITE_CONFIG.name} ช่างซ่อมรถนอกสถานที่ 24 ชม.` }],
+    },
+    twitter: { card: "summary_large_image", title, description, images: [SITE_CONFIG.ogImage] },
+  };
+}
+
+function generateContactPageJsonLd() {
+  return {
+    "@context": "https://schema.org",
+    "@type": "AutoRepair",
+    "@id": `${SITE_CONFIG.url}/#organization`,
+    name: SITE_CONFIG.siteName,
+    alternateName: "Firstcar Service",
+    image: SITE_CONFIG.logo,
+    logo: {
+      "@type": "ImageObject",
+      url: SITE_CONFIG.logo,
+    },
+    url: SITE_CONFIG.url,
+    telephone: SITE_CONFIG.phone,
+    email: SITE_CONFIG.email,
+    description: SITE_CONFIG.description,
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: SITE_CONFIG.address.street,
+      addressLocality: SITE_CONFIG.address.locality,
+      addressRegion: SITE_CONFIG.address.region,
+      postalCode: SITE_CONFIG.address.postalCode,
+      addressCountry: SITE_CONFIG.address.country,
+    },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: SITE_CONFIG.geo.latitude,
+      longitude: SITE_CONFIG.geo.longitude,
+    },
+    openingHoursSpecification: {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: [
+        "Monday", "Tuesday", "Wednesday", "Thursday",
+        "Friday", "Saturday", "Sunday",
+      ],
+      opens: "00:00",
+      closes: "23:59",
+    },
+    priceRange: "$$",
+    currenciesAccepted: "THB",
+    paymentAccepted: "Cash, Credit Card, Bank Transfer",
+    areaServed: [
+      {
+        "@type": "City",
+        name: "สมุทรปราการ",
+        containsPlace: [
+          { "@type": "Place", name: "ศรีนครินทร์" },
+          { "@type": "Place", name: "เทพารักษ์" },
+          { "@type": "Place", name: "แพรกษา" },
+          { "@type": "Place", name: "วัดด่านสำโรง" },
+          { "@type": "Place", name: "วัดหนามแดง" },
+        ],
+      },
+      {
+        "@type": "City",
+        name: "กรุงเทพมหานคร",
+        containsPlace: [
+          { "@type": "Place", name: "สุขุมวิท" },
+          { "@type": "Place", name: "บางนา" },
+          { "@type": "Place", name: "แบริ่ง" },
+          { "@type": "Place", name: "ลาซาล" },
+        ],
+      },
+    ],
+    sameAs: [SITE_CONFIG.lineUrl],
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: "4.9",
+      reviewCount: "150",
+      bestRating: "5",
+      worstRating: "1",
+    },
+  };
+}
+
+export default async function ContactUsPage() {
+  await ensureServicePages();
+  const page = await getServicePageData(SLUG);
+  const PAGE_TITLE = page?.seoTitle || FALLBACK_TITLE;
+  const PAGE_DESC = page?.seoDescription || FALLBACK_DESC;
+
+  const breadcrumbJsonLd = generateBreadcrumbJsonLd([
+    { name: "หน้าแรก", url: SITE_CONFIG.url },
+    { name: "ติดต่อเรา", url: `${SITE_CONFIG.url}/contact-us` },
+  ]);
+  const webPageJsonLd = generateWebPageJsonLd(PAGE_TITLE, PAGE_DESC, "/contact-us");
+  const contactJsonLd = generateContactPageJsonLd();
+
+  return (
+    <>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageJsonLd) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(contactJsonLd) }} />
+      <ServicePageRenderer sections={page?.sections || []} slug={SLUG} breadcrumbLabel="ติดต่อเรา" />
+    </>
+  );
+}

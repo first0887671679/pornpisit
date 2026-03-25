@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#0f172a" rx="24"/>
+  <circle cx="400" cy="225" r="150" fill="rgba(249, 115, 22, 0.15)" filter="blur(30px)"/>
+  <g transform="translate(400, 200)" text-anchor="middle">
+    <text font-size="64">🧳 🚗 ❌</text>
+    <text y="70" font-family="Prompt, sans-serif" font-size="24" font-weight="bold" fill="#f8fafc">เช้าวันหยุด จัดกระเป๋าเสร็จ รถสตาร์ทไม่ติดซะงั้น</text>
+    <text y="110" font-family="Prompt, sans-serif" font-size="18" fill="#94a3b8">สถานที่: หมู่บ้านซอยวัดหนามแดง ถนนเทพารักษ์</text>
+  </g>
+</svg>

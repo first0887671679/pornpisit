@@ -1,0 +1,219 @@
+<svg width="1200" height="800" viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050914" />
+      <stop offset="100%" stop-color="#12182B" />
+    </linearGradient>
+    <radialGradient id="glow-orange" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FF6B00" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#FF6B00" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="glow-blue" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0.2" />
+      <stop offset="100%" stop-color="#00F2FE" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="primary-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF6B00" />
+      <stop offset="100%" stop-color="#FF3E00" />
+    </linearGradient>
+    <linearGradient id="text-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#E2E8F0" />
+    </linearGradient>
+    <linearGradient id="glass-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.08)" />
+      <stop offset="100%" stop-color="rgba(255,255,255,0.02)" />
+    </linearGradient>
+    <linearGradient id="pig-skin" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFE4E1" />
+      <stop offset="100%" stop-color="#FFB6C1" />
+    </linearGradient>
+    <linearGradient id="pig-snout" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF9EBB" />
+      <stop offset="100%" stop-color="#E67396" />
+    </linearGradient>
+    <linearGradient id="cap-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF8C00" />
+      <stop offset="100%" stop-color="#D32F2F" />
+    </linearGradient>
+    <linearGradient id="silver" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E2E8F0" />
+      <stop offset="50%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#94A3B8" />
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="15" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+    <filter id="shadow-sm" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.03)" stroke-width="1"/>
+    </pattern>
+
+    <g id="pig-mascot">
+      <!-- Left hand -->
+      <circle cx="-65" cy="15" r="14" fill="url(#pig-skin)" filter="url(#shadow-sm)"/>
+      <path d="M-65,15 L-55,5" stroke="#E67396" stroke-width="2" stroke-linecap="round"/>
+      
+      <!-- Body/Overalls -->
+      <path d="M-55,20 Q0,80 55,20 L65,100 L-65,100 Z" fill="#1E293B" filter="url(#shadow)"/>
+      <path d="M-40,20 L-40,100 M40,20 L40,100" stroke="#0F172A" stroke-width="4"/>
+      <!-- Straps -->
+      <rect x="-45" y="10" width="12" height="40" rx="4" fill="#FF6B00" transform="rotate(-15 -45 10)"/>
+      <rect x="33" y="10" width="12" height="40" rx="4" fill="#FF6B00" transform="rotate(15 33 10)"/>
+      <!-- Buttons -->
+      <circle cx="-35" cy="45" r="5" fill="#E2E8F0"/>
+      <circle cx="35" cy="45" r="5" fill="#E2E8F0"/>
+      <!-- Pocket -->
+      <path d="M-25,50 L25,50 L20,80 L-20,80 Z" fill="#0F172A" stroke="#334155" stroke-width="2"/>
+      <!-- Wrench in pocket -->
+      <g transform="translate(-5, 40) rotate(15)">
+        <rect x="0" y="0" width="10" height="30" rx="3" fill="url(#silver)"/>
+        <circle cx="5" cy="0" r="8" fill="url(#silver)"/>
+        <circle cx="5" cy="0" r="4" fill="#0F172A"/>
+      </g>
+
+      <!-- Pig Head -->
+      <rect x="-60" y="-55" width="120" height="100" rx="45" fill="url(#pig-skin)" filter="url(#shadow-sm)"/>
+      
+      <!-- Ears -->
+      <path d="M-45,-30 Q-65,-80 -20,-50 Z" fill="url(#pig-skin)"/>
+      <path d="M45,-30 Q65,-80 20,-50 Z" fill="url(#pig-skin)"/>
+      
+      <!-- Snout -->
+      <ellipse cx="0" cy="-5" rx="28" ry="18" fill="url(#pig-snout)" filter="url(#shadow-sm)"/>
+      <ellipse cx="-10" cy="-5" rx="4" ry="7" fill="#A8325D"/>
+      <ellipse cx="10" cy="-5" rx="4" ry="7" fill="#A8325D"/>
+      <path d="M-8,8 Q0,15 8,8" fill="none" stroke="#A8325D" stroke-width="2" stroke-linecap="round"/>
+      
+      <!-- Eyes -->
+      <circle cx="-25" cy="-22" r="7" fill="#0B0F19"/>
+      <circle cx="-23" cy="-24" r="2.5" fill="#FFFFFF"/>
+      <circle cx="25" cy="-22" r="7" fill="#0B0F19"/>
+      <circle cx="27" cy="-24" r="2.5" fill="#FFFFFF"/>
+      
+      <!-- Cap -->
+      <path d="M-65,-45 Q0,-85 65,-45 L70,-25 L-70,-25 Z" fill="url(#cap-grad)" filter="url(#shadow-sm)"/>
+      <rect x="-75" y="-25" width="150" height="14" rx="7" fill="#FF3E00"/>
+      <!-- Logo on cap -->
+      <circle cx="0" cy="-48" r="14" fill="#FFFFFF" filter="url(#shadow-sm)"/>
+      <path d="M-6,-48 L6,-48 L0,-56 Z M-6,-45 L6,-45 L0,-37 Z" fill="#FF6B00"/>
+      
+      <!-- Right hand holding battery -->
+      <g transform="translate(70, 70) rotate(15)">
+        <rect x="-25" y="-30" width="50" height="60" rx="6" fill="#1E293B" stroke="#00F2FE" stroke-width="2" filter="url(#shadow-sm)"/>
+        <rect x="-18" y="-36" width="10" height="6" fill="#FF3E00"/>
+        <rect x="8" y="-36" width="10" height="6" fill="#94A3B8"/>
+        <!-- lightning bolt -->
+        <path d="M2,-15 L-8,5 L-2,5 L-2,15 L8,-5 L2,-5 Z" fill="#00F2FE"/>
+        <circle cx="0" cy="0" r="18" fill="url(#pig-skin)"/>
+      </g>
+    </g>
+  </defs>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;600;800&display=swap');
+    text { font-family: 'Prompt', sans-serif; }
+  </style>
+
+
+  <!-- Background -->
+  <rect width="1200" height="800" fill="url(#bg-grad)" />
+  <rect width="1200" height="800" fill="url(#grid)" opacity="0.4" />
+  
+  <!-- Glows -->
+  <circle cx="600" cy="0" r="500" fill="url(#glow-orange)" opacity="0.8"/>
+  <circle cx="0" cy="800" r="600" fill="url(#glow-blue)" opacity="0.6"/>
+  <circle cx="1200" cy="800" r="600" fill="url(#glow-orange)" opacity="0.4"/>
+  
+  <!-- Header -->
+  <g transform="translate(600, 120)" text-anchor="middle">
+    <rect x="-100" y="-60" width="200" height="36" rx="18" fill="url(#glass-grad)" stroke="#00F2FE" stroke-width="1.5" />
+    <text x="0" y="-36" font-size="16" font-weight="800" fill="#00F2FE" letter-spacing="2">FIRSTCARCENTER</text>
+    <text x="0" y="20" font-size="56" font-weight="800" fill="#FFFFFF">สัญญาณเตือนแบตเตอรี่เสื่อมสภาพ</text>
+  </g>
+
+  <!-- Cards -->
+  <g transform="translate(90, 240)">
+    
+      <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="320" height="460" rx="30" fill="url(#glass-grad)" stroke="rgba(255,255,255,0.1)" stroke-width="2" filter="url(#shadow)" />
+        <!-- Top accent -->
+        <rect x="0" y="0" width="320" height="8" rx="4" fill="url(#primary-grad)" />
+        
+        <!-- Number Circle -->
+        <circle cx="50" cy="60" r="30" fill="#1E293B" stroke="url(#primary-grad)" stroke-width="2" />
+        <text x="50" y="70" font-size="28" font-weight="800" fill="#FF6B00" text-anchor="middle">01</text>
+        
+        <!-- Item Title -->
+        <text x="30" y="140" font-size="28" font-weight="800" fill="#FFFFFF">สตาร์ทอืดติดยากตอนเช้า</text>
+        
+        <!-- Divider -->
+        <rect x="30" y="165" width="40" height="4" rx="2" fill="#00F2FE" opacity="0.8" />
+        
+        <!-- Description -->
+        
+          <text x="30" y="220" font-size="22" font-weight="400" fill="#CBD5E1">อาการแรกเริ่มของแบตเสื่อม</text>
+        
+          <text x="30" y="256" font-size="22" font-weight="400" fill="#CBD5E1">เก็บประจุไฟไม่อยู่แล้ว</text>
+        
+          <text x="30" y="292" font-size="22" font-weight="400" fill="#CBD5E1">ค่า CCA เริ่มตกลง</text>
+        
+      </g>
+    
+      <g transform="translate(340, 0)">
+        <rect x="0" y="0" width="320" height="460" rx="30" fill="url(#glass-grad)" stroke="rgba(255,255,255,0.1)" stroke-width="2" filter="url(#shadow)" />
+        <!-- Top accent -->
+        <rect x="0" y="0" width="320" height="8" rx="4" fill="url(#primary-grad)" />
+        
+        <!-- Number Circle -->
+        <circle cx="50" cy="60" r="30" fill="#1E293B" stroke="url(#primary-grad)" stroke-width="2" />
+        <text x="50" y="70" font-size="28" font-weight="800" fill="#FF6B00" text-anchor="middle">02</text>
+        
+        <!-- Item Title -->
+        <text x="30" y="140" font-size="28" font-weight="800" fill="#FFFFFF">ระบบไฟฟ้าในรถทำงานรวน</text>
+        
+        <!-- Divider -->
+        <rect x="30" y="165" width="40" height="4" rx="2" fill="#00F2FE" opacity="0.8" />
+        
+        <!-- Description -->
+        
+          <text x="30" y="220" font-size="22" font-weight="400" fill="#CBD5E1">แอร์เย็นน้อยลง ไฟหน้าหรี่</text>
+        
+          <text x="30" y="256" font-size="22" font-weight="400" fill="#CBD5E1">กระจกไฟฟ้าขึ้นลงช้า</text>
+        
+          <text x="30" y="292" font-size="22" font-weight="400" fill="#CBD5E1">วิทยุดับเมื่อรอบเครื่องตก</text>
+        
+      </g>
+    
+      <g transform="translate(680, 0)">
+        <rect x="0" y="0" width="320" height="460" rx="30" fill="url(#glass-grad)" stroke="rgba(255,255,255,0.1)" stroke-width="2" filter="url(#shadow)" />
+        <!-- Top accent -->
+        <rect x="0" y="0" width="320" height="8" rx="4" fill="url(#primary-grad)" />
+        
+        <!-- Number Circle -->
+        <circle cx="50" cy="60" r="30" fill="#1E293B" stroke="url(#primary-grad)" stroke-width="2" />
+        <text x="50" y="70" font-size="28" font-weight="800" fill="#FF6B00" text-anchor="middle">03</text>
+        
+        <!-- Item Title -->
+        <text x="30" y="140" font-size="28" font-weight="800" fill="#FFFFFF">แบตเตอรี่บวม หรือมีคราบขี้เกลือ</text>
+        
+        <!-- Divider -->
+        <rect x="30" y="165" width="40" height="4" rx="2" fill="#00F2FE" opacity="0.8" />
+        
+        <!-- Description -->
+        
+          <text x="30" y="220" font-size="22" font-weight="400" fill="#CBD5E1">ขั้วแบตมีคราบขี้เกลือสีขาว</text>
+        
+          <text x="30" y="256" font-size="22" font-weight="400" fill="#CBD5E1">กล่องแบตเตอรี่ปูดบวม</text>
+        
+          <text x="30" y="292" font-size="22" font-weight="400" fill="#CBD5E1">เสี่ยงต่อแบตระเบิด ควรรีบเปลี่ยน</text>
+        
+      </g>
+    
+  </g>
+
+  <!-- Mascot (smaller, bottom center or peeking) -->
+  <use href="#pig-mascot" x="600" y="680" transform="scale(0.8) translate(150, 180)" />
+</svg>

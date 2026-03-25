@@ -1,0 +1,29 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#F1F5F9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" rx="28" fill="url(#bg)"/>
+  <text x="70" y="92" fill="#0F172A" font-size="46" font-weight="800" font-family="Arial, sans-serif">เช็กด่วน 3 จุดพื้นฐาน เมื่อรถสตาร์ทไม่ติด</text>
+  <text x="70" y="136" fill="#64748B" font-size="22" font-family="Arial, sans-serif">อย่าเพิ่งตกใจ ลองตรวจสอบสิ่งเหล่านี้ก่อนเรียกรถยก (เหมาะสำหรับมือใหม่)</text>
+
+  <rect x="70" y="190" width="1060" height="140" rx="24" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2"/>
+  <circle cx="140" cy="260" r="40" fill="#FEF08A"/>
+  <text x="140" y="272" fill="#CA8A04" font-size="36" font-weight="800" font-family="Arial, sans-serif" text-anchor="middle">1</text>
+  <text x="210" y="250" fill="#0F172A" font-size="28" font-weight="800" font-family="Arial, sans-serif">ตำแหน่งเกียร์ (สำหรับเกียร์ออโต้)</text>
+  <text x="210" y="285" fill="#475569" font-size="22" font-family="Arial, sans-serif">ต้องอยู่ที่ตำแหน่ง P หรือ N เท่านั้น ลองขยับคันเกียร์แล้วสตาร์ทใหม่</text>
+
+  <rect x="70" y="350" width="1060" height="140" rx="24" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2"/>
+  <circle cx="140" cy="420" r="40" fill="#FED7AA"/>
+  <text x="140" y="432" fill="#C2410C" font-size="36" font-weight="800" font-family="Arial, sans-serif" text-anchor="middle">2</text>
+  <text x="210" y="410" fill="#0F172A" font-size="28" font-weight="800" font-family="Arial, sans-serif">พวงมาลัยล็อค</text>
+  <text x="210" y="445" fill="#475569" font-size="22" font-family="Arial, sans-serif">ถ้าพวงมาลัยแข็งขยับไม่ได้และบิดกุญแจไม่ไป ให้ขยับพวงมาลัยซ้าย-ขวาพร้อมบิดกุญแจ</text>
+
+  <rect x="70" y="510" width="1060" height="140" rx="24" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2"/>
+  <circle cx="140" cy="580" r="40" fill="#FECACA"/>
+  <text x="140" y="592" fill="#B91C1C" font-size="36" font-weight="800" font-family="Arial, sans-serif" text-anchor="middle">3</text>
+  <text x="210" y="570" fill="#0F172A" font-size="28" font-weight="800" font-family="Arial, sans-serif">ระบบกุญแจ Immobilizer</text>
+  <text x="210" y="605" fill="#475569" font-size="22" font-family="Arial, sans-serif">ถ่านรีโมทอาจหมด ลองเอาตัวรีโมทไปแตะใกล้ๆ ปุ่ม Push Start แล้วกดสตาร์ทดู</text>
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
+  <rect width="800" height="450" fill="#0c1220" rx="24"/>
+  <circle cx="400" cy="225" r="150" fill="rgba(34, 197, 94, 0.12)" filter="blur(30px)"/>
+  <g transform="translate(400, 200)" text-anchor="middle">
+    <text font-size="64">✅ ⚡ 🚙</text>
+    <text y="70" font-family="Prompt, sans-serif" font-size="24" font-weight="bold" fill="#f8fafc">เปลี่ยนแบตเตอรี่เสร็จไว ลูกค้าได้ใช้รถทันที</text>
+    <text y="110" font-family="Prompt, sans-serif" font-size="18" fill="#94a3b8">สถานที่: คอนโดแถวแบริ่ง</text>
+  </g>
+</svg>

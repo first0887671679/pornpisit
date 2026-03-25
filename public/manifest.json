@@ -1,0 +1,16 @@
+{
+  "name": "Firstcar - บริการดูแลรักษารถยนต์นอกสถานที่ 24 ชม.",
+  "short_name": "Firstcar",
+  "description": "บริการดูแลรักษารถยนต์นอกสถานที่ 24 ชั่วโมง เปลี่ยนแบตเตอรี่ ซ่อมไดชาร์จ ไดสตาร์ท ขัดไฟหน้ารถ ปะยางนอกสถานที่",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#f97316",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="720" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#F1F5F9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" rx="28" fill="url(#bg)"/>
+  <text x="70" y="92" fill="#0F172A" font-size="46" font-weight="800" font-family="Arial, sans-serif">วิธีพ่วงแบตเตอรี่รถยนต์ที่ถูกต้อง (ปลอดภัย 100%)</text>
+  <text x="70" y="136" fill="#64748B" font-size="22" font-family="Arial, sans-serif">ลำดับการคีบสายและถอดสายพ่วง สำหรับคนแบตหมดกลางทาง</text>
+
+  <rect x="70" y="190" width="510" height="460" rx="28" fill="#FFFFFF" stroke="#DC2626" stroke-width="2"/>
+  <rect x="110" y="240" width="430" height="60" rx="16" fill="#FEE2E2"/>
+  <text x="325" y="280" fill="#DC2626" font-size="28" font-weight="800" font-family="Arial, sans-serif" text-anchor="middle">วิธีคีบสายพ่วง (ตอนเริ่ม)</text>
+  
+  <circle cx="130" cy="350" r="20" fill="#EF4444"/>
+  <text x="130" y="358" fill="#FFFFFF" font-size="20" font-weight="800" font-family="Arial, sans-serif" text-anchor="middle">1</text>
+  <text x="170" y="358" fill="#0F172A" font-size="24" font-family="Arial, sans-serif">คีบขั้วบวก (+) รถที่แบตหมด</text>
+
+  <circle cx="130" cy="420" r="20" fill="#EF4444"/>
+  <text x="130" y="428" fill="#FFFFFF" font-size="20" font-weight="800" font-family="Arial, sans-serif" text-anchor="middle">2</text>
+  <text x="170" y="428" fill="#0F172A" font-size="24" font-family="Arial, sans-serif">คีบขั้วบวก (+) รถที่มาช่วย</text>
+
+  <circle cx="130" cy="490" r="20" fill="#000000"/>
+  <text x="130" y="498" fill="#FFFFFF" font-size="20" font-weight="800" font-family="Arial, sans-serif" text-anchor="middle">3</text>
+  <text x="170" y="498" fill="#0F172A" font-size="24" font-family="Arial, sans-serif">คีบขั้วลบ (-) รถที่มาช่วย</text>
+
+  <circle cx="130" cy="560" r="20" fill="#000000"/>
+  <text x="130" y="568" fill="#FFFFFF" font-size="20" font-weight="800" font-family="Arial, sans-serif" text-anchor="middle">4</text>
+  <text x="170" y="568" fill="#0F172A" font-size="24" font-family="Arial, sans-serif">คีบตัวถัง/เหล็ก รถที่แบตหมด</text>
+  <text x="170" y="595" fill="#64748B" font-size="18" font-family="Arial, sans-serif">(ห้ามคีบขั้วลบแบตที่หมดเด็ดขาด)</text>
+
+  <rect x="620" y="190" width="510" height="460" rx="28" fill="#FFFFFF" stroke="#16A34A" stroke-width="2"/>
+  <rect x="660" y="240" width="430" height="60" rx="16" fill="#DCFCE7"/>
+  <text x="875" y="280" fill="#16A34A" font-size="28" font-weight="800" font-family="Arial, sans-serif" text-anchor="middle">วิธีถอดสายพ่วง (เมื่อรถติดแล้ว)</text>
+
+  <circle cx="680" cy="350" r="20" fill="#000000"/>
+  <text x="680" y="358" fill="#FFFFFF" font-size="20" font-weight="800" font-family="Arial, sans-serif" text-anchor="middle">1</text>
+  <text x="720" y="358" fill="#0F172A" font-size="24" font-family="Arial, sans-serif">ถอดสายจากตัวถังรถที่แบตหมด</text>
+
+  <circle cx="680" cy="420" r="20" fill="#000000"/>
+  <text x="680" y="428" fill="#FFFFFF" font-size="20" font-weight="800" font-family="Arial, sans-serif" text-anchor="middle">2</text>
+  <text x="720" y="428" fill="#0F172A" font-size="24" font-family="Arial, sans-serif">ถอดขั้วลบ (-) รถที่มาช่วย</text>
+
+  <circle cx="680" cy="490" r="20" fill="#EF4444"/>
+  <text x="680" y="498" fill="#FFFFFF" font-size="20" font-weight="800" font-family="Arial, sans-serif" text-anchor="middle">3</text>
+  <text x="720" y="498" fill="#0F172A" font-size="24" font-family="Arial, sans-serif">ถอดขั้วบวก (+) รถที่มาช่วย</text>
+
+  <circle cx="680" cy="560" r="20" fill="#EF4444"/>
+  <text x="680" y="568" fill="#FFFFFF" font-size="20" font-weight="800" font-family="Arial, sans-serif" text-anchor="middle">4</text>
+  <text x="720" y="568" fill="#0F172A" font-size="24" font-family="Arial, sans-serif">ถอดขั้วบวก (+) รถที่แบตหมด</text>
+  <text x="720" y="595" fill="#64748B" font-size="18" font-family="Arial, sans-serif">(ทำย้อนกลับจากตอนเริ่มคีบ)</text>
+</svg>

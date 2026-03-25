@@ -1,0 +1,473 @@
+import { PrismaClient } from '@prisma/client'
+import bcrypt from 'bcryptjs'
+
+const prisma = new PrismaClient()
+
+async function main() {
+  const hashedPassword = await bcrypt.hash('admin123', 10)
+  
+  const admin = await prisma.adminUser.upsert({
+    where: { email: 'admin@firstcar.com' },
+    update: {},
+    create: {
+      email: 'admin@firstcar.com',
+      name: 'Admin User',
+      password: hashedPassword,
+    },
+  })
+
+  // Contact Info
+  await prisma.contactInfo.upsert({
+    where: { id: 'contact-info-1' },
+    update: {},
+    create: {
+      id: 'contact-info-1',
+      phone: '0800000000',
+      lineId: '@firstcar',
+      lineUrl: 'https://line.me/ti/p/~@firstcar',
+      address: '123 ถนนสุขุมวิท กรุงเทพมหานคร 10110',
+    }
+  })
+
+  // =========================================================
+  // สร้าง Page + Section เฉพาะเมื่อยังไม่มี (ไม่ลบข้อมูลเดิม)
+  // =========================================================
+  const existingHome = await (prisma as any).page.findUnique({ where: { slug: 'home' } })
+  const homePage = existingHome || await (prisma as any).page.create({
+    data: {
+      slug: 'home',
+      title: 'หน้าแรก',
+      order: 0,
+      seoTitle: 'บริการดูแลรักษารถยนต์นอกสถานที่ 24 ชั่วโมง | Firstcar',
+      seoDescription: 'บริการเปลี่ยนแบตเตอรี่ ซ่อมไดชาร์จ ไดสตาร์ท ขัดไฟหน้ารถ ปะยางนอกสถานที่ ถึงที่รวดเร็วทันใจ 24 ชม.',
+      seoKeywords: 'เปลี่ยนแบตเตอรี่,ซ่อมไดชาร์จ,ซ่อมไดสตาร์ท,ขัดไฟหน้ารถ,ปะยางนอกสถานที่',
+    },
+  })
+
+  const homeSections = [
+    // 0: เมนูบนสุด (Navbar)
+    {
+      pageId: homePage.id,
+      type: 'header',
+      title: 'เมนูบนสุด',
+      content: JSON.stringify({
+        brandName: 'FIRSTCARCENTER',
+        brandSub: 'บริการรถยนต์ 24 ชม.',
+        phone: '0887671679',
+        phoneLabel: 'โทรด่วน',
+        lineUrl: 'https://lin.ee/xxqKaZn',
+        lineLabel: 'Line',
+        links: [
+          { label: 'หน้าแรก', href: '/' },
+          {
+            label: 'บริการ',
+            href: '#',
+            children: [
+              { label: 'ปะยางนอกสถานที่ 24 ชม.', href: '/mobile-tire-repair' },
+              { label: 'เปลี่ยนแบตเตอรี่รถยนต์', href: '/battery-replacement' },
+              { label: 'ซ่อม/เปลี่ยน ไดชาร์จ ไดสตาร์ท', href: '/alternator-starter' },
+              { label: 'ขัดสีรถ ลบรอย ขัดไฟหน้า', href: '/car-polishing' },
+            ],
+          },
+          { label: 'เช็คราคาแบต', href: '/check-price' },
+          { label: 'ติดต่อเรา', href: '/contact-us' },
+        ],
+      }),
+      order: 0,
+    },
+    // 1: แถบรอง (ประกาศ/โปรโมชั่น)
+    {
+      pageId: homePage.id,
+      type: 'sub-header',
+      title: 'แถบประกาศ',
+      content: JSON.stringify({
+        text: 'บริการ 24 ชม. เปลี่ยนแบตเตอรี่ ซ่อมไดชาร์จ ไดสตาร์ท ปะยาง ถึงที่รวดเร็ว โทรเลย!',
+        linkUrl: 'tel:0800000000',
+        linkLabel: 'โทรเลย',
+        bgColor: 'orange',
+      }),
+      order: 1,
+    },
+    // 2: Hero Banner (สไลด์)
+    {
+      pageId: homePage.id,
+      type: 'hero',
+      title: 'Hero Banner',
+      content: JSON.stringify({
+        autoSlide: true,
+        intervalMs: 5000,
+        slides: [
+          {
+            heading: 'บริการดูแลรักษารถยนต์',
+            subheading: 'นอกสถานที่ 24 ชั่วโมง',
+            description: 'ถึงที่รวดเร็วทันใจ แก้ปัญหารถยนต์ฉุกเฉินโดยช่างผู้เชี่ยวชาญ กรุงเทพและปริมณฑล',
+            phoneUrl: 'tel:0887671679',
+            lineUrl: 'https://lin.ee/xxqKaZn',
+            imageUrl: 'https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=1920&auto=format&fit=crop',
+            textAlign: 'center',
+            overlayOpacity: 30,
+          },
+          {
+            heading: 'เปลี่ยนแบตเตอรี่ถึงที่',
+            subheading: 'รวดเร็ว ปลอดภัย รับประกัน',
+            description: 'ช่างผู้เชี่ยวชาญพร้อมออกบริการเปลี่ยนแบตเตอรี่รถยนต์ถึงที่ภายใน 30 นาที',
+            phoneUrl: 'tel:0887671679',
+            lineUrl: 'https://lin.ee/xxqKaZn',
+            imageUrl: 'https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?q=80&w=1920&auto=format&fit=crop',
+            textAlign: 'left',
+            overlayOpacity: 40,
+          },
+          {
+            heading: 'ซ่อมไดชาร์จ ไดสตาร์ท',
+            subheading: 'นอกสถานที่ โดยช่างเชี่ยวชาญ',
+            description: 'อะไหล่แท้ รับประกันงานซ่อม ราคายุติธรรม',
+            phoneUrl: 'tel:0887671679',
+            lineUrl: 'https://lin.ee/xxqKaZn',
+            imageUrl: 'https://images.unsplash.com/photo-1487754180451-c456f719a1fc?q=80&w=1920&auto=format&fit=crop',
+            textAlign: 'right',
+            overlayOpacity: 35,
+          },
+        ],
+      }),
+      order: 2,
+    },
+    // 3: บริการ
+    {
+      pageId: homePage.id,
+      type: 'services',
+      title: 'บริการของเรา',
+      content: JSON.stringify({
+        items: [
+          {
+            title: 'ปะยางนอกสถานที่ 24 ชม.',
+            description: 'ยางแตก ยางรั่ว ช่างปะยางถึงที่ภายใน 30 นาที โซนบางนา ศรีนครินทร์ สมุทรปราการ',
+            icon: 'PenTool',
+            href: '/mobile-tire-repair',
+          },
+          {
+            title: 'เปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่',
+            description: 'รถสตาร์ทไม่ติด? ช่างพร้อมนำแบตแท้ไปเปลี่ยนถึงที่ รับประกัน 1 ปี',
+            icon: 'Battery',
+            href: '/battery-replacement',
+          },
+          {
+            title: 'ซ่อม/เปลี่ยน ไดชาร์จ ไดสตาร์ท',
+            description: 'วิเคราะห์อาการแม่นยำด้วย OBD ซ่อมเสร็จหน้างาน ไม่ต้องลากรถ',
+            icon: 'Wrench',
+            href: '/alternator-starter',
+          },
+          {
+            title: 'ขัดสีรถ ลบรอย ขัดไฟหน้า',
+            description: 'บริการขัดสีรถลบรอย ขัดไฟหน้าเหลืองให้ใสปิ๊ง นอกสถานที่ถึงบ้าน',
+            icon: 'Sparkles',
+            href: '/car-polishing',
+          },
+        ],
+      }),
+      order: 3,
+    },
+    // 2: ภาพผลงาน (ข้อมูลเต็มจาก ShowcaseImage model เดิม)
+    {
+      pageId: homePage.id,
+      type: 'gallery',
+      title: 'ภาพผลงานและหน้างานจริง',
+      content: JSON.stringify({
+        images: [
+          { src: 'https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?q=80&w=800&auto=format&fit=crop', alt: 'เปลี่ยนแบตเตอรี่รถยนต์', caption: 'เปลี่ยนแบตเตอรี่ถึงที่ เร็ว ปลอดภัย' },
+          { src: 'https://images.unsplash.com/photo-1487754180451-c456f719a1fc?q=80&w=800&auto=format&fit=crop', alt: 'ซ่อมไดชาร์จ ไดสตาร์ท', caption: 'ซ่อมไดชาร์จ ไดสตาร์ท โดยช่างเชี่ยวชาญ' },
+          { src: 'https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=800&auto=format&fit=crop', alt: 'ขัดไฟหน้ารถ', caption: 'ขัดไฟหน้ารถ คืนความใส' },
+          { src: 'https://images.unsplash.com/photo-1580273916550-e323be2ae537?q=80&w=800&auto=format&fit=crop', alt: 'ปะยางนอกสถานที่', caption: 'ปะยางนอกสถานที่ 24 ชม.' },
+        ],
+      }),
+      order: 4,
+    },
+    // 5: ทำไมต้องเลือกเรา (ข้อมูลเต็มจาก WhyUsItem model เดิม)
+    {
+      pageId: homePage.id,
+      type: 'why-us',
+      title: 'ทำไมต้องเลือกเรา?',
+      content: JSON.stringify({
+        items: [
+          { title: 'บริการ 24 ชั่วโมง', description: 'พร้อมให้บริการทุกวัน ไม่มีวันหยุด ไม่ว่าจะดึกดื่นหรือเช้ามืด', icon: 'Clock' },
+          { title: 'ถึงที่ภายใน 30 นาที', description: 'ช่างออกบริการรวดเร็ว เดินทางถึงที่ภายใน 30 นาทีในพื้นที่ กทม.', icon: 'Zap' },
+          { title: 'ช่างผู้เชี่ยวชาญ', description: 'ทีมช่างมีประสบการณ์มากกว่า 10 ปี ผ่านการอบรมมาตรฐาน', icon: 'Shield' },
+          { title: 'รับประกันงานบริการ', description: 'ทุกงานมีการรับประกัน ใช้อะไหล่แท้คุณภาพสูง', icon: 'ThumbsUp' },
+        ],
+      }),
+      order: 5,
+    },
+    // 6: รีวิวลูกค้า (ข้อมูลเต็มจาก Testimonial model เดิม)
+    {
+      pageId: homePage.id,
+      type: 'testimonials',
+      title: 'รีวิวจากลูกค้าจริง',
+      content: JSON.stringify({
+        items: [
+          { name: 'คุณนัท', role: 'ผู้ใช้บริการเปลี่ยนแบตเตอรี่', avatar: 'https://i.pravatar.cc/120?img=32', rating: 5, content: 'โทรเรียกตอนดึก ช่างมาถึงไวมาก บริการดี สุภาพ ใส่ใจรายละเอียด เปลี่ยนเสร็จเช็คระบบไฟให้ด้วย ประทับใจครับ' },
+          { name: 'คุณมิ้นท์', role: 'ผู้ใช้บริการซ่อมไดชาร์จ', avatar: 'https://i.pravatar.cc/120?img=15', rating: 5, content: 'รถสตาร์ทไม่ติดกลางทาง ติดต่อแล้วไม่ถึง 30 นาทีมาถึง ซ่อมจบในที่เดียว ราคายุติธรรม แนะนำเลยค่ะ' },
+          { name: 'คุณโจ', role: 'ผู้ใช้บริการปะยาง', avatar: 'https://i.pravatar.cc/120?img=5', rating: 5, content: 'ยางรั่วตอนฝนตก โชคดีมากที่เจอทีมนี้ อุปกรณ์ครบ มืออาชีพ ทำงานเร็วและสะอาดเรียบร้อยมาก' },
+        ],
+      }),
+      order: 6,
+    },
+    // 7: คำถามที่พบบ่อย (ข้อมูลเต็มจาก FaqItem model เดิม)
+    {
+      pageId: homePage.id,
+      type: 'faq',
+      title: 'คำถามที่พบบ่อย',
+      content: JSON.stringify({
+        items: [
+          { question: 'เปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่ใช้เวลานานไหม?', answer: 'ใช้เวลาประมาณ 15-30 นาที ช่างจะเดินทางไปถึงที่คุณภายใน 30 นาที พร้อมเปลี่ยนแบตเตอรี่และตรวจเช็คระบบไฟให้ฟรี' },
+          { question: 'บริการ 24 ชั่วโมงจริงไหม?', answer: 'ใช่ครับ เราให้บริการตลอด 24 ชั่วโมง ทุกวัน ไม่มีวันหยุด สามารถโทรเรียกช่างได้ทุกเวลา' },
+          { question: 'ให้บริการพื้นที่ไหนบ้าง?', answer: 'เราให้บริการครอบคลุมพื้นที่กรุงเทพมหานครและปริมณฑล รวมถึง นนทบุรี ปทุมธานี สมุทรปราการ สมุทรสาคร และนครปฐม' },
+          { question: 'มีการรับประกันงานบริการไหม?', answer: 'ทุกงานบริการมีการรับประกันคุณภาพ แบตเตอรี่รับประกัน 1 ปีเต็ม งานซ่อมไดชาร์จ ไดสตาร์ท รับประกัน 6 เดือน ใช้อะไหล่แท้ทุกชิ้น' },
+          { question: 'ราคาบริการเท่าไหร่?', answer: 'ราคาขึ้นอยู่กับรุ่นรถและประเภทงานบริการ สามารถแอดไลน์ @730ohrmd หรือโทรสอบถามราคาได้ฟรี ไม่มีค่าใช้จ่ายในการประเมินราคา' },
+        ],
+      }),
+      order: 7,
+    },
+    // 8: ติดต่อเรา
+    {
+      pageId: homePage.id,
+      type: 'contact',
+      title: 'ติดต่อเรา',
+      content: JSON.stringify({
+        heading: 'รถเสีย? อย่ารอช้า โทรหาเราเลย!',
+        description: 'ทีมช่างผู้เชี่ยวชาญพร้อมออกให้บริการถึงที่คุณตลอด 24 ชั่วโมง ไม่ว่าจะกรุงเทพหรือปริมณฑล',
+        phone: '0887671679',
+        lineId: '@730ohrmd',
+        lineUrl: 'https://lin.ee/xxqKaZn',
+      }),
+      order: 8,
+    },
+    // 9: Footer
+    {
+      pageId: homePage.id,
+      type: 'footer',
+      title: 'ท้ายเว็บ',
+      content: JSON.stringify({
+        brandName: 'FIRSTCARCENTER',
+        description: 'FIRSTCARCENTER บริการดูแลรักษารถยนต์นอกสถานที่ 24 ชั่วโมง ถึงที่รวดเร็วทันใจ โดยช่างผู้เชี่ยวชาญ',
+        openHours: 'เปิดให้บริการตลอด 24 ชั่วโมง',
+        area: 'โซนบางนา ศรีนครินทร์ สมุทรปราการ',
+        phone: '0887671679',
+        lineId: '@730ohrmd',
+        lineUrl: 'https://lin.ee/xxqKaZn',
+        facebook: 'https://www.facebook.com/profile.php?id=61577014751997',
+        googleMap: 'https://maps.app.goo.gl/Ur2fJNEtkoq8NxXE8',
+        copyright: 'FIRSTCARCENTER. All rights reserved.',
+        serviceLinks: [
+          { label: 'ปะยางนอกสถานที่ 24 ชม.', href: '/mobile-tire-repair' },
+          { label: 'เปลี่ยนแบตเตอรี่รถยนต์', href: '/battery-replacement' },
+          { label: 'ซ่อม/เปลี่ยน ไดชาร์จ ไดสตาร์ท', href: '/alternator-starter' },
+          { label: 'ขัดสีรถ ลบรอย ขัดไฟหน้า', href: '/car-polishing' },
+          { label: 'เช็คราคาแบตเตอรี่', href: '/check-price' },
+          { label: 'ติดต่อเรา', href: '/contact-us' },
+        ],
+      }),
+      order: 9,
+    },
+  ]
+
+  // Only create home sections if this is a fresh page (no existing sections)
+  const existingHomeSections = await (prisma as any).pageSection.count({ where: { pageId: homePage.id } })
+  if (existingHomeSections === 0) {
+    for (const section of homeSections) {
+      await (prisma as any).pageSection.create({ data: section })
+    }
+    console.log('Created home sections')
+  } else {
+    console.log('Home sections already exist, skipping')
+  }
+
+  // =========================================================
+  // หน้าบริการเปลี่ยนแบตเตอรี่
+  // =========================================================
+  const existingBattery = await (prisma as any).page.findUnique({ where: { slug: 'battery-service' } })
+  const batteryPage = existingBattery || await (prisma as any).page.create({
+    data: {
+      slug: 'battery-service',
+      title: 'บริการเปลี่ยนแบตเตอรี่',
+      order: 1,
+      seoTitle: 'เปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่ 24 ชม. | Firstcar',
+      seoDescription: 'บริการเปลี่ยนแบตเตอรี่รถยนต์ถึงที่ รวดเร็ว ปลอดภัย รับประกัน 1 ปี',
+      seoKeywords: 'เปลี่ยนแบตเตอรี่,แบตเตอรี่รถยนต์,แบตหมด',
+    },
+  })
+
+  const batterySections = [
+    {
+      pageId: batteryPage.id,
+      type: 'hero',
+      title: 'Hero',
+      content: JSON.stringify({
+        heading: 'เปลี่ยนแบตเตอรี่รถยนต์',
+        subheading: 'นอกสถานที่ ถึงที่รวดเร็ว',
+        description: 'รับประกัน 1 ปี เช็คระบบไฟฟรี ช่างผู้เชี่ยวชาญ',
+      }),
+      order: 0,
+    },
+    {
+      pageId: batteryPage.id,
+      type: 'text-image',
+      title: 'รายละเอียดบริการ',
+      content: JSON.stringify({
+        body: 'เราให้บริการเปลี่ยนแบตเตอรี่รถยนต์ถึงที่ ครอบคลุมทุกยี่ห้อ ทุกรุ่น พร้อมตรวจเช็คระบบไฟฟ้าให้ฟรี ใช้แบตเตอรี่แท้คุณภาพสูง รับประกัน 1 ปีเต็ม',
+        imagePosition: 'right',
+      }),
+      imageUrl: 'https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?q=80&w=800&auto=format&fit=crop',
+      order: 1,
+    },
+  ]
+
+  const existingBatterySections = await (prisma as any).pageSection.count({ where: { pageId: batteryPage.id } })
+  if (existingBatterySections === 0) {
+    for (const section of batterySections) {
+      await (prisma as any).pageSection.create({ data: section })
+    }
+  }
+
+  // =========================================================
+  // หน้าปะยางนอกสถานที่
+  // =========================================================
+  const existingTire = await (prisma as any).page.findUnique({ where: { slug: 'mobile-tire-repair' } })
+  const tireRepairPage = existingTire || await (prisma as any).page.create({
+    data: {
+      slug: 'mobile-tire-repair',
+      title: 'บริการปะยางนอกสถานที่',
+      order: 2,
+      seoTitle: 'ปะยางนอกสถานที่ 24 ชม. บางนา ศรีนครินทร์ ถึงไว ด่วนทันใจ',
+      seoDescription: 'ยางแตก ยางรั่ว โทรเรียกเรา! บริการปะยางนอกสถานที่ด่วน โซนสุขุมวิท บางนา เทพารักษ์ วัดด่าน ช่างชำนาญงาน พร้อมให้บริการและแก้ปัญหาทันที',
+      seoKeywords: 'ปะยางนอกสถานที่,ร้านปะยางใกล้ฉัน,ปะยาง 24 ชม,ปะยาง บางนา,ปะยาง ศรีนครินทร์',
+    },
+  })
+
+  if (!existingTire) {
+    await (prisma as any).pageSection.create({
+      data: {
+        pageId: tireRepairPage.id,
+        type: 'hero',
+        title: 'Hero',
+        content: JSON.stringify({
+          heading: 'ร้านปะยางใกล้ฉัน บริการปะยางนอกสถานที่ 24 ชั่วโมง',
+          subheading: 'ด่วนทันใจ โซนบางนา ศรีนครินทร์',
+          description: 'ยางแตก ยางแบน ยางรั่ว ไม่ต้องตกใจ ช่างพร้อมออกบริการถึงที่ภายใน 30 นาที',
+        }),
+        order: 0,
+      },
+    })
+  }
+
+  // =========================================================
+  // หน้าเปลี่ยนแบตเตอรี่ (slug ใหม่)
+  // =========================================================
+  const existingBattReplacement = await (prisma as any).page.findUnique({ where: { slug: 'battery-replacement' } })
+  const batteryReplacementPage = existingBattReplacement || await (prisma as any).page.create({
+    data: {
+      slug: 'battery-replacement',
+      title: 'บริการเปลี่ยนแบตเตอรี่รถยนต์',
+      order: 3,
+      seoTitle: 'ร้านแบตเตอรี่รถยนต์ นอกสถานที่ แบริ่ง ลาซาล แพรกษา เปลี่ยนแบตด่วน',
+      seoDescription: 'รถสตาร์ทไม่ติด? ร้านแบตเตอรี่รถยนต์ใกล้ฉัน บริการเปลี่ยนแบตเตอรี่ด่วนนอกสถานที่ มีแบตแท้รองรับทุกรุ่น ช่างมืออาชีพพร้อมไปถึงหน้าบ้านคุณ',
+      seoKeywords: 'เปลี่ยนแบตเตอรี่รถยนต์,ร้านแบตเตอรี่ใกล้ฉัน,เปลี่ยนแบตนอกสถานที่,แบตเตอรี่ บางนา,แบตเตอรี่ ศรีนครินทร์',
+    },
+  })
+
+  if (!existingBattReplacement) {
+    await (prisma as any).pageSection.create({
+      data: {
+        pageId: batteryReplacementPage.id,
+        type: 'hero',
+        title: 'Hero',
+        content: JSON.stringify({
+          heading: 'ร้านแบตเตอรี่รถยนต์นอกสถานที่',
+          subheading: 'เปลี่ยนแบตด่วน 24 ชม. บางนา ศรีนครินทร์',
+          description: 'รถสตาร์ทไม่ติด บิดกุญแจแล้วเงียบ เราพร้อมนำแบตเตอรี่แท้ไปเปลี่ยนให้ถึงที่',
+        }),
+        order: 0,
+      },
+    })
+  }
+
+  // =========================================================
+  // หน้าซ่อม/เปลี่ยน ไดชาร์จ ไดสตาร์ท
+  // =========================================================
+  const existingAlternator = await (prisma as any).page.findUnique({ where: { slug: 'alternator-starter' } })
+  const alternatorPage = existingAlternator || await (prisma as any).page.create({
+    data: {
+      slug: 'alternator-starter',
+      title: 'บริการซ่อม/เปลี่ยน ไดชาร์จ ไดสตาร์ท',
+      order: 4,
+      seoTitle: 'ซ่อมเปลี่ยนไดชาร์จ ไดสตาร์ท นอกสถานที่ เทพารักษ์ ศรีนครินทร์',
+      seoDescription: 'รถดับกลางทาง สตาร์ทไม่ติด? บริการตรวจเช็คและเปลี่ยนไดชาร์จ ไดสตาร์ท นอกสถานที่ ไม่ต้องลากรถ ครอบคลุมพื้นที่สมุทรปราการ บางนา ประเมินราคาก่อนซ่อม',
+      seoKeywords: 'ซ่อมไดชาร์จ,เปลี่ยนไดสตาร์ท,ไดชาร์จนอกสถานที่,ไดสตาร์ทนอกสถานที่,ซ่อมไดชาร์จ บางนา',
+    },
+  })
+
+  if (!existingAlternator) {
+    await (prisma as any).pageSection.create({
+      data: {
+        pageId: alternatorPage.id,
+        type: 'hero',
+        title: 'Hero',
+        content: JSON.stringify({
+          heading: 'บริการซ่อมเปลี่ยนไดชาร์จ ไดสตาร์ท นอกสถานที่',
+          subheading: 'ด่วน โซนบางนา ศรีนครินทร์',
+          description: 'วิเคราะห์อาการแม่นยำด้วย OBD มีอะไหล่คุณภาพ ซ่อมเสร็จหน้างานขับต่อได้',
+        }),
+        order: 0,
+      },
+    })
+  }
+
+  // =========================================================
+  // หน้าขัดสีรถ ลบรอย ขัดไฟหน้า
+  // =========================================================
+  const existingPolishing = await (prisma as any).page.findUnique({ where: { slug: 'car-polishing' } })
+  const polishingPage = existingPolishing || await (prisma as any).page.create({
+    data: {
+      slug: 'car-polishing',
+      title: 'บริการขัดสีรถ ลบรอย ขัดไฟหน้า',
+      order: 5,
+      seoTitle: 'รับขัดสีรถยนต์ ขัดไฟหน้านอกสถานที่ ถึงบ้านคุณ สุขุมวิท บางนา',
+      seoDescription: 'บริการขัดสีรถลบรอย ขัดไฟหน้าเหลืองให้ใสปิ๊ง นอกสถานที่ ไม่ต้องทิ้งรถไว้ที่ร้าน สะดวกสบาย บริการถึงบ้านย่านบางนา ศรีนครินทร์ แบริ่ง ลาซาล',
+      seoKeywords: 'ขัดสีรถนอกสถานที่,ขัดไฟหน้ารถ,ลบรอยขีดข่วน,ขัดสีรถ บางนา,ขัดไฟหน้า ศรีนครินทร์',
+    },
+  })
+
+  if (!existingPolishing) {
+    await (prisma as any).pageSection.create({
+      data: {
+        pageId: polishingPage.id,
+        type: 'hero',
+        title: 'Hero',
+        content: JSON.stringify({
+          heading: 'บริการขัดสีรถ ลบรอย ขัดไฟหน้าเหลือง',
+          subheading: 'นอกสถานที่ ถึงบ้าน โซนบางนา ศรีนครินทร์',
+          description: 'ไม่ต้องทิ้งรถไว้คาร์แคร์ ช่างนำเครื่องมือไปบริการถึงบ้าน',
+        }),
+        order: 0,
+      },
+    })
+  }
+
+  console.log({
+    admin,
+    homePage: homePage.id,
+    batteryPage: batteryPage.id,
+    tireRepairPage: tireRepairPage.id,
+    batteryReplacementPage: batteryReplacementPage.id,
+    alternatorPage: alternatorPage.id,
+    polishingPage: polishingPage.id,
+  })
+}
+
+main()
+  .then(async () => {
+    await prisma.$disconnect()
+  })
+  .catch(async (e) => {
+    console.error(e)
+    await prisma.$disconnect()
+    process.exit(1)
+  })
