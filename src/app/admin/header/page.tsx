@@ -174,8 +174,6 @@ export default function HeaderEditor() {
       }
 
       showMsg("บันทึกสำเร็จ!");
-      // Refresh data to confirm changes
-      await fetchData();
     } catch (e) {
       console.error(e);
       showMsg("เกิดข้อผิดพลาด");

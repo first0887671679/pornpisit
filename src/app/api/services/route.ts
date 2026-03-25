@@ -9,7 +9,11 @@ export async function GET() {
       orderBy: { order: "asc" },
     });
     
-    return NextResponse.json(services);
+    return NextResponse.json(services, {
+      headers: {
+        'Cache-Control': 'public, max-age=5, stale-while-revalidate=30',
+      },
+    });
   } catch (error) {
     return NextResponse.json(
       { error: "Failed to fetch services" },
