@@ -21,8 +21,8 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto flex items-center justify-between px-4 py-3">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
-          <span className="text-2xl font-extrabold text-orange-500">FIRSTCARCENTER</span>
-          <span className="hidden sm:inline text-sm text-gray-500 font-medium">บริการรถยนต์ 24 ชม.</span>
+          <span className="text-3xl font-extrabold text-orange-500">FIRSTCARCENTER</span>
+          <span className="hidden sm:inline text-base text-gray-500 font-medium">บริการรถยนต์ 24 ชม.</span>
         </Link>
 
         {/* Desktop Nav */}
