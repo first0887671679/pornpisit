@@ -1,9 +1,7 @@
 import { NextResponse } from "next/server";
 import { getServerSession } from "next-auth";
 import { authOptions } from "../auth/[...nextauth]/route";
-import { writeFile, mkdir } from "fs/promises";
-import { join } from "path";
-import { v4 as uuidv4 } from "uuid";
+import { put } from "@vercel/blob";
 
 export const runtime = "nodejs";
 export const maxDuration = 30;
@@ -51,30 +49,18 @@ export async function POST(req: Request) {
       );
     }
 
-    // Create uploads directory if it doesn't exist
-    const uploadsDir = join(process.cwd(), "public", "uploads");
-    try {
-      await mkdir(uploadsDir, { recursive: true });
-    } catch (error) {
-      // Directory already exists
-    }
-
     // Generate unique filename
     const fileExtension = file.name.split(".").pop();
-    const uniqueFilename = `${uuidv4()}.${fileExtension}`;
-    const filePath = join(uploadsDir, uniqueFilename);
+    const uniqueFilename = `${Date.now()}-${Math.random().toString(36).substring(2)}.${fileExtension}`;
 
-    // Save file
-    const bytes = await file.arrayBuffer();
-    const buffer = Buffer.from(bytes);
-    await writeFile(filePath, buffer);
-
-    // Return file URL
-    const fileUrl = `/uploads/${uniqueFilename}`;
+    // Upload to Vercel Blob
+    const blob = await put(uniqueFilename, file, {
+      access: "public",
+    });
 
     return NextResponse.json({
       success: true,
-      url: fileUrl,
+      url: blob.url,
       filename: uniqueFilename,
       size: file.size,
       type: file.type,
