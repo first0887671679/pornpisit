@@ -1,6 +1,12 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  env: {
+    DATABASE_URL: process.env.DATABASE_URL || '',
+    NEXTAUTH_SECRET: process.env.NEXTAUTH_SECRET || 'fallback-secret-change-in-production',
+    NEXT_PUBLIC_GTM_ID: process.env.NEXT_PUBLIC_GTM_ID || 'GTM-XXXXXXX',
+    SYNC_SECRET: process.env.SYNC_SECRET || 'fallback-sync-secret',
+  },
   poweredByHeader: false,
   compress: true,
   images: {
