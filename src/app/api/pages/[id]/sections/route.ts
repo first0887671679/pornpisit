@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { revalidatePath } from "next/cache";
 import { prisma } from "@/lib/prisma";
 import { getServerSession } from "next-auth";
 import { authOptions } from "../../../auth/[...nextauth]/route";
@@ -35,6 +36,7 @@ export async function POST(req: Request, { params }: { params: Promise<{ id: str
         isActive: body.isActive !== undefined ? body.isActive : true,
       },
     });
+    revalidatePath("/", "layout");
     return NextResponse.json(section);
   } catch (error) {
     return NextResponse.json({ error: "Failed to create section" }, { status: 500 });
@@ -58,6 +60,7 @@ export async function PUT(req: Request, { params }: { params: Promise<{ id: stri
         })
       );
       await Promise.all(updates);
+      revalidatePath("/", "layout");
       return NextResponse.json({ success: true });
     }
 

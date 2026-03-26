@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { revalidatePath } from "next/cache";
 import { prisma } from "@/lib/prisma";
 import { getServerSession } from "next-auth";
 import { authOptions } from "../../auth/[...nextauth]/route";
@@ -60,6 +61,7 @@ export async function POST(req: NextRequest) {
       results.push({ slug: post.slug, status: "ok" });
     }
 
+    revalidatePath("/", "layout");
     return NextResponse.json({ synced: results.length, results });
   } catch (error) {
     console.error("Sync failed:", error);

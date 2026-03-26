@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { revalidatePath } from "next/cache";
 import { prisma } from "@/lib/prisma";
 import { getServerSession } from "next-auth";
 import { authOptions } from "../auth/[...nextauth]/route";
@@ -28,6 +29,7 @@ export async function POST(req: Request) {
         isActive: body.isActive !== undefined ? body.isActive : true,
       },
     });
+    revalidatePath("/", "layout");
     return NextResponse.json(item);
   } catch (error) {
     return NextResponse.json({ error: "Failed to create" }, { status: 500 });

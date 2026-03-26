@@ -1,4 +1,5 @@
 import { NextResponse } from "next/server";
+import { revalidatePath } from "next/cache";
 import { prisma } from "@/lib/prisma";
 import { getServerSession } from "next-auth";
 import { authOptions } from "../../auth/[...nextauth]/route";
@@ -41,6 +42,7 @@ export async function PUT(req: Request, { params }: { params: Promise<{ id: stri
         ogDescription: body.ogDescription ?? null,
       },
     });
+    revalidatePath("/", "layout");
     return NextResponse.json(page);
   } catch (error) {
     return NextResponse.json({ error: "Failed to update page" }, { status: 500 });
@@ -55,6 +57,7 @@ export async function DELETE(req: Request, { params }: { params: Promise<{ id: s
     }
     const { id } = await params;
     await (prisma as any).page.delete({ where: { id } });
+    revalidatePath("/", "layout");
     return NextResponse.json({ success: true });
   } catch (error) {
     return NextResponse.json({ error: "Failed to delete page" }, { status: 500 });
