@@ -38,7 +38,7 @@ export default function HeaderEditor() {
   const [navbarHeightMobile, setNavbarHeightMobile] = useState(48);
   const [navBgColor, setNavBgColor] = useState("#0f172a");
   const [navTextColor, setNavTextColor] = useState("#cbd5e1");
-  const [navAccentColor, setNavAccentColor] = useState("#f97316");
+  const [navAccentColor, setNavAccentColor] = useState("#dc2626");
   const [phone, setPhone] = useState("");
   const [phoneLabel, setPhoneLabel] = useState("โทรด่วน");
   const [lineUrl, setLineUrl] = useState("");
@@ -89,7 +89,7 @@ export default function HeaderEditor() {
         setNavbarHeightMobile(data.navbarHeightMobile || 48);
         setNavBgColor(data.navBgColor || "#0f172a");
         setNavTextColor(data.navTextColor || "#cbd5e1");
-        setNavAccentColor(data.navAccentColor || "#f97316");
+        setNavAccentColor(data.navAccentColor || "#dc2626");
       }
 
       // Find sub-header section
@@ -225,7 +225,7 @@ export default function HeaderEditor() {
         </Link>
         <div>
           <h1 className="text-2xl font-bold text-slate-800 flex items-center gap-2">
-            <Navigation className="w-6 h-6 text-orange-500" />
+            <Navigation className="w-6 h-6 text-red-600" />
             จัดการเมนูบนสุด
           </h1>
           <p className="text-sm text-slate-500">แก้ไข Navbar และแถบประกาศ</p>
@@ -285,7 +285,7 @@ export default function HeaderEditor() {
                       type="button"
                       onClick={() => setLogoSize(v)}
                       className={`text-xs px-2 py-1 rounded border transition-all ${
-                        logoSize === v ? "bg-orange-500 text-white border-orange-500" : "bg-white text-slate-600 border-slate-200 hover:border-orange-300"
+                        logoSize === v ? "bg-red-600 text-white border-red-600" : "bg-white text-slate-600 border-slate-200 hover:border-red-300"
                       }`}
                     >
                       {v}
@@ -313,7 +313,7 @@ export default function HeaderEditor() {
                       type="button"
                       onClick={() => setNavbarHeight(v)}
                       className={`text-xs px-2 py-1 rounded border transition-all ${
-                        navbarHeight === v ? "bg-orange-500 text-white border-orange-500" : "bg-white text-slate-600 border-slate-200 hover:border-orange-300"
+                        navbarHeight === v ? "bg-red-600 text-white border-red-600" : "bg-white text-slate-600 border-slate-200 hover:border-red-300"
                       }`}
                     >
                       {v}
@@ -424,7 +424,7 @@ export default function HeaderEditor() {
                 <Label className="text-sm">สีเน้น (ปุ่ม/ขีดเส้น)</Label>
                 <div className="flex items-center gap-2 mt-1">
                   <input type="color" value={navAccentColor} onChange={(e) => setNavAccentColor(e.target.value)} className="w-10 h-10 rounded-lg border border-slate-200 cursor-pointer p-0.5" />
-                  <Input value={navAccentColor} onChange={(e) => setNavAccentColor(e.target.value)} className="flex-1 font-mono text-xs" placeholder="#f97316" />
+                  <Input value={navAccentColor} onChange={(e) => setNavAccentColor(e.target.value)} className="flex-1 font-mono text-xs" placeholder="#dc2626" />
                 </div>
               </div>
             </div>
@@ -549,7 +549,7 @@ export default function HeaderEditor() {
                       </Button>
                     </div>
                   ))}
-                  <Button type="button" variant="ghost" size="sm" onClick={() => addChild(idx)} className="ml-4 text-xs border border-dashed border-slate-300 text-slate-500 hover:text-orange-500 hover:border-orange-300">
+                  <Button type="button" variant="ghost" size="sm" onClick={() => addChild(idx)} className="ml-4 text-xs border border-dashed border-slate-300 text-slate-500 hover:text-red-600 hover:border-red-300">
                     <Plus className="w-3 h-3 mr-1" /> เพิ่มเมนูย่อย
                   </Button>
                 </div>
@@ -592,7 +592,7 @@ export default function HeaderEditor() {
             <Label className="text-sm">สีพื้นหลัง</Label>
             <div className="flex gap-2 mt-1.5">
               {[
-                { value: "orange", bg: "bg-orange-500" },
+                { value: "orange", bg: "bg-red-600" },
                 { value: "blue", bg: "bg-blue-600" },
                 { value: "green", bg: "bg-green-600" },
                 { value: "red", bg: "bg-red-600" },
@@ -603,7 +603,7 @@ export default function HeaderEditor() {
                   key={c.value}
                   type="button"
                   onClick={() => setSubBgColor(c.value)}
-                  className={`w-8 h-8 rounded-full ${c.bg} border-2 transition-all ${subBgColor === c.value ? "border-orange-400 scale-110 ring-2 ring-orange-200" : "border-transparent"}`}
+                  className={`w-8 h-8 rounded-full ${c.bg} border-2 transition-all ${subBgColor === c.value ? "border-red-400 scale-110 ring-2 ring-red-200" : "border-transparent"}`}
                 />
               ))}
             </div>
@@ -612,7 +612,7 @@ export default function HeaderEditor() {
       </Card>
 
       {/* Save */}
-      <Button onClick={() => setShowConfirm(true)} disabled={saving} className="w-full bg-orange-500 hover:bg-orange-600 h-12 text-base">
+      <Button onClick={() => setShowConfirm(true)} disabled={saving} className="w-full bg-red-600 hover:bg-red-700 h-12 text-base">
         <Save className="w-5 h-5 mr-2" />
         {saving ? "กำลังบันทึก..." : "บันทึกทั้งหมด"}
       </Button>

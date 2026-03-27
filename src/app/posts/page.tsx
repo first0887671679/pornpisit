@@ -47,25 +47,25 @@ export async function generateMetadata(): Promise<Metadata> {
 // ─── Helpers (same as home page.tsx) ───
 
 const iconMap: Record<string, React.ReactNode> = {
-  Battery: <Battery className="w-12 h-12 text-orange-500" />,
-  Wrench: <Wrench className="w-12 h-12 text-orange-500" />,
-  Lightbulb: <Lightbulb className="w-12 h-12 text-orange-500" />,
-  PenTool: <PenTool className="w-12 h-12 text-orange-500" />,
-  Shield: <Shield className="w-12 h-12 text-orange-500" />,
-  Clock: <Clock className="w-12 h-12 text-orange-500" />,
-  Zap: <Zap className="w-12 h-12 text-orange-500" />,
-  ThumbsUp: <ThumbsUp className="w-12 h-12 text-orange-500" />,
-  Star: <Star className="w-12 h-12 text-orange-500" />,
-  CircleDot: <CircleDot className="w-12 h-12 text-orange-500" />,
-  Sparkles: <Sparkles className="w-12 h-12 text-orange-500" />,
+  Battery: <Battery className="w-12 h-12 text-red-600" />,
+  Wrench: <Wrench className="w-12 h-12 text-red-600" />,
+  Lightbulb: <Lightbulb className="w-12 h-12 text-red-600" />,
+  PenTool: <PenTool className="w-12 h-12 text-red-600" />,
+  Shield: <Shield className="w-12 h-12 text-red-600" />,
+  Clock: <Clock className="w-12 h-12 text-red-600" />,
+  Zap: <Zap className="w-12 h-12 text-red-600" />,
+  ThumbsUp: <ThumbsUp className="w-12 h-12 text-red-600" />,
+  Star: <Star className="w-12 h-12 text-red-600" />,
+  CircleDot: <CircleDot className="w-12 h-12 text-red-600" />,
+  Sparkles: <Sparkles className="w-12 h-12 text-red-600" />,
 };
 
 const whyUsIconMap: Record<string, React.ReactNode> = {
-  Clock: <Clock className="w-10 h-10 text-orange-500" />,
-  Zap: <Zap className="w-10 h-10 text-orange-500" />,
-  Shield: <Shield className="w-10 h-10 text-orange-500" />,
-  ThumbsUp: <ThumbsUp className="w-10 h-10 text-orange-500" />,
-  Star: <Star className="w-10 h-10 text-orange-500" />,
+  Clock: <Clock className="w-10 h-10 text-red-600" />,
+  Zap: <Zap className="w-10 h-10 text-red-600" />,
+  Shield: <Shield className="w-10 h-10 text-red-600" />,
+  ThumbsUp: <ThumbsUp className="w-10 h-10 text-red-600" />,
+  Star: <Star className="w-10 h-10 text-red-600" />,
 };
 
 function getServiceIconKey(service: { title?: string; href?: string; icon?: string }) {
@@ -151,10 +151,10 @@ function renderSection(section: any) {
 
   if (type === "sub-header") {
     const bgColors: Record<string, string> = {
-      orange: "bg-orange-500", blue: "bg-blue-600", green: "bg-green-600",
+      orange: "bg-red-600", blue: "bg-blue-600", green: "bg-green-600",
       red: "bg-red-600", slate: "bg-slate-700", black: "bg-black",
     };
-    const bgClass = bgColors[data.bgColor || "orange"] || "bg-orange-500";
+    const bgClass = bgColors[data.bgColor || "orange"] || "bg-red-600";
     return (
       <div key={section.id} className={`${bgClass} text-white py-2 px-4 text-center text-xs sm:text-sm`}>
         <div className="max-w-7xl mx-auto flex items-center justify-center gap-2 sm:gap-3">
@@ -175,13 +175,13 @@ function renderSection(section: any) {
       <section key={section.id} className="py-14 md:py-28 px-4 bg-gray-50">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-8 md:mb-14">
-            <span className="text-orange-500 font-semibold text-xs sm:text-sm uppercase tracking-wider">Our Services</span>
+            <span className="text-red-600 font-semibold text-xs sm:text-sm uppercase tracking-wider">Our Services</span>
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-gray-900 mt-2 mb-4 px-2">{section.title || "บริการของเรา"}</h2>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
             {items.map((svc: any, idx: number) => (
               <Link href={svc.href || "#"} key={idx} className="group">
-                <Card className="hover:shadow-xl transition-all duration-300 border-t-4 border-t-orange-500 h-full flex flex-col sm:group-hover:-translate-y-1">
+                <Card className="hover:shadow-xl transition-all duration-300 border-t-4 border-t-red-600 h-full flex flex-col sm:group-hover:-translate-y-1">
                   <CardHeader className="flex-grow-0 pb-2 p-4 md:p-6">
                     <div className="mb-3 md:mb-4 flex justify-center [&>svg]:w-10 [&>svg]:h-10 md:[&>svg]:w-12 md:[&>svg]:h-12">{iconMap[getServiceIconKey(svc)] || iconMap.Battery}</div>
                     <CardTitle className="text-base md:text-lg text-center leading-snug">{svc.title}</CardTitle>
@@ -214,7 +214,7 @@ function renderSection(section: any) {
           <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-3 md:gap-8">
             {items.map((item: any, idx: number) => (
               <div key={idx} className="text-center p-3 md:p-6">
-                <div className="w-14 h-14 md:w-20 md:h-20 mx-auto bg-orange-50 rounded-xl md:rounded-2xl flex items-center justify-center mb-3 md:mb-5 [&>svg]:w-7 [&>svg]:h-7 md:[&>svg]:w-10 md:[&>svg]:h-10">
+                <div className="w-14 h-14 md:w-20 md:h-20 mx-auto bg-red-50 rounded-xl md:rounded-2xl flex items-center justify-center mb-3 md:mb-5 [&>svg]:w-7 [&>svg]:h-7 md:[&>svg]:w-10 md:[&>svg]:h-10">
                   {whyUsIconMap[item.icon || "Star"] || whyUsIconMap.Star}
                 </div>
                 <h3 className="text-sm md:text-xl font-bold text-gray-900 mb-1 md:mb-3 leading-snug">{item.title}</h3>
@@ -246,9 +246,9 @@ function renderSection(section: any) {
           <div className="space-y-2.5 md:space-y-4">
             {items.map((faq: any, idx: number) => (
               <details key={idx} className="group bg-gray-50 rounded-xl border border-gray-200 overflow-hidden">
-                <summary className="flex items-center justify-between cursor-pointer p-4 md:p-5 font-semibold text-gray-900 hover:text-orange-500 transition-colors text-sm md:text-base">
+                <summary className="flex items-center justify-between cursor-pointer p-4 md:p-5 font-semibold text-gray-900 hover:text-red-600 transition-colors text-sm md:text-base">
                   <span className="pr-3">{faq.question}</span>
-                  <span className="ml-2 md:ml-4 text-orange-500 transition-transform group-open:rotate-45 text-xl md:text-2xl leading-none flex-shrink-0">+</span>
+                  <span className="ml-2 md:ml-4 text-red-600 transition-transform group-open:rotate-45 text-xl md:text-2xl leading-none flex-shrink-0">+</span>
                 </summary>
                 <div className="px-4 md:px-5 pb-4 md:pb-5 text-gray-600 leading-relaxed text-xs md:text-base">{faq.answer}</div>
               </details>
@@ -261,13 +261,13 @@ function renderSection(section: any) {
 
   if (type === "contact") {
     return (
-      <section key={section.id} className="py-14 md:py-28 px-4 bg-orange-500 text-white">
+      <section key={section.id} className="py-14 md:py-28 px-4 bg-red-600 text-white">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold mb-3 md:mb-4 px-2">{data.heading || "ติดต่อเรา"}</h2>
           <p className="text-sm md:text-lg opacity-90 mb-6 md:mb-10 max-w-xl mx-auto px-2">{data.description || ""}</p>
           <div className="flex flex-col sm:flex-row justify-center gap-3 md:gap-4 mb-6 md:mb-10">
             {data.phone && (
-              <Button size="lg" variant="secondary" className="text-orange-600 font-bold text-sm md:text-base h-12 md:h-14 px-6 md:px-8" asChild>
+              <Button size="lg" variant="secondary" className="text-red-700 font-bold text-sm md:text-base h-12 md:h-14 px-6 md:px-8" asChild>
                 <Link href={`tel:${data.phone}`}>
                   <PhoneCall className="mr-2 w-4 h-4 md:w-5 md:h-5" />
                   {data.phone.replace(/(\d{3})(\d{3})(\d{4})/, "$1-$2-$3")}
@@ -370,7 +370,7 @@ function renderSection(section: any) {
         <div className="max-w-7xl mx-auto px-4 py-12">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
             <div>
-              <h3 className="text-2xl font-extrabold text-orange-500 mb-4">{data.brandName || "FIRSTCARCENTER"}</h3>
+              <h3 className="text-2xl font-extrabold text-red-600 mb-4">{data.brandName || "FIRSTCARCENTER"}</h3>
               <p className="text-slate-300 text-sm leading-relaxed">{data.description || ""}</p>
             </div>
             {svcLinks.length > 0 && (
@@ -378,7 +378,7 @@ function renderSection(section: any) {
                 <h4 className="text-lg font-bold mb-4">บริการของเรา</h4>
                 <ul className="space-y-2 text-slate-300 text-sm">
                   {svcLinks.map((link: any, idx: number) => (
-                    <li key={idx}><Link href={link.href || "#"} className="hover:text-orange-400 transition-colors">{link.label}</Link></li>
+                    <li key={idx}><Link href={link.href || "#"} className="hover:text-red-400 transition-colors">{link.label}</Link></li>
                   ))}
                 </ul>
               </div>
@@ -387,13 +387,13 @@ function renderSection(section: any) {
               <h4 className="text-lg font-bold mb-4">ติดต่อเรา</h4>
               <div className="space-y-3">
                 {data.phone && (
-                  <Link href={`tel:${data.phone}`} className="flex items-center gap-3 text-slate-300 hover:text-orange-400 transition-colors">
-                    <PhoneCall className="w-5 h-5 text-orange-400" />
+                  <Link href={`tel:${data.phone}`} className="flex items-center gap-3 text-slate-300 hover:text-red-400 transition-colors">
+                    <PhoneCall className="w-5 h-5 text-red-400" />
                     <span>{data.phone.replace(/(\d{3})(\d{3})(\d{4})/, "$1-$2-$3")}</span>
                   </Link>
                 )}
                 {data.lineUrl && (
-                  <Link href={data.lineUrl} target="_blank" className="flex items-center gap-3 text-slate-300 hover:text-orange-400 transition-colors">
+                  <Link href={data.lineUrl} target="_blank" className="flex items-center gap-3 text-slate-300 hover:text-red-400 transition-colors">
                     <MessageCircle className="w-5 h-5 text-[#00B900]" />
                     <span>{data.lineId || "@730ohrmd"}</span>
                   </Link>
@@ -440,16 +440,16 @@ function PostCard({ post, featured = false }: { post: any; featured?: boolean })
                 className="object-cover"
               />
           ) : (
-            <div className="w-full h-full bg-gradient-to-br from-orange-100 to-orange-50 flex items-center justify-center">
-              <FileText className="w-12 h-12 text-orange-300" />
+            <div className="w-full h-full bg-gradient-to-br from-red-100 to-red-50 flex items-center justify-center">
+              <FileText className="w-12 h-12 text-red-300" />
             </div>
           )}
           {post.category && (
-            <span className="absolute top-3 left-3 bg-orange-500 text-white text-xs font-bold px-3 py-1 rounded-full shadow-sm">{post.category}</span>
+            <span className="absolute top-3 left-3 bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-full shadow-sm">{post.category}</span>
           )}
         </div>
         <div className={`p-5 flex flex-col flex-1 ${featured ? "justify-center" : ""}`}>
-          <h2 className={`${featured ? "text-xl md:text-2xl" : "text-lg"} font-bold text-gray-900 mb-2 line-clamp-2 group-hover:text-orange-600 transition-colors`}>{post.title}</h2>
+          <h2 className={`${featured ? "text-xl md:text-2xl" : "text-lg"} font-bold text-gray-900 mb-2 line-clamp-2 group-hover:text-red-700 transition-colors`}>{post.title}</h2>
           {post.excerpt && (
             <p className={`text-gray-500 ${featured ? "text-base mb-5 line-clamp-4" : "text-sm mb-4 line-clamp-3"} flex-1`}>{post.excerpt}</p>
           )}
@@ -461,7 +461,7 @@ function PostCard({ post, featured = false }: { post: any; featured?: boolean })
               </span>
               {post.author && <span className="flex items-center gap-1"><User className="w-3 h-3" />{post.author}</span>}
             </div>
-            <span className="text-orange-500 text-xs font-semibold flex items-center gap-1 group-hover:gap-2 transition-all">
+            <span className="text-red-600 text-xs font-semibold flex items-center gap-1 group-hover:gap-2 transition-all">
               อ่านต่อ <ArrowRight className="w-3 h-3" />
             </span>
           </div>
@@ -514,7 +514,7 @@ export default async function PostsPage() {
             <div className="flex flex-wrap gap-1.5 sm:gap-2 items-center mb-6 md:mb-8">
               <span className="text-xs sm:text-sm text-slate-500 py-1 font-medium">หมวดหมู่:</span>
               {categories.map((cat) => (
-                <span key={cat} className="bg-orange-50 text-orange-600 px-2.5 sm:px-3 py-0.5 sm:py-1 rounded-full text-xs sm:text-sm font-medium">{cat}</span>
+                <span key={cat} className="bg-red-50 text-red-700 px-2.5 sm:px-3 py-0.5 sm:py-1 rounded-full text-xs sm:text-sm font-medium">{cat}</span>
               ))}
             </div>
           )}

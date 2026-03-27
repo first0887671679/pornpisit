@@ -33,7 +33,7 @@ export default function FooterEditor() {
   const [serviceLinks, setServiceLinks] = useState<ServiceLink[]>([]);
   const [footerBgColor, setFooterBgColor] = useState("#020617");
   const [footerTextColor, setFooterTextColor] = useState("#94a3b8");
-  const [footerAccentColor, setFooterAccentColor] = useState("#f97316");
+  const [footerAccentColor, setFooterAccentColor] = useState("#dc2626");
 
   useEffect(() => {
     fetchData();
@@ -62,7 +62,7 @@ export default function FooterEditor() {
         setServiceLinks(Array.isArray(data.serviceLinks) ? data.serviceLinks : []);
         setFooterBgColor(data.footerBgColor || "#020617");
         setFooterTextColor(data.footerTextColor || "#94a3b8");
-        setFooterAccentColor(data.footerAccentColor || "#f97316");
+        setFooterAccentColor(data.footerAccentColor || "#dc2626");
       }
     } catch (e) {
       console.error(e);
@@ -217,7 +217,7 @@ export default function FooterEditor() {
               <Label className="text-sm">สีเน้น (ไอคอน/ขีดเส้น)</Label>
               <div className="flex items-center gap-2 mt-1">
                 <input type="color" value={footerAccentColor} onChange={(e) => setFooterAccentColor(e.target.value)} className="w-10 h-10 rounded-lg border border-slate-200 cursor-pointer p-0.5" />
-                <Input value={footerAccentColor} onChange={(e) => setFooterAccentColor(e.target.value)} className="flex-1 font-mono text-xs" placeholder="#f97316" />
+                <Input value={footerAccentColor} onChange={(e) => setFooterAccentColor(e.target.value)} className="flex-1 font-mono text-xs" placeholder="#dc2626" />
               </div>
             </div>
           </div>
@@ -262,7 +262,7 @@ export default function FooterEditor() {
         </CardContent>
       </Card>
 
-      <Button onClick={() => setShowConfirm(true)} disabled={saving} className="w-full bg-orange-500 hover:bg-orange-600 h-12 text-base">
+      <Button onClick={() => setShowConfirm(true)} disabled={saving} className="w-full bg-red-600 hover:bg-red-700 h-12 text-base">
         <Save className="w-5 h-5 mr-2" />
         {saving ? "กำลังบันทึก..." : "บันทึก Footer"}
       </Button>

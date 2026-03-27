@@ -191,7 +191,7 @@ export default function RichTextEditor({ value, onChange }: RichTextEditorProps)
         selectedImg.style.outline = "";
         selectedImg.style.outlineOffset = "";
       }
-      img.style.outline = "3px solid #f97316";
+      img.style.outline = "3px solid #dc2626";
       img.style.outlineOffset = "2px";
       setSelectedImg(img);
       setImgUrlValue(img.src);
@@ -285,7 +285,7 @@ export default function RichTextEditor({ value, onChange }: RichTextEditorProps)
       type="button"
       onClick={onClick}
       title={title}
-      className={`p-1.5 rounded hover:bg-slate-200 transition-colors ${active ? "bg-slate-200 text-orange-600" : "text-slate-600"}`}
+      className={`p-1.5 rounded hover:bg-slate-200 transition-colors ${active ? "bg-slate-200 text-red-700" : "text-slate-600"}`}
     >
       {children}
     </button>
@@ -467,7 +467,7 @@ export default function RichTextEditor({ value, onChange }: RichTextEditorProps)
             prose-headings:text-gray-900 prose-headings:font-bold
             prose-h1:text-3xl prose-h2:text-2xl prose-h3:text-xl prose-h4:text-lg prose-h5:text-base
             prose-p:text-gray-600 prose-p:leading-relaxed
-            prose-a:text-orange-600 prose-img:rounded-lg prose-img:max-w-full prose-img:cursor-pointer
+            prose-a:text-red-700 prose-img:rounded-lg prose-img:max-w-full prose-img:cursor-pointer
             prose-ul:text-gray-600 prose-ol:text-gray-600"
         />
 
@@ -483,7 +483,7 @@ export default function RichTextEditor({ value, onChange }: RichTextEditorProps)
                 type="button"
                 onClick={() => replaceFileRef.current?.click()}
                 disabled={imgUploading}
-                className="flex items-center gap-1.5 px-2.5 py-1.5 text-xs font-medium bg-orange-50 text-orange-700 hover:bg-orange-100 rounded-lg transition-colors disabled:opacity-50"
+                className="flex items-center gap-1.5 px-2.5 py-1.5 text-xs font-medium bg-red-50 text-red-800 hover:bg-red-100 rounded-lg transition-colors disabled:opacity-50"
                 title="อัพโหลดรูปใหม่"
               >
                 {imgUploading ? <Loader2 className="w-3.5 h-3.5 animate-spin" /> : <Replace className="w-3.5 h-3.5" />}
@@ -546,13 +546,13 @@ export default function RichTextEditor({ value, onChange }: RichTextEditorProps)
                   type="text"
                   value={imgUrlValue}
                   onChange={(e) => setImgUrlValue(e.target.value)}
-                  className="flex-1 text-xs border border-slate-200 rounded-lg px-2.5 py-1.5 focus:outline-none focus:ring-1 focus:ring-orange-400"
+                  className="flex-1 text-xs border border-slate-200 rounded-lg px-2.5 py-1.5 focus:outline-none focus:ring-1 focus:ring-red-400"
                   placeholder="https://..."
                 />
                 <button
                   type="button"
                   onClick={handleImgUrlSave}
-                  className="px-3 py-1.5 text-xs font-medium bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition-colors"
+                  className="px-3 py-1.5 text-xs font-medium bg-red-600 text-white rounded-lg hover:bg-red-700 transition-colors"
                 >
                   บันทึก
                 </button>
@@ -566,13 +566,13 @@ export default function RichTextEditor({ value, onChange }: RichTextEditorProps)
                   type="text"
                   value={imgAltValue}
                   onChange={(e) => setImgAltValue(e.target.value)}
-                  className="flex-1 text-xs border border-slate-200 rounded-lg px-2.5 py-1.5 focus:outline-none focus:ring-1 focus:ring-orange-400"
+                  className="flex-1 text-xs border border-slate-200 rounded-lg px-2.5 py-1.5 focus:outline-none focus:ring-1 focus:ring-red-400"
                   placeholder="คำอธิบายรูปภาพ (Alt text)"
                 />
                 <button
                   type="button"
                   onClick={handleImgAltSave}
-                  className="px-3 py-1.5 text-xs font-medium bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition-colors"
+                  className="px-3 py-1.5 text-xs font-medium bg-red-600 text-white rounded-lg hover:bg-red-700 transition-colors"
                 >
                   บันทึก
                 </button>
@@ -587,13 +587,13 @@ export default function RichTextEditor({ value, onChange }: RichTextEditorProps)
                     type="text"
                     value={imgWidthValue}
                     onChange={(e) => setImgWidthValue(e.target.value)}
-                    className="w-24 text-xs border border-slate-200 rounded-lg px-2.5 py-1.5 focus:outline-none focus:ring-1 focus:ring-orange-400"
+                    className="w-24 text-xs border border-slate-200 rounded-lg px-2.5 py-1.5 focus:outline-none focus:ring-1 focus:ring-red-400"
                     placeholder="เช่น 100%, 600px"
                   />
                   <button
                     type="button"
                     onClick={handleImgSizeSave}
-                    className="px-3 py-1.5 text-xs font-medium bg-orange-500 text-white rounded-lg hover:bg-orange-600 transition-colors"
+                    className="px-3 py-1.5 text-xs font-medium bg-red-600 text-white rounded-lg hover:bg-red-700 transition-colors"
                   >
                     บันทึก
                   </button>

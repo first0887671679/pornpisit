@@ -168,7 +168,7 @@ export default async function PostDetailPage({ params }: { params: Promise<{ slu
 
       <article className="max-w-3xl mx-auto px-4 py-10">
         {/* Back */}
-        <Link href="/posts" className="inline-flex items-center gap-1 text-sm text-orange-600 hover:text-orange-700 dark:text-orange-400 dark:hover:text-orange-300 mb-6">
+        <Link href="/posts" className="inline-flex items-center gap-1 text-sm text-red-700 hover:text-red-800 dark:text-red-400 dark:hover:text-red-300 mb-6">
           <ArrowLeft className="w-4 h-4" />
           กลับไปหน้าบทความ
         </Link>
@@ -176,7 +176,7 @@ export default async function PostDetailPage({ params }: { params: Promise<{ slu
         {/* Meta */}
         <div className="flex flex-wrap items-center gap-3 text-sm text-slate-400 dark:text-slate-500 mb-4">
           {post.category && (
-            <span className="bg-orange-50 dark:bg-orange-950/50 text-orange-600 dark:text-orange-400 px-3 py-1 rounded-full font-semibold text-xs">
+            <span className="bg-red-50 dark:bg-red-950/50 text-red-700 dark:text-red-400 px-3 py-1 rounded-full font-semibold text-xs">
               {post.category}
             </span>
           )}
@@ -203,22 +203,22 @@ export default async function PostDetailPage({ params }: { params: Promise<{ slu
 
         {/* Excerpt */}
         {post.excerpt && (
-          <p className="text-lg text-gray-500 dark:text-slate-400 mb-8 border-l-4 border-orange-400 dark:border-orange-500 pl-4 italic">
+          <p className="text-lg text-gray-500 dark:text-slate-400 mb-8 border-l-4 border-red-400 dark:border-red-600 pl-4 italic">
             {post.excerpt}
           </p>
         )}
 
         {/* Content */}
         <div
-          className="prose prose-lg prose-orange max-w-none
+          className="prose prose-lg prose-red max-w-none
             prose-headings:text-gray-900 prose-headings:font-bold
             prose-p:text-gray-600 prose-p:leading-relaxed
-            prose-a:text-orange-600 prose-a:no-underline hover:prose-a:underline
+            prose-a:text-red-700 prose-a:no-underline hover:prose-a:underline
             prose-img:rounded-xl prose-img:shadow-md
             prose-strong:text-gray-800
             prose-ul:text-gray-600 prose-ol:text-gray-600
             dark:prose-invert dark:prose-headings:text-white
-            dark:prose-p:text-slate-300 dark:prose-a:text-orange-400
+            dark:prose-p:text-slate-300 dark:prose-a:text-red-400
             dark:prose-strong:text-white dark:prose-ul:text-slate-300
             dark:prose-ol:text-slate-300
             whitespace-pre-line"
@@ -259,13 +259,13 @@ export default async function PostDetailPage({ params }: { params: Promise<{ slu
                       {rp.coverImage ? (
                         <Image src={rp.coverImage} alt={rp.title} fill className="object-cover" sizes="(max-width:768px) 100vw, 33vw" />
                       ) : (
-                        <div className="w-full h-full bg-gradient-to-br from-orange-100 to-orange-50 dark:from-orange-950/30 dark:to-slate-800 flex items-center justify-center">
-                          <FileText className="w-10 h-10 text-orange-300 dark:text-orange-600" />
+                        <div className="w-full h-full bg-gradient-to-br from-red-100 to-red-50 dark:from-red-950/30 dark:to-slate-800 flex items-center justify-center">
+                          <FileText className="w-10 h-10 text-red-300 dark:text-red-700" />
                         </div>
                       )}
                     </div>
                     <div className="p-4">
-                      <h3 className="font-semibold text-gray-900 dark:text-white group-hover:text-orange-600 dark:group-hover:text-orange-400 transition-colors line-clamp-2">
+                      <h3 className="font-semibold text-gray-900 dark:text-white group-hover:text-red-700 dark:group-hover:text-red-400 transition-colors line-clamp-2">
                         {rp.title}
                       </h3>
                       <p className="text-xs text-slate-400 dark:text-slate-500 mt-2">

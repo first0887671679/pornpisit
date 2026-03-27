@@ -11,7 +11,7 @@ export default function Brands() {
           {brands.map((name) => (
             <div
               key={name}
-              className="text-2xl font-black text-gray-300 hover:text-orange-500 transition-colors duration-300 select-none tracking-wider"
+              className="text-2xl font-black text-gray-300 hover:text-red-600 transition-colors duration-300 select-none tracking-wider"
             >
               {name}
             </div>

@@ -143,14 +143,14 @@ export default function UsersAdminPage() {
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-6">
         <div>
           <h1 className="text-2xl sm:text-3xl font-bold text-slate-800 flex items-center gap-2">
-            <Shield className="w-7 h-7 text-orange-500" />
+            <Shield className="w-7 h-7 text-red-600" />
             ผู้ดูแลระบบ
           </h1>
           <p className="text-sm text-slate-500 mt-1">จัดการบัญชีผู้ดูแล ({users.length} คน)</p>
         </div>
         <Button
           onClick={() => setShowAdd(!showAdd)}
-          className="bg-orange-500 hover:bg-orange-600 w-full sm:w-auto"
+          className="bg-red-600 hover:bg-red-700 w-full sm:w-auto"
         >
           {showAdd ? <X className="w-4 h-4 mr-2" /> : <UserPlus className="w-4 h-4 mr-2" />}
           {showAdd ? "ยกเลิก" : "เพิ่มผู้ดูแล"}
@@ -167,10 +167,10 @@ export default function UsersAdminPage() {
 
       {/* ── Add Form ── */}
       {showAdd && (
-        <Card className="mb-6 border-orange-200 border-2">
+        <Card className="mb-6 border-red-200 border-2">
           <CardContent className="pt-5 pb-4 space-y-3">
             <p className="text-sm font-semibold text-slate-700 flex items-center gap-2">
-              <UserPlus className="w-4 h-4 text-orange-500" />
+              <UserPlus className="w-4 h-4 text-red-600" />
               เพิ่มผู้ดูแลใหม่
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -216,7 +216,7 @@ export default function UsersAdminPage() {
             <Button
               onClick={handleAdd}
               disabled={adding}
-              className="w-full bg-orange-500 hover:bg-orange-600"
+              className="w-full bg-red-600 hover:bg-red-700"
             >
               {adding ? <Loader2 className="w-4 h-4 mr-2 animate-spin" /> : <Plus className="w-4 h-4 mr-2" />}
               {adding ? "กำลังเพิ่ม..." : "เพิ่มผู้ดูแล"}
@@ -291,8 +291,8 @@ export default function UsersAdminPage() {
                 ) : (
                   /* ── View Mode ── */
                   <div className="flex items-center gap-3">
-                    <div className="w-10 h-10 rounded-full bg-orange-100 flex items-center justify-center flex-shrink-0">
-                      <Shield className="w-5 h-5 text-orange-600" />
+                    <div className="w-10 h-10 rounded-full bg-red-100 flex items-center justify-center flex-shrink-0">
+                      <Shield className="w-5 h-5 text-red-700" />
                     </div>
                     <div className="flex-1 min-w-0">
                       <p className="font-semibold text-slate-800 text-sm sm:text-base truncate">

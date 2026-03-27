@@ -97,8 +97,8 @@ export default function SeoAdminPage() {
             onClick={() => setActivePath(p.pagePath)}
             className={`px-3 py-1.5 sm:px-4 sm:py-2 rounded-lg text-xs sm:text-sm font-medium transition-colors ${
               activePath === p.pagePath
-                ? "bg-orange-500 text-white"
-                : "bg-white text-slate-600 border border-slate-200 hover:bg-orange-50"
+                ? "bg-red-600 text-white"
+                : "bg-white text-slate-600 border border-slate-200 hover:bg-red-50"
             }`}
           >
             <Globe className="w-3 h-3 inline mr-1" />
@@ -110,7 +110,7 @@ export default function SeoAdminPage() {
       <Card className="max-w-full lg:max-w-3xl">
         <CardHeader>
           <CardTitle className="flex items-center gap-2">
-            <Globe className="w-5 h-5 text-orange-500" />
+            <Globe className="w-5 h-5 text-red-600" />
             SEO สำหรับ: {activePage.pageLabel}
             <span className="text-sm font-normal text-slate-400 ml-2">{activePage.pagePath}</span>
           </CardTitle>
@@ -172,7 +172,7 @@ export default function SeoAdminPage() {
           </div>
 
           <div className="flex items-center gap-4 pt-2">
-            <Button onClick={handleSave} disabled={saving} className="bg-orange-500 hover:bg-orange-600">
+            <Button onClick={handleSave} disabled={saving} className="bg-red-600 hover:bg-red-700">
               <Save className="w-4 h-4 mr-2" />
               {saving ? "กำลังบันทึก..." : "บันทึก SEO"}
             </Button>

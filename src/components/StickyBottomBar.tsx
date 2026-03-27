@@ -24,7 +24,7 @@ export default function StickyBottomBar({
       style={{ paddingBottom: 'calc(0.5rem + env(safe-area-inset-bottom))' }}
     >
       <div className="flex gap-2 max-w-md mx-auto">
-        <Button className="flex-1 bg-orange-500 hover:bg-orange-600 active:scale-[0.97] text-white font-bold h-11 text-[13px] rounded-xl" asChild>
+        <Button className="flex-1 bg-red-600 hover:bg-red-700 active:scale-[0.97] text-white font-bold h-11 text-[13px] rounded-xl" asChild>
           <Link href={`tel:${phone}`} onClick={trackPhoneClick}>
             <PhoneCall className="mr-1.5 w-4 h-4" />
             {phoneLabel}

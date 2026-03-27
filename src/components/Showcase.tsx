@@ -49,19 +49,19 @@ export default function Showcase({ images }: ShowcaseProps) {
   return (
     <section className="py-16 md:py-24 bg-slate-50 relative overflow-hidden">
       {/* Background accent */}
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_rgba(249,115,22,0.06),transparent_60%)]" />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,_rgba(220,38,38,0.06),transparent_60%)]" />
 
       <div className="max-w-7xl mx-auto px-4 relative z-10">
         {/* Header */}
         <div className="text-center mb-8 md:mb-14">
-          <div className="inline-flex items-center gap-2 bg-orange-100 text-orange-600 text-xs font-bold px-4 py-1.5 rounded-full mb-4 tracking-widest uppercase">
+          <div className="inline-flex items-center gap-2 bg-red-100 text-red-700 text-xs font-bold px-4 py-1.5 rounded-full mb-4 tracking-widest uppercase">
             <svg className="w-3 h-3" fill="currentColor" viewBox="0 0 24 24">
               <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
             </svg>
             ผลงานของเรา
           </div>
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-slate-900 mb-2 md:mb-3 px-2">
-            ภาพหน้างาน<span className="text-orange-500">จริง</span>
+            ภาพหน้างาน<span className="text-red-600">จริง</span>
           </h2>
           <p className="text-slate-500 max-w-md mx-auto text-sm md:text-base px-2">ให้ผลงานเป็นเครื่องพิสูจน์ความเป็นมืออาชีพของเรา</p>
         </div>
@@ -115,7 +115,7 @@ export default function Showcase({ images }: ShowcaseProps) {
                 )}
 
                 {/* Index badge */}
-                <div className="absolute top-2 left-2 sm:top-3 sm:left-3 w-5 h-5 sm:w-7 sm:h-7 bg-orange-500/90 backdrop-blur-sm rounded-md sm:rounded-lg flex items-center justify-center sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-300">
+                <div className="absolute top-2 left-2 sm:top-3 sm:left-3 w-5 h-5 sm:w-7 sm:h-7 bg-red-600/90 backdrop-blur-sm rounded-md sm:rounded-lg flex items-center justify-center sm:opacity-0 sm:group-hover:opacity-100 transition-opacity duration-300">
                   <span className="text-white text-[10px] sm:text-xs font-bold">{idx + 1}</span>
                 </div>
               </div>
@@ -125,7 +125,7 @@ export default function Showcase({ images }: ShowcaseProps) {
 
         {/* Bottom CTA */}
         <div className="text-center mt-8 md:mt-12">
-          <p className="text-slate-400 text-xs sm:text-sm">ผลงานกว่า <span className="text-orange-500 font-bold">1,000+</span> งานทั่วกรุงเทพและปริมณฑล</p>
+          <p className="text-slate-400 text-xs sm:text-sm">ผลงานกว่า <span className="text-red-600 font-bold">1,000+</span> งานทั่วกรุงเทพและปริมณฑล</p>
         </div>
       </div>
     </section>

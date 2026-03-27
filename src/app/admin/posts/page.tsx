@@ -79,7 +79,7 @@ export default function PostsAdmin() {
           <p className="text-sm text-slate-500 mt-1">จัดการบทความทั้งหมด ({posts.length} รายการ)</p>
         </div>
         <Link href="/admin/posts/new" className="flex-shrink-0">
-          <Button className="bg-orange-500 hover:bg-orange-600 w-full sm:w-auto">
+          <Button className="bg-red-600 hover:bg-red-700 w-full sm:w-auto">
             <Plus className="w-4 h-4 mr-2" />
             เขียนบทความใหม่
           </Button>
@@ -141,7 +141,7 @@ export default function PostsAdmin() {
                     </div>
                     <div className="flex items-center gap-2 mt-1 text-xs text-slate-400 flex-wrap">
                       {post.category && (
-                        <span className="bg-orange-50 text-orange-600 px-2 py-0.5 rounded-full font-medium">
+                        <span className="bg-red-50 text-red-700 px-2 py-0.5 rounded-full font-medium">
                           {post.category}
                         </span>
                       )}

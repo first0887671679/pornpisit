@@ -78,8 +78,8 @@ export default function ImageUpload({ value, onChange, label, className, aspectR
               onClick={() => onAspectRatioChange(r.value)}
               className={`px-2 py-0.5 text-xs rounded-full border transition-colors ${
                 aspectRatio === r.value || (!aspectRatio && r.value === "free")
-                  ? "bg-orange-500 text-white border-orange-500"
-                  : "bg-white text-slate-600 border-slate-300 hover:border-orange-400"
+                  ? "bg-red-600 text-white border-red-600"
+                  : "bg-white text-slate-600 border-slate-300 hover:border-red-400"
               }`}
             >
               {r.label}
@@ -113,7 +113,7 @@ export default function ImageUpload({ value, onChange, label, className, aspectR
           <button
             type="button"
             onClick={() => fileRef.current?.click()}
-            className="mt-2 text-xs text-orange-600 hover:underline"
+            className="mt-2 text-xs text-red-700 hover:underline"
           >
             เปลี่ยนรูป
           </button>
@@ -123,7 +123,7 @@ export default function ImageUpload({ value, onChange, label, className, aspectR
           type="button"
           onClick={() => fileRef.current?.click()}
           disabled={uploading}
-          className={`w-full ${!currentRatio.cls ? "h-32" : previewCls + " max-h-48"} border-2 border-dashed border-slate-300 rounded-lg flex flex-col items-center justify-center gap-2 text-slate-400 hover:border-orange-400 hover:text-orange-500 transition-colors cursor-pointer disabled:cursor-wait`}
+          className={`w-full ${!currentRatio.cls ? "h-32" : previewCls + " max-h-48"} border-2 border-dashed border-slate-300 rounded-lg flex flex-col items-center justify-center gap-2 text-slate-400 hover:border-red-400 hover:text-red-600 transition-colors cursor-pointer disabled:cursor-wait`}
         >
           {uploading ? (
             <>

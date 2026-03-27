@@ -60,7 +60,7 @@ export default function ContactSettingsPage() {
         <CardContent className="space-y-6">
           <div className="space-y-2">
             <Label htmlFor="phone" className="flex items-center gap-2">
-              <Phone className="w-4 h-4 text-orange-500" />
+              <Phone className="w-4 h-4 text-red-600" />
               เบอร์โทรศัพท์
             </Label>
             <Input
@@ -99,7 +99,7 @@ export default function ContactSettingsPage() {
 
           <div className="space-y-2">
             <Label htmlFor="address" className="flex items-center gap-2">
-              <MapPin className="w-4 h-4 text-orange-500" />
+              <MapPin className="w-4 h-4 text-red-600" />
               พื้นที่ให้บริการ
             </Label>
             <Input
@@ -114,7 +114,7 @@ export default function ContactSettingsPage() {
             <Button
               onClick={handleSave}
               disabled={isSaving}
-              className="bg-orange-500 hover:bg-orange-600"
+              className="bg-red-600 hover:bg-red-700"
             >
               <Save className="w-4 h-4 mr-2" />
               {isSaving ? "กำลังบันทึก..." : "บันทึก"}

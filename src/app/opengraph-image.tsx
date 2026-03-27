@@ -16,7 +16,7 @@ export default function OgImage() {
           flexDirection: "column",
           alignItems: "center",
           justifyContent: "center",
-          background: "linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%)",
+          background: "linear-gradient(135deg, #0a0000 0%, #1a0000 50%, #0a0000 100%)",
           fontFamily: "sans-serif",
           position: "relative",
           overflow: "hidden",
@@ -31,7 +31,7 @@ export default function OgImage() {
             width: "400px",
             height: "400px",
             borderRadius: "50%",
-            background: "radial-gradient(circle, rgba(59,130,246,0.15) 0%, transparent 70%)",
+            background: "radial-gradient(circle, rgba(220,38,38,0.20) 0%, transparent 70%)",
             display: "flex",
           }}
         />
@@ -43,7 +43,7 @@ export default function OgImage() {
             width: "300px",
             height: "300px",
             borderRadius: "50%",
-            background: "radial-gradient(circle, rgba(234,179,8,0.12) 0%, transparent 70%)",
+            background: "radial-gradient(circle, rgba(180,20,20,0.12) 0%, transparent 70%)",
             display: "flex",
           }}
         />
@@ -56,7 +56,7 @@ export default function OgImage() {
             left: 0,
             right: 0,
             height: "6px",
-            background: "linear-gradient(90deg, #3b82f6, #eab308, #3b82f6)",
+            background: "linear-gradient(90deg, #dc2626, #991b1b, #dc2626)",
             display: "flex",
           }}
         />
@@ -87,7 +87,7 @@ export default function OgImage() {
             style={{
               width: "120px",
               height: "4px",
-              background: "linear-gradient(90deg, #3b82f6, #eab308)",
+              background: "linear-gradient(90deg, #dc2626, #7f1d1d)",
               borderRadius: "2px",
               display: "flex",
             }}
@@ -158,7 +158,7 @@ export default function OgImage() {
           <div
             style={{
               fontSize: "22px",
-              color: "#eab308",
+              color: "#dc2626",
               fontWeight: 700,
               display: "flex",
             }}

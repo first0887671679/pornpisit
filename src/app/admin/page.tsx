@@ -34,7 +34,7 @@ export default function AdminDashboard() {
   const [navbarHeightMobile, setNavbarHeightMobile] = useState(48);
   const [navBgColor, setNavBgColor] = useState("#0f172a");
   const [navTextColor, setNavTextColor] = useState("#cbd5e1");
-  const [navAccentColor, setNavAccentColor] = useState("#f97316");
+  const [navAccentColor, setNavAccentColor] = useState("#dc2626");
   const [phone, setPhone] = useState("");
   const [phoneLabel, setPhoneLabel] = useState("โทรด่วน");
   const [lineUrl, setLineUrl] = useState("");
@@ -80,7 +80,7 @@ export default function AdminDashboard() {
         setNavbarHeightMobile(d.navbarHeightMobile || 48);
         setNavBgColor(d.navBgColor || "#0f172a");
         setNavTextColor(d.navTextColor || "#cbd5e1");
-        setNavAccentColor(d.navAccentColor || "#f97316");
+        setNavAccentColor(d.navAccentColor || "#dc2626");
         setPhone(d.phone || "");
         setPhoneLabel(d.phoneLabel || "โทรด่วน");
         setLineUrl(d.lineUrl || "");
@@ -174,7 +174,7 @@ export default function AdminDashboard() {
       <Card className="mb-4">
         <CardHeader className="pb-3">
           <CardTitle className="text-base flex items-center gap-2">
-            <ImageIcon className="w-4 h-4 text-orange-500" /> โลโก้ & ขนาด
+            <ImageIcon className="w-4 h-4 text-red-600" /> โลโก้ & ขนาด
           </CardTitle>
         </CardHeader>
         <CardContent className="space-y-3">
@@ -190,7 +190,7 @@ export default function AdminDashboard() {
                   <Label className="text-xs">🖥️ โลโก้ Desktop</Label>
                   <div className="flex gap-1 mt-1">
                     {[32, 40, 48, 56, 64, 80].map(v => (
-                      <button key={v} onClick={() => setLogoSize(v)} className={`text-[10px] px-1.5 py-1 rounded border ${logoSize === v ? "bg-orange-500 text-white border-orange-500" : "bg-white text-slate-500 border-slate-200"}`}>{v}</button>
+                      <button key={v} onClick={() => setLogoSize(v)} className={`text-[10px] px-1.5 py-1 rounded border ${logoSize === v ? "bg-red-600 text-white border-red-600" : "bg-white text-slate-500 border-slate-200"}`}>{v}</button>
                     ))}
                   </div>
                 </div>
@@ -208,7 +208,7 @@ export default function AdminDashboard() {
                   <Label className="text-xs">🖥️ ความสูง Navbar</Label>
                   <div className="flex gap-1 mt-1">
                     {[48, 56, 64, 72, 80].map(v => (
-                      <button key={v} onClick={() => setNavbarHeight(v)} className={`text-[10px] px-1.5 py-1 rounded border ${navbarHeight === v ? "bg-orange-500 text-white border-orange-500" : "bg-white text-slate-500 border-slate-200"}`}>{v}</button>
+                      <button key={v} onClick={() => setNavbarHeight(v)} className={`text-[10px] px-1.5 py-1 rounded border ${navbarHeight === v ? "bg-red-600 text-white border-red-600" : "bg-white text-slate-500 border-slate-200"}`}>{v}</button>
                     ))}
                   </div>
                 </div>
@@ -265,7 +265,7 @@ export default function AdminDashboard() {
       <Card className="mb-4">
         <CardHeader className="pb-3">
           <CardTitle className="text-base flex items-center gap-2">
-            <Navigation className="w-4 h-4 text-orange-500" /> รายการเมนู ({links.length})
+            <Navigation className="w-4 h-4 text-red-600" /> รายการเมนู ({links.length})
           </CardTitle>
         </CardHeader>
         <CardContent className="space-y-2">
@@ -289,7 +289,7 @@ export default function AdminDashboard() {
       <Card className="mb-4">
         <CardHeader className="pb-3">
           <CardTitle className="text-base flex items-center gap-2">
-            <Phone className="w-4 h-4 text-orange-500" /> ช่องทางติดต่อ (Navbar)
+            <Phone className="w-4 h-4 text-red-600" /> ช่องทางติดต่อ (Navbar)
           </CardTitle>
         </CardHeader>
         <CardContent>
@@ -321,18 +321,18 @@ export default function AdminDashboard() {
           </div>
           <div className="flex gap-1.5 mt-2">
             {[
-              { value: "orange", bg: "bg-orange-500" }, { value: "blue", bg: "bg-blue-600" },
+              { value: "orange", bg: "bg-red-600" }, { value: "blue", bg: "bg-blue-600" },
               { value: "green", bg: "bg-green-600" }, { value: "red", bg: "bg-red-600" },
               { value: "slate", bg: "bg-slate-700" }, { value: "black", bg: "bg-black" },
             ].map(c => (
-              <button key={c.value} onClick={() => setSubBgColor(c.value)} className={`w-6 h-6 rounded-full ${c.bg} border-2 transition-all ${subBgColor === c.value ? "border-orange-400 scale-110 ring-2 ring-orange-200" : "border-transparent"}`} />
+              <button key={c.value} onClick={() => setSubBgColor(c.value)} className={`w-6 h-6 rounded-full ${c.bg} border-2 transition-all ${subBgColor === c.value ? "border-red-400 scale-110 ring-2 ring-red-200" : "border-transparent"}`} />
             ))}
           </div>
         </CardContent>
       </Card>
 
       {/* ===== Save Button ===== */}
-      <Button onClick={() => setShowConfirm(true)} disabled={saving} className="w-full bg-orange-500 hover:bg-orange-600 h-11 text-base mb-8">
+      <Button onClick={() => setShowConfirm(true)} disabled={saving} className="w-full bg-red-600 hover:bg-red-700 h-11 text-base mb-8">
         <Save className="w-5 h-5 mr-2" />
         {saving ? "กำลังบันทึก..." : "💾 บันทึกทั้งหมด"}
       </Button>
@@ -349,14 +349,14 @@ export default function AdminDashboard() {
           { href: "/admin/seo", icon: "🌐", label: "SEO", desc: "Google / Social" },
           { href: "/admin/contact", icon: "📞", label: "ช่องทางติดต่อ", desc: "โทร / Line" },
         ].map((item, i) => (
-          <Link key={i} href={item.href} className="bg-white p-4 rounded-xl shadow-sm border border-slate-100 hover:shadow-md hover:border-orange-200 transition-all group">
+          <Link key={i} href={item.href} className="bg-white p-4 rounded-xl shadow-sm border border-slate-100 hover:shadow-md hover:border-red-200 transition-all group">
             <div className="flex items-center gap-3">
               <span className="text-2xl">{item.icon}</span>
               <div>
-                <p className="text-sm font-semibold text-slate-800 group-hover:text-orange-600 transition-colors">{item.label}</p>
+                <p className="text-sm font-semibold text-slate-800 group-hover:text-red-700 transition-colors">{item.label}</p>
                 <p className="text-[10px] text-slate-400">{item.desc}</p>
               </div>
-              <ExternalLink className="w-3.5 h-3.5 text-slate-300 ml-auto group-hover:text-orange-400 transition-colors" />
+              <ExternalLink className="w-3.5 h-3.5 text-slate-300 ml-auto group-hover:text-red-400 transition-colors" />
             </div>
           </Link>
         ))}

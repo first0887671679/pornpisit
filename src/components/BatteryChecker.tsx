@@ -67,13 +67,13 @@ export default function BatteryChecker({
       {showDropdown && <div className="bg-white rounded-2xl md:rounded-3xl shadow-2xl shadow-slate-200/60 border border-slate-100 p-5 sm:p-6 md:p-8 relative z-20">
         <div className="flex items-center justify-between mb-5 md:mb-6">
           <div className="flex items-center gap-2 text-slate-800">
-            <Filter className="w-4 h-4 md:w-5 md:h-5 text-orange-500" />
+            <Filter className="w-4 h-4 md:w-5 md:h-5 text-red-600" />
             <span className="font-bold text-sm md:text-base">เลือกรถยนต์ของคุณ</span>
           </div>
           {selectedBrand && (
             <button
               onClick={handleReset}
-              className="flex items-center gap-1.5 text-xs text-slate-400 hover:text-orange-500 transition-colors"
+              className="flex items-center gap-1.5 text-xs text-slate-400 hover:text-red-600 transition-colors"
             >
               <RotateCcw className="w-3 h-3" />
               เริ่มใหม่
@@ -91,7 +91,7 @@ export default function BatteryChecker({
               <select
                 value={selectedBrand}
                 onChange={(e) => handleBrandSelect(e.target.value)}
-                className="w-full appearance-none bg-slate-50 border border-slate-200 hover:border-orange-300 focus:border-orange-500 focus:ring-2 focus:ring-orange-500/20 rounded-xl px-4 py-3.5 text-base md:text-base text-slate-800 font-medium outline-none transition-all cursor-pointer"
+                className="w-full appearance-none bg-slate-50 border border-slate-200 hover:border-red-300 focus:border-red-600 focus:ring-2 focus:ring-red-600/20 rounded-xl px-4 py-3.5 text-base md:text-base text-slate-800 font-medium outline-none transition-all cursor-pointer"
               >
                 <option value="">— เลือกยี่ห้อรถ —</option>
                 {carBrands.map((b) => (
@@ -114,7 +114,7 @@ export default function BatteryChecker({
                 value={selectedModel}
                 onChange={(e) => handleModelSelect(e.target.value)}
                 disabled={!selectedBrand}
-                className="w-full appearance-none bg-slate-50 border border-slate-200 hover:border-orange-300 focus:border-orange-500 focus:ring-2 focus:ring-orange-500/20 rounded-xl px-4 py-3.5 text-base md:text-base text-slate-800 font-medium outline-none transition-all cursor-pointer disabled:opacity-40 disabled:cursor-not-allowed"
+                className="w-full appearance-none bg-slate-50 border border-slate-200 hover:border-red-300 focus:border-red-600 focus:ring-2 focus:ring-red-600/20 rounded-xl px-4 py-3.5 text-base md:text-base text-slate-800 font-medium outline-none transition-all cursor-pointer disabled:opacity-40 disabled:cursor-not-allowed"
               >
                 <option value="">— เลือกรุ่นรถ —</option>
                 {currentBrand?.models.map((m) => (
@@ -131,7 +131,7 @@ export default function BatteryChecker({
         {/* Selected Info */}
         {currentModel && (
           <div className="mt-4 md:mt-5 flex flex-wrap items-center gap-2 text-xs">
-            <span className="bg-orange-50 text-orange-600 font-bold px-3 py-1.5 rounded-lg border border-orange-100">
+            <span className="bg-red-50 text-red-700 font-bold px-3 py-1.5 rounded-lg border border-red-100">
               <Battery className="w-3 h-3 inline mr-1" />
               ขนาดแนะนำ: {currentModel.batterySize}
             </span>
@@ -156,12 +156,12 @@ export default function BatteryChecker({
               <button
                 key={brand.nameEn}
                 onClick={() => handleBrandSelect(brand.nameEn)}
-                className="group flex flex-col items-center gap-2.5 p-4 md:p-5 bg-white border border-slate-100 hover:border-orange-300 rounded-xl md:rounded-2xl transition-all duration-200 hover:shadow-lg hover:shadow-orange-100/50 sm:hover:-translate-y-1 active:scale-[0.97]"
+                className="group flex flex-col items-center gap-2.5 p-4 md:p-5 bg-white border border-slate-100 hover:border-red-300 rounded-xl md:rounded-2xl transition-all duration-200 hover:shadow-lg hover:shadow-red-100/50 sm:hover:-translate-y-1 active:scale-[0.97]"
               >
-                <div className="w-14 h-14 md:w-14 md:h-14 bg-slate-50 group-hover:bg-orange-50 rounded-xl md:rounded-2xl flex items-center justify-center transition-colors">
-                  <Car className="w-7 h-7 md:w-7 md:h-7 text-slate-400 group-hover:text-orange-500 transition-colors" />
+                <div className="w-14 h-14 md:w-14 md:h-14 bg-slate-50 group-hover:bg-red-50 rounded-xl md:rounded-2xl flex items-center justify-center transition-colors">
+                  <Car className="w-7 h-7 md:w-7 md:h-7 text-slate-400 group-hover:text-red-600 transition-colors" />
                 </div>
-                <span className="text-sm md:text-sm font-bold text-slate-700 group-hover:text-orange-600 transition-colors">
+                <span className="text-sm md:text-sm font-bold text-slate-700 group-hover:text-red-700 transition-colors">
                   {brand.name}
                 </span>
                 <span className="text-[10px] text-slate-400">
@@ -187,16 +187,16 @@ export default function BatteryChecker({
               <button
                 key={model.name}
                 onClick={() => handleModelSelect(model.name)}
-                className="group text-left bg-white border border-slate-100 hover:border-orange-300 rounded-xl md:rounded-2xl p-4 md:p-5 transition-all duration-200 hover:shadow-lg hover:shadow-orange-100/50 sm:hover:-translate-y-1 active:scale-[0.98]"
+                className="group text-left bg-white border border-slate-100 hover:border-red-300 rounded-xl md:rounded-2xl p-4 md:p-5 transition-all duration-200 hover:shadow-lg hover:shadow-red-100/50 sm:hover:-translate-y-1 active:scale-[0.98]"
               >
                 <div className="flex items-start justify-between gap-3">
                   <div className="flex-1 min-w-0">
-                    <h3 className="font-bold text-slate-800 text-sm md:text-base group-hover:text-orange-600 transition-colors mb-1">
+                    <h3 className="font-bold text-slate-800 text-sm md:text-base group-hover:text-red-700 transition-colors mb-1">
                       {currentBrand.name} {model.name}
                     </h3>
                     <p className="text-xs text-slate-400 mb-3">{model.years} · {model.engineCC}</p>
                     <div className="flex flex-wrap gap-1.5">
-                      <span className="text-[10px] font-semibold bg-orange-50 text-orange-600 px-2 py-0.5 rounded-md">
+                      <span className="text-[10px] font-semibold bg-red-50 text-red-700 px-2 py-0.5 rounded-md">
                         {model.batterySize}
                       </span>
                       <span className="text-[10px] font-semibold bg-slate-50 text-slate-500 px-2 py-0.5 rounded-md">
@@ -207,7 +207,7 @@ export default function BatteryChecker({
                       </span>
                     </div>
                   </div>
-                  <ArrowRight className="w-4 h-4 text-slate-300 group-hover:text-orange-500 transition-colors mt-1 flex-shrink-0" />
+                  <ArrowRight className="w-4 h-4 text-slate-300 group-hover:text-red-600 transition-colors mt-1 flex-shrink-0" />
                 </div>
               </button>
             ))}
@@ -236,8 +236,8 @@ export default function BatteryChecker({
                   onClick={() => setFilterBatteryBrand("all")}
                   className={`text-xs font-semibold px-3 py-1.5 rounded-lg border transition-all ${
                     filterBatteryBrand === "all"
-                      ? "bg-orange-500 text-white border-orange-500"
-                      : "bg-white text-slate-500 border-slate-200 hover:border-orange-300"
+                      ? "bg-red-600 text-white border-red-600"
+                      : "bg-white text-slate-500 border-slate-200 hover:border-red-300"
                   }`}
                 >
                   ทั้งหมด
@@ -248,8 +248,8 @@ export default function BatteryChecker({
                     onClick={() => setFilterBatteryBrand(bb)}
                     className={`text-xs font-semibold px-3 py-1.5 rounded-lg border transition-all ${
                       filterBatteryBrand === bb
-                        ? "bg-orange-500 text-white border-orange-500"
-                        : "bg-white text-slate-500 border-slate-200 hover:border-orange-300"
+                        ? "bg-red-600 text-white border-red-600"
+                        : "bg-white text-slate-500 border-slate-200 hover:border-red-300"
                     }`}
                   >
                     {bb}
@@ -264,20 +264,20 @@ export default function BatteryChecker({
             {filteredBatteries.map((bat) => (
               <div
                 key={bat.id}
-                className="group relative bg-white border border-slate-100 hover:border-orange-200 rounded-2xl overflow-hidden transition-all duration-300 hover:shadow-xl hover:shadow-orange-100/40 sm:hover:-translate-y-1"
+                className="group relative bg-white border border-slate-100 hover:border-red-200 rounded-2xl overflow-hidden transition-all duration-300 hover:shadow-xl hover:shadow-red-100/40 sm:hover:-translate-y-1"
               >
                 {/* Top accent */}
-                <div className="h-1 bg-gradient-to-r from-orange-400 via-orange-500 to-orange-400" />
+                <div className="h-1 bg-gradient-to-r from-red-400 via-red-600 to-red-400" />
 
                 <div className="p-4 md:p-5">
                   {/* Brand + Type */}
                   <div className="flex items-start justify-between mb-3">
                     <div className="flex items-center gap-2">
                       <div className="w-10 h-10 bg-slate-50 rounded-xl flex items-center justify-center border border-slate-100">
-                        <Battery className="w-5 h-5 text-orange-500" />
+                        <Battery className="w-5 h-5 text-red-600" />
                       </div>
                       <div>
-                        <span className="block text-[10px] font-bold text-orange-500 uppercase tracking-wider">
+                        <span className="block text-[10px] font-bold text-red-600 uppercase tracking-wider">
                           {bat.brand}
                         </span>
                         <span className="block text-xs text-slate-400">
@@ -325,7 +325,7 @@ export default function BatteryChecker({
                   <div className="grid grid-cols-2 gap-2 mt-auto">
                     <Link
                       href={`tel:${SITE_CONFIG.phone}`}
-                      className="flex items-center justify-center gap-1.5 bg-orange-500 hover:bg-orange-400 active:scale-[0.97] text-white font-bold text-xs sm:text-sm py-3 rounded-xl transition-all"
+                      className="flex items-center justify-center gap-1.5 bg-red-600 hover:bg-red-400 active:scale-[0.97] text-white font-bold text-xs sm:text-sm py-3 rounded-xl transition-all"
                     >
                       <PhoneCall className="w-4 h-4" />
                       เช็คราคาโทร

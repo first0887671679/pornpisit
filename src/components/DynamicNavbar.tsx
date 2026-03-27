@@ -49,11 +49,11 @@ export default function DynamicNavbar({
   navbarHeightMobile = 60,
   navBgColor = "#0f172a",
   navTextColor = "#cbd5e1",
-  navAccentColor = "#f97316",
+  navAccentColor = "#dc2626",
 }: DynamicNavbarProps) {
   const bgHex = navBgColor || "#0f172a";
   const textHex = navTextColor || "#cbd5e1";
-  const accentHex = navAccentColor || "#f97316";
+  const accentHex = navAccentColor || "#dc2626";
   const [open, setOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const [openDropdown, setOpenDropdown] = useState<number | null>(null);

@@ -112,7 +112,7 @@ export default function HeroSlider({ slides, autoSlide = true, intervalMs = 5000
                   />
                 </div>
               ) : (
-                <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-orange-950 to-orange-900" />
+                <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-red-950 to-red-900" />
               )}
 
               {/* Content — always bottom-aligned on mobile for clean look above image */}
@@ -125,7 +125,7 @@ export default function HeroSlider({ slides, autoSlide = true, intervalMs = 5000
                       {slide.subheading && (
                         <>
                           <br />
-                          <span className="text-orange-400">{slide.subheading}</span>
+                          <span className="text-red-400">{slide.subheading}</span>
                         </>
                       )}
                     </h1>
@@ -142,7 +142,7 @@ export default function HeroSlider({ slides, autoSlide = true, intervalMs = 5000
                     {slide.phoneUrl && (
                       <Link
                         href={slide.phoneUrl}
-                        className="flex-1 sm:flex-none inline-flex items-center justify-center gap-1.5 sm:gap-2 bg-orange-500 hover:bg-orange-400 active:scale-[0.97] text-white font-bold text-[13px] sm:text-sm md:text-base h-10 sm:h-12 md:h-13 px-3 sm:px-6 md:px-7 rounded-lg sm:rounded-xl transition-all duration-200 shadow-md shadow-orange-500/25"
+                        className="flex-1 sm:flex-none inline-flex items-center justify-center gap-1.5 sm:gap-2 bg-red-600 hover:bg-red-400 active:scale-[0.97] text-white font-bold text-[13px] sm:text-sm md:text-base h-10 sm:h-12 md:h-13 px-3 sm:px-6 md:px-7 rounded-lg sm:rounded-xl transition-all duration-200 shadow-md shadow-red-600/25"
                       >
                         <PhoneCall className="w-4 h-4 flex-shrink-0" />
                         โทรเรียกช่าง
@@ -193,7 +193,7 @@ export default function HeroSlider({ slides, autoSlide = true, intervalMs = 5000
                 onClick={() => goTo(idx)}
                 className={`transition-all duration-300 rounded-full ${
                   idx === current
-                    ? "w-5 h-1.5 sm:w-7 sm:h-2 bg-orange-400"
+                    ? "w-5 h-1.5 sm:w-7 sm:h-2 bg-red-400"
                     : "w-1.5 h-1.5 sm:w-2 sm:h-2 bg-white/40 hover:bg-white/60"
                 }`}
                 aria-label={`Go to slide ${idx + 1}`}

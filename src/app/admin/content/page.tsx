@@ -89,7 +89,7 @@ export default function ContentPage() {
             <Button
               onClick={handleSave}
               disabled={isSaving}
-              className="bg-orange-500 hover:bg-orange-600"
+              className="bg-red-600 hover:bg-red-700"
             >
               <Save className="w-4 h-4 mr-2" />
               {isSaving ? "กำลังบันทึก..." : "บันทึก"}

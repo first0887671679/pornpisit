@@ -134,7 +134,7 @@ export default function PagesAdminPage() {
   };
 
   const renderForm = (onSubmit: () => void, submitLabel: string) => (
-    <Card className="mb-6 border-orange-200 bg-orange-50/30">
+    <Card className="mb-6 border-red-200 bg-red-50/30">
       <CardContent className="pt-6 space-y-4">
         <div className="space-y-1">
           <Label className="text-sm font-medium">ชื่อหน้า</Label>
@@ -161,7 +161,7 @@ export default function PagesAdminPage() {
           <p className="text-xs text-slate-400">ใช้ภาษาอังกฤษ ตัวเล็ก คั่นด้วย - (เช่น battery-service)</p>
         </div>
         <div className="flex gap-2 pt-2">
-          <Button onClick={onSubmit} disabled={saving} className="bg-orange-500 hover:bg-orange-600">
+          <Button onClick={onSubmit} disabled={saving} className="bg-red-600 hover:bg-red-700">
             <Save className="w-4 h-4 mr-2" />
             {saving ? "กำลังบันทึก..." : submitLabel}
           </Button>
@@ -196,7 +196,7 @@ export default function PagesAdminPage() {
         <h1 className="text-3xl font-bold text-slate-800">จัดการหน้าเว็บ</h1>
         {!showAdd && !editingId && (
           <Button
-            className="bg-orange-500 hover:bg-orange-600"
+            className="bg-red-600 hover:bg-red-700"
             onClick={() => {
               setShowAdd(true);
               setFormData({ title: "", slug: "" });
@@ -233,7 +233,7 @@ export default function PagesAdminPage() {
                 <CardContent className="py-4 flex items-center gap-4">
                   <div className="flex-1 min-w-0">
                     <div className="font-semibold text-slate-800 flex items-center gap-2">
-                      <FileText className="w-4 h-4 text-orange-500" />
+                      <FileText className="w-4 h-4 text-red-600" />
                       {page.title}
                     </div>
                     <div className="text-sm text-slate-400 mt-0.5">
@@ -251,7 +251,7 @@ export default function PagesAdminPage() {
                       {page.isActive ? <Eye className="w-4 h-4" /> : <EyeOff className="w-4 h-4" />}
                     </Button>
                     <Link href={`/admin/pages/${page.id}`}>
-                      <Button variant="ghost" size="sm" className="text-orange-600" title="แก้ไขเนื้อหา">
+                      <Button variant="ghost" size="sm" className="text-red-700" title="แก้ไขเนื้อหา">
                         <ExternalLink className="w-4 h-4" />
                       </Button>
                     </Link>

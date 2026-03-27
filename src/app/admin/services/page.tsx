@@ -37,7 +37,7 @@ export default function ServicesPage() {
     <div>
       <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-6">
         <h1 className="text-2xl sm:text-3xl font-bold text-slate-800">จัดการบริการ</h1>
-        <Button className="bg-orange-500 hover:bg-orange-600 w-full sm:w-auto">
+        <Button className="bg-red-600 hover:bg-red-700 w-full sm:w-auto">
           <Plus className="w-4 h-4 mr-2" />
           เพิ่มบริการใหม่
         </Button>

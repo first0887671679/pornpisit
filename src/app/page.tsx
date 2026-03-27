@@ -42,11 +42,11 @@ const iconMap: Record<string, React.ReactNode> = {
 };
 
 const whyUsIconMap: Record<string, React.ReactNode> = {
-  Clock: <Clock className="w-10 h-10 text-orange-500" />,
-  Zap: <Zap className="w-10 h-10 text-orange-500" />,
-  Shield: <Shield className="w-10 h-10 text-orange-500" />,
-  ThumbsUp: <ThumbsUp className="w-10 h-10 text-orange-500" />,
-  Star: <Star className="w-10 h-10 text-orange-500" />,
+  Clock: <Clock className="w-10 h-10 text-red-600" />,
+  Zap: <Zap className="w-10 h-10 text-red-600" />,
+  Shield: <Shield className="w-10 h-10 text-red-600" />,
+  ThumbsUp: <ThumbsUp className="w-10 h-10 text-red-600" />,
+  Star: <Star className="w-10 h-10 text-red-600" />,
 };
 
 function getServiceIconKey(service: { title?: string; href?: string; icon?: string }) {
@@ -228,16 +228,16 @@ export default async function Home() {
       return (
         <section key={section.id} id="services" className="relative overflow-hidden bg-slate-950 py-16 md:py-24 px-4">
           {/* Background decorative orbs */}
-          <div className="absolute top-0 left-0 w-72 h-72 md:w-[600px] md:h-[600px] bg-orange-500/5 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2 pointer-events-none" />
-          <div className="absolute bottom-0 right-0 w-64 h-64 md:w-[400px] md:h-[400px] bg-orange-400/5 rounded-full blur-3xl translate-x-1/2 translate-y-1/2 pointer-events-none" />
+          <div className="absolute top-0 left-0 w-72 h-72 md:w-[600px] md:h-[600px] bg-red-600/5 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2 pointer-events-none" />
+          <div className="absolute bottom-0 right-0 w-64 h-64 md:w-[400px] md:h-[400px] bg-red-400/5 rounded-full blur-3xl translate-x-1/2 translate-y-1/2 pointer-events-none" />
           <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.015)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.015)_1px,transparent_1px)] bg-[size:40px_40px] md:bg-[size:60px_60px] pointer-events-none" />
 
           <div className="max-w-6xl mx-auto relative z-10">
 
             {/* ── Section Header ── */}
             <div className="text-center mb-10 md:mb-16">
-              <div className="inline-flex items-center gap-2 bg-orange-500/10 border border-orange-500/20 text-orange-400 text-xs font-bold px-4 py-1.5 rounded-full mb-4 md:mb-5 tracking-widest uppercase">
-                <span className="w-1.5 h-1.5 rounded-full bg-orange-400 animate-pulse" />
+              <div className="inline-flex items-center gap-2 bg-red-600/10 border border-red-600/20 text-red-400 text-xs font-bold px-4 py-1.5 rounded-full mb-4 md:mb-5 tracking-widest uppercase">
+                <span className="w-1.5 h-1.5 rounded-full bg-red-400 animate-pulse" />
                 Our Services
               </div>
               <h2 className="text-2xl sm:text-3xl md:text-5xl font-black text-white mb-3 md:mb-4 leading-tight px-2">
@@ -253,22 +253,22 @@ export default async function Home() {
               {items.map((svc: any, idx: number) => (
                 <Link href={svc.href || "#"} key={idx} className="group">
                   {/* Mobile: horizontal layout | Desktop: vertical card */}
-                  <div className="relative h-full flex flex-row sm:flex-col bg-slate-900 border border-slate-800 rounded-2xl p-4 md:p-6 overflow-hidden transition-all duration-300 active:scale-[0.98] sm:hover:-translate-y-2 hover:border-orange-500/40 hover:shadow-2xl hover:shadow-orange-500/10 gap-4 sm:gap-0">
+                  <div className="relative h-full flex flex-row sm:flex-col bg-slate-900 border border-slate-800 rounded-2xl p-4 md:p-6 overflow-hidden transition-all duration-300 active:scale-[0.98] sm:hover:-translate-y-2 hover:border-red-600/40 hover:shadow-2xl hover:shadow-red-600/10 gap-4 sm:gap-0">
 
                     {/* Hover glow overlay */}
-                    <div className="absolute inset-0 bg-gradient-to-br from-orange-500/0 to-transparent group-hover:from-orange-500/5 transition-all duration-300 rounded-2xl pointer-events-none" />
+                    <div className="absolute inset-0 bg-gradient-to-br from-red-600/0 to-transparent group-hover:from-red-600/5 transition-all duration-300 rounded-2xl pointer-events-none" />
 
                     {/* Top accent line */}
-                    <div className="absolute top-0 left-4 right-4 sm:left-6 sm:right-6 h-px bg-gradient-to-r from-transparent via-orange-500/30 to-transparent group-hover:via-orange-400/80 transition-all duration-300" />
+                    <div className="absolute top-0 left-4 right-4 sm:left-6 sm:right-6 h-px bg-gradient-to-r from-transparent via-red-600/30 to-transparent group-hover:via-red-400/80 transition-all duration-300" />
 
                     {/* Number + Icon — left side on mobile */}
                     <div className="relative flex-shrink-0 flex flex-col items-center gap-2 sm:items-start sm:mb-5">
                       {/* Number badge (desktop only) */}
-                      <span className="hidden sm:block absolute top-0 right-0 text-5xl font-black text-slate-800 group-hover:text-orange-500/20 transition-colors duration-300 leading-none select-none -mr-2 -mt-2">
+                      <span className="hidden sm:block absolute top-0 right-0 text-5xl font-black text-slate-800 group-hover:text-red-600/20 transition-colors duration-300 leading-none select-none -mr-2 -mt-2">
                         {String(idx + 1).padStart(2, "0")}
                       </span>
                       {/* Icon box */}
-                      <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl sm:rounded-2xl flex items-center justify-center flex-shrink-0 transition-all duration-300 bg-orange-500/10 text-orange-400 group-hover:bg-orange-500 group-hover:text-white group-hover:shadow-lg group-hover:shadow-orange-500/40">
+                      <div className="w-12 h-12 sm:w-14 sm:h-14 rounded-xl sm:rounded-2xl flex items-center justify-center flex-shrink-0 transition-all duration-300 bg-red-600/10 text-red-400 group-hover:bg-red-600 group-hover:text-white group-hover:shadow-lg group-hover:shadow-red-600/40">
                         {iconMap[getServiceIconKey(svc)] || iconMap.Battery}
                       </div>
                       {/* Mobile number badge below icon */}
@@ -286,14 +286,14 @@ export default async function Home() {
                         {svc.description}
                       </p>
                       {/* CTA link */}
-                      <div className="flex items-center gap-1 mt-3 sm:mt-5 text-orange-400 text-xs font-semibold group-hover:text-orange-300 transition-colors">
+                      <div className="flex items-center gap-1 mt-3 sm:mt-5 text-red-400 text-xs font-semibold group-hover:text-red-300 transition-colors">
                         <span>ดูเพิ่มเติม</span>
                         <ArrowRight className="w-3 h-3 sm:w-3.5 sm:h-3.5 transition-transform duration-200 group-hover:translate-x-1" />
                       </div>
                     </div>
 
                     {/* Bottom border accent */}
-                    <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-transparent via-orange-500/0 to-transparent group-hover:via-orange-500/60 transition-all duration-300 rounded-b-2xl" />
+                    <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-transparent via-red-600/0 to-transparent group-hover:via-red-600/60 transition-all duration-300 rounded-b-2xl" />
                   </div>
                 </Link>
               ))}
@@ -302,7 +302,7 @@ export default async function Home() {
             {/* ── พื้นที่ให้บริการ ── */}
             <div className="text-center">
               <h2 className="text-xl sm:text-2xl md:text-4xl font-black text-white mb-3 md:mb-4">
-                พื้นที่ให้บริการ <span className="text-orange-400">ช่างซ่อมรถฉุกเฉิน</span>
+                พื้นที่ให้บริการ <span className="text-red-400">ช่างซ่อมรถฉุกเฉิน</span>
                 <br className="hidden sm:block" />
                 <span className="text-lg sm:text-xl md:text-2xl font-bold text-slate-400">(กรุงเทพฯ - สมุทรปราการ)</span>
               </h2>
@@ -312,14 +312,14 @@ export default async function Home() {
               <div className="flex flex-wrap justify-center gap-2 mb-8">
                 {["สุขุมวิท", "บางนา", "แบริ่ง", "ลาซาล", "ศรีนครินทร์", "เทพารักษ์", "แพรกษา", "สำโรง", "วัดด่าน", "วัดหนามแดง"].map((area) => (
                   <span key={area} className="bg-slate-800 text-slate-300 text-xs md:text-sm font-medium px-3 py-1.5 rounded-full border border-slate-700">
-                    <MapPin className="w-3 h-3 inline-block mr-1 text-orange-400" />{area}
+                    <MapPin className="w-3 h-3 inline-block mr-1 text-red-400" />{area}
                   </span>
                 ))}
               </div>
               <div className="flex flex-col sm:flex-row justify-center gap-3">
                 <Link
                   href={`tel:${phone}`}
-                  className="inline-flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-400 active:scale-[0.97] text-white font-bold text-sm md:text-base h-12 md:h-14 px-6 md:px-8 rounded-xl md:rounded-2xl transition-all shadow-lg shadow-orange-500/30"
+                  className="inline-flex items-center justify-center gap-2 bg-red-600 hover:bg-red-400 active:scale-[0.97] text-white font-bold text-sm md:text-base h-12 md:h-14 px-6 md:px-8 rounded-xl md:rounded-2xl transition-all shadow-lg shadow-red-600/30"
                 >
                   <PhoneCall className="w-4 h-4 md:w-5 md:h-5" />
                   โทรเรียกช่างด่วน
@@ -365,20 +365,20 @@ export default async function Home() {
       return (
         <section key={section.id} className="relative overflow-hidden bg-slate-950 py-12 md:py-20 px-4">
           <div className="max-w-6xl mx-auto relative z-10">
-            <div className="relative rounded-2xl md:rounded-3xl overflow-hidden border border-orange-500/20">
-              <div className="absolute inset-0 bg-gradient-to-br from-orange-500/15 via-orange-600/10 to-slate-900/80" />
-              <div className="absolute top-0 right-0 w-64 h-64 bg-orange-500/10 rounded-full blur-3xl translate-x-1/3 -translate-y-1/3 pointer-events-none" />
-              <div className="absolute inset-0 bg-[linear-gradient(rgba(249,115,22,0.04)_1px,transparent_1px),linear-gradient(90deg,rgba(249,115,22,0.04)_1px,transparent_1px)] bg-[size:32px_32px] pointer-events-none" />
+            <div className="relative rounded-2xl md:rounded-3xl overflow-hidden border border-red-600/20">
+              <div className="absolute inset-0 bg-gradient-to-br from-red-600/15 via-red-700/10 to-slate-900/80" />
+              <div className="absolute top-0 right-0 w-64 h-64 bg-red-600/10 rounded-full blur-3xl translate-x-1/3 -translate-y-1/3 pointer-events-none" />
+              <div className="absolute inset-0 bg-[linear-gradient(rgba(220,38,38,0.04)_1px,transparent_1px),linear-gradient(90deg,rgba(220,38,38,0.04)_1px,transparent_1px)] bg-[size:32px_32px] pointer-events-none" />
 
               <div className="relative z-10 px-6 py-8 md:px-10 md:py-10 flex flex-col md:flex-row items-center md:items-center gap-6 md:gap-8">
                 <div className="flex-1 text-center md:text-left">
-                  <div className="inline-flex items-center gap-2 bg-orange-500/20 border border-orange-500/30 text-orange-300 text-xs font-bold px-3 py-1 rounded-full mb-3 tracking-wider uppercase">
+                  <div className="inline-flex items-center gap-2 bg-red-600/20 border border-red-600/30 text-red-300 text-xs font-bold px-3 py-1 rounded-full mb-3 tracking-wider uppercase">
                     <Zap className="w-3 h-3" />
                     {data.badge || "พร้อมออกให้บริการทันที"}
                   </div>
                   <h3 className="text-xl sm:text-2xl md:text-3xl font-black text-white leading-tight mb-2">
                     {data.heading || "รถเสีย? อย่ารอช้า —"}<br className="hidden sm:block" />
-                    <span className="text-orange-400"> {data.headingSub || "โทรหาเราได้เลย"}</span>
+                    <span className="text-red-400"> {data.headingSub || "โทรหาเราได้เลย"}</span>
                   </h3>
                   <p className="text-slate-400 text-sm md:text-base leading-relaxed">
                     {data.description || "ช่างผู้เชี่ยวชาญออกนอกสถานที่ภายใน 30 นาที · บริการ 24 ชั่วโมง"}
@@ -398,7 +398,7 @@ export default async function Home() {
                 <div className="flex flex-col sm:flex-row md:flex-col gap-3 w-full md:w-auto md:min-w-[220px]">
                   <Link
                     href={`tel:${ctaPhone}`}
-                    className="group/btn flex items-center justify-center gap-2.5 bg-orange-500 hover:bg-orange-400 active:scale-[0.97] text-white font-bold rounded-2xl px-6 py-4 h-14 md:h-auto transition-all duration-200 shadow-lg shadow-orange-500/30 hover:shadow-orange-400/40 text-base md:text-base"
+                    className="group/btn flex items-center justify-center gap-2.5 bg-red-600 hover:bg-red-400 active:scale-[0.97] text-white font-bold rounded-2xl px-6 py-4 h-14 md:h-auto transition-all duration-200 shadow-lg shadow-red-600/30 hover:shadow-red-400/40 text-base md:text-base"
                   >
                     <PhoneCall className="w-5 h-5 md:w-5 md:h-5 transition-transform group-hover/btn:rotate-12" />
                     <span>โทรด่วน {ctaPhone.replace(/(\d{3})(\d{3})(\d{4})/, "$1-$2-$3")}</span>
@@ -428,7 +428,7 @@ export default async function Home() {
     if (type === "why-us") {
       const items = Array.isArray(data.items) ? data.items : [];
       return (
-        <section key={section.id} id="why-us" className="py-16 md:py-24 px-4 bg-gradient-to-br from-orange-500 via-orange-500 to-orange-600 relative overflow-hidden">
+        <section key={section.id} id="why-us" className="py-16 md:py-24 px-4 bg-gradient-to-br from-red-600 via-red-600 to-red-700 relative overflow-hidden">
           {/* Decorative orbs */}
           <div className="absolute top-0 right-0 w-64 h-64 md:w-96 md:h-96 bg-white/5 rounded-full -translate-y-1/2 translate-x-1/2 pointer-events-none" />
           <div className="absolute bottom-0 left-0 w-48 h-48 md:w-64 md:h-64 bg-black/10 rounded-full translate-y-1/2 -translate-x-1/2 pointer-events-none" />
@@ -470,20 +470,20 @@ export default async function Home() {
       const items = Array.isArray(data.items) ? data.items : [];
       return (
         <section key={section.id} id="faq" className="py-16 md:py-24 px-4 bg-slate-50 relative overflow-hidden">
-          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(249,115,22,0.04),transparent_70%)] pointer-events-none" />
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(220,38,38,0.04),transparent_70%)] pointer-events-none" />
           <div className="max-w-3xl mx-auto relative z-10">
             <div className="text-center mb-8 md:mb-14">
-              <div className="inline-flex items-center gap-2 bg-orange-100 text-orange-600 text-xs font-bold px-4 py-1.5 rounded-full mb-4 tracking-widest uppercase">{data.badge || "FAQ"}</div>
+              <div className="inline-flex items-center gap-2 bg-red-100 text-red-700 text-xs font-bold px-4 py-1.5 rounded-full mb-4 tracking-widest uppercase">{data.badge || "FAQ"}</div>
               <h2 className="text-2xl sm:text-3xl md:text-5xl font-black text-slate-900 mb-3 md:mb-4 px-2">{section.title || "คำถามที่พบบ่อย"}</h2>
               <p className="text-slate-500 max-w-xl mx-auto text-sm md:text-base px-2">{data.subtitle || "รวมคำตอบสำหรับคำถามที่ลูกค้าสอบถามบ่อยที่สุด"}</p>
             </div>
             <div className="space-y-2.5 md:space-y-3">
               {items.map((faq: any, idx: number) => (
-                <details key={idx} className="group bg-white rounded-xl md:rounded-2xl border border-slate-200 hover:border-orange-200 overflow-hidden shadow-sm hover:shadow-md transition-all duration-200">
-                  <summary className="flex items-center justify-between cursor-pointer p-4 md:p-5 font-semibold text-slate-800 hover:text-orange-500 transition-colors select-none list-none text-sm md:text-base">
+                <details key={idx} className="group bg-white rounded-xl md:rounded-2xl border border-slate-200 hover:border-red-200 overflow-hidden shadow-sm hover:shadow-md transition-all duration-200">
+                  <summary className="flex items-center justify-between cursor-pointer p-4 md:p-5 font-semibold text-slate-800 hover:text-red-600 transition-colors select-none list-none text-sm md:text-base">
                     <span className="pr-3 md:pr-4">{faq.question}</span>
-                    <div className="flex-shrink-0 w-7 h-7 md:w-8 md:h-8 rounded-lg md:rounded-xl bg-orange-50 group-open:bg-orange-500 flex items-center justify-center transition-all">
-                      <svg className="w-3.5 h-3.5 md:w-4 md:h-4 text-orange-500 group-open:text-white group-open:rotate-45 transition-all duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M12 4v16m8-8H4" /></svg>
+                    <div className="flex-shrink-0 w-7 h-7 md:w-8 md:h-8 rounded-lg md:rounded-xl bg-red-50 group-open:bg-red-600 flex items-center justify-center transition-all">
+                      <svg className="w-3.5 h-3.5 md:w-4 md:h-4 text-red-600 group-open:text-white group-open:rotate-45 transition-all duration-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M12 4v16m8-8H4" /></svg>
                     </div>
                   </summary>
                   <div className="px-4 md:px-5 pb-4 md:pb-6 text-slate-600 leading-relaxed border-t border-slate-100 pt-3 md:pt-4 text-xs md:text-sm">
@@ -501,12 +501,12 @@ export default async function Home() {
       return (
         <section key={section.id} id="contact" className="py-16 md:py-24 px-4 bg-slate-900 relative overflow-hidden">
           {/* Glowing orbs */}
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-72 h-72 md:w-[600px] md:h-[600px] bg-orange-500/10 rounded-full blur-3xl pointer-events-none" />
-          <div className="absolute top-0 right-0 w-48 h-48 md:w-64 md:h-64 bg-orange-600/10 rounded-full blur-2xl pointer-events-none" />
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-72 h-72 md:w-[600px] md:h-[600px] bg-red-600/10 rounded-full blur-3xl pointer-events-none" />
+          <div className="absolute top-0 right-0 w-48 h-48 md:w-64 md:h-64 bg-red-700/10 rounded-full blur-2xl pointer-events-none" />
           <div className="max-w-3xl mx-auto text-center relative z-10">
             {/* Badge */}
-            <div className="inline-flex items-center gap-2 bg-orange-500/20 border border-orange-500/30 text-orange-300 text-xs font-bold px-4 py-1.5 rounded-full mb-4 md:mb-6 tracking-widest uppercase">
-              <div className="w-1.5 h-1.5 rounded-full bg-orange-400 animate-pulse" />
+            <div className="inline-flex items-center gap-2 bg-red-600/20 border border-red-600/30 text-red-300 text-xs font-bold px-4 py-1.5 rounded-full mb-4 md:mb-6 tracking-widest uppercase">
+              <div className="w-1.5 h-1.5 rounded-full bg-red-400 animate-pulse" />
               {data.badge || "พร้อมให้บริการ 24/7"}
             </div>
             <h2 className="text-2xl sm:text-4xl md:text-6xl font-black text-white mb-3 md:mb-5 leading-tight px-2">
@@ -519,7 +519,7 @@ export default async function Home() {
             <div className="grid grid-cols-2 sm:flex sm:flex-row justify-center gap-2.5 sm:gap-4 mb-8 md:mb-12 px-2">
               <Link
                 href={`tel:${data.phone || phone}`}
-                className="inline-flex items-center justify-center gap-2 md:gap-3 bg-orange-500 hover:bg-orange-400 active:scale-[0.97] text-white font-bold text-sm md:text-lg h-12 md:h-16 px-4 md:px-10 rounded-xl md:rounded-2xl transition-all duration-200 shadow-2xl shadow-orange-500/30 hover:shadow-orange-500/50 sm:hover:-translate-y-1"
+                className="inline-flex items-center justify-center gap-2 md:gap-3 bg-red-600 hover:bg-red-400 active:scale-[0.97] text-white font-bold text-sm md:text-lg h-12 md:h-16 px-4 md:px-10 rounded-xl md:rounded-2xl transition-all duration-200 shadow-2xl shadow-red-600/30 hover:shadow-red-600/50 sm:hover:-translate-y-1"
               >
                 <PhoneCall className="w-4 h-4 md:w-6 md:h-6 flex-shrink-0" />
                 <span className="truncate">{(data.phone || phone).replace(/(\d{3})(\d{3})(\d{4})/, '$1-$2-$3')}</span>
@@ -550,7 +550,7 @@ export default async function Home() {
                 };
                 return (
                   <div key={i} className="flex items-center gap-1.5 md:gap-2 text-slate-400 text-xs md:text-sm">
-                    <div className="text-orange-400">{trustIcons[t.icon] || trustIcons.Star}</div>
+                    <div className="text-red-400">{trustIcons[t.icon] || trustIcons.Star}</div>
                     {t.label}
                   </div>
                 );
@@ -633,7 +633,7 @@ export default async function Home() {
 
     if (type === "sub-header") {
       const bgColors: Record<string, string> = {
-        orange: "bg-gradient-to-r from-orange-600 via-amber-500 to-orange-600",
+        orange: "bg-gradient-to-r from-red-800 via-red-600 to-red-800",
         blue:   "bg-gradient-to-r from-blue-700 via-indigo-600 to-blue-700",
         green:  "bg-gradient-to-r from-emerald-600 via-green-500 to-emerald-600",
         red:    "bg-gradient-to-r from-red-700 via-rose-600 to-red-700",

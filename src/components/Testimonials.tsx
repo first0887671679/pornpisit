@@ -45,18 +45,18 @@ export default function Testimonials({ items }: TestimonialsProps) {
   return (
     <section className="py-16 md:py-24 bg-gradient-to-b from-slate-900 to-slate-800 relative overflow-hidden">
       {/* Decorative background */}
-      <div className="absolute top-0 left-1/4 w-64 h-64 md:w-96 md:h-96 bg-orange-500/5 rounded-full blur-3xl pointer-events-none" />
-      <div className="absolute bottom-0 right-1/4 w-48 h-48 md:w-64 md:h-64 bg-orange-400/5 rounded-full blur-2xl pointer-events-none" />
+      <div className="absolute top-0 left-1/4 w-64 h-64 md:w-96 md:h-96 bg-red-600/5 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute bottom-0 right-1/4 w-48 h-48 md:w-64 md:h-64 bg-red-400/5 rounded-full blur-2xl pointer-events-none" />
 
       <div className="max-w-6xl mx-auto px-4 relative z-10">
         {/* Header */}
         <div className="text-center mb-10 md:mb-16">
-          <div className="inline-flex items-center gap-2 bg-orange-500/10 border border-orange-500/20 text-orange-400 text-xs font-bold px-4 py-1.5 rounded-full mb-4 tracking-widest uppercase">
+          <div className="inline-flex items-center gap-2 bg-red-600/10 border border-red-600/20 text-red-400 text-xs font-bold px-4 py-1.5 rounded-full mb-4 tracking-widest uppercase">
             <Star size={12} fill="currentColor" />
             รีวิวจากลูกค้าจริง
           </div>
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-black text-white mb-3 md:mb-4 px-2">
-            ลูกค้าไว้ใจเรา<span className="text-orange-400">ทั่วกรุงเทพ</span>
+            ลูกค้าไว้ใจเรา<span className="text-red-400">ทั่วกรุงเทพ</span>
           </h2>
           <p className="text-slate-400 max-w-xl mx-auto text-sm md:text-base px-2">ความเชื่อมั่นจากผู้ใช้บริการจริงกว่า 1,000+ ราย</p>
           {/* Rating summary */}
@@ -76,10 +76,10 @@ export default function Testimonials({ items }: TestimonialsProps) {
           {testimonials.map((t, idx) => (
             <div
               key={idx}
-              className="relative bg-white/5 border border-white/10 backdrop-blur-sm rounded-2xl p-5 md:p-6 hover:bg-white/8 hover:border-orange-500/30 transition-all duration-300 sm:hover:-translate-y-1 group"
+              className="relative bg-white/5 border border-white/10 backdrop-blur-sm rounded-2xl p-5 md:p-6 hover:bg-white/8 hover:border-red-600/30 transition-all duration-300 sm:hover:-translate-y-1 group"
             >
               {/* Quote icon */}
-              <div className="absolute top-5 right-5 text-orange-500/20 group-hover:text-orange-500/30 transition-colors">
+              <div className="absolute top-5 right-5 text-red-600/20 group-hover:text-red-600/30 transition-colors">
                 <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
                 </svg>
@@ -103,7 +103,7 @@ export default function Testimonials({ items }: TestimonialsProps) {
                     alt={t.name}
                     width={44}
                     height={44}
-                    className="rounded-full object-cover ring-2 ring-orange-500/30"
+                    className="rounded-full object-cover ring-2 ring-red-600/30"
                   />
                   <div className="absolute -bottom-0.5 -right-0.5 w-3.5 h-3.5 bg-green-400 rounded-full border-2 border-slate-800" />
                 </div>
@@ -112,8 +112,8 @@ export default function Testimonials({ items }: TestimonialsProps) {
                   <div className="text-xs text-slate-400">{t.role}</div>
                 </div>
                 <div className="ml-auto">
-                  <div className="w-7 h-7 rounded-lg bg-orange-500/10 border border-orange-500/20 flex items-center justify-center">
-                    <svg className="w-3.5 h-3.5 text-orange-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <div className="w-7 h-7 rounded-lg bg-red-600/10 border border-red-600/20 flex items-center justify-center">
+                    <svg className="w-3.5 h-3.5 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
                     </svg>
                   </div>

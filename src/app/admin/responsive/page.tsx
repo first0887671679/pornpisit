@@ -30,7 +30,7 @@ export default function ResponsiveSettingsPage() {
   const [navbarHeightMobile, setNavbarHeightMobile] = useState(48);
   const [navBgColor, setNavBgColor] = useState("#0f172a");
   const [navTextColor, setNavTextColor] = useState("#cbd5e1");
-  const [navAccentColor, setNavAccentColor] = useState("#f97316");
+  const [navAccentColor, setNavAccentColor] = useState("#dc2626");
 
   // Hero Banner
   const [heroData, setHeroData] = useState<any>({});
@@ -45,7 +45,7 @@ export default function ResponsiveSettingsPage() {
   const [footerData, setFooterData] = useState<any>({});
   const [footerBgColor, setFooterBgColor] = useState("#020617");
   const [footerTextColor, setFooterTextColor] = useState("#94a3b8");
-  const [footerAccentColor, setFooterAccentColor] = useState("#f97316");
+  const [footerAccentColor, setFooterAccentColor] = useState("#dc2626");
 
   useEffect(() => { fetchData(); }, []);
 
@@ -70,7 +70,7 @@ export default function ResponsiveSettingsPage() {
         setNavbarHeightMobile(d.navbarHeightMobile || 48);
         setNavBgColor(d.navBgColor || "#0f172a");
         setNavTextColor(d.navTextColor || "#cbd5e1");
-        setNavAccentColor(d.navAccentColor || "#f97316");
+        setNavAccentColor(d.navAccentColor || "#dc2626");
       }
 
       // Hero (first hero slide)
@@ -95,7 +95,7 @@ export default function ResponsiveSettingsPage() {
         setFooterData(d);
         setFooterBgColor(d.footerBgColor || "#020617");
         setFooterTextColor(d.footerTextColor || "#94a3b8");
-        setFooterAccentColor(d.footerAccentColor || "#f97316");
+        setFooterAccentColor(d.footerAccentColor || "#dc2626");
       }
     } catch (e) { console.error(e); } finally { setLoading(false); }
   };
@@ -169,7 +169,7 @@ export default function ResponsiveSettingsPage() {
       {values.map(v => (
         <button key={v} onClick={() => onChange(v)} className={`text-[10px] px-2 py-1 rounded border transition-all ${
           current === v
-            ? color === "blue" ? "bg-blue-500 text-white border-blue-500" : "bg-orange-500 text-white border-orange-500"
+            ? color === "blue" ? "bg-blue-500 text-white border-blue-500" : "bg-red-600 text-white border-red-600"
             : "bg-white text-slate-500 border-slate-200 hover:border-slate-300"
         }`}>{v}px</button>
       ))}
@@ -260,8 +260,8 @@ export default function ResponsiveSettingsPage() {
             </div>
             <span className="text-slate-300 text-lg">→</span>
             <div className="text-center">
-              <p className="text-[10px] text-orange-500 mb-1">🖥️ Desktop</p>
-              <div className="rounded-lg overflow-hidden border border-orange-200" style={{ width: 200 }}>
+              <p className="text-[10px] text-red-600 mb-1">🖥️ Desktop</p>
+              <div className="rounded-lg overflow-hidden border border-red-200" style={{ width: 200 }}>
                 <div className="h-0.5" style={{ background: navAccentColor }} />
                 <div className="flex items-center justify-between px-3" style={{ backgroundColor: navBgColor, height: navbarHeight * 0.6 }}>
                   <div className="rounded bg-white/20" style={{ width: logoSize * 0.8, height: logoSize * 0.5 }} />
@@ -341,14 +341,14 @@ export default function ResponsiveSettingsPage() {
               <div className="flex gap-1 mt-1">
                 {["16/9", "4/3", "21/9", "3/2", "free"].map(r => (
                   <button key={r} onClick={() => setHeroImageRatio(r)} className={`text-[10px] px-2 py-1 rounded border transition-all ${
-                    heroImageRatio === r ? "bg-orange-500 text-white border-orange-500" : "bg-white text-slate-500 border-slate-200"
+                    heroImageRatio === r ? "bg-red-600 text-white border-red-600" : "bg-white text-slate-500 border-slate-200"
                   }`}>{r}</button>
                 ))}
               </div>
             </div>
             <div>
               <Label className="text-xs">Overlay Opacity: {heroOverlayOpacity}%</Label>
-              <input type="range" min={10} max={90} value={heroOverlayOpacity} onChange={e => setHeroOverlayOpacity(Number(e.target.value))} className="w-full mt-1 accent-orange-500" />
+              <input type="range" min={10} max={90} value={heroOverlayOpacity} onChange={e => setHeroOverlayOpacity(Number(e.target.value))} className="w-full mt-1 accent-red-600" />
               <div className="flex justify-between text-[9px] text-slate-400">
                 <span>สว่าง (10%)</span>
                 <span>มืด (90%)</span>
@@ -366,7 +366,7 @@ export default function ResponsiveSettingsPage() {
                   <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-black/20" style={{ opacity: heroOverlayOpacity / 100 }} />
                   <div className="absolute bottom-1 left-1 right-1">
                     <div className="h-1 w-8 bg-white/60 rounded mb-0.5" />
-                    <div className="h-0.5 w-5 bg-orange-400/60 rounded" />
+                    <div className="h-0.5 w-5 bg-red-400/60 rounded" />
                   </div>
                 </div>
                 <p className="text-[8px] text-slate-400 mt-0.5">{heroHeightMobile}px</p>
@@ -377,18 +377,18 @@ export default function ResponsiveSettingsPage() {
                   <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-black/20" style={{ opacity: heroOverlayOpacity / 100 }} />
                   <div className="absolute bottom-1.5 left-1.5 right-1.5">
                     <div className="h-1 w-12 bg-white/60 rounded mb-0.5" />
-                    <div className="h-0.5 w-8 bg-orange-400/60 rounded" />
+                    <div className="h-0.5 w-8 bg-red-400/60 rounded" />
                   </div>
                 </div>
                 <p className="text-[8px] text-slate-400 mt-0.5">{heroHeightSm}px</p>
               </div>
               <div className="text-center flex-1">
-                <p className="text-[9px] text-orange-400 mb-1">🖥️</p>
-                <div className="rounded-md overflow-hidden border border-orange-200 bg-slate-800 relative" style={{ width: "100%", aspectRatio: heroImageRatio === "free" ? "16/9" : heroImageRatio, minHeight: heroMinHeightMd * 0.15 }}>
+                <p className="text-[9px] text-red-400 mb-1">🖥️</p>
+                <div className="rounded-md overflow-hidden border border-red-200 bg-slate-800 relative" style={{ width: "100%", aspectRatio: heroImageRatio === "free" ? "16/9" : heroImageRatio, minHeight: heroMinHeightMd * 0.15 }}>
                   <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-black/20" style={{ opacity: heroOverlayOpacity / 100 }} />
                   <div className="absolute bottom-2 left-2 right-2">
                     <div className="h-1.5 w-20 bg-white/60 rounded mb-1" />
-                    <div className="h-1 w-14 bg-orange-400/60 rounded" />
+                    <div className="h-1 w-14 bg-red-400/60 rounded" />
                   </div>
                 </div>
                 <p className="text-[8px] text-slate-400 mt-0.5">{heroImageRatio} / min {heroMinHeightMd}px</p>

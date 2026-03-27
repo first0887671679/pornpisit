@@ -280,10 +280,10 @@ function HeroForm({ data, imageUrl, onChange, onImageChange }: {
 
       {/* รายการ Slides */}
       {currentSlides.map((slide: any, idx: number) => (
-        <Card key={idx} className="border-orange-200 bg-orange-50/30">
+        <Card key={idx} className="border-red-200 bg-red-50/30">
           <CardContent className="pt-4 space-y-3">
             <div className="flex justify-between items-center">
-              <span className="text-sm font-bold text-orange-600">Slide {idx + 1} / {currentSlides.length}</span>
+              <span className="text-sm font-bold text-red-700">Slide {idx + 1} / {currentSlides.length}</span>
               <div className="flex gap-1">
                 <Button type="button" variant="ghost" size="sm" className="h-7 w-7 p-0" disabled={idx === 0} onClick={() => moveSlide(idx, -1)}>
                   <ChevronUp className="w-4 h-4" />
@@ -328,7 +328,7 @@ function HeroForm({ data, imageUrl, onChange, onImageChange }: {
         </Card>
       ))}
 
-      <Button type="button" variant="outline" size="sm" onClick={addSlide} className="w-full border-dashed border-orange-300 text-orange-600 hover:bg-orange-50">
+      <Button type="button" variant="outline" size="sm" onClick={addSlide} className="w-full border-dashed border-red-300 text-red-700 hover:bg-red-50">
         <Plus className="w-4 h-4 mr-1" /> เพิ่ม Slide
       </Button>
     </div>
@@ -551,11 +551,11 @@ function BatteryCheckerForm({ data, onChange }: { data: Record<string, any>; onC
       <div className="border-t pt-3 space-y-2">
         <p className="text-sm font-medium text-slate-700 mb-1">การแสดงผล</p>
         <label className="flex items-center gap-3 cursor-pointer">
-          <input type="checkbox" checked={data.showDropdown !== false} onChange={(e) => onChange({ ...data, showDropdown: e.target.checked })} className="w-4 h-4 rounded border-slate-300 text-orange-500 focus:ring-orange-500" />
+          <input type="checkbox" checked={data.showDropdown !== false} onChange={(e) => onChange({ ...data, showDropdown: e.target.checked })} className="w-4 h-4 rounded border-slate-300 text-red-600 focus:ring-red-600" />
           <span className="text-sm text-slate-700">แสดง Dropdown เลือกยี่ห้อ/รุ่นรถ</span>
         </label>
         <label className="flex items-center gap-3 cursor-pointer">
-          <input type="checkbox" checked={data.showBrandGrid !== false} onChange={(e) => onChange({ ...data, showBrandGrid: e.target.checked })} className="w-4 h-4 rounded border-slate-300 text-orange-500 focus:ring-orange-500" />
+          <input type="checkbox" checked={data.showBrandGrid !== false} onChange={(e) => onChange({ ...data, showBrandGrid: e.target.checked })} className="w-4 h-4 rounded border-slate-300 text-red-600 focus:ring-red-600" />
           <span className="text-sm text-slate-700">แสดง Grid เลือกยี่ห้อรถ (ไอคอน)</span>
         </label>
       </div>
@@ -1133,7 +1133,7 @@ export default function PageEditorPage() {
   };
 
   const renderSectionForm = (onSubmit: () => void, submitLabel: string) => (
-    <Card className="mb-4 border-orange-200 bg-orange-50/30">
+    <Card className="mb-4 border-red-200 bg-red-50/30">
       <CardContent className="pt-6 space-y-4">
         <div className="grid grid-cols-2 gap-3">
           <div>
@@ -1204,7 +1204,7 @@ export default function PageEditorPage() {
         </div>
 
         <div className="flex gap-2 pt-2 border-t">
-          <Button onClick={() => { setConfirmMsg("คุณต้องการบันทึก Section นี้หรือไม่?"); setConfirmAction(() => onSubmit); setShowConfirm(true); }} disabled={saving} className="bg-orange-500 hover:bg-orange-600">
+          <Button onClick={() => { setConfirmMsg("คุณต้องการบันทึก Section นี้หรือไม่?"); setConfirmAction(() => onSubmit); setShowConfirm(true); }} disabled={saving} className="bg-red-600 hover:bg-red-700">
             <Save className="w-4 h-4 mr-2" />
             {saving ? "กำลังบันทึก..." : submitLabel}
           </Button>
@@ -1271,13 +1271,13 @@ export default function PageEditorPage() {
       <div className="mb-8">
         <div className="flex justify-between items-center mb-4">
           <h2 className="text-xl font-bold text-slate-700 flex items-center gap-2">
-            <LayoutTemplate className="w-5 h-5 text-orange-500" />
+            <LayoutTemplate className="w-5 h-5 text-red-600" />
             เนื้อหา (Sections)
           </h2>
           {!showAddSection && !editingSectionId && (
             <Button
               size="sm"
-              className="bg-orange-500 hover:bg-orange-600"
+              className="bg-red-600 hover:bg-red-700"
               onClick={() => {
                 setShowAddSection(true);
                 resetSectionForm();

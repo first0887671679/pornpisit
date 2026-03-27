@@ -86,7 +86,7 @@ export default function IndexingAdminPage() {
   if (loading) {
     return (
       <div className="flex items-center justify-center py-20">
-        <Loader2 className="w-8 h-8 animate-spin text-orange-500" />
+        <Loader2 className="w-8 h-8 animate-spin text-red-600" />
         <span className="ml-3 text-slate-500">กำลังโหลด...</span>
       </div>
     );
@@ -179,11 +179,11 @@ export default function IndexingAdminPage() {
         </Card>
 
         {/* AI Crawl Toggle */}
-        <Card className={`transition-all duration-300 ${settings.allowAiCrawl ? "border-green-200 bg-green-50/30" : "border-orange-200 bg-orange-50/30"}`}>
+        <Card className={`transition-all duration-300 ${settings.allowAiCrawl ? "border-green-200 bg-green-50/30" : "border-red-200 bg-red-50/30"}`}>
           <CardHeader className="pb-3">
             <CardTitle className="flex items-center gap-3">
-              <div className={`w-10 h-10 rounded-xl flex items-center justify-center ${settings.allowAiCrawl ? "bg-green-100" : "bg-orange-100"}`}>
-                <Bot className={`w-5 h-5 ${settings.allowAiCrawl ? "text-green-600" : "text-orange-600"}`} />
+              <div className={`w-10 h-10 rounded-xl flex items-center justify-center ${settings.allowAiCrawl ? "bg-green-100" : "bg-red-100"}`}>
+                <Bot className={`w-5 h-5 ${settings.allowAiCrawl ? "text-green-600" : "text-red-700"}`} />
               </div>
               <div>
                 <span className="text-lg">AI Crawling</span>
@@ -199,7 +199,7 @@ export default function IndexingAdminPage() {
                     สถานะ: {settings.allowAiCrawl ? (
                       <span className="text-green-600">เปิดอยู่ ✓</span>
                     ) : (
-                      <span className="text-orange-600">ปิดอยู่ ✗</span>
+                      <span className="text-red-700">ปิดอยู่ ✗</span>
                     )}
                   </p>
                   <p className="text-xs text-slate-400 mt-1">
@@ -213,7 +213,7 @@ export default function IndexingAdminPage() {
                   className={`relative w-14 h-7 rounded-full transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 ${
                     settings.allowAiCrawl
                       ? "bg-green-500 focus:ring-green-500"
-                      : "bg-orange-400 focus:ring-orange-400"
+                      : "bg-red-400 focus:ring-red-400"
                   }`}
                 >
                   <span
@@ -224,7 +224,7 @@ export default function IndexingAdminPage() {
                 </button>
               </div>
 
-              <div className={`p-3 rounded-lg text-xs ${settings.allowAiCrawl ? "bg-green-50 text-green-700" : "bg-orange-50 text-orange-700"}`}>
+              <div className={`p-3 rounded-lg text-xs ${settings.allowAiCrawl ? "bg-green-50 text-green-700" : "bg-red-50 text-red-800"}`}>
                 {settings.allowAiCrawl ? (
                   <div className="flex items-start gap-2">
                     <Shield className="w-4 h-4 mt-0.5 flex-shrink-0" />
@@ -261,7 +261,7 @@ export default function IndexingAdminPage() {
           disabled={saving || !hasChanges}
           className={`px-6 py-3 text-base ${
             hasChanges
-              ? "bg-orange-500 hover:bg-orange-600"
+              ? "bg-red-600 hover:bg-red-700"
               : "bg-slate-300 cursor-not-allowed"
           }`}
         >

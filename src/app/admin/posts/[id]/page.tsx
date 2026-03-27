@@ -319,7 +319,7 @@ export default function PostEditor() {
           <Button
             onClick={() => setShowConfirm(true)}
             disabled={saving}
-            className="w-full bg-orange-500 hover:bg-orange-600 h-12 text-base"
+            className="w-full bg-red-600 hover:bg-red-700 h-12 text-base"
           >
             <Save className="w-5 h-5 mr-2" />
             {saving ? "กำลังบันทึก..." : isNew ? "สร้างบทความ" : "บันทึกบทความ"}

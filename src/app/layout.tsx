@@ -28,7 +28,7 @@ export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
   maximumScale: 5,
-  themeColor: "#f97316",
+  themeColor: "#dc2626",
 };
 
 async function getSiteSettings() {
@@ -177,7 +177,7 @@ export default async function RootLayout({
                 navbarHeightMobile={headerData.navbarHeightMobile || 48}
                 navBgColor={headerData.navBgColor || "#0f172a"}
                 navTextColor={headerData.navTextColor || "#cbd5e1"}
-                navAccentColor={headerData.navAccentColor || "#f97316"}
+                navAccentColor={headerData.navAccentColor || "#dc2626"}
               />
             ) : null
           }
@@ -185,7 +185,7 @@ export default async function RootLayout({
             footerSection ? (() => {
               const ftBg = footerData.footerBgColor || "#020617";
               const ftText = footerData.footerTextColor || "#94a3b8";
-              const ftAccent = footerData.footerAccentColor || "#f97316";
+              const ftAccent = footerData.footerAccentColor || "#dc2626";
               return (
               <footer className="relative overflow-hidden" style={{ backgroundColor: ftBg, color: ftText }}>
                 {/* Decorative top border */}

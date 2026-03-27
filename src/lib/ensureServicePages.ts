@@ -44,7 +44,7 @@ const SERVICE_PAGES: ServicePageDef[] = [
         type: "why-us",
         title: "ทำไมต้องเรียกเรา",
         content: JSON.stringify({
-          heading: 'ทำไมต้องเรียกใช้บริการ <span class="text-orange-500">ร้านปะยางใกล้ฉัน</span> ของเรา?',
+          heading: 'ทำไมต้องเรียกใช้บริการ <span class="text-red-600">ร้านปะยางใกล้ฉัน</span> ของเรา?',
           items: [
             { icon: "Clock", title: "รวดเร็ว ทันใจ ถึงหน้างานไวใน 30 นาที", desc: "ทีมช่างสแตนด์บายพร้อมออกบริการตลอด 24 ชม. ไม่ว่าจะดึกดื่นแค่ไหน เราไปถึงคุณได้" },
             { icon: "Shield", title: "เครื่องมือมาตรฐาน ปลอดภัย 100%", desc: "ปะแบบแทงไหมและสตีมยาง ใช้เครื่องมือคุณภาพสูง มาตรฐานความปลอดภัย ขับต่อได้ทันที" },
@@ -119,7 +119,7 @@ const SERVICE_PAGES: ServicePageDef[] = [
         type: "why-us",
         title: "กำลังมองหาร้านแบตเตอรี่ใกล้ฉัน",
         content: JSON.stringify({
-          heading: 'กำลังมองหา <span class="text-orange-500">ร้านแบตเตอรี่ใกล้ฉัน</span> อยู่ใช่ไหม?<br class="hidden sm:block" /><span class="text-lg sm:text-xl md:text-2xl font-bold text-slate-600">เราพร้อมไปถึงไวใน 30 นาที</span>',
+          heading: 'กำลังมองหา <span class="text-red-600">ร้านแบตเตอรี่ใกล้ฉัน</span> อยู่ใช่ไหม?<br class="hidden sm:block" /><span class="text-lg sm:text-xl md:text-2xl font-bold text-slate-600">เราพร้อมไปถึงไวใน 30 นาที</span>',
           items: [
             { icon: "Clock", title: "บริการถึงที่ สะดวก รวดเร็ว", desc: "ไม่ต้องลากรถไปร้าน ช่างพร้อมนำแบตเตอรี่ลูกใหม่ไปเปลี่ยนให้ถึงที่ ภายใน 30 นาที ทุกวัน 24 ชม." },
             { icon: "Shield", title: "แบตเตอรี่แท้ 100% มีรับประกันทุกลูก", desc: "เราเลือกใช้แบตเตอรี่แท้จากโรงงาน GS, FB, Panasonic, 3K และอื่นๆ รับประกันคุณภาพ 1-2 ปีเต็ม" },
@@ -195,7 +195,7 @@ const SERVICE_PAGES: ServicePageDef[] = [
         type: "info",
         title: "วิเคราะห์อาการ",
         content: JSON.stringify({
-          heading: 'รถสตาร์ทไม่ติด เป็นที่ <span class="text-orange-500">แบตเตอรี่ ไดชาร์จ หรือ ไดสตาร์ท?</span>',
+          heading: 'รถสตาร์ทไม่ติด เป็นที่ <span class="text-red-600">แบตเตอรี่ ไดชาร์จ หรือ ไดสตาร์ท?</span>',
           layout: "two-column",
           items: [
             { icon: "Zap", title: "อาการไดชาร์จเสีย (Alternator)", desc: "ไฟรูปแบตเตอรี่เตือนสีแดงโชว์หน้าปัด\nแอร์ไม่เย็น ไฟหน้าหรี่ลง\nเครื่องยนต์ดับกลางทาง\nชาร์จไฟไม่เข้า แบตหมดซ้ำๆ" },
@@ -272,7 +272,7 @@ const SERVICE_PAGES: ServicePageDef[] = [
         type: "why-us",
         title: "ทำไมต้องเลือกเรา",
         content: JSON.stringify({
-          heading: 'ทำไมต้องเลือก <span class="text-orange-500">บริการขัดสีรถถึงบ้าน</span> และ <span class="text-orange-500">ขัดไฟหน้า</span> ของเรา?',
+          heading: 'ทำไมต้องเลือก <span class="text-red-600">บริการขัดสีรถถึงบ้าน</span> และ <span class="text-red-600">ขัดไฟหน้า</span> ของเรา?',
           items: [
             { icon: "Sun", title: "ขัดไฟหน้าใสปิ๊ง แก้ปัญหาไฟหน้าเหลือง หมอง ลอก", desc: "ขัดไล่เบอร์กระดาษทรายและเคลือบ UV ป้องกันการเหลืองซ้ำ เพิ่มความสว่างและความปลอดภัยในการขับขี่ยามค่ำคืน" },
             { icon: "Sparkles", title: "ขัดลบรอยขีดข่วน รอยขนแมว รอยเบียดเฉี่ยวชน", desc: "ฟื้นฟูสภาพสีรถให้กลับมาเรียบเนียน เงางาม ด้วยน้ำยาขัดสีคุณภาพสูงและแผ่นขัดระดับมืออาชีพ" },
@@ -335,7 +335,7 @@ const SERVICE_PAGES: ServicePageDef[] = [
         type: "hero",
         title: "Hero",
         content: JSON.stringify({
-          heading: 'ติดต่อเรียกช่างซ่อมรถด่วน นอกสถานที่ <span class="text-orange-400">24 ชั่วโมง</span>',
+          heading: 'ติดต่อเรียกช่างซ่อมรถด่วน นอกสถานที่ <span class="text-red-400">24 ชั่วโมง</span>',
           description: 'เกิดเหตุฉุกเฉิน รถสตาร์ทไม่ติด ยางแตก รถดับกลางทาง ต้องการความช่วยเหลือด่วน โทรหาเราได้ตลอดเวลา ทีมช่างของเราสแตนด์บายพร้อมออกให้บริการในพื้นที่ <strong class="text-white">กรุงเทพฯ ตะวันออก</strong> และ <strong class="text-white">สมุทรปราการ</strong> ประเมินราคาฟรี ไม่มีบวกเพิ่มหน้างาน',
           ctaPhoneLabel: "โทรเรียกช่างด่วน",
           ctaLineLabel: "แอดไลน์ส่งพิกัด",
@@ -354,7 +354,7 @@ const SERVICE_PAGES: ServicePageDef[] = [
         type: "areas",
         title: "พื้นที่ให้บริการ",
         content: JSON.stringify({
-          heading: 'พื้นที่ให้บริการ <span class="text-orange-500">ช่างซ่อมรถนอกสถานที่</span> ของเรา',
+          heading: 'พื้นที่ให้บริการ <span class="text-red-600">ช่างซ่อมรถนอกสถานที่</span> ของเรา',
           description: "เพื่อความรวดเร็วในการเข้าถึงหน้างาน ภายใน 30-45 นาที เราให้บริการครอบคลุมพื้นที่ดังต่อไปนี้:",
           areas: ["ศรีนครินทร์", "เทพารักษ์", "แพรกษา", "วัดด่านสำโรง", "วัดหนามแดง", "สุขุมวิทตอนปลาย", "บางนา", "แบริ่ง", "ลาซาล"],
         }),

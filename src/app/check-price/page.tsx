@@ -114,12 +114,12 @@ export default function CheckPricePage() {
       <div className="min-h-screen bg-white">
         {/* ── Hero Section ── */}
         <section className="relative overflow-hidden bg-slate-950 pt-8 pb-12 sm:pt-12 sm:pb-16 md:pt-16 md:pb-24 px-4">
-          <div className="absolute top-0 left-0 w-64 h-64 md:w-[500px] md:h-[500px] bg-orange-500/5 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2 pointer-events-none" />
-          <div className="absolute bottom-0 right-0 w-48 h-48 md:w-[400px] md:h-[400px] bg-orange-400/5 rounded-full blur-3xl translate-x-1/2 translate-y-1/2 pointer-events-none" />
+          <div className="absolute top-0 left-0 w-64 h-64 md:w-[500px] md:h-[500px] bg-red-600/5 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2 pointer-events-none" />
+          <div className="absolute bottom-0 right-0 w-48 h-48 md:w-[400px] md:h-[400px] bg-red-400/5 rounded-full blur-3xl translate-x-1/2 translate-y-1/2 pointer-events-none" />
           <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.015)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.015)_1px,transparent_1px)] bg-[size:40px_40px] pointer-events-none" />
 
           <div className="max-w-5xl mx-auto relative z-10 text-center">
-            <div className="inline-flex items-center gap-2 bg-orange-500/10 border border-orange-500/20 text-orange-400 text-[10px] sm:text-xs font-bold px-3 sm:px-4 py-1 sm:py-1.5 rounded-full mb-4 sm:mb-5 tracking-widest uppercase">
+            <div className="inline-flex items-center gap-2 bg-red-600/10 border border-red-600/20 text-red-400 text-[10px] sm:text-xs font-bold px-3 sm:px-4 py-1 sm:py-1.5 rounded-full mb-4 sm:mb-5 tracking-widest uppercase">
               <Search className="w-3 h-3" />
               เช็ครุ่นแบตเตอรี่รถยนต์
             </div>
@@ -140,7 +140,7 @@ export default function CheckPricePage() {
                 { icon: <Award className="w-3.5 h-3.5" />, label: "แบตแท้ 100%" },
               ].map((b) => (
                 <div key={b.label} className="flex items-center gap-1.5 text-white/60 text-[10px] sm:text-xs font-medium">
-                  <div className="text-orange-400">{b.icon}</div>
+                  <div className="text-red-400">{b.icon}</div>
                   {b.label}
                 </div>
               ))}
@@ -154,7 +154,7 @@ export default function CheckPricePage() {
         </section>
 
         {/* ── CTA Bottom ── */}
-        <section className="py-10 md:py-16 px-4 bg-gradient-to-br from-orange-500 via-orange-500 to-orange-600 relative overflow-hidden mt-16">
+        <section className="py-10 md:py-16 px-4 bg-gradient-to-br from-red-600 via-red-600 to-red-700 relative overflow-hidden mt-16">
           <div className="absolute top-0 right-0 w-64 h-64 md:w-96 md:h-96 bg-white/5 rounded-full -translate-y-1/2 translate-x-1/2 pointer-events-none" />
           <div className="absolute bottom-0 left-0 w-48 h-48 md:w-64 md:h-64 bg-black/10 rounded-full translate-y-1/2 -translate-x-1/2 pointer-events-none" />
 
@@ -169,7 +169,7 @@ export default function CheckPricePage() {
             <div className="flex flex-col sm:flex-row justify-center gap-3">
               <Link
                 href={`tel:${SITE_CONFIG.phone}`}
-                className="inline-flex items-center justify-center gap-2 bg-white hover:bg-slate-50 active:scale-95 text-orange-600 font-bold text-sm md:text-base h-12 md:h-14 px-6 md:px-8 rounded-xl md:rounded-2xl transition-all shadow-lg"
+                className="inline-flex items-center justify-center gap-2 bg-white hover:bg-slate-50 active:scale-95 text-red-700 font-bold text-sm md:text-base h-12 md:h-14 px-6 md:px-8 rounded-xl md:rounded-2xl transition-all shadow-lg"
               >
                 <PhoneCall className="w-4 h-4 md:w-5 md:h-5" />
                 โทร {SITE_CONFIG.phoneFormatted}
@@ -213,13 +213,13 @@ export default function CheckPricePage() {
               ].map((faq, idx) => (
                 <details
                   key={idx}
-                  className="group bg-white rounded-xl md:rounded-2xl border border-slate-200 hover:border-orange-200 overflow-hidden shadow-sm hover:shadow-md transition-all duration-200"
+                  className="group bg-white rounded-xl md:rounded-2xl border border-slate-200 hover:border-red-200 overflow-hidden shadow-sm hover:shadow-md transition-all duration-200"
                 >
-                  <summary className="flex items-center justify-between cursor-pointer p-4 md:p-5 font-semibold text-slate-800 hover:text-orange-500 transition-colors select-none list-none text-sm md:text-base">
+                  <summary className="flex items-center justify-between cursor-pointer p-4 md:p-5 font-semibold text-slate-800 hover:text-red-600 transition-colors select-none list-none text-sm md:text-base">
                     <span className="pr-3">{faq.q}</span>
-                    <div className="flex-shrink-0 w-7 h-7 md:w-8 md:h-8 rounded-lg md:rounded-xl bg-orange-50 group-open:bg-orange-500 flex items-center justify-center transition-all">
+                    <div className="flex-shrink-0 w-7 h-7 md:w-8 md:h-8 rounded-lg md:rounded-xl bg-red-50 group-open:bg-red-600 flex items-center justify-center transition-all">
                       <svg
-                        className="w-3.5 h-3.5 md:w-4 md:h-4 text-orange-500 group-open:text-white group-open:rotate-45 transition-all duration-200"
+                        className="w-3.5 h-3.5 md:w-4 md:h-4 text-red-600 group-open:text-white group-open:rotate-45 transition-all duration-200"
                         fill="none"
                         stroke="currentColor"
                         viewBox="0 0 24 24"

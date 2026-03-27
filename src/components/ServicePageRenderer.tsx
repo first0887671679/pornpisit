@@ -6,35 +6,35 @@ import ServiceCrossLinks from "@/components/ServiceCrossLinks";
 
 /* ─── Icon mapping from string → component ─── */
 const ICON_MAP: Record<string, React.ReactNode> = {
-  Clock: <Clock className="w-8 h-8 text-orange-500" />,
-  Shield: <Shield className="w-8 h-8 text-orange-500" />,
-  CheckCircle: <CheckCircle className="w-8 h-8 text-orange-500" />,
+  Clock: <Clock className="w-8 h-8 text-red-600" />,
+  Shield: <Shield className="w-8 h-8 text-red-600" />,
+  CheckCircle: <CheckCircle className="w-8 h-8 text-red-600" />,
   AlertTriangle: <AlertTriangle className="w-5 h-5 text-amber-500" />,
-  Wrench: <Wrench className="w-8 h-8 text-orange-500" />,
-  Zap: <Zap className="w-8 h-8 text-orange-500" />,
-  Battery: <Battery className="w-8 h-8 text-orange-500" />,
-  Sun: <Sun className="w-8 h-8 text-orange-500" />,
-  Sparkles: <Sparkles className="w-8 h-8 text-orange-500" />,
-  Camera: <Camera className="w-8 h-8 text-orange-500" />,
-  MapPin: <MapPin className="w-6 h-6 text-orange-500" />,
-  Phone: <Phone className="w-8 h-8 text-orange-500" />,
+  Wrench: <Wrench className="w-8 h-8 text-red-600" />,
+  Zap: <Zap className="w-8 h-8 text-red-600" />,
+  Battery: <Battery className="w-8 h-8 text-red-600" />,
+  Sun: <Sun className="w-8 h-8 text-red-600" />,
+  Sparkles: <Sparkles className="w-8 h-8 text-red-600" />,
+  Camera: <Camera className="w-8 h-8 text-red-600" />,
+  MapPin: <MapPin className="w-6 h-6 text-red-600" />,
+  Phone: <Phone className="w-8 h-8 text-red-600" />,
   PhoneCall: <PhoneCall className="w-5 h-5" />,
   MessageCircle: <MessageCircle className="w-5 h-5" />,
-  Navigation: <Navigation className="w-4 h-4 text-orange-500" />,
-  CalendarDays: <CalendarDays className="w-10 h-10 md:w-12 md:h-12 text-orange-500" />,
+  Navigation: <Navigation className="w-4 h-4 text-red-600" />,
+  CalendarDays: <CalendarDays className="w-10 h-10 md:w-12 md:h-12 text-red-600" />,
   Facebook: <Facebook className="w-8 h-8 text-[#1877F2]" />,
 };
 
 const ICON_SMALL: Record<string, React.ReactNode> = {
   AlertTriangle: <AlertTriangle className="w-4 h-4 text-amber-500 flex-shrink-0 mt-0.5" />,
-  Wrench: <Wrench className="w-6 h-6 text-orange-500" />,
-  Shield: <Shield className="w-6 h-6 text-orange-500" />,
-  CheckCircle: <CheckCircle className="w-6 h-6 text-orange-500" />,
+  Wrench: <Wrench className="w-6 h-6 text-red-600" />,
+  Shield: <Shield className="w-6 h-6 text-red-600" />,
+  CheckCircle: <CheckCircle className="w-6 h-6 text-red-600" />,
   Zap: <Zap className="w-6 h-6 text-red-500" />,
-  Camera: <Camera className="w-5 h-5 text-orange-500" />,
-  MessageCircle: <MessageCircle className="w-5 h-5 text-orange-500" />,
-  Clock: <Clock className="w-4 h-4 text-orange-500" />,
-  Navigation: <Navigation className="w-4 h-4 text-orange-500" />,
+  Camera: <Camera className="w-5 h-5 text-red-600" />,
+  MessageCircle: <MessageCircle className="w-5 h-5 text-red-600" />,
+  Clock: <Clock className="w-4 h-4 text-red-600" />,
+  Navigation: <Navigation className="w-4 h-4 text-red-600" />,
 };
 
 function getIcon(name: string, size: "normal" | "small" = "normal") {
@@ -122,18 +122,18 @@ function HeroSection({ data, imageUrl, breadcrumbLabel, slug }: { data: any; ima
       )}
 
       {/* ─── Decorative Elements ─── */}
-      <div className="absolute top-0 left-0 w-72 h-72 md:w-[600px] md:h-[600px] bg-orange-500/10 rounded-full blur-[100px] -translate-x-1/2 -translate-y-1/2 pointer-events-none" />
-      <div className="absolute bottom-0 right-0 w-56 h-56 md:w-[500px] md:h-[500px] bg-orange-400/8 rounded-full blur-[80px] translate-x-1/3 translate-y-1/3 pointer-events-none" />
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-orange-500/[0.03] rounded-full blur-[120px] pointer-events-none" />
+      <div className="absolute top-0 left-0 w-72 h-72 md:w-[600px] md:h-[600px] bg-red-600/10 rounded-full blur-[100px] -translate-x-1/2 -translate-y-1/2 pointer-events-none" />
+      <div className="absolute bottom-0 right-0 w-56 h-56 md:w-[500px] md:h-[500px] bg-red-400/8 rounded-full blur-[80px] translate-x-1/3 translate-y-1/3 pointer-events-none" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-red-600/[0.03] rounded-full blur-[120px] pointer-events-none" />
 
       {/* ─── Content ─── */}
       <div className="relative z-10 w-full max-w-5xl mx-auto px-4 sm:px-6 py-14 sm:py-16 md:py-20 text-center">
         {/* Breadcrumb */}
         <nav aria-label="breadcrumb" className="mb-6 md:mb-8">
           <ol className="inline-flex items-center gap-2 text-xs sm:text-sm bg-white/10 backdrop-blur-md rounded-full px-4 py-1.5 border border-white/10">
-            <li><Link href="/" className="text-white/60 hover:text-orange-400 transition-colors">หน้าแรก</Link></li>
+            <li><Link href="/" className="text-white/60 hover:text-red-400 transition-colors">หน้าแรก</Link></li>
             <li className="text-white/30">/</li>
-            <li className="text-orange-400 font-medium">{breadcrumbLabel}</li>
+            <li className="text-red-400 font-medium">{breadcrumbLabel}</li>
           </ol>
         </nav>
 
@@ -157,7 +157,7 @@ function HeroSection({ data, imageUrl, breadcrumbLabel, slug }: { data: any; ima
         <div className="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4 mb-8 md:mb-10">
           <Link
             href={`tel:${SITE_CONFIG.phone}`}
-            className="group relative inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-orange-500 to-orange-600 hover:from-orange-400 hover:to-orange-500 active:scale-[0.97] text-white font-bold text-base sm:text-lg h-14 sm:h-16 px-8 sm:px-10 rounded-2xl transition-all duration-200 shadow-[0_8px_32px_rgba(249,115,22,0.4)] hover:shadow-[0_12px_40px_rgba(249,115,22,0.5)]"
+            className="group relative inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-red-600 to-red-700 hover:from-red-400 hover:to-red-600 active:scale-[0.97] text-white font-bold text-base sm:text-lg h-14 sm:h-16 px-8 sm:px-10 rounded-2xl transition-all duration-200 shadow-[0_8px_32px_rgba(220,38,38,0.4)] hover:shadow-[0_12px_40px_rgba(220,38,38,0.5)]"
           >
             <PhoneCall className="w-5 h-5 sm:w-6 sm:h-6 group-hover:animate-pulse" />
             {ctaPhone}
@@ -176,9 +176,9 @@ function HeroSection({ data, imageUrl, breadcrumbLabel, slug }: { data: any; ima
         {/* Trust Badges */}
         <div className="flex flex-wrap justify-center gap-3 sm:gap-5">
           {[
-            { icon: <Clock className="w-4 h-4 text-orange-400" />, text: "บริการ 24 ชม." },
-            { icon: <Shield className="w-4 h-4 text-orange-400" />, text: "ช่างมืออาชีพ" },
-            { icon: <Zap className="w-4 h-4 text-orange-400" />, text: "ถึงไว 30 นาที" },
+            { icon: <Clock className="w-4 h-4 text-red-400" />, text: "บริการ 24 ชม." },
+            { icon: <Shield className="w-4 h-4 text-red-400" />, text: "ช่างมืออาชีพ" },
+            { icon: <Zap className="w-4 h-4 text-red-400" />, text: "ถึงไว 30 นาที" },
           ].map((badge, i) => (
             <div key={i} className="inline-flex items-center gap-1.5 bg-white/10 backdrop-blur-sm rounded-full px-3 py-1.5 border border-white/10 text-xs sm:text-sm text-white/80">
               {badge.icon}
@@ -209,9 +209,9 @@ function WhyUsSection({ data, title }: { data: any; title: string | null }) {
         )}
         <div className={`grid grid-cols-1 md:grid-cols-${Math.min(items.length, 3)} gap-5 md:gap-8`}>
           {items.map((item, idx) => (
-            <div key={idx} className="bg-slate-50 rounded-2xl p-6 md:p-8 border border-slate-100 hover:border-orange-200 transition-all hover:shadow-lg">
-              <div className="w-14 h-14 bg-orange-50 rounded-2xl flex items-center justify-center mb-4">
-                {getIcon(item.icon) || <CheckCircle className="w-8 h-8 text-orange-500" />}
+            <div key={idx} className="bg-slate-50 rounded-2xl p-6 md:p-8 border border-slate-100 hover:border-red-200 transition-all hover:shadow-lg">
+              <div className="w-14 h-14 bg-red-50 rounded-2xl flex items-center justify-center mb-4">
+                {getIcon(item.icon) || <CheckCircle className="w-8 h-8 text-red-600" />}
               </div>
               <h3 className="text-base md:text-lg font-bold text-slate-900 mb-2">{item.title}</h3>
               <p className="text-slate-600 text-sm leading-relaxed">{item.desc}</p>
@@ -244,8 +244,8 @@ function InfoSection({ data, title }: { data: any; title: string | null }) {
             {items.length > 0 && layout === "steps" && (
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                 {items.map((s, idx) => (
-                  <div key={idx} className="flex items-center gap-3 bg-orange-50 rounded-xl p-4">
-                    <span className="w-8 h-8 bg-orange-500 text-white rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0">{s.step || idx + 1}</span>
+                  <div key={idx} className="flex items-center gap-3 bg-red-50 rounded-xl p-4">
+                    <span className="w-8 h-8 bg-red-600 text-white rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0">{s.step || idx + 1}</span>
                     <div className="flex items-center gap-2">
                       {s.icon && getIcon(s.icon, "small")}
                       <span className="text-sm font-medium text-slate-700">{s.text || s.title}</span>
@@ -257,7 +257,7 @@ function InfoSection({ data, title }: { data: any; title: string | null }) {
             {items.length > 0 && layout === "cards" && (
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                 {items.map((item, idx) => (
-                  <div key={idx} className="flex items-center gap-3 bg-orange-50 rounded-xl p-4">
+                  <div key={idx} className="flex items-center gap-3 bg-red-50 rounded-xl p-4">
                     <div className="flex-shrink-0">{getIcon(item.icon || "CheckCircle", "small")}</div>
                     <div>
                       {item.title && <p className="text-sm font-bold text-slate-900">{item.title}</p>}
@@ -282,9 +282,9 @@ function InfoSection({ data, title }: { data: any; title: string | null }) {
         {!description && items.length > 0 && layout === "two-column" && (
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-8">
             {items.map((item, idx) => (
-              <div key={idx} className="bg-slate-50 rounded-2xl p-6 md:p-8 border border-slate-100 hover:border-orange-200 transition-all hover:shadow-lg">
+              <div key={idx} className="bg-slate-50 rounded-2xl p-6 md:p-8 border border-slate-100 hover:border-red-200 transition-all hover:shadow-lg">
                 <div className="flex items-center gap-3 mb-4">
-                  <div className="w-12 h-12 bg-orange-50 rounded-xl flex items-center justify-center">
+                  <div className="w-12 h-12 bg-red-50 rounded-xl flex items-center justify-center">
                     {getIcon(item.icon || "Zap", "small")}
                   </div>
                   {item.title && <h3 className="text-lg md:text-xl font-bold text-slate-900">{item.title}</h3>}
@@ -307,8 +307,8 @@ function InfoSection({ data, title }: { data: any; title: string | null }) {
           <div className="bg-white rounded-2xl border border-slate-200 p-6 md:p-10 shadow-sm">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
               {items.map((s, idx) => (
-                <div key={idx} className="flex items-center gap-3 bg-orange-50 rounded-xl p-4">
-                  <span className="w-8 h-8 bg-orange-500 text-white rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0">{s.step || idx + 1}</span>
+                <div key={idx} className="flex items-center gap-3 bg-red-50 rounded-xl p-4">
+                  <span className="w-8 h-8 bg-red-600 text-white rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0">{s.step || idx + 1}</span>
                   <span className="text-sm font-medium text-slate-700">{s.text || s.title}</span>
                 </div>
               ))}
@@ -357,13 +357,13 @@ function CtaBottomSection({ data }: { data: any }) {
   const ctaLineLabel = data.ctaLineLabel || "แอดไลน์ส่งพิกัด";
 
   return (
-    <section className="py-12 md:py-20 px-4 bg-gradient-to-br from-orange-500 via-orange-500 to-orange-600 relative overflow-hidden">
+    <section className="py-12 md:py-20 px-4 bg-gradient-to-br from-red-600 via-red-600 to-red-700 relative overflow-hidden">
       <div className="absolute top-0 right-0 w-64 h-64 md:w-96 md:h-96 bg-white/5 rounded-full -translate-y-1/2 translate-x-1/2 pointer-events-none" />
       <div className="max-w-3xl mx-auto text-center relative z-10">
         {heading && <h2 className="text-xl sm:text-2xl md:text-3xl font-black text-white mb-3 md:mb-4">{heading}</h2>}
         {description && <p className="text-white/80 text-sm md:text-base mb-6 md:mb-8 max-w-xl mx-auto">{description}</p>}
         <div className="flex flex-col sm:flex-row justify-center gap-3">
-          <Link href={`tel:${SITE_CONFIG.phone}`} className="inline-flex items-center justify-center gap-2 bg-white hover:bg-slate-50 active:scale-95 text-orange-600 font-bold text-base h-14 px-8 rounded-2xl transition-all shadow-lg">
+          <Link href={`tel:${SITE_CONFIG.phone}`} className="inline-flex items-center justify-center gap-2 bg-white hover:bg-slate-50 active:scale-95 text-red-700 font-bold text-base h-14 px-8 rounded-2xl transition-all shadow-lg">
             <PhoneCall className="w-5 h-5" />
             {ctaPhoneLabel}
           </Link>
@@ -386,7 +386,7 @@ function ContactChannelsSection({ data, title }: { data: any; title: string | nu
   ];
 
   const colorMap: Record<string, { border: string; bg: string; bgHover: string; text: string; icon: React.ReactNode }> = {
-    phone: { border: "hover:border-orange-300", bg: "bg-orange-50", bgHover: "group-hover:bg-orange-500", text: "text-orange-500", icon: <Phone className="w-8 h-8 text-orange-500 group-hover:text-white transition-colors" /> },
+    phone: { border: "hover:border-red-300", bg: "bg-red-50", bgHover: "group-hover:bg-red-600", text: "text-red-600", icon: <Phone className="w-8 h-8 text-red-600 group-hover:text-white transition-colors" /> },
     line: { border: "hover:border-green-300", bg: "bg-green-50", bgHover: "group-hover:bg-[#06C755]", text: "text-[#06C755]", icon: <MessageCircle className="w-8 h-8 text-[#06C755] group-hover:text-white transition-colors" /> },
     facebook: { border: "hover:border-blue-300", bg: "bg-blue-50", bgHover: "group-hover:bg-[#1877F2]", text: "text-[#1877F2]", icon: <Facebook className="w-8 h-8 text-[#1877F2] group-hover:text-white transition-colors" /> },
   };
@@ -455,8 +455,8 @@ function HoursSection({ data, title }: { data: any; title: string | null }) {
         {heading && <h2 className="text-xl sm:text-2xl md:text-4xl font-black text-slate-900 text-center mb-10 md:mb-14">{heading}</h2>}
         <div className="bg-white rounded-2xl p-6 md:p-10 border border-slate-100 shadow-sm">
           <div className="flex flex-col md:flex-row items-center gap-6 md:gap-10">
-            <div className="w-20 h-20 md:w-24 md:h-24 bg-orange-50 rounded-2xl flex items-center justify-center flex-shrink-0">
-              <CalendarDays className="w-10 h-10 md:w-12 md:h-12 text-orange-500" />
+            <div className="w-20 h-20 md:w-24 md:h-24 bg-red-50 rounded-2xl flex items-center justify-center flex-shrink-0">
+              <CalendarDays className="w-10 h-10 md:w-12 md:h-12 text-red-600" />
             </div>
             <div className="text-center md:text-left flex-1">
               <div className="mb-4">
@@ -465,7 +465,7 @@ function HoursSection({ data, title }: { data: any; title: string | null }) {
               </div>
               <div className="mb-4">
                 <p className="text-sm text-slate-500 font-medium mb-1">เวลาให้บริการ</p>
-                <p className="text-xl md:text-2xl font-black text-orange-500">{hoursLabel}</p>
+                <p className="text-xl md:text-2xl font-black text-red-600">{hoursLabel}</p>
               </div>
               {note && (
                 <div className="flex items-center justify-center md:justify-start gap-2 bg-green-50 text-green-700 px-4 py-2 rounded-full w-fit mx-auto md:mx-0">
@@ -479,7 +479,7 @@ function HoursSection({ data, title }: { data: any; title: string | null }) {
             <div className="grid grid-cols-7 gap-2 md:gap-3">
               {days.map((day: string) => (
                 <div key={day} className="text-center">
-                  <div className="bg-orange-500 text-white text-xs md:text-sm font-bold py-2 md:py-3 rounded-xl">{day}</div>
+                  <div className="bg-red-600 text-white text-xs md:text-sm font-bold py-2 md:py-3 rounded-xl">{day}</div>
                   <p className="text-[10px] md:text-xs text-slate-500 mt-1">24 ชม.</p>
                 </div>
               ))}

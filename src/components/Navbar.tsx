@@ -21,7 +21,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto flex items-center justify-between px-4 py-3">
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
-          <span className="text-3xl font-extrabold text-orange-500">FIRSTCARCENTER</span>
+          <span className="text-3xl font-extrabold text-red-600">FIRSTCARCENTER</span>
           <span className="hidden sm:inline text-base text-gray-500 font-medium">บริการรถยนต์ 24 ชม.</span>
         </Link>
 
@@ -31,7 +31,7 @@ export default function Navbar() {
             <Link
               key={link.href}
               href={link.href}
-              className="text-gray-700 hover:text-orange-500 font-medium transition-colors"
+              className="text-gray-700 hover:text-red-600 font-medium transition-colors"
             >
               {link.label}
             </Link>
@@ -40,7 +40,7 @@ export default function Navbar() {
 
         {/* Desktop CTA */}
         <div className="hidden md:flex items-center gap-3">
-          <Button size="sm" className="bg-orange-500 hover:bg-orange-600 text-white" asChild>
+          <Button size="sm" className="bg-red-600 hover:bg-red-700 text-white" asChild>
             <Link href="tel:0887671679" onClick={trackPhoneClick}>
               <PhoneCall className="mr-1 w-4 h-4" />
               โทรด่วน
@@ -68,7 +68,7 @@ export default function Navbar() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="text-gray-700 hover:text-orange-500 font-medium py-2"
+                className="text-gray-700 hover:text-red-600 font-medium py-2"
                 onClick={() => setOpen(false)}
               >
                 {link.label}

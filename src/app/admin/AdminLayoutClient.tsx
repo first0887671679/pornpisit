@@ -35,7 +35,7 @@ function NavLink({ href, icon: Icon, label, active, onClick }: {
       onClick={onClick}
       className={`flex items-center gap-3 px-4 py-2.5 rounded-lg text-sm transition-colors ${
         active
-          ? "bg-orange-500/15 text-orange-400 font-semibold"
+          ? "bg-red-600/15 text-red-400 font-semibold"
           : "text-slate-400 hover:bg-slate-800 hover:text-white"
       }`}
     >
@@ -50,7 +50,7 @@ function SidebarContent({ pathname, onNavigate }: { pathname: string; onNavigate
     <>
       <div className="px-5 py-4 border-b border-slate-800 flex items-center justify-between">
         <Link href="/admin" onClick={onNavigate} className="flex items-center gap-2">
-          <div className="w-8 h-8 rounded-lg bg-orange-500 flex items-center justify-center">
+          <div className="w-8 h-8 rounded-lg bg-red-600 flex items-center justify-center">
             <Home size={16} className="text-white" />
           </div>
           <div>

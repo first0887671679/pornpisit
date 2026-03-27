@@ -45,7 +45,7 @@ export default function ConfirmDialog({
           <Button variant="outline" onClick={onCancel} className="px-6">
             {cancelLabel}
           </Button>
-          <Button onClick={onConfirm} className="px-6 bg-orange-500 hover:bg-orange-600">
+          <Button onClick={onConfirm} className="px-6 bg-red-600 hover:bg-red-700">
             {confirmLabel}
           </Button>
         </div>

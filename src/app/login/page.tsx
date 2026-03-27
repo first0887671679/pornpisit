@@ -45,7 +45,7 @@ export default function LoginPage() {
     <div className="min-h-screen bg-slate-50 flex items-center justify-center p-4">
       <Card className="w-full max-w-md">
         <CardHeader className="space-y-1 text-center">
-          <CardTitle className="text-2xl font-bold tracking-tight text-orange-500">
+          <CardTitle className="text-2xl font-bold tracking-tight text-red-600">
             Firstcar Admin
           </CardTitle>
           <CardDescription>
@@ -83,7 +83,7 @@ export default function LoginPage() {
             </div>
             <Button
               type="submit"
-              className="w-full bg-orange-500 hover:bg-orange-600"
+              className="w-full bg-red-600 hover:bg-red-700"
               disabled={isLoading}
             >
               {isLoading ? "กำลังเข้าสู่ระบบ..." : "เข้าสู่ระบบ"}

@@ -165,7 +165,7 @@ export default function CrudList({ title, apiUrl, fields, defaultValues }: CrudL
   };
 
   const renderForm = (onSubmit: () => void, submitLabel: string) => (
-    <Card className="mb-6 border-orange-200 bg-orange-50/30">
+    <Card className="mb-6 border-red-200 bg-red-50/30">
       <CardContent className="pt-6 space-y-4">
         {fields.map((field) => (
           <div key={field.key} className="space-y-1">
@@ -174,7 +174,7 @@ export default function CrudList({ title, apiUrl, fields, defaultValues }: CrudL
           </div>
         ))}
         <div className="flex gap-2 pt-2">
-          <Button onClick={onSubmit} disabled={saving} className="bg-orange-500 hover:bg-orange-600">
+          <Button onClick={onSubmit} disabled={saving} className="bg-red-600 hover:bg-red-700">
             <Save className="w-4 h-4 mr-2" />
             {saving ? "กำลังบันทึก..." : submitLabel}
           </Button>
@@ -208,7 +208,7 @@ export default function CrudList({ title, apiUrl, fields, defaultValues }: CrudL
         <h1 className="text-3xl font-bold text-slate-800">{title}</h1>
         {!showAdd && !editingId && (
           <Button
-            className="bg-orange-500 hover:bg-orange-600"
+            className="bg-red-600 hover:bg-red-700"
             onClick={() => {
               setShowAdd(true);
               setFormData(defaultValues);
