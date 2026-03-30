@@ -3,16 +3,15 @@ import { prisma } from "@/lib/prisma";
 import { SITE_CONFIG, generateFAQJsonLd, generateBreadcrumbJsonLd, generateWebPageJsonLd } from "@/lib/seo";
 import { sanitizeHtml } from "@/lib/sanitize";
 import {
-  PhoneCall, MessageCircle, Battery, Wrench, Lightbulb, PenTool,
-  Clock, Shield, ThumbsUp, Zap, MapPin, Star, ArrowRight, CircleDot, Sparkles,
-  CheckCircle2, BatteryCharging,
+  PhoneCall, MessageCircle, Battery, BatteryCharging, Clock, Shield,
+  ThumbsUp, Zap, MapPin, Star, Sparkles, CheckCircle2,
+  Wrench, LocateFixed, BadgeCheck, Timer,
 } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import dynamic from "next/dynamic";
 import Showcase from "@/components/Showcase";
 import Testimonials from "@/components/Testimonials";
-import Brands from "@/components/Brands";
 
 const HeroSlider = dynamic(() => import("@/components/HeroSlider"));
 const BatteryChecker = dynamic(() => import("@/components/BatteryChecker"));
@@ -21,57 +20,51 @@ const AnimateOnScroll = dynamic(() => import("@/components/AnimateOnScroll"));
 export const revalidate = 60;
 
 export const metadata: Metadata = {
-  title: "PORNPISIT BATTERY บริการแบตเตอรี่รถยนต์ 24 ชม. | เปลี่ยนแบตถึงที่",
-  description: "บริการเปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่ 24 ชม. ห้วยขวาง ดินแดง ลาดพร้าว บางกะปิ บางเขน จตุจักร ดุสิต บางซื่อ ถึงไวใน 30 นาที โทรเลย!",
-  alternates: {
-    canonical: "/",
-  },
+  title: "PORNPISIT BATTERY | เปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่ 24 ชม.",
+  description: "บริการเปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่ 24 ชั่วโมง ถึงที่ภายใน 30 นาที ห้วยขวาง ดินแดง ลาดพร้าว บางกะปิ บางเขน จตุจักร ดุสิต บางซื่อ โทรเลย 0996731296",
+  alternates: { canonical: "/" },
 };
 
+// ─── Icon Maps ────────────────────────────────────────────────────────────────
 const iconMap: Record<string, React.ReactNode> = {
-  Battery: <Battery className="w-7 h-7" />,
+  Battery:         <Battery className="w-7 h-7" />,
   BatteryCharging: <BatteryCharging className="w-7 h-7" />,
-  Wrench: <Wrench className="w-7 h-7" />,
-  Lightbulb: <Lightbulb className="w-7 h-7" />,
-  PenTool: <PenTool className="w-7 h-7" />,
-  Shield: <Shield className="w-7 h-7" />,
-  Clock: <Clock className="w-7 h-7" />,
-  Zap: <Zap className="w-7 h-7" />,
-  ThumbsUp: <ThumbsUp className="w-7 h-7" />,
-  Star: <Star className="w-7 h-7" />,
-  CircleDot: <CircleDot className="w-7 h-7" />,
-  Sparkles: <Sparkles className="w-7 h-7" />,
+  Clock:           <Clock className="w-7 h-7" />,
+  Shield:          <Shield className="w-7 h-7" />,
+  Zap:             <Zap className="w-7 h-7" />,
+  ThumbsUp:        <ThumbsUp className="w-7 h-7" />,
+  Star:            <Star className="w-7 h-7" />,
+  CheckCircle2:    <CheckCircle2 className="w-7 h-7" />,
+  Wrench:          <Wrench className="w-7 h-7" />,
+  MapPin:          <MapPin className="w-7 h-7" />,
+  LocateFixed:     <LocateFixed className="w-7 h-7" />,
+  BadgeCheck:      <BadgeCheck className="w-7 h-7" />,
+  Timer:           <Timer className="w-7 h-7" />,
+  Sparkles:        <Sparkles className="w-7 h-7" />,
 };
 
 const whyUsIconMap: Record<string, React.ReactNode> = {
-  Clock: <Clock className="w-10 h-10 text-red-500" />,
-  Zap: <Zap className="w-10 h-10 text-red-500" />,
-  Shield: <Shield className="w-10 h-10 text-red-500" />,
-  ThumbsUp: <ThumbsUp className="w-10 h-10 text-red-500" />,
-  Star: <Star className="w-10 h-10 text-red-500" />,
-  Battery: <Battery className="w-10 h-10 text-red-500" />,
+  Clock:           <Clock className="w-10 h-10 text-red-500" />,
+  Zap:             <Zap className="w-10 h-10 text-red-500" />,
+  Shield:          <Shield className="w-10 h-10 text-red-500" />,
+  ThumbsUp:        <ThumbsUp className="w-10 h-10 text-red-500" />,
+  Star:            <Star className="w-10 h-10 text-red-500" />,
+  Battery:         <Battery className="w-10 h-10 text-red-500" />,
   BatteryCharging: <BatteryCharging className="w-10 h-10 text-red-500" />,
-  CheckCircle2: <CheckCircle2 className="w-10 h-10 text-red-500" />,
+  CheckCircle2:    <CheckCircle2 className="w-10 h-10 text-red-500" />,
+  BadgeCheck:      <BadgeCheck className="w-10 h-10 text-red-500" />,
+  MapPin:          <MapPin className="w-10 h-10 text-red-500" />,
+  Timer:           <Timer className="w-10 h-10 text-red-500" />,
+  LocateFixed:     <LocateFixed className="w-10 h-10 text-red-500" />,
 };
 
-function getServiceIconKey(service: { title?: string; href?: string; icon?: string }) {
-  const title = (service.title || "").toLowerCase();
-  const href = (service.href || "").toLowerCase();
-
-  if (href.includes("mobile-tire-repair") || title.includes("ปะยาง") || title.includes("ยาง")) {
-    return "CircleDot";
-  }
-  if (href.includes("battery-replacement") || title.includes("แบต")) {
-    return "Battery";
-  }
-  if (href.includes("alternator-starter") || title.includes("ไดชาร์จ") || title.includes("ไดสตาร์ท")) {
-    return "Wrench";
-  }
-  if (href.includes("car-polishing") || title.includes("ขัดสี") || title.includes("ลบรอย") || title.includes("ขัดไฟหน้า")) {
-    return "Sparkles";
-  }
-  return service.icon || "Battery";
-}
+// ─── Default feature items when DB has no services ────────────────────────────
+const DEFAULT_FEATURES = [
+  { icon: "LocateFixed",  title: "ออกนอกสถานที่ทันที",  description: "ช่างมาถึงคุณภายใน 30 นาที ไม่ต้องเข็นรถหาอู่" },
+  { icon: "Clock",        title: "บริการ 24 ชั่วโมง",    description: "เปิดให้บริการทุกวัน ไม่หยุดวันหยุดนักขัตฤกษ์" },
+  { icon: "BadgeCheck",   title: "แบตเตอรี่คุณภาพสูง",  description: "แบตแท้จากยี่ห้อชั้นนำ มีรับประกัน ราคาโปร่งใส" },
+  { icon: "Shield",       title: "ช่างมีประสบการณ์",    description: "ทีมช่างผ่านการฝึกอบรม ดูแลรถคุณด้วยความใส่ใจ" },
+];
 
 function parseJson(str: string): Record<string, any> {
   try { return JSON.parse(str); } catch { return {}; }
@@ -99,112 +92,64 @@ export default async function Home() {
 
   const sections = homePage?.sections || [];
 
-  const heroSection = getSection(sections, "hero");
-  const heroData = heroSection ? parseJson(heroSection.content) : {};
-
+  // ── Parse relevant sections ─────────────────────────────────────────────────
+  const heroSection     = getSection(sections, "hero");
+  const heroData        = heroSection ? parseJson(heroSection.content) : {};
   const servicesSection = getSection(sections, "services");
-  const servicesData = servicesSection ? parseJson(servicesSection.content) : {};
-  const serviceItems = Array.isArray(servicesData.items) ? servicesData.items : [];
+  const servicesData    = servicesSection ? parseJson(servicesSection.content) : {};
+  const serviceItems    = Array.isArray(servicesData.items) ? servicesData.items : [];
+  const gallerySection  = getSection(sections, "gallery");
+  const galleryData     = gallerySection ? parseJson(gallerySection.content) : {};
+  const faqSection      = getSection(sections, "faq");
+  const faqData         = faqSection ? parseJson(faqSection.content) : {};
+  const faqItems        = Array.isArray(faqData.items) ? faqData.items : [];
+  const contactSection  = getSection(sections, "contact");
+  const contactData     = contactSection ? parseJson(contactSection.content) : {};
 
-  const gallerySection = getSection(sections, "gallery");
-  const galleryData = gallerySection ? parseJson(gallerySection.content) : {};
-  const galleryImages = Array.isArray(galleryData.images) ? galleryData.images : [];
-
-  const whyUsSection = getSection(sections, "why-us");
-  const whyUsData = whyUsSection ? parseJson(whyUsSection.content) : {};
-  const whyUsItems = Array.isArray(whyUsData.items) ? whyUsData.items : [];
-
-  const testimonialsSection = getSection(sections, "testimonials");
-  const testimonialsData = testimonialsSection ? parseJson(testimonialsSection.content) : {};
-  const testimonialItems = Array.isArray(testimonialsData.items) ? testimonialsData.items : [];
-
-  const faqSection = getSection(sections, "faq");
-  const faqData = faqSection ? parseJson(faqSection.content) : {};
-  const faqItems = Array.isArray(faqData.items) ? faqData.items : [];
-
-  const contactSection = getSection(sections, "contact");
-  const contactData = contactSection ? parseJson(contactSection.content) : {};
-
-  const orderedSections = sections;
-
-  // Fallback values — PORNPISIT BATTERY
-  const heroHeading = heroData.heading || "บริการแบตเตอรี่รถยนต์";
-  const heroSubheading = heroData.subheading || "นอกสถานที่ 24 ชั่วโมง";
-  const heroDescription = heroData.description || "เปลี่ยนแบตถึงที่รวดเร็วทันใจ โดยช่างผู้เชี่ยวชาญ";
-  const heroPhoneUrl = heroData.phoneUrl || "tel:0996731296";
-  const heroLineUrl = heroData.lineUrl || "https://lin.ee/OBB86S4";
-  const heroImage = heroSection?.imageUrl || "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?q=80&w=1920&auto=format&fit=crop";
-
-  const contactHeading = contactData.heading || "แบตหมด? โทรหาเราเลย!";
-  const contactDescription = contactData.description || "ทีมช่างพร้อมเปลี่ยนแบตเตอรี่ถึงที่คุณตลอด 24 ชั่วโมง";
-  const phone = contactData.phone || "0996731296";
-  const lineId = contactData.lineId || "@398kyxfq";
+  // ── Fallback values ─────────────────────────────────────────────────────────
+  const phone   = contactData.phone   || "0996731296";
+  const lineId  = contactData.lineId  || "@398kyxfq";
   const lineUrl = contactData.lineUrl || "https://lin.ee/OBB86S4";
 
-  const services = serviceItems.map((s: any) => ({
-    title: s.title || "",
-    description: s.description || "",
-    icon: iconMap[getServiceIconKey(s)] || iconMap.Battery,
-    href: s.href || "#",
-  }));
+  const heroHeading     = heroData.heading     || "แบตหมด?";
+  const heroSubheading  = heroData.subheading  || "เราถึงที่คุณใน 30 นาที";
+  const heroDescription = heroData.description || "บริการเปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่ 24 ชั่วโมง\nช่างผู้เชี่ยวชาญพร้อมออกให้บริการทันที";
+  const heroPhoneUrl    = heroData.phoneUrl    || "tel:0996731296";
+  const heroLineUrl     = heroData.lineUrl     || "https://lin.ee/OBB86S4";
+  const heroImage       = heroSection?.imageUrl || "https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?q=80&w=1920&auto=format&fit=crop";
 
-  const whyUs = whyUsItems.map((w: any) => ({
-    icon: whyUsIconMap[w.icon || "Star"] || whyUsIconMap.Star,
-    title: w.title || "",
-    description: w.description || "",
-  }));
-
-  const testimonials = testimonialItems.map((t: any) => ({
-    name: t.name || "",
-    role: t.role || "",
-    avatar: t.avatar || "https://i.pravatar.cc/120",
-    rating: t.rating || 5,
-    content: t.content || "",
-  }));
-
-  const faqs = faqItems.map((f: any) => ({
-    question: f.question || "",
-    answer: f.answer || "",
-  }));
-
-  const showcaseImages = galleryImages.map((img: any) => ({
-    src: img.src || "",
-    alt: img.alt || "",
-    caption: img.caption || "",
-  }));
-
-  const faqJsonLd = generateFAQJsonLd(faqs);
-  const breadcrumbJsonLd = generateBreadcrumbJsonLd([
-    { name: "หน้าแรก", url: SITE_CONFIG.url },
-  ]);
-  const webPageJsonLd = generateWebPageJsonLd(
-    "บริการแบตเตอรี่รถยนต์นอกสถานที่ 24 ชั่วโมง",
+  // ── JSON-LD ─────────────────────────────────────────────────────────────────
+  const faqs = faqItems.map((f: any) => ({ question: f.question || "", answer: f.answer || "" }));
+  const faqJsonLd        = generateFAQJsonLd(faqs);
+  const breadcrumbJsonLd = generateBreadcrumbJsonLd([{ name: "หน้าแรก", url: SITE_CONFIG.url }]);
+  const webPageJsonLd    = generateWebPageJsonLd(
+    "บริการเปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่ 24 ชั่วโมง",
     SITE_CONFIG.description,
     "/"
   );
 
-  /* ────────────────────────────────────────────────── */
-  /*  Section Renderer — Premium Redesign              */
-  /* ────────────────────────────────────────────────── */
+  /* ═══════════════════════════════════════════════════════════════════════════
+     Section Renderer — Single-Service Battery Landing Page
+  ══════════════════════════════════════════════════════════════════════════════ */
   const renderSection = (section: any) => {
     const data = parseJson(section.content);
     const type = section.type;
 
-    /* ═══════════════════ HERO ═══════════════════ */
+    /* ═══════ HERO ═══════ */
     if (type === "hero") {
       let heroSlides: any[] = [];
       if (Array.isArray(data.slides) && data.slides.length > 0) {
         heroSlides = data.slides;
       } else {
         heroSlides = [{
-          heading: data.heading || heroHeading,
-          subheading: data.subheading || heroSubheading,
+          heading:         data.heading     || heroHeading,
+          subheading:      data.subheading  || heroSubheading,
           description: data.description || heroDescription,
           phoneUrl: data.phoneUrl || heroPhoneUrl,
           lineUrl: data.lineUrl || heroLineUrl,
           imageUrl: section.imageUrl || heroImage,
           textAlign: "center",
-          overlayOpacity: 40,
+          overlayOpacity: 55,
         }];
       }
       return (
@@ -217,107 +162,99 @@ export default async function Home() {
       );
     }
 
-    /* ═══════════════════ SERVICES ═══════════════════ */
+    /* ═══════════════════ SERVICES — Feature Highlights ═══════════════════ */
     if (type === "services") {
-      const items = Array.isArray(data.items) ? data.items : [];
+      const items = serviceItems.length > 0 ? serviceItems : DEFAULT_FEATURES;
       return (
-        <section key={section.id} id="services" className="relative overflow-hidden bg-black py-20 md:py-32 px-4">
-          {/* Background effects */}
-          <div className="absolute inset-0">
-            <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[800px] bg-red-600/[0.03] rounded-full blur-3xl" />
+        <section key={section.id} id="services" className="relative overflow-hidden bg-neutral-950 py-20 md:py-32 px-4">
+          {/* Background */}
+          <div className="absolute inset-0 pointer-events-none">
+            <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[900px] h-[600px] bg-red-600/[0.04] rounded-full blur-3xl" />
             <div className="absolute bottom-0 right-0 w-[400px] h-[400px] bg-red-500/[0.02] rounded-full blur-3xl" />
-            <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.02)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.02)_1px,transparent_1px)] bg-[size:48px_48px]" />
+            <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.018)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.018)_1px,transparent_1px)] bg-[size:48px_48px]" />
           </div>
 
           <div className="max-w-7xl mx-auto relative z-10">
-            {/* Section Header */}
-            <div className="text-center mb-12 md:mb-20">
+            {/* ── Header ── */}
+            <div className="text-center mb-14 md:mb-20">
               <div className="inline-flex items-center gap-2.5 bg-red-600/10 border border-red-500/20 text-red-400 text-[11px] font-bold px-5 py-2 rounded-full mb-5 tracking-[0.2em] uppercase">
                 <BatteryCharging className="w-3.5 h-3.5" />
-                Our Services
+                บริการของเรา
               </div>
-              <h2 className="text-3xl sm:text-4xl md:text-6xl font-black text-white mb-4 md:mb-5 leading-[1.1] tracking-tight px-2">
-                {section.title || "บริการของเรา"}
+              <h2 className="text-3xl sm:text-4xl md:text-6xl font-black text-white mb-4 md:mb-5 leading-[1.1] tracking-tight">
+                {section.title || "เปลี่ยนแบตเตอรี่รถยนต์"}
+                <span className="block text-red-500">{data.subtitle || "นอกสถานที่ — ถึงที่คุณ"}</span>
               </h2>
-              <p className="text-neutral-400 max-w-2xl mx-auto text-sm md:text-lg leading-relaxed px-2">
-                {data.description || "บริการเปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่ ถึงไว บริการ 24 ชม."}
+              <p className="text-neutral-400 max-w-2xl mx-auto text-sm md:text-lg leading-relaxed">
+                {data.description || "ไม่ต้องเข็นรถ ไม่ต้องหาอู่ แค่โทรหาเรา ช่างออกไปเปลี่ยนให้ถึงที่ภายใน 30 นาที บริการทุกวัน 24 ชั่วโมง"}
               </p>
             </div>
 
-            {/* Cards Grid */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-4 md:gap-6 mb-16 md:mb-24">
-              {items.map((svc: any, idx: number) => (
-                <Link href={svc.href || "#"} key={idx} className="group">
-                  <div className="relative h-full flex flex-col bg-neutral-950 border border-neutral-800/60 rounded-2xl md:rounded-3xl p-6 md:p-8 overflow-hidden transition-all duration-500 hover:border-red-500/50 hover:shadow-[0_0_40px_-10px_rgba(220,38,38,0.15)] sm:hover:-translate-y-1">
-                    {/* Top glow line */}
-                    <div className="absolute top-0 left-8 right-8 h-px bg-gradient-to-r from-transparent via-red-500/0 to-transparent group-hover:via-red-500/60 transition-all duration-500" />
-                    {/* Hover bg glow */}
-                    <div className="absolute inset-0 bg-gradient-to-b from-red-600/0 to-transparent group-hover:from-red-600/[0.04] transition-all duration-500 rounded-3xl" />
-
-                    {/* Number */}
-                    <span className="absolute top-4 right-5 text-6xl font-black text-neutral-900/80 group-hover:text-red-600/10 transition-colors duration-500 leading-none select-none">
-                      {String(idx + 1).padStart(2, "0")}
-                    </span>
-
-                    {/* Icon */}
-                    <div className="relative w-14 h-14 rounded-2xl flex items-center justify-center mb-6 transition-all duration-500 bg-red-600/10 text-red-400 group-hover:bg-red-600 group-hover:text-white group-hover:shadow-lg group-hover:shadow-red-600/30 group-hover:scale-110">
-                      {iconMap[getServiceIconKey(svc)] || iconMap.Battery}
-                    </div>
-
-                    <h3 className="font-bold text-white text-base md:text-lg mb-3 leading-snug pr-8 relative">
-                      {svc.title}
-                    </h3>
-                    <p className="text-neutral-400 text-sm leading-relaxed flex-1 relative">
-                      {svc.description}
-                    </p>
-
-                    {/* CTA */}
-                    <div className="flex items-center gap-1.5 mt-6 text-red-400 text-sm font-semibold group-hover:text-red-300 transition-colors relative">
-                      <span>ดูเพิ่มเติม</span>
-                      <ArrowRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1.5" />
-                    </div>
-
-                    {/* Bottom accent */}
-                    <div className="absolute bottom-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-red-600/0 to-transparent group-hover:via-red-500/50 transition-all duration-500" />
+            {/* ── Feature Cards ── */}
+            <div className={`grid gap-4 md:gap-6 mb-16 md:mb-20 ${
+              items.length <= 2 ? "grid-cols-1 sm:grid-cols-2 max-w-2xl mx-auto" :
+              items.length === 3 ? "grid-cols-1 sm:grid-cols-3" :
+              "grid-cols-1 sm:grid-cols-2 xl:grid-cols-4"
+            }`}>
+              {items.map((feat: any, idx: number) => (
+                <div key={idx} className="group relative flex flex-col bg-black border border-neutral-800/60 rounded-2xl md:rounded-3xl p-6 md:p-8 overflow-hidden transition-all duration-500 hover:border-red-500/40 hover:shadow-[0_0_40px_-10px_rgba(220,38,38,0.2)]">
+                  <div className="absolute top-0 left-8 right-8 h-px bg-gradient-to-r from-transparent via-red-500/0 to-transparent group-hover:via-red-500/50 transition-all duration-500" />
+                  <div className="absolute inset-0 bg-gradient-to-b from-red-600/0 to-transparent group-hover:from-red-600/[0.05] transition-all duration-500 rounded-3xl" />
+                  <span className="absolute top-4 right-5 text-6xl font-black text-neutral-900/70 group-hover:text-red-600/10 transition-colors duration-500 leading-none select-none">
+                    {String(idx + 1).padStart(2, "0")}
+                  </span>
+                  <div className="relative w-14 h-14 rounded-2xl flex items-center justify-center mb-5 transition-all duration-500 bg-red-600/10 text-red-400 group-hover:bg-red-600 group-hover:text-white group-hover:shadow-lg group-hover:shadow-red-600/30 group-hover:scale-110">
+                    {iconMap[feat.icon || "Battery"]}
                   </div>
-                </Link>
+                  <h3 className="font-bold text-white text-base md:text-lg mb-2.5 leading-snug pr-8 relative">{feat.title}</h3>
+                  <p className="text-neutral-400 text-sm leading-relaxed flex-1 relative">{feat.description}</p>
+                  <div className="absolute bottom-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-red-600/0 to-transparent group-hover:via-red-500/40 transition-all duration-500" />
+                </div>
+              ))}
+            </div>
+
+            {/* ── Stats Strip ── */}
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-4 mb-16 md:mb-20">
+              {[
+                { value: "30 นาที", label: "เวลาถึงที่เฉลี่ย" },
+                { value: "24 ชม.", label: "เปิดให้บริการ" },
+                { value: "1,000+", label: "คันที่ให้บริการแล้ว" },
+                { value: "5 ดาว",  label: "รีวิวจากลูกค้า" },
+              ].map((stat) => (
+                <div key={stat.value} className="bg-black border border-neutral-800/60 rounded-2xl p-5 md:p-6 text-center hover:border-red-500/30 transition-colors duration-300">
+                  <p className="text-2xl md:text-4xl font-black text-red-500 mb-1 leading-none">{stat.value}</p>
+                  <p className="text-neutral-400 text-xs md:text-sm">{stat.label}</p>
+                </div>
               ))}
             </div>
 
             {/* ── Service Areas ── */}
-            <div className="text-center">
+            <div className="bg-black border border-neutral-800/50 rounded-2xl md:rounded-3xl p-7 md:p-10 text-center hover:border-red-500/20 transition-colors duration-300">
               <div className="inline-flex items-center gap-2.5 bg-red-600/10 border border-red-500/20 text-red-400 text-[11px] font-bold px-5 py-2 rounded-full mb-5 tracking-[0.2em] uppercase">
                 <MapPin className="w-3.5 h-3.5" />
-                Service Areas
+                พื้นที่ให้บริการ
               </div>
-              <h2 className="text-2xl sm:text-3xl md:text-5xl font-black text-white mb-4 leading-tight">
-                พื้นที่ให้บริการ <span className="text-red-400">แบตเตอรี่รถยนต์</span>
-              </h2>
-              <p className="text-neutral-400 max-w-2xl mx-auto text-sm md:text-lg leading-relaxed mb-8 md:mb-10 px-2">
-                ครอบคลุมย่านใจกลางกรุงเทพฯ: ห้วยขวาง ดินแดง ลาดพร้าว บางกะปิ บางเขน จตุจักร ดุสิต บางซื่อ
+              <h3 className="text-2xl sm:text-3xl md:text-4xl font-black text-white mb-3 leading-tight">
+                ครอบคลุม<span className="text-red-400">ใจกลางกรุงเทพฯ</span>
+              </h3>
+              <p className="text-neutral-400 text-sm md:text-base mb-6 max-w-xl mx-auto">
+                ช่างออกนอกสถานที่ได้ทุกจุดในเขตพื้นที่ด้านล่างนี้
               </p>
-              <div className="flex flex-wrap justify-center gap-2.5 mb-10">
+              <div className="flex flex-wrap justify-center gap-2 mb-8">
                 {["ห้วยขวาง", "ดินแดง", "ลาดพร้าว", "บางกะปิ", "บางเขน", "จตุจักร", "ดุสิต", "บางซื่อ"].map((area) => (
-                  <span key={area} className="bg-neutral-900 text-neutral-300 text-xs md:text-sm font-medium px-4 py-2 rounded-full border border-neutral-800 hover:border-red-500/40 hover:bg-red-600/5 transition-all duration-300 cursor-default">
+                  <span key={area} className="bg-neutral-900 text-neutral-300 text-xs md:text-sm font-medium px-4 py-2 rounded-full border border-neutral-800 hover:border-red-500/40 hover:bg-red-600/5 hover:text-white transition-all duration-300 cursor-default">
                     <MapPin className="w-3 h-3 inline-block mr-1.5 text-red-400" />{area}
                   </span>
                 ))}
               </div>
-              <div className="flex flex-col sm:flex-row justify-center gap-3 sm:gap-4">
-                <Link
-                  href={`tel:${phone}`}
-                  className="inline-flex items-center justify-center gap-2.5 bg-red-600 hover:bg-red-500 active:scale-[0.97] text-white font-bold text-base md:text-lg h-14 md:h-16 px-8 md:px-10 rounded-2xl transition-all duration-300 shadow-[0_8px_30px_-8px_rgba(220,38,38,0.5)] hover:shadow-[0_8px_30px_-4px_rgba(220,38,38,0.6)]"
-                >
-                  <PhoneCall className="w-5 h-5" />
-                  โทรเรียกช่างด่วน
+              <div className="flex flex-col sm:flex-row justify-center gap-3">
+                <Link href={`tel:${phone}`}
+                  className="inline-flex items-center justify-center gap-2.5 bg-red-600 hover:bg-red-500 active:scale-[0.97] text-white font-bold text-base h-14 px-8 rounded-2xl transition-all duration-300 shadow-[0_8px_30px_-8px_rgba(220,38,38,0.5)] hover:shadow-[0_8px_30px_-4px_rgba(220,38,38,0.6)]">
+                  <PhoneCall className="w-5 h-5" />โทรเรียกช่างด่วน
                 </Link>
-                <Link
-                  href={lineUrl}
-                  target="_blank"
-                  className="inline-flex items-center justify-center gap-2.5 bg-[#06C755] hover:bg-[#05b34b] active:scale-[0.97] text-white font-bold text-base md:text-lg h-14 md:h-16 px-8 md:px-10 rounded-2xl transition-all duration-300 shadow-[0_8px_30px_-8px_rgba(6,199,85,0.35)]"
-                >
-                  <MessageCircle className="w-5 h-5" />
-                  แอดไลน์ส่งพิกัด
+                <Link href={lineUrl} target="_blank"
+                  className="inline-flex items-center justify-center gap-2.5 bg-[#06C755] hover:bg-[#05b34b] active:scale-[0.97] text-white font-bold text-base h-14 px-8 rounded-2xl transition-all duration-300 shadow-[0_8px_30px_-8px_rgba(6,199,85,0.35)]">
+                  <MessageCircle className="w-5 h-5" />แอดไลน์ส่งพิกัด
                 </Link>
               </div>
             </div>
@@ -326,18 +263,24 @@ export default async function Home() {
       );
     }
 
-    /* ═══════════════════ BATTERY CHECKER ═══════════════════ */
+    /* ═══════ BATTERY CHECKER ═══════ */
     if (type === "battery-checker") {
       return (
-        <section key={section.id} className="relative overflow-hidden bg-neutral-950 py-14 md:py-24 px-4">
+        <section key={section.id} className="relative overflow-hidden bg-black py-16 md:py-28 px-4">
           <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.015)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.015)_1px,transparent_1px)] bg-[size:48px_48px]" />
+          <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(220,38,38,0.04),transparent_70%)]" />
           <div className="max-w-6xl mx-auto relative z-10">
-            <div className="text-center mb-8 md:mb-10">
-              <h3 className="text-2xl sm:text-3xl md:text-4xl font-black text-white leading-tight">
-                {data.heading || section.title || "เช็ครุ่นแบตเตอรี่รถยนต์ของคุณ"}
+            <div className="text-center mb-10 md:mb-14">
+              <div className="inline-flex items-center gap-2.5 bg-red-600/10 border border-red-500/20 text-red-400 text-[11px] font-bold px-5 py-2 rounded-full mb-5 tracking-[0.2em] uppercase">
+                <Battery className="w-3.5 h-3.5" />
+                เช็ครุ่นแบต
+              </div>
+              <h3 className="text-2xl sm:text-3xl md:text-5xl font-black text-white leading-tight mb-3">
+                {data.heading || section.title || "แบตเตอรี่รุ่นไหน"}
+                <span className="block text-red-400">{data.subheading || "เหมาะกับรถคุณ?"}</span>
               </h3>
-              <p className="text-neutral-400 text-sm md:text-base mt-3">
-                {data.description || "เลือกยี่ห้อและรุ่นรถเพื่อดูแบตเตอรี่ที่เหมาะสม"}
+              <p className="text-neutral-400 text-sm md:text-base mt-2 max-w-xl mx-auto">
+                {data.description || "เลือกยี่ห้อและรุ่นรถเพื่อดูแบตเตอรี่ที่เหมาะสม พร้อมราคาโดยประมาณ"}
               </p>
             </div>
             <BatteryChecker showDropdown={data.showDropdown !== false} showBrandGrid={data.showBrandGrid !== false} />
@@ -483,7 +426,7 @@ export default async function Home() {
                 {section.title || "คำถามที่พบบ่อย"}
               </h2>
               <p className="text-neutral-400 max-w-xl mx-auto text-sm md:text-base px-2">
-                {data.subtitle || "รวมคำตอบสำหรับคำถามที่ลูกค้าสอบถามบ่อยที่สุด"}
+                {data.subtitle || "ข้อสงสัยเกี่ยวกับบริการเปลี่ยนแบตเตอรี่นอกสถานที่"}
               </p>
             </div>
             <div className="space-y-3">
@@ -506,66 +449,57 @@ export default async function Home() {
       );
     }
 
-    /* ═══════════════════ CONTACT ═══════════════════ */
+    /* ═══════ CONTACT ═══════ */
     if (type === "contact") {
+      const cPhone  = data.phone   || phone;
+      const cLine   = data.lineUrl || lineUrl;
+      const cLineId = data.lineId  || lineId;
       return (
-        <section key={section.id} id="contact" className="py-20 md:py-32 px-4 bg-black relative overflow-hidden">
-          {/* Dramatic glow */}
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] md:w-[900px] md:h-[900px] bg-red-600/[0.06] rounded-full blur-3xl" />
+        <section key={section.id} id="contact" className="py-20 md:py-36 px-4 bg-black relative overflow-hidden">
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[700px] md:w-[1000px] md:h-[1000px] bg-red-600/[0.07] rounded-full blur-3xl" />
           <div className="absolute top-0 right-0 w-[300px] h-[300px] bg-red-700/[0.04] rounded-full blur-3xl" />
-          <div className="absolute bottom-0 left-0 w-[200px] h-[200px] bg-red-500/[0.03] rounded-full blur-2xl" />
 
-          <div className="max-w-3xl mx-auto text-center relative z-10">
-            {/* Badge */}
-            <div className="inline-flex items-center gap-2 bg-red-600/15 border border-red-500/25 text-red-300 text-[11px] font-bold px-5 py-2 rounded-full mb-6 md:mb-8 tracking-[0.2em] uppercase">
+          <div className="max-w-2xl mx-auto text-center relative z-10">
+            <div className="inline-flex items-center gap-2 bg-red-600/15 border border-red-500/25 text-red-300 text-[11px] font-bold px-5 py-2 rounded-full mb-6 tracking-[0.2em] uppercase">
               <div className="w-2 h-2 rounded-full bg-red-400 animate-pulse" />
               {data.badge || "พร้อมให้บริการ 24/7"}
             </div>
 
-            <h2 className="text-3xl sm:text-5xl md:text-7xl font-black text-white mb-4 md:mb-6 leading-[1.05] tracking-tight px-2">
-              {data.heading || contactHeading}
+            <h2 className="text-4xl sm:text-5xl md:text-7xl font-black text-white mb-4 md:mb-6 leading-[1.05] tracking-tight px-2">
+              {data.heading || "แบตหมด?"}<br />
+              <span className="text-red-500">{data.headingSub || "โทรเลย!"}</span>
             </h2>
-            <p className="text-neutral-400 text-base md:text-xl mb-8 md:mb-12 max-w-xl mx-auto leading-relaxed px-2">
-              {data.description || contactDescription}
+            <p className="text-neutral-400 text-base md:text-xl mb-8 md:mb-12 max-w-lg mx-auto leading-relaxed px-2">
+              {data.description || "ช่างออกนอกสถานที่ภายใน 30 นาที บริการ 24 ชั่วโมงทุกวัน ไม่เว้นวันหยุด"}
             </p>
 
-            {/* CTA Buttons */}
-            <div className="grid grid-cols-2 sm:flex sm:flex-row justify-center gap-3 sm:gap-4 mb-10 md:mb-14 px-2">
-              <Link
-                href={`tel:${data.phone || phone}`}
-                className="inline-flex items-center justify-center gap-2 md:gap-3 bg-red-600 hover:bg-red-500 active:scale-[0.97] text-white font-bold text-sm md:text-xl h-14 md:h-18 px-6 md:px-12 rounded-2xl transition-all duration-300 shadow-[0_8px_40px_-8px_rgba(220,38,38,0.5)] hover:shadow-[0_12px_50px_-8px_rgba(220,38,38,0.65)] sm:hover:-translate-y-0.5"
-              >
-                <PhoneCall className="w-5 h-5 md:w-6 md:h-6 flex-shrink-0" />
-                <span className="truncate">{(data.phone || phone).replace(/(\d{3})(\d{3})(\d{4})/, '$1-$2-$3')}</span>
-              </Link>
-              <Link
-                href={data.lineUrl || lineUrl}
-                target="_blank"
-                className="inline-flex items-center justify-center gap-2 md:gap-3 bg-[#06C755] hover:bg-[#05b34b] active:scale-[0.97] text-white font-bold text-sm md:text-xl h-14 md:h-18 px-6 md:px-12 rounded-2xl transition-all duration-300 shadow-[0_8px_30px_-8px_rgba(6,199,85,0.35)] sm:hover:-translate-y-0.5"
-              >
-                <MessageCircle className="w-5 h-5 md:w-6 md:h-6 flex-shrink-0" />
-                <span className="truncate">Line: {data.lineId || lineId}</span>
-              </Link>
-            </div>
+            <Link href={`tel:${cPhone}`}
+              className="group inline-flex items-center justify-center gap-3 bg-red-600 hover:bg-red-500 active:scale-[0.97] text-white font-black text-xl md:text-3xl h-16 md:h-20 px-8 md:px-16 rounded-2xl transition-all duration-300 shadow-[0_12px_50px_-8px_rgba(220,38,38,0.55)] hover:shadow-[0_16px_60px_-8px_rgba(220,38,38,0.7)] sm:hover:-translate-y-1 mb-4 w-full sm:w-auto">
+              <PhoneCall className="w-6 h-6 md:w-8 md:h-8 transition-transform group-hover:rotate-12" />
+              {cPhone.replace(/(\d{3})(\d{3})(\d{4})/, "$1-$2-$3")}
+            </Link>
 
-            {/* Trust signals */}
-            <div className="flex flex-wrap justify-center gap-4 md:gap-8">
+            <Link href={cLine} target="_blank"
+              className="group inline-flex items-center justify-center gap-3 bg-[#06C755] hover:bg-[#05b34b] active:scale-[0.97] text-white font-bold text-base md:text-xl h-14 md:h-16 px-8 md:px-12 rounded-2xl transition-all duration-300 shadow-[0_8px_30px_-8px_rgba(6,199,85,0.35)] sm:hover:-translate-y-0.5 w-full sm:w-auto">
+              <MessageCircle className="w-5 h-5 md:w-6 md:h-6 transition-transform group-hover:scale-110" />
+              แอดไลน์: {cLineId}
+            </Link>
+
+            <div className="flex flex-wrap justify-center gap-5 md:gap-8 mt-10 md:mt-14">
               {(Array.isArray(data.trustSignals) && data.trustSignals.length > 0 ? data.trustSignals : [
-                { icon: "MapPin", label: "ห้วยขวาง ดินแดง ลาดพร้าว" },
-                { icon: "Clock", label: "บริการ 24 ชั่วโมง" },
-                { icon: "Shield", label: "รับประกันคุณภาพ" },
+                { icon: "MapPin",  label: "ออกนอกสถานที่ทุกพื้นที่" },
+                { icon: "Clock",   label: "บริการ 24 ชั่วโมง" },
+                { icon: "Shield",  label: "รับประกันคุณภาพ" },
               ]).map((t: any, i: number) => {
-                const trustIcons: Record<string, React.ReactNode> = {
-                  MapPin: <MapPin className="w-4 h-4" />,
-                  Clock: <Clock className="w-4 h-4" />,
-                  Shield: <Shield className="w-4 h-4" />,
-                  Star: <Star className="w-4 h-4" />,
-                  Zap: <Zap className="w-4 h-4" />,
-                  ThumbsUp: <ThumbsUp className="w-4 h-4" />,
+                const TrustIcon: Record<string, React.ReactNode> = {
+                  MapPin: <MapPin className="w-4 h-4" />, Clock: <Clock className="w-4 h-4" />,
+                  Shield: <Shield className="w-4 h-4" />, Star: <Star className="w-4 h-4" />,
+                  Zap: <Zap className="w-4 h-4" />, ThumbsUp: <ThumbsUp className="w-4 h-4" />,
+                  CheckCircle2: <CheckCircle2 className="w-4 h-4" />,
                 };
                 return (
                   <div key={i} className="flex items-center gap-2 text-neutral-400 text-xs md:text-sm">
-                    <div className="text-red-400">{trustIcons[t.icon] || trustIcons.Star}</div>
+                    <div className="text-red-400">{TrustIcon[t.icon] || TrustIcon.Star}</div>
                     {t.label}
                   </div>
                 );
@@ -576,7 +510,7 @@ export default async function Home() {
       );
     }
 
-    /* ═══════════════════ TEXT ═══════════════════ */
+    /* ═══════ TEXT ═══════ */
     if (type === "text") {
       return (
         <section key={section.id} className="py-16 md:py-28 px-4 bg-neutral-950">
@@ -716,8 +650,7 @@ export default async function Home() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageJsonLd) }}
       />
-      {/* Render all sections in order from DB */}
-      {orderedSections.map((section: any) => {
+      {sections.map((section: any) => {
         const rendered = renderSection(section);
         if (!rendered) return null;
         const sData = parseJson(section.content);
