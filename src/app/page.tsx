@@ -58,14 +58,6 @@ const whyUsIconMap: Record<string, React.ReactNode> = {
   LocateFixed:     <LocateFixed className="w-10 h-10 text-red-500" />,
 };
 
-// ─── Default feature items when DB has no services ────────────────────────────
-const DEFAULT_FEATURES = [
-  { icon: "LocateFixed",  title: "ออกนอกสถานที่ทันที",  description: "ช่างมาถึงคุณภายใน 30 นาที ไม่ต้องเข็นรถหาอู่" },
-  { icon: "Clock",        title: "บริการ 24 ชั่วโมง",    description: "เปิดให้บริการทุกวัน ไม่หยุดวันหยุดนักขัตฤกษ์" },
-  { icon: "BadgeCheck",   title: "แบตเตอรี่คุณภาพสูง",  description: "แบตแท้จากยี่ห้อชั้นนำ มีรับประกัน ราคาโปร่งใส" },
-  { icon: "Shield",       title: "ช่างมีประสบการณ์",    description: "ทีมช่างผ่านการฝึกอบรม ดูแลรถคุณด้วยความใส่ใจ" },
-];
-
 function parseJson(str: string): Record<string, any> {
   try { return JSON.parse(str); } catch { return {}; }
 }
@@ -80,10 +72,6 @@ function getSection(sections: any[], type: string) {
   return sections.find((s: any) => s.type === type && s.isActive);
 }
 
-function getAllSections(sections: any[], type: string) {
-  return sections.filter((s: any) => s.type === type && s.isActive);
-}
-
 export default async function Home() {
   const homePage = await (prisma as any).page.findUnique({
     where: { slug: "home" },
@@ -95,9 +83,6 @@ export default async function Home() {
   // ── Parse relevant sections ─────────────────────────────────────────────────
   const heroSection     = getSection(sections, "hero");
   const heroData        = heroSection ? parseJson(heroSection.content) : {};
-  const servicesSection = getSection(sections, "services");
-  const servicesData    = servicesSection ? parseJson(servicesSection.content) : {};
-  const serviceItems    = Array.isArray(servicesData.items) ? servicesData.items : [];
   const gallerySection  = getSection(sections, "gallery");
   const galleryData     = gallerySection ? parseJson(gallerySection.content) : {};
   const faqSection      = getSection(sections, "faq");
@@ -162,70 +147,114 @@ export default async function Home() {
       );
     }
 
-    /* ═══════════════════ SERVICES — Feature Highlights ═══════════════════ */
+    /* ═══════════════════ SERVICES — Single Battery Service ═══════════════════ */
     if (type === "services") {
-      const items = serviceItems.length > 0 ? serviceItems : DEFAULT_FEATURES;
+      // Benefits: use DB data.benefits[] if available, otherwise use defaults
+      const benefits: string[] = Array.isArray(data.benefits) && data.benefits.length > 0
+        ? data.benefits
+        : [
+            "ช่างออกนอกสถานที่ภายใน 30 นาที ไม่ต้องเข็นรถ",
+            "บริการทุกวัน 24 ชั่วโมง ไม่เว้นวันหยุด",
+            "แบตเตอรี่แท้คุณภาพสูง มียี่ห้อให้เลือกหลากหลาย",
+            "ราคาโปร่งใส ไม่มีค่าใช้จ่ายแอบแฝง รับประกัน 1 ปี",
+            "ช่างผ่านการฝึกอบรม มีประสบการณ์กว่า 10 ปี",
+          ];
+
       return (
         <section key={section.id} id="services" className="relative overflow-hidden bg-neutral-950 py-20 md:py-32 px-4">
           {/* Background */}
           <div className="absolute inset-0 pointer-events-none">
-            <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[900px] h-[600px] bg-red-600/[0.04] rounded-full blur-3xl" />
-            <div className="absolute bottom-0 right-0 w-[400px] h-[400px] bg-red-500/[0.02] rounded-full blur-3xl" />
-            <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.018)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.018)_1px,transparent_1px)] bg-[size:48px_48px]" />
+            <div className="absolute top-0 left-1/4 w-[700px] h-[700px] bg-red-600/[0.05] rounded-full blur-3xl -translate-x-1/2" />
+            <div className="absolute bottom-0 right-0 w-[500px] h-[500px] bg-red-500/[0.03] rounded-full blur-3xl" />
+            <div className="absolute inset-0 bg-[linear-gradient(rgba(255,255,255,0.015)_1px,transparent_1px),linear-gradient(90deg,rgba(255,255,255,0.015)_1px,transparent_1px)] bg-[size:48px_48px]" />
           </div>
 
           <div className="max-w-7xl mx-auto relative z-10">
-            {/* ── Header ── */}
-            <div className="text-center mb-14 md:mb-20">
-              <div className="inline-flex items-center gap-2.5 bg-red-600/10 border border-red-500/20 text-red-400 text-[11px] font-bold px-5 py-2 rounded-full mb-5 tracking-[0.2em] uppercase">
+            {/* ── Badge ── */}
+            <div className="flex justify-center mb-10 md:mb-14">
+              <div className="inline-flex items-center gap-2.5 bg-red-600/10 border border-red-500/20 text-red-400 text-[11px] font-bold px-5 py-2 rounded-full tracking-[0.2em] uppercase">
                 <BatteryCharging className="w-3.5 h-3.5" />
                 บริการของเรา
               </div>
-              <h2 className="text-3xl sm:text-4xl md:text-6xl font-black text-white mb-4 md:mb-5 leading-[1.1] tracking-tight">
-                {section.title || "เปลี่ยนแบตเตอรี่รถยนต์"}
-                <span className="block text-red-500">{data.subtitle || "นอกสถานที่ — ถึงที่คุณ"}</span>
-              </h2>
-              <p className="text-neutral-400 max-w-2xl mx-auto text-sm md:text-lg leading-relaxed">
-                {data.description || "ไม่ต้องเข็นรถ ไม่ต้องหาอู่ แค่โทรหาเรา ช่างออกไปเปลี่ยนให้ถึงที่ภายใน 30 นาที บริการทุกวัน 24 ชั่วโมง"}
-              </p>
             </div>
 
-            {/* ── Feature Cards ── */}
-            <div className={`grid gap-4 md:gap-6 mb-16 md:mb-20 ${
-              items.length <= 2 ? "grid-cols-1 sm:grid-cols-2 max-w-2xl mx-auto" :
-              items.length === 3 ? "grid-cols-1 sm:grid-cols-3" :
-              "grid-cols-1 sm:grid-cols-2 xl:grid-cols-4"
-            }`}>
-              {items.map((feat: any, idx: number) => (
-                <div key={idx} className="group relative flex flex-col bg-black border border-neutral-800/60 rounded-2xl md:rounded-3xl p-6 md:p-8 overflow-hidden transition-all duration-500 hover:border-red-500/40 hover:shadow-[0_0_40px_-10px_rgba(220,38,38,0.2)]">
-                  <div className="absolute top-0 left-8 right-8 h-px bg-gradient-to-r from-transparent via-red-500/0 to-transparent group-hover:via-red-500/50 transition-all duration-500" />
-                  <div className="absolute inset-0 bg-gradient-to-b from-red-600/0 to-transparent group-hover:from-red-600/[0.05] transition-all duration-500 rounded-3xl" />
-                  <span className="absolute top-4 right-5 text-6xl font-black text-neutral-900/70 group-hover:text-red-600/10 transition-colors duration-500 leading-none select-none">
-                    {String(idx + 1).padStart(2, "0")}
-                  </span>
-                  <div className="relative w-14 h-14 rounded-2xl flex items-center justify-center mb-5 transition-all duration-500 bg-red-600/10 text-red-400 group-hover:bg-red-600 group-hover:text-white group-hover:shadow-lg group-hover:shadow-red-600/30 group-hover:scale-110">
-                    {iconMap[feat.icon || "Battery"]}
+            {/* ── Main Content: 2-col on desktop ── */}
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-16 items-center mb-16 md:mb-24">
+              {/* Left — Text */}
+              <div>
+                <h2 className="text-4xl sm:text-5xl md:text-6xl font-black text-white leading-[1.05] tracking-tight mb-5">
+                  {section.title || "เปลี่ยนแบตเตอรี่"}
+                  <span className="block text-red-500 mt-1">{data.subtitle || "นอกสถานที่ ถึงที่คุณ"}</span>
+                </h2>
+                <p className="text-neutral-400 text-base md:text-lg leading-relaxed mb-8 max-w-lg">
+                  {data.description || "ไม่ต้องลากรถ ไม่ต้องหาอู่ เพียงโทรหาเรา ช่างจะออกไปเปลี่ยนแบตเตอรี่ให้ถึงที่คุณทันที ไม่ว่าจะเป็นที่บ้าน ที่ทำงาน หรือกลางถนน"}
+                </p>
+
+                {/* Benefits list */}
+                <ul className="space-y-3 mb-10">
+                  {benefits.map((benefit, i) => (
+                    <li key={i} className="flex items-start gap-3">
+                      <div className="flex-shrink-0 w-6 h-6 rounded-full bg-red-600/15 border border-red-500/30 flex items-center justify-center mt-0.5">
+                        <CheckCircle2 className="w-3.5 h-3.5 text-red-400" />
+                      </div>
+                      <span className="text-neutral-300 text-sm md:text-base leading-snug">{benefit}</span>
+                    </li>
+                  ))}
+                </ul>
+
+                {/* CTA */}
+                <div className="flex flex-col sm:flex-row gap-3">
+                  <Link href={`tel:${phone}`}
+                    className="inline-flex items-center justify-center gap-2.5 bg-red-600 hover:bg-red-500 active:scale-[0.97] text-white font-bold text-base h-14 px-8 rounded-2xl transition-all duration-300 shadow-[0_8px_30px_-8px_rgba(220,38,38,0.5)] hover:shadow-[0_8px_30px_-4px_rgba(220,38,38,0.65)] sm:hover:-translate-y-0.5">
+                    <PhoneCall className="w-5 h-5" />โทรเรียกช่างด่วน
+                  </Link>
+                  <Link href={lineUrl} target="_blank"
+                    className="inline-flex items-center justify-center gap-2.5 bg-[#06C755] hover:bg-[#05b34b] active:scale-[0.97] text-white font-bold text-base h-14 px-8 rounded-2xl transition-all duration-300 shadow-[0_8px_30px_-8px_rgba(6,199,85,0.35)] sm:hover:-translate-y-0.5">
+                    <MessageCircle className="w-5 h-5" />แอดไลน์ส่งพิกัด
+                  </Link>
+                </div>
+              </div>
+
+              {/* Right — Visual Card */}
+              <div className="relative">
+                {/* Outer glow */}
+                <div className="absolute inset-0 bg-red-600/10 rounded-3xl blur-2xl scale-110" />
+                <div className="relative bg-black border border-neutral-800/60 rounded-3xl p-8 md:p-10 overflow-hidden hover:border-red-500/30 transition-colors duration-500">
+                  {/* Top accent line */}
+                  <div className="absolute top-0 left-8 right-8 h-px bg-gradient-to-r from-transparent via-red-500/50 to-transparent" />
+
+                  {/* Big icon */}
+                  <div className="flex justify-center mb-8">
+                    <div className="relative w-24 h-24 rounded-3xl bg-red-600/10 border border-red-500/20 flex items-center justify-center">
+                      <BatteryCharging className="w-12 h-12 text-red-500" />
+                      <div className="absolute inset-0 rounded-3xl animate-pulse bg-red-600/5" />
+                    </div>
                   </div>
-                  <h3 className="font-bold text-white text-base md:text-lg mb-2.5 leading-snug pr-8 relative">{feat.title}</h3>
-                  <p className="text-neutral-400 text-sm leading-relaxed flex-1 relative">{feat.description}</p>
-                  <div className="absolute bottom-0 left-0 right-0 h-[2px] bg-gradient-to-r from-transparent via-red-600/0 to-transparent group-hover:via-red-500/40 transition-all duration-500" />
-                </div>
-              ))}
-            </div>
 
-            {/* ── Stats Strip ── */}
-            <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 md:gap-4 mb-16 md:mb-20">
-              {[
-                { value: "30 นาที", label: "เวลาถึงที่เฉลี่ย" },
-                { value: "24 ชม.", label: "เปิดให้บริการ" },
-                { value: "1,000+", label: "คันที่ให้บริการแล้ว" },
-                { value: "5 ดาว",  label: "รีวิวจากลูกค้า" },
-              ].map((stat) => (
-                <div key={stat.value} className="bg-black border border-neutral-800/60 rounded-2xl p-5 md:p-6 text-center hover:border-red-500/30 transition-colors duration-300">
-                  <p className="text-2xl md:text-4xl font-black text-red-500 mb-1 leading-none">{stat.value}</p>
-                  <p className="text-neutral-400 text-xs md:text-sm">{stat.label}</p>
+                  {/* Service name */}
+                  <h3 className="text-center text-xl md:text-2xl font-black text-white mb-2">เปลี่ยนแบตเตอรี่รถยนต์</h3>
+                  <p className="text-center text-red-400 font-semibold text-sm mb-8">บริการนอกสถานที่ · 24 ชั่วโมง</p>
+
+                  {/* Mini stats */}
+                  <div className="grid grid-cols-2 gap-3">
+                    {[
+                      { value: "30 นาที", label: "ถึงที่เฉลี่ย", icon: <Timer className="w-4 h-4" /> },
+                      { value: "24 ชม.",  label: "เปิดบริการ",  icon: <Clock className="w-4 h-4" /> },
+                      { value: "1,000+",  label: "คันที่บริการ", icon: <BatteryCharging className="w-4 h-4" /> },
+                      { value: "1 ปี",    label: "รับประกัน",   icon: <BadgeCheck className="w-4 h-4" /> },
+                    ].map((s) => (
+                      <div key={s.value} className="bg-neutral-900/80 border border-neutral-800/60 rounded-2xl p-4 text-center hover:border-red-500/30 transition-colors duration-300">
+                        <div className="flex justify-center mb-1.5 text-red-500">{s.icon}</div>
+                        <p className="text-xl font-black text-red-500 leading-none mb-1">{s.value}</p>
+                        <p className="text-neutral-500 text-[11px]">{s.label}</p>
+                      </div>
+                    ))}
+                  </div>
+
+                  {/* Bottom accent */}
+                  <div className="absolute bottom-0 left-8 right-8 h-px bg-gradient-to-r from-transparent via-red-500/30 to-transparent" />
                 </div>
-              ))}
+              </div>
             </div>
 
             {/* ── Service Areas ── */}
