@@ -1,4 +1,4 @@
-import fs from 'fs';
+﻿import fs from 'fs';
 import path from 'path';
 
 const outDir = path.join(process.cwd(), 'public/images/blog');
@@ -363,7 +363,7 @@ function buildInfographic(data: any) {
   <!-- Header -->
   <g transform="translate(600, 120)" text-anchor="middle">
     <rect x="-100" y="-60" width="200" height="36" rx="18" fill="url(#glass-grad)" stroke="#00F2FE" stroke-width="1.5" />
-    <text x="0" y="-36" font-size="16" font-weight="800" fill="#00F2FE" letter-spacing="2">FIRSTCARCENTER</text>
+    <text x="0" y="-36" font-size="16" font-weight="800" fill="#00F2FE" letter-spacing="2">PORNPISIT BATTERY</text>
     <text x="0" y="20" font-size="56" font-weight="800" fill="#FFFFFF">${data.title}</text>
   </g>
 

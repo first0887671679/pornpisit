@@ -1,11 +1,11 @@
-import { PrismaClient } from "@prisma/client";
+﻿import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
 
 const htmlContent = `<h1>ไดชาร์จทำงานหนัก เกิดจากอะไร? รถติด เปิดแอร์เย็นฉ่ำ ระวังพังไม่รู้ตัว (อัปเดต 2026)</h1>
 <p>หลายคนอาจจะสงสัยว่า ทำไมรถบางคันถึงมีอาการ "แบตเตอรี่เสื่อมไว" หรือขับรถอยู่ดีๆ แล้วมี "ไฟรูปแบตเตอรี่สีแดง" โชว์เตือนขึ้นมาบนหน้าปัด ทั้งๆ ที่เพิ่งเปลี่ยนแบตมาไม่นาน สาเหตุหนึ่งที่ซ่อนอยู่และมักถูกมองข้ามก็คืออาการ <strong>"ไดชาร์จทำงานหนัก" (Alternator Overload)</strong> นั่นเองครับ</p>
 
-<p>โดยเฉพาะการขับรถในกรุงเทพฯ และปริมณฑล ที่ต้องเจอกับสภาพการจราจรติดขัดแถว <strong>ศรีนครินทร์ สุขุมวิท หรือ บางนา</strong> แดดร้อนจัดจนต้องเร่งแอร์เบอร์สุด ปัจจัยเหล่านี้แหละครับที่เป็นตัวเร่งให้ไดชาร์จน็อค วันนี้ช่างจาก FIRSTCARCENTER จะมาเจาะลึกปัญหา <strong>ไดชาร์จทำงานหนัก</strong> ว่าเกิดจากอะไร มีอาการเตือนไหม และจะถนอมระบบไฟอย่างไรให้อยู่กับเราไปนานๆ ครับ</p>
+<p>โดยเฉพาะการขับรถในกรุงเทพฯ และปริมณฑล ที่ต้องเจอกับสภาพการจราจรติดขัดแถว <strong>ศรีนครินทร์ สุขุมวิท หรือ บางนา</strong> แดดร้อนจัดจนต้องเร่งแอร์เบอร์สุด ปัจจัยเหล่านี้แหละครับที่เป็นตัวเร่งให้ไดชาร์จน็อค วันนี้ช่างจาก PORNPISIT BATTERY จะมาเจาะลึกปัญหา <strong>ไดชาร์จทำงานหนัก</strong> ว่าเกิดจากอะไร มีอาการเตือนไหม และจะถนอมระบบไฟอย่างไรให้อยู่กับเราไปนานๆ ครับ</p>
 
 <img src="/images/blog/pig-alternator-working-hard-cover.svg" alt="ไดชาร์จทำงานหนัก เกิดจากอะไร อาการไดชาร์จเสีย ศรีนครินทร์ บางนา" class="rounded-xl my-6 w-full object-cover shadow-sm" />
 <p class="text-sm text-center text-slate-500 mt-2"><em>ภาพ: รถติดหนักบวกกับการเปิดแอร์แรงสุด เป็นสาเหตุหลักที่ทำให้ไดชาร์จต้องปั่นไฟชดเชยอย่างหนัก</em></p>
@@ -37,7 +37,7 @@ const htmlContent = `<h1>ไดชาร์จทำงานหนัก เก
     <svg class="w-12 h-12 text-slate-400 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg>
     <p class="text-slate-500 font-medium text-center">ภาพผลงานจริง: เปลี่ยนไดชาร์จที่ไหม้เสียหายจากการทำงานหนัก<br/>(พื้นที่สำหรับแทรกรูปภาพผลงานจริงจากร้าน)</p>
   </div>
-  <p class="text-sm text-center text-slate-500 mt-2"><em>เคสจริง: ลูกค้าใช้รถเส้นแพรกษารถติดหนักเป็นประจำ จนไดชาร์จไหม้มีกลิ่นเหม็น ช่าง FIRSTCARCENTER เข้าบริการถอดเปลี่ยนไดลูกใหม่ให้ถึงหน้าบ้าน</em></p>
+  <p class="text-sm text-center text-slate-500 mt-2"><em>เคสจริง: ลูกค้าใช้รถเส้นแพรกษารถติดหนักเป็นประจำ จนไดชาร์จไหม้มีกลิ่นเหม็น ช่าง PORNPISIT BATTERY เข้าบริการถอดเปลี่ยนไดลูกใหม่ให้ถึงหน้าบ้าน</em></p>
 </div>
 
 <h2>วิธีถนอมไดชาร์จ ไม่ให้พังก่อนวัยอันควร</h2>
@@ -56,13 +56,13 @@ const htmlContent = `<h1>ไดชาร์จทำงานหนัก เก
       <span>เช็กระบบไฟฟรี 24 ชม.</span>
     </div>
     <h3 class="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-800 dark:text-white mb-3 leading-tight">สงสัยไดชาร์จจะพัง? แบตเสื่อม? ให้เราไปเช็กให้ถึงที่!</h3>
-    <p class="text-slate-600 dark:text-slate-300 mb-6 sm:mb-8 text-sm sm:text-base md:text-lg leading-relaxed">FIRSTCARCENTER พร้อมเครื่องมือตรวจวิเคราะห์ CCA แบตเตอรี่ และแรงดันไดชาร์จ วิ่งไปตรวจให้คุณถึงหน้าบ้านหรือจุดที่รถเสีย โซนศรีนครินทร์ บางนา สมุทรปราการ</p>
+    <p class="text-slate-600 dark:text-slate-300 mb-6 sm:mb-8 text-sm sm:text-base md:text-lg leading-relaxed">PORNPISIT BATTERY พร้อมเครื่องมือตรวจวิเคราะห์ CCA แบตเตอรี่ และแรงดันไดชาร์จ วิ่งไปตรวจให้คุณถึงหน้าบ้านหรือจุดที่รถเสีย โซนศรีนครินทร์ บางนา สมุทรปราการ</p>
     <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center">
-      <a href="tel:0887671679" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-bold py-3 sm:py-3.5 px-6 sm:px-8 rounded-full shadow-lg shadow-orange-500/25 hover:shadow-xl hover:shadow-orange-500/30 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 text-sm sm:text-base">
+      <a href="tel:0996731296" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-bold py-3 sm:py-3.5 px-6 sm:px-8 rounded-full shadow-lg shadow-orange-500/25 hover:shadow-xl hover:shadow-orange-500/30 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 text-sm sm:text-base">
         <svg class="w-5 h-5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
-        <span>โทรเรียกช่าง 088-767-1679</span>
+        <span>โทรเรียกช่าง 099-673-1296</span>
       </a>
-      <a href="https://lin.ee/xxqKaZn" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold py-3 sm:py-3.5 px-6 sm:px-8 rounded-full shadow-lg shadow-green-500/25 hover:shadow-xl hover:shadow-green-500/30 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 text-sm sm:text-base">
+      <a href="https://lin.ee/OBB86S4" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold py-3 sm:py-3.5 px-6 sm:px-8 rounded-full shadow-lg shadow-green-500/25 hover:shadow-xl hover:shadow-green-500/30 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 text-sm sm:text-base">
         <svg class="w-5 h-5 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24"><path d="M24 10.304c0-5.369-5.383-9.738-12-9.738-6.616 0-12 4.369-12 9.738 0 4.814 4.269 8.846 10.036 9.608.391.084.922.258 1.057.592.122.303.079.778.039 1.085l-.171 1.027c-.053.303-.242 1.186 1.039.647 1.281-.54 6.911-4.069 9.428-6.967 1.739-1.907 2.572-4.103 2.572-6.002z"/></svg>
         <span>แอดไลน์ ปรึกษาอาการฟรี</span>
       </a>
@@ -130,7 +130,7 @@ const postData = {
   coverImage: "/images/blog/pig-alternator-working-hard-cover.svg",
   category: "ความรู้ระบบไฟฟ้ารถยนต์",
   published: true,
-  seoTitle: "ไดชาร์จทำงานหนัก เกิดจากอะไร อาการเสีย ไดร้อน | Firstcar",
+  seoTitle: "ไดชาร์จทำงานหนัก เกิดจากอะไร อาการเสีย ไดร้อน | PORNPISIT BATTERY",
   seoDescription: "สาเหตุที่ทำให้ไดชาร์จทำงานหนัก เกิดจากเปิดแอร์ตอนรถติด หรือแบตเตอรี่เสื่อม แนะนำวิธีดูอาการไดชาร์จเสีย ซ่อมไดชาร์จนอกสถานที่ ศรีนครินทร์ บางนา สมุทรปราการ",
   seoKeywords: "ไดชาร์จทำงานหนัก,ไดชาร์จร้อน,โหลดระบบไฟ,อาการไดชาร์จเสีย,แบตเตอรี่เสื่อม,ซ่อมไดชาร์จ,รถติดแอร์ไม่เย็น,ศรีนครินทร์,บางนา,แบริ่ง,ลาซาล,สุขุมวิท,เทพารักษ์,แพรกษา,สมุทรปราการ",
   ogTitle: "ระวัง! 'ไดชาร์จทำงานหนัก' สาเหตุหลักที่ทำให้รถดับกลางทาง",

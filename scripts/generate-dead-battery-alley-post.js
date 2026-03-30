@@ -1,4 +1,4 @@
-const fs = require('fs');
+﻿const fs = require('fs');
 const path = require('path');
 const Database = require('better-sqlite3');
 
@@ -92,7 +92,7 @@ const post = {
   category: "ช่วยเหลือฉุกเฉิน",
   tags: "แบตเตอรี่รถยนต์,รถแบตหมดในซอย,สตาร์ทไม่ติด,เปลี่ยนแบตนอกสถานที่,รถเสียฉุกเฉิน,สมุทรปราการ,บางนา",
   published: 1,
-  author: "FIRSTCARCENTER",
+  author: "PORNPISIT BATTERY",
   seoTitle: "รถแบตหมดในซอย ทำไงดี? เรียกช่างเปลี่ยนแบต 24 ชม. โซนบางนา",
   seoDescription: "รถแบตหมดในซอยแคบ จอดขวางทาง สตาร์ทไม่ติด? อ่านวิธีรับมือและรีวิวเรียกช่างเปลี่ยนแบตนอกสถานที่ 24 ชม. โซนศรีนครินทร์ บางนา เทพารักษ์ ถึงไวใน 30 นาที",
   seoKeywords: "รถแบตหมดในซอย, เปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่, รถสตาร์ทไม่ติด, แบตหมดกลางคืน, ช่างซ่อมรถ บางนา",
@@ -100,7 +100,7 @@ const post = {
   ogDescription: "จอดขวางซอย แบตหมดกลางดึก? ดูวิธีเอาตัวรอดพร้อมเคสรีวิวเปลี่ยนแบตด่วนยามวิกาล โซนศรีนครินทร์-เทพารักษ์",
   coverImage: "/images/blog/pig-dead-battery-alley-cover.svg",
   content: `
-<p class="lead">เคยไหมครับ? ขับรถกลับบ้านเหนื่อยๆ แวะซื้อของปากซอย พอจะสตาร์ทรถกลับปรากฏว่า <strong>รถแบตหมดในซอย</strong> สตาร์ทไม่ติด แถมจอดขวางทางรถคันอื่นอีก! ยิ่งถ้าเป็นซอยแคบๆ ในย่าน <strong>ศรีนครินทร์ แบริ่ง ลาซาล หรือเทพารักษ์</strong> ที่รถพลุกพล่านด้วยแล้ว ยิ่งชวนให้เหงื่อตก วันนี้ <strong>FirstCarCenter</strong> จะมาแชร์วิธีเอาตัวรอดเมื่อรถแบตหมดในซอย พร้อมเคสรีวิวการออกไปช่วยเหลือลูกค้าจริงครับ</p>
+<p class="lead">เคยไหมครับ? ขับรถกลับบ้านเหนื่อยๆ แวะซื้อของปากซอย พอจะสตาร์ทรถกลับปรากฏว่า <strong>รถแบตหมดในซอย</strong> สตาร์ทไม่ติด แถมจอดขวางทางรถคันอื่นอีก! ยิ่งถ้าเป็นซอยแคบๆ ในย่าน <strong>ศรีนครินทร์ แบริ่ง ลาซาล หรือเทพารักษ์</strong> ที่รถพลุกพล่านด้วยแล้ว ยิ่งชวนให้เหงื่อตก วันนี้ <strong>PORNPISIT BATTERY</strong> จะมาแชร์วิธีเอาตัวรอดเมื่อรถแบตหมดในซอย พร้อมเคสรีวิวการออกไปช่วยเหลือลูกค้าจริงครับ</p>
 
 <h2>เมื่อ "รถแบตหมดในซอย" สิ่งแรกที่ต้องทำคืออะไร?</h2>
 <p>ถ้าบิดกุญแจแล้วมีแต่เสียง "แชะๆ" หรือไฟหน้าปัดหรี่ลงจนดับสนิท ให้ตั้งสติและทำตามขั้นตอนนี้ครับ:</p>
@@ -118,7 +118,7 @@ const post = {
 <h2>Case Study 1: ระทึกกลางดึก รถแบตหมดขวางซอยวัดหนามแดง (เทพารักษ์)</h2>
 <p>เหตุการณ์นี้เกิดขึ้นตอน 3 ทุ่มกว่า ลูกค้าขับรถ Honda Civic เข้ามาใน <strong>ซอยวัดหนามแดง เทพารักษ์</strong> แล้วจอดซื้อข้าวหน้าปากซอยย่อย พอกลับขึ้นรถ ปรากฏว่าสตาร์ทไม่ติด ซอยนี้ขึ้นชื่อเรื่องความแคบและรถสวนกันตลอดเวลา ทำให้รถติดสะสมยาวทันที</p>
 
-<p>ลูกค้าเสิร์ชกูเกิลหาคำว่า "เปลี่ยนแบตเตอรี่ใกล้ฉัน" แล้วเจอเบอร์โทร FirstCarCenter เราประเมินสถานการณ์แล้วว่าต้องใช้ <strong>"หน่วยมอเตอร์ไซค์เคลื่อนที่เร็ว"</strong> เท่านั้น ช่างของเราแพ็คแบตเตอรี่ GS ขึ้นท้ายรถ ขี่ลัดเลาะฝ่ารถติดเข้าซอยไปถึงหน้ารถลูกค้าในเวลาเพียง <strong>18 นาที</strong>!</p>
+<p>ลูกค้าเสิร์ชกูเกิลหาคำว่า "เปลี่ยนแบตเตอรี่ใกล้ฉัน" แล้วเจอเบอร์โทร PORNPISIT BATTERY เราประเมินสถานการณ์แล้วว่าต้องใช้ <strong>"หน่วยมอเตอร์ไซค์เคลื่อนที่เร็ว"</strong> เท่านั้น ช่างของเราแพ็คแบตเตอรี่ GS ขึ้นท้ายรถ ขี่ลัดเลาะฝ่ารถติดเข้าซอยไปถึงหน้ารถลูกค้าในเวลาเพียง <strong>18 นาที</strong>!</p>
 
 <p>ช่างทำการต่อเครื่องสำรองไฟ ECU และถอดเปลี่ยนแบตเตอรี่ลูกใหม่อย่างรวดเร็ว ใช้เวลาเปลี่ยนไม่ถึง 10 นาที รถก็กลับมาสตาร์ทติดฉึ่ง วิ่งหลบเข้าข้างทางเปิดการจราจรให้ซอยได้สำเร็จ ลูกค้าประทับใจมากที่ช่างมาไวและแก้ปัญหาได้ตรงจุด</p>
 
@@ -131,9 +131,9 @@ const post = {
   <img src="/images/blog/dead-battery-alley-case2.svg" alt="ช่างเปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่ คอนโดลึกในซอยแบริ่ง สุขุมวิท 107" class="w-full h-auto object-cover m-0" />
 </div>
 
-<h2>ทำไมถึงควรเรียก FirstCarCenter เมื่อรถแบตหมดในซอย?</h2>
+<h2>ทำไมถึงควรเรียก PORNPISIT BATTERY เมื่อรถแบตหมดในซอย?</h2>
 <ul>
-  <li><strong>มอเตอร์ไซค์หน่วยรบพิเศษ:</strong> เราเชี่ยวชาญเส้นทางใน <strong>บางนา ศรีนครินทร์ ลาซาล แบริ่ง เทพารักษ์ สมุทรปราการ</strong> มอเตอร์ไซค์สามารถซอกแซกเข้าซอยแคบได้ไวกว่ารถยนต์</li>
+  <li><strong>มอเตอร์ไซค์หน่วยรบพิเศษ:</strong> เราเชี่ยวชาญเส้นทางใน <strong>ห้วยขวาง ดินแดง ลาดพร้าว ลาซาล แบริ่ง เทพารักษ์ สมุทรปราการ</strong> มอเตอร์ไซค์สามารถซอกแซกเข้าซอยแคบได้ไวกว่ารถยนต์</li>
   <li><strong>บริการตลอด 24 ชั่วโมง:</strong> ไม่ว่ารถจะเสียตอนตี 2 หรือตี 5 เรามีทีมช่างสแตนด์บายเสมอ</li>
   <li><strong>แบตเตอรี่ใหม่แกะกล่อง มีประกันทุกลูก:</strong> เรานำแบตเตอรี่แบรนด์ชั้นนำ (GS, FB, Panasonic, 3K, Amaron) พร้อมใบรับประกัน 1-2 ปี ไปเปลี่ยนให้ถึงที่</li>
   <li><strong>ฟรีค่าแรง ฟรีค่าเดินทาง:</strong> จ่ายแค่ราคาแบตเตอรี่ตามมาตรฐานร้าน ไม่มีบวกค่าวิ่งเข้าซอยลึก</li>
@@ -147,8 +147,8 @@ const post = {
     <h3 style="margin:1.5rem auto 0;max-width:600px;font-size:1.75rem;font-weight:900;line-height:1.3;color:#1e293b;">จอดขวางซอย สตาร์ทไม่ติด? เรียกช่างเปลี่ยนแบตด่วน!</h3>
     <p style="margin:1rem auto 0;max-width:520px;font-size:1rem;line-height:1.7;color:#64748b;">ซอยแคบแค่ไหนก็เข้าถึง! ช่างมอเตอร์ไซค์พร้อมลุยนำแบตเตอรี่แท้ไปเปลี่ยนให้ถึงที่ภายใน 30 นาที ฟรีค่าแรง ฟรีค่าเดินทาง</p>
     <div style="margin-top:2rem;display:flex;flex-wrap:wrap;justify-content:center;gap:1rem;">
-      <a href="tel:0887671679" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:linear-gradient(to right,#f97316,#ef4444);color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(249,115,22,0.7);">📞 โทรเรียกช่าง 088-767-1679</a>
-      <a href="https://lin.ee/xxqKaZn" target="_blank" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:#06C755;color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(6,199,85,0.7);">💬 แอดไลน์ ส่งพิกัดมาได้เลย</a>
+      <a href="tel:0996731296" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:linear-gradient(to right,#f97316,#ef4444);color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(249,115,22,0.7);">📞 โทรเรียกช่าง 099-673-1296</a>
+      <a href="https://lin.ee/OBB86S4" target="_blank" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:#06C755;color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(6,199,85,0.7);">💬 แอดไลน์ ส่งพิกัดมาได้เลย</a>
     </div>
     <p style="margin-top:1.5rem;"><a href="/battery-replacement" style="color:#ea580c;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:1rem;">เปลี่ยนแบตเตอรี่รถยนต์ นอกสถานที่ บางนา แบริ่ง ลาซาล</a></p>
     <p style="margin-top:0.75rem;"><a href="/alternator-starter" style="color:#0891b2;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:0.9rem;">ซ่อมไดชาร์จ ไดสตาร์ท นอกสถานที่ บางนา ลาซาล →</a></p>
@@ -162,14 +162,14 @@ const post = {
   <div class="border rounded-xl p-4" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
     <h3 class="text-lg font-bold mt-0" itemprop="name">Q: รถจอดอยู่ในซอยแคบมาก ช่างจะเข้าไปได้ไหม?</h3>
     <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
-      <p class="mb-0 text-slate-600" itemprop="text"><strong>A:</strong> เข้าได้แน่นอนครับ ทีม FirstCarCenter ใช้มอเตอร์ไซค์ในการออกบริการฉุกเฉิน ทำให้สามารถลัดเลาะเข้าซอยแคบ ซอยตัน หรือแม้แต่ลานจอดรถใต้ดินของคอนโดที่รถกระบะเข้าไม่ได้ครับ</p>
+      <p class="mb-0 text-slate-600" itemprop="text"><strong>A:</strong> เข้าได้แน่นอนครับ ทีม PORNPISIT BATTERY ใช้มอเตอร์ไซค์ในการออกบริการฉุกเฉิน ทำให้สามารถลัดเลาะเข้าซอยแคบ ซอยตัน หรือแม้แต่ลานจอดรถใต้ดินของคอนโดที่รถกระบะเข้าไม่ได้ครับ</p>
     </div>
   </div>
 
   <div class="border rounded-xl p-4" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
     <h3 class="text-lg font-bold mt-0" itemprop="name">Q: ถ้าแบตหมดตอนกลางคืน ตี 2 ยังมีช่างมาไหม?</h3>
     <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
-      <p class="mb-0 text-slate-600" itemprop="text"><strong>A:</strong> มีครับ! เราเปิดให้บริการตลอด 24 ชั่วโมง ไม่มีวันหยุด ไม่ว่าดึกแค่ไหนในเขต บางนา ศรีนครินทร์ เทพารักษ์ แพรกษา เรามีช่างสแตนด์บายพร้อมออกไปช่วยเหลือทันที</p>
+      <p class="mb-0 text-slate-600" itemprop="text"><strong>A:</strong> มีครับ! เราเปิดให้บริการตลอด 24 ชั่วโมง ไม่มีวันหยุด ไม่ว่าดึกแค่ไหนในเขต ห้วยขวาง ดินแดง ลาดพร้าว เทพารักษ์ แพรกษา เรามีช่างสแตนด์บายพร้อมออกไปช่วยเหลือทันที</p>
     </div>
   </div>
 

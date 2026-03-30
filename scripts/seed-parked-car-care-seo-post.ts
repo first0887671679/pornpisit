@@ -1,11 +1,11 @@
-import { PrismaClient } from "@prisma/client";
+﻿import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
 
 const htmlContent = `<h1>จอดรถทิ้งไว้นาน สตาร์ทไม่ติด ทำไงดี? 5 วิธีดูแลรถจอดนาน (อัปเดต 2026)</h1>
 <p>เชื่อไหมครับว่ารถยนต์ที่จอดนิ่งๆ อยู่กับที่เป็นเวลานาน มักจะพังไวกว่ารถที่ถูกนำออกมาขับใช้งานทุกวัน! ยิ่งใครที่พักอยู่คอนโดย่าน<strong>แบริ่ง ลาซาล</strong> หรือหมู่บ้านโซน<strong>ศรีนครินทร์</strong> แล้วต้องเดินทางไปทำงานต่างประเทศ หรือ Work From Home จนต้อง <strong>จอดรถทิ้งไว้นาน</strong> เป็นเดือนๆ พอกลับมาสตาร์ทอีกที... เงียบกริบ! รถสตาร์ทไม่ติดซะแล้ว</p>
 
-<p>วันนี้ช่างจาก FIRSTCARCENTER จะมาเล่าให้ฟังครับว่า การจอดรถทิ้งไว้นานๆ ส่งผลเสียอะไรบ้าง พร้อมแนะนำ 5 วิธีดูแลรถเมื่อต้องจอดทิ้งไว้ เพื่อไม่ให้รถพังและพร้อมใช้งานเสมอครับ</p>
+<p>วันนี้ช่างจาก PORNPISIT BATTERY จะมาเล่าให้ฟังครับว่า การจอดรถทิ้งไว้นานๆ ส่งผลเสียอะไรบ้าง พร้อมแนะนำ 5 วิธีดูแลรถเมื่อต้องจอดทิ้งไว้ เพื่อไม่ให้รถพังและพร้อมใช้งานเสมอครับ</p>
 
 <img src="/images/blog/pig-parked-car-care-cover.svg" alt="จอดรถทิ้งไว้นาน รถสตาร์ทไม่ติด แบตเตอรี่เสื่อม แบริ่ง ลาซาล ศรีนครินทร์" class="rounded-xl my-6 w-full object-cover shadow-sm" />
 <p class="text-sm text-center text-slate-500 mt-2"><em>ภาพ: การจอดรถทิ้งไว้นานกว่า 1 เดือน มักทำให้แบตเตอรี่คายประจุจนหมดและสตาร์ทไม่ติด</em></p>
@@ -64,14 +64,14 @@ const htmlContent = `<h1>จอดรถทิ้งไว้นาน สตา
   <div class="absolute top-0 right-0 -mt-4 -mr-4 w-24 h-24 bg-gradient-to-br from-[#FF6B00] to-[#FF3E00] rounded-full opacity-20 blur-2xl"></div>
   <div class="absolute bottom-0 left-0 -mb-4 -ml-4 w-24 h-24 bg-gradient-to-br from-[#00F2FE] to-[#4FACFE] rounded-full opacity-20 blur-2xl"></div>
   <div class="relative z-10">
-    <h2 class="text-2xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-slate-800 to-slate-600 dark:from-white dark:to-slate-300 mb-4">รถจอดนาน สตาร์ทไม่ติด? โทรเรียก FIRSTCARCENTER ด่วน!</h2>
-    <p class="text-slate-600 dark:text-slate-400 mb-8 max-w-2xl mx-auto text-lg leading-relaxed">หากคุณเพิ่งกลับมาจากการเดินทาง หรือ <strong>จอดรถทิ้งไว้นาน</strong> จนรถสตาร์ทไม่ติด ไม่ต้องตกใจ! FIRSTCARCENTER มีบริการพ่วงแบตเตอรี่ และ <a href="/battery-replacement" class="text-orange-600 hover:underline">เปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่</a> บริการรวดเร็วถึงหน้าบ้านคุณ ครอบคลุมพื้นที่ ศรีนครินทร์, บางนา, แบริ่ง, ลาซาล, สุขุมวิท, เทพารักษ์, แพรกษา, ซอยวัดหนามแดง และ สมุทรปราการ</p>
+    <h2 class="text-2xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-slate-800 to-slate-600 dark:from-white dark:to-slate-300 mb-4">รถจอดนาน สตาร์ทไม่ติด? โทรเรียก PORNPISIT BATTERY ด่วน!</h2>
+    <p class="text-slate-600 dark:text-slate-400 mb-8 max-w-2xl mx-auto text-lg leading-relaxed">หากคุณเพิ่งกลับมาจากการเดินทาง หรือ <strong>จอดรถทิ้งไว้นาน</strong> จนรถสตาร์ทไม่ติด ไม่ต้องตกใจ! PORNPISIT BATTERY มีบริการพ่วงแบตเตอรี่ และ <a href="/battery-replacement" class="text-orange-600 hover:underline">เปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่</a> บริการรวดเร็วถึงหน้าบ้านคุณ ครอบคลุมพื้นที่ ศรีนครินทร์, บางนา, แบริ่ง, ลาซาล, สุขุมวิท, เทพารักษ์, แพรกษา, ซอยวัดหนามแดง และ สมุทรปราการ</p>
     <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
-      <a href="tel:0887671679" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-gradient-to-r from-[#FF6B00] to-[#FF3E00] hover:from-[#E65A00] hover:to-[#E63500] text-white font-bold py-3.5 px-8 rounded-full shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300">
+      <a href="tel:0996731296" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-gradient-to-r from-[#FF6B00] to-[#FF3E00] hover:from-[#E65A00] hover:to-[#E63500] text-white font-bold py-3.5 px-8 rounded-full shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-        <span>เรียกช่างพ่วงแบต/เปลี่ยนแบต 088-767-1679</span>
+        <span>เรียกช่างพ่วงแบต/เปลี่ยนแบต 099-673-1296</span>
       </a>
-      <a href="https://lin.ee/xxqKaZn" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-gradient-to-r from-[#00c300] to-[#00a800] hover:from-[#00b300] hover:to-[#009900] text-white font-bold py-3.5 px-8 rounded-full shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300">
+      <a href="https://lin.ee/OBB86S4" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-gradient-to-r from-[#00c300] to-[#00a800] hover:from-[#00b300] hover:to-[#009900] text-white font-bold py-3.5 px-8 rounded-full shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path d="M24 10.304c0-5.369-5.383-9.738-12-9.738-6.616 0-12 4.369-12 9.738 0 4.814 4.269 8.846 10.036 9.608.391.084.922.258 1.057.592.122.303.079.778.039 1.085l-.171 1.027c-.053.303-.242 1.186 1.039.647 1.281-.54 6.911-4.069 9.428-6.967 1.739-1.907 2.572-4.103 2.572-6.002z"/></svg>
         <span>แอดไลน์ ปรึกษาช่างฟรี</span>
       </a>
@@ -80,7 +80,7 @@ const htmlContent = `<h1>จอดรถทิ้งไว้นาน สตา
 </div>`;
 
 const postData = {
-  title: "จอดรถทิ้งไว้นาน สตาร์ทไม่ติด ทำไงดี? 5 วิธีดูแลรถจอดนาน (อัปเดต 2026) | FIRSTCARCENTER",
+  title: "จอดรถทิ้งไว้นาน สตาร์ทไม่ติด ทำไงดี? 5 วิธีดูแลรถจอดนาน (อัปเดต 2026) | PORNPISIT BATTERY",
   slug: "car-parked-too-long-care-guide",
   excerpt: "จอดรถทิ้งไว้นาน 1 เดือน พอกลับมาสตาร์ทไม่ติด แบตเสื่อม ยางเสียทรง! ช่างแนะนำ 5 วิธีดูแลรถเมื่อต้องจอดนาน พร้อมบริการพ่วงแบต ศรีนครินทร์ บางนา แบริ่ง",
   content: htmlContent,
@@ -88,7 +88,7 @@ const postData = {
   category: "การดูแลรักษารถยนต์",
   tags: "จอดรถทิ้งไว้นาน,จอดรถทิ้งไว้1เดือน,รถสตาร์ทไม่ติด,แบตเตอรี่เสื่อม,วิธีดูแลรถจอดนาน,พ่วงแบตเตอรี่,เปลี่ยนแบตเตอรี่นอกสถานที่,ศรีนครินทร์,บางนา,แบริ่ง,ลาซาล,สมุทรปราการ",
   published: true,
-  author: "FIRSTCARCENTER",
+  author: "PORNPISIT BATTERY",
   seoTitle: "จอดรถทิ้งไว้นาน สตาร์ทไม่ติด ทำไงดี? 5 วิธีดูแลรถจอดนาน",
   seoDescription: "จอดรถทิ้งไว้นาน จนแบตหมด สตาร์ทไม่ติด? เปิด 5 วิธีดูแลรถเมื่อต้องจอดนาน พร้อมรีวิวเคสหน้างานจริง บริการพ่วงแบต เปลี่ยนแบตนอกสถานที่ ศรีนครินทร์ แบริ่ง",
   seoKeywords: "จอดรถทิ้งไว้นาน,แบตเตอรี่เสื่อม,รถสตาร์ทไม่ติด,วิธีดูแลรถจอดนาน,จอดรถทิ้งไว้ 1 เดือน,จอดรถทิ้งไว้ 1 อาทิตย์,พ่วงแบตเตอรี่,เปลี่ยนแบตเตอรี่นอกสถานที่,ศรีนครินทร์,บางนา,แบริ่ง,ลาซาล,สุขุมวิท,เทพารักษ์,แพรกษา,สมุทรปราการ",

@@ -1,11 +1,11 @@
-import { PrismaClient } from "@prisma/client";
+﻿import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
 
 const htmlContent = `<h1>ล้อแม็กดุ้ง อาการเป็นอย่างไร? ตกหลุมแรงซ่อมได้ไหม หรือต้องเปลี่ยน (อัปเดต 2026)</h1>
 <p>ถ้าคุณเพิ่งขับรถตกหลุมก่อสร้างบนถนน <strong>ศรีนครินทร์ หรือ เทพารักษ์</strong> อย่างแรงจนได้ยินเสียง "ตึง!" สนั่นลั่นรถ นอกจากเรื่องยางแตกหรือแก้มยางฉีกที่ต้องกังวลแล้ว อีกหนึ่งความเสียหายราคาแพงที่มักจะตามมาติดๆ ก็คืออาการ <strong>"ล้อแม็กดุ้ง"</strong> ครับ</p>
 
-<p>หลายคนอาจจะยังไม่แน่ใจว่า <strong>แม็กดุ้ง</strong> อาการมันเป็นยังไง? ขับต่อได้ไหม? แล้วถ้าดุ้งไปแล้วเอาไปกลึงดัดซ่อมจะกลับมาใช้ได้เหมือนเดิมหรือเปล่า วันนี้ช่างจาก FIRSTCARCENTER จะมาไขข้อข้องใจเรื่องนี้ พร้อมวิธีรับมือเมื่อเกิดเหตุตกหลุมกลางดึกแถว <strong>บางนา-แพรกษา</strong> ครับ</p>
+<p>หลายคนอาจจะยังไม่แน่ใจว่า <strong>แม็กดุ้ง</strong> อาการมันเป็นยังไง? ขับต่อได้ไหม? แล้วถ้าดุ้งไปแล้วเอาไปกลึงดัดซ่อมจะกลับมาใช้ได้เหมือนเดิมหรือเปล่า วันนี้ช่างจาก PORNPISIT BATTERY จะมาไขข้อข้องใจเรื่องนี้ พร้อมวิธีรับมือเมื่อเกิดเหตุตกหลุมกลางดึกแถว <strong>บางนา-แพรกษา</strong> ครับ</p>
 
 <img src="/images/blog/pig-bent-rim-guide-cover.svg" alt="ล้อแม็กดุ้ง ซ่อมได้ไหม ตกหลุมล้อดุ้ง ศรีนครินทร์ บางนา แบริ่ง" class="rounded-xl my-6 w-full object-cover shadow-sm" />
 <p class="text-sm text-center text-slate-500 mt-2"><em>ภาพ: ล้อแม็กดุ้ง เป็นความเสียหายยอดฮิตเมื่อขับรถตกหลุมด้วยความเร็วสูง</em></p>
@@ -38,7 +38,7 @@ const htmlContent = `<h1>ล้อแม็กดุ้ง อาการเป
     <svg class="w-12 h-12 text-slate-400 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
     <p class="text-slate-500 font-medium text-center">ภาพผลงานจริง: ช่วยเหลือลูกค้าเปลี่ยนยางอะไหล่ เคสแม็กดุ้งยางแตก<br/>(พื้นที่สำหรับแทรกรูปภาพผลงานจริงจากร้าน)</p>
   </div>
-  <p class="text-sm text-center text-slate-500 mt-2"><em>เคสจริง: ลูกค้าตกหลุมบ่อหน้าไซต์งานก่อสร้างเส้นศรีนครินทร์ แม็กดุ้งจนยางขอบ 18 นิ้ว ลมรั่วออกหมด ช่าง FIRSTCARCENTER เข้าบริการถอดเปลี่ยนใส่ล้ออะไหล่ให้ เพื่อให้ประคองรถกลับได้</em></p>
+  <p class="text-sm text-center text-slate-500 mt-2"><em>เคสจริง: ลูกค้าตกหลุมบ่อหน้าไซต์งานก่อสร้างเส้นศรีนครินทร์ แม็กดุ้งจนยางขอบ 18 นิ้ว ลมรั่วออกหมด ช่าง PORNPISIT BATTERY เข้าบริการถอดเปลี่ยนใส่ล้ออะไหล่ให้ เพื่อให้ประคองรถกลับได้</em></p>
 </div>
 
 <h2>วิธีแก้ปัญหาเฉพาะหน้า เมื่อตกหลุมแม็กดุ้ง ยางแบน</h2>
@@ -58,13 +58,13 @@ const htmlContent = `<h1>ล้อแม็กดุ้ง อาการเป
       <span>บริการเปลี่ยนยางอะไหล่ 24 ชม.</span>
     </div>
     <h3 class="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-800 dark:text-white mb-3 leading-tight">ตกหลุม แม็กดุ้ง ยางแบนกลางดึก? โทรหาเราสิครับ!</h3>
-    <p class="text-slate-600 dark:text-slate-300 mb-6 sm:mb-8 text-sm sm:text-base md:text-lg leading-relaxed">จอดเสียในที่มืดมันอันตรายกว่าที่คิด! FIRSTCARCENTER พร้อมส่งช่างไป <strong>เปลี่ยนยางอะไหล่ให้คุณถึงที่</strong> โซนศรีนครินทร์ บางนา แบริ่ง ลาซาล เทพารักษ์ แพรกษา ถึงไวใน 30 นาที!</p>
+    <p class="text-slate-600 dark:text-slate-300 mb-6 sm:mb-8 text-sm sm:text-base md:text-lg leading-relaxed">จอดเสียในที่มืดมันอันตรายกว่าที่คิด! PORNPISIT BATTERY พร้อมส่งช่างไป <strong>เปลี่ยนยางอะไหล่ให้คุณถึงที่</strong> โซนศรีนครินทร์ บางนา แบริ่ง ลาซาล เทพารักษ์ แพรกษา ถึงไวใน 30 นาที!</p>
     <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center">
-      <a href="tel:0887671679" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-bold py-3 sm:py-3.5 px-6 sm:px-8 rounded-full shadow-lg shadow-orange-500/25 hover:shadow-xl hover:shadow-orange-500/30 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 text-sm sm:text-base">
+      <a href="tel:0996731296" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-bold py-3 sm:py-3.5 px-6 sm:px-8 rounded-full shadow-lg shadow-orange-500/25 hover:shadow-xl hover:shadow-orange-500/30 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 text-sm sm:text-base">
         <svg class="w-5 h-5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
-        <span>โทรเรียกช่างด่วน 088-767-1679</span>
+        <span>โทรเรียกช่างด่วน 099-673-1296</span>
       </a>
-      <a href="https://lin.ee/xxqKaZn" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold py-3 sm:py-3.5 px-6 sm:px-8 rounded-full shadow-lg shadow-green-500/25 hover:shadow-xl hover:shadow-green-500/30 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 text-sm sm:text-base">
+      <a href="https://lin.ee/OBB86S4" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold py-3 sm:py-3.5 px-6 sm:px-8 rounded-full shadow-lg shadow-green-500/25 hover:shadow-xl hover:shadow-green-500/30 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 text-sm sm:text-base">
         <svg class="w-5 h-5 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24"><path d="M24 10.304c0-5.369-5.383-9.738-12-9.738-6.616 0-12 4.369-12 9.738 0 4.814 4.269 8.846 10.036 9.608.391.084.922.258 1.057.592.122.303.079.778.039 1.085l-.171 1.027c-.053.303-.242 1.186 1.039.647 1.281-.54 6.911-4.069 9.428-6.967 1.739-1.907 2.572-4.103 2.572-6.002z"/></svg>
         <span>แอดไลน์ ส่งพิกัดมาเลย</span>
       </a>
@@ -132,7 +132,7 @@ const postData = {
   coverImage: "/images/blog/pig-bent-rim-guide-cover.svg",
   category: "ความรู้เรื่องยาง",
   published: true,
-  seoTitle: "แม็กดุ้ง ซ่อมได้ไหม อาการแม็กดุ้ง เคลมประกัน | Firstcar",
+  seoTitle: "แม็กดุ้ง ซ่อมได้ไหม อาการแม็กดุ้ง เคลมประกัน | PORNPISIT BATTERY",
   seoDescription: "ล้อแม็กดุ้ง จากการตกหลุมอย่างแรง อาการเป็นอย่างไร ซ่อมดัดแม็กได้ไหม หรือต้องเปลี่ยนใหม่ พร้อมบริการเปลี่ยนยางอะไหล่ ศรีนครินทร์ บางนา แบริ่ง 24 ชม.",
   seoKeywords: "แม็กดุ้ง,ล้อแม็กดุ้ง,แม็กดุ้งซ่อมได้ไหม,อาการแม็กดุ้ง,ตกหลุมแม็กดุ้ง,ดัดแม็กดุ้ง,เคลมประกัน แม็กดุ้ง,เปลี่ยนยางอะไหล่,ศรีนครินทร์,บางนา,แบริ่ง,ลาซาล,เทพารักษ์,แพรกษา,สมุทรปราการ",
   ogTitle: "ตกหลุมอย่างแรง 'แม็กดุ้ง' ซ่อมได้ไหม? หรือต้องทิ้ง!",

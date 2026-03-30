@@ -1,4 +1,4 @@
-const fs = require('fs');
+﻿const fs = require('fs');
 const path = require('path');
 const Database = require('better-sqlite3');
 
@@ -145,7 +145,7 @@ const coverSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630"
   <use href="#pig-mascot" x="900" y="340" transform="scale(1.4) translate(-250, -100)"/>
 
   <rect x="40" y="580" width="200" height="30" rx="4" fill="url(#primary-grad)"/>
-  <text x="140" y="602" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">FIRSTCARCENTER</text>
+  <text x="140" y="602" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">PORNPISIT BATTERY</text>
 </svg>`;
 
 const inline1Svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
@@ -164,7 +164,7 @@ const inline2Svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450
   <g transform="translate(400, 200)" text-anchor="middle">
     <text font-size="64">🧽 ✨ 🧴</text>
     <text y="70" font-family="Prompt, sans-serif" font-size="24" font-weight="bold" fill="#f8fafc">ใช้น้ำยาสลายคราบแมลง และขัดสีลบรอยด่างฝังลึก</text>
-    <text y="110" font-family="Prompt, sans-serif" font-size="18" fill="#94a3b8">สถานที่: อู่ FirstCarCenter โซนศรีนครินทร์</text>
+    <text y="110" font-family="Prompt, sans-serif" font-size="18" fill="#94a3b8">สถานที่: อู่ PORNPISIT BATTERY โซนศรีนครินทร์</text>
   </g>
 </svg>`;
 
@@ -194,7 +194,7 @@ const post = {
   category: "คาร์แคร์",
   tags: "ล้างคราบแมลงฝังแน่น,คราบแมลงหน้ารถ,น้ำยาล้างคราบแมลง,ทำความสะอาดหน้ารถหลังเดินทางไกล,คราบแมลงกินสีรถ,สมุทรปราการ,บางนา",
   published: 1,
-  author: "FIRSTCARCENTER",
+  author: "PORNPISIT BATTERY",
   seoTitle: "ล้างคราบแมลงฝังแน่น หน้ารถ สีไม่ด่าง! รีวิวขัดสี โซนบางนา",
   seoDescription: "ล้างคราบแมลงฝังแน่น หน้ารถหลังเดินทางไกล! คราบแมลงกินสีรถ ล้างไม่ออก อย่าขัดเองจนสีถลอก ดูรีวิวขัดสีรถลบคราบแมลง โซนศรีนครินทร์ บางนา แบริ่ง เทพารักษ์",
   seoKeywords: "ล้างคราบแมลงฝังแน่น, คราบแมลงหน้ารถ, น้ำยาล้างคราบแมลง, ขัดสีลบรอย, ทำความสะอาดหน้ารถหลังเดินทางไกล, คราบแมลงกินสีรถ",
@@ -202,7 +202,7 @@ const post = {
   ogDescription: "แชร์อันตรายของคราบแมลงที่ทำลายสีรถ พร้อมรีวิวขัดฟื้นฟูสีรถลบคราบแมลงฝังลึก โซนบางนา-ศรีนครินทร์",
   coverImage: "/images/blog/pig-bug-stain-removal-cover.svg",
   content: `
-<p class="lead">หลังจบเทศกาลหยุดยาว หรือการขับรถเดินทางไกลในตอนกลางคืน ของแถมที่ติดหน้ารถกลับมาเสมอคือ "ซากแมลง" ที่กระจายเต็มกันชน กระจังหน้า และกระจกมองข้าง! หลายคนเหนื่อยจากการเดินทางจึงจอดรถทิ้งไว้หลายวัน พอจะมา <strong>ล้างคราบแมลงฝังแน่น</strong> กลับพบว่าล้างไม่ออก หรือแย่กว่านั้นคือทิ้ง "รอยด่างขาว" เอาไว้บนสีรถ! วันนี้ <strong>FirstCarCenter</strong> จะมาแชร์ว่าทำไมคราบแมลงถึงอันตราย พร้อมรีวิวกู้ชีพสีรถหลังทริปเดินทางไกล โซน <strong>บางนา ศรีนครินทร์ แบริ่ง ลาซาล เทพารักษ์ แพรกษา</strong> ครับ</p>
+<p class="lead">หลังจบเทศกาลหยุดยาว หรือการขับรถเดินทางไกลในตอนกลางคืน ของแถมที่ติดหน้ารถกลับมาเสมอคือ "ซากแมลง" ที่กระจายเต็มกันชน กระจังหน้า และกระจกมองข้าง! หลายคนเหนื่อยจากการเดินทางจึงจอดรถทิ้งไว้หลายวัน พอจะมา <strong>ล้างคราบแมลงฝังแน่น</strong> กลับพบว่าล้างไม่ออก หรือแย่กว่านั้นคือทิ้ง "รอยด่างขาว" เอาไว้บนสีรถ! วันนี้ <strong>PORNPISIT BATTERY</strong> จะมาแชร์ว่าทำไมคราบแมลงถึงอันตราย พร้อมรีวิวกู้ชีพสีรถหลังทริปเดินทางไกล โซน <strong>ห้วยขวาง ดินแดง ลาดพร้าว แบริ่ง ลาซาล เทพารักษ์ แพรกษา</strong> ครับ</p>
 
 <h2>ทำไม "คราบแมลงหน้ารถ" ถึงอันตรายและห้ามปล่อยทิ้งไว้?</h2>
 <p>หลายคนคิดว่าแค่ซากแมลงติดรถ เดี๋ยวค่อยล้างตอนเข้าคาร์แคร์ก็ได้ แต่ความจริงแล้ว ซากแมลงและเลือดของแมลงมี <strong>ฤทธิ์เป็นกรด (Acidic)</strong> อย่างรุนแรงครับ!</p>
@@ -217,7 +217,7 @@ const post = {
 
 <p>พอลูกค้านำรถมาล้างที่ร้าน พบว่าคราบแมลงแห้งแข็งเป็นหิน ล้างอัดฉีดรอบแรกออกแค่ตัวแมลง แต่ทิ้ง <strong>"รอยด่างสีเหลือง-น้ำตาล"</strong> ฝังลึกเต็มกันชนหน้าและฝากระโปรงรถ ลูกค้าเคยพยายามเอาฟองน้ำถูแรงๆ จนเกิดรอยขนแมวเต็มไปหมด!</p>
 
-<p>เคสนี้ช่างของ FirstCarCenter ต้องทำการฟื้นฟูสีรถแบบเต็มระบบครับ:</p>
+<p>เคสนี้ช่างของ PORNPISIT BATTERY ต้องทำการฟื้นฟูสีรถแบบเต็มระบบครับ:</p>
 <ol>
   <li><strong>ใช้น้ำยาสลายคราบแมลง (Bug & Tar Remover):</strong> ฉีดพ่นทิ้งไว้เพื่อสลายโปรตีนและกรดของแมลงให้อ่อนตัวลง โดยไม่ทำลายสีรถ</li>
   <li><strong>ลูบดินน้ำมันขจัดคราบฝังลึก:</strong> ดึงเอาคราบสกปรกที่ฝังในรูขุมขนของสีรถออก</li>
@@ -225,7 +225,7 @@ const post = {
 </ol>
 
 <div class="my-8 rounded-2xl overflow-hidden shadow-lg border border-slate-100">
-  <img src="/images/blog/bug-stain-case2.svg" alt="ใช้น้ำยาสลายคราบแมลง และขัดสีลบรอยด่างฝังลึก อู่ FirstCarCenter โซนศรีนครินทร์" class="w-full h-auto object-cover m-0" />
+  <img src="/images/blog/bug-stain-case2.svg" alt="ใช้น้ำยาสลายคราบแมลง และขัดสีลบรอยด่างฝังลึก อู่ PORNPISIT BATTERY โซนศรีนครินทร์" class="w-full h-auto object-cover m-0" />
 </div>
 
 <p>ผลลัพธ์คือ รถสีขาวมุกคันนี้กลับมาขาวจั๊วะ ไร้รอยด่างและคราบเหลือง ลูกค้าดีใจมากเพราะคิดว่าต้องทำสีกันชนใหม่ซะแล้ว! หลังจากขัดเสร็จ เราเคลือบแว็กซ์ทับให้อีกชั้น เพื่อให้คราบแมลงครั้งต่อไปเกาะติดยากขึ้นครับ</p>
@@ -242,8 +242,8 @@ const post = {
   <li><strong>ห้ามใช้ของแข็งขัด:</strong> <strong>ห้ามใช้สก๊อตไบรต์ ฟองน้ำล้างจาน หรือเล็บขูดเด็ดขาด!</strong> เพราะจะทำให้สีถลอกลึกจนต้องทำสีใหม่</li>
 </ul>
 
-<h2>แก้คราบแมลงกินสีรถ ขัดฟื้นฟูสี ที่ FirstCarCenter</h2>
-<p>ถ้าคุณพลาดปล่อยทิ้งไว้จน <strong>คราบแมลงกินสีรถ</strong> เป็นรอยด่าง หรือรอยเหลืองฝังลึกไปแล้ว การล้างธรรมดาจะไม่ช่วยอะไรครับ! แวะมาให้ผู้เชี่ยวชาญที่ <strong>FirstCarCenter</strong> ดูแลดีกว่าครับ เรามีบริการ <a href="/car-polishing" class="text-orange-600 font-bold hover:underline">ขัดสีรถยนต์ ลบรอยด่าง</a> และสลายคราบฝังลึก ครอบคลุมลูกค้าในย่าน <strong>บางนา ศรีนครินทร์ แบริ่ง ลาซาล เทพารักษ์ สุขุมวิท สมุทรปราการ</strong> รับรองว่าหน้ารถของคุณจะกลับมาหล่อใส พร้อมสำหรับการเดินทางครั้งต่อไปครับ!</p>
+<h2>แก้คราบแมลงกินสีรถ ขัดฟื้นฟูสี ที่ PORNPISIT BATTERY</h2>
+<p>ถ้าคุณพลาดปล่อยทิ้งไว้จน <strong>คราบแมลงกินสีรถ</strong> เป็นรอยด่าง หรือรอยเหลืองฝังลึกไปแล้ว การล้างธรรมดาจะไม่ช่วยอะไรครับ! แวะมาให้ผู้เชี่ยวชาญที่ <strong>PORNPISIT BATTERY</strong> ดูแลดีกว่าครับ เรามีบริการ <a href="/car-polishing" class="text-orange-600 font-bold hover:underline">ขัดสีรถยนต์ ลบรอยด่าง</a> และสลายคราบฝังลึก ครอบคลุมลูกค้าในย่าน <strong>ห้วยขวาง ดินแดง ลาดพร้าว แบริ่ง ลาซาล เทพารักษ์ สุขุมวิท สมุทรปราการ</strong> รับรองว่าหน้ารถของคุณจะกลับมาหล่อใส พร้อมสำหรับการเดินทางครั้งต่อไปครับ!</p>
 
 <div style="background: linear-gradient(135deg, #fff7ed 0%, #fff 40%, #f0fdfa 100%); border: 1px solid #fed7aa; border-radius: 2rem; padding: 2.5rem 1.5rem; margin: 2.5rem 0; text-align: center; position: relative; overflow: hidden; box-shadow: 0 25px 60px -20px rgba(0,0,0,0.08);">
   <div style="position:absolute;top:-40px;right:-20px;width:160px;height:160px;background:rgba(251,146,60,0.15);border-radius:50%;filter:blur(40px);pointer-events:none;"></div>
@@ -251,12 +251,12 @@ const post = {
   <div style="position:relative;">
     <span style="display:inline-flex;align-items:center;gap:0.5rem;background:rgba(255,255,255,0.9);border:1px solid #fed7aa;border-radius:9999px;padding:0.5rem 1.25rem;font-size:0.875rem;font-weight:600;color:#ea580c;box-shadow:0 1px 3px rgba(0,0,0,0.06);">✨ บริการขัดฟื้นฟูสีรถ ลบคราบฝังลึก</span>
     <h3 style="margin:1.5rem auto 0;max-width:600px;font-size:1.75rem;font-weight:900;line-height:1.3;color:#1e293b;">คราบแมลงกัดสีรถด่าง? เราขัดให้กลับมาใส 100%</h3>
-    <p style="margin:1rem auto 0;max-width:520px;font-size:1rem;line-height:1.7;color:#64748b;">บริการสลายคราบแมลง คราบยางมะตอย และขัดลบรอยด่างฝังลึก พร้อมเคลือบสีปกป้อง โซนบางนา ศรีนครินทร์</p>
+    <p style="margin:1rem auto 0;max-width:520px;font-size:1rem;line-height:1.7;color:#64748b;">บริการสลายคราบแมลง คราบยางมะตอย และขัดลบรอยด่างฝังลึก พร้อมเคลือบสีปกป้อง โซนห้วยขวาง ดินแดง ลาดพร้าว</p>
     <div style="margin-top:2rem;display:flex;flex-wrap:wrap;justify-content:center;gap:1rem;">
-      <a href="tel:0887671679" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:linear-gradient(to right,#f97316,#ef4444);color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(249,115,22,0.7);">📞 โทรจองคิวขัดสี 088-767-1679</a>
-      <a href="https://lin.ee/xxqKaZn" target="_blank" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:#06C755;color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(6,199,85,0.7);">💬 แอดไลน์ ประเมินสภาพสีรถฟรี</a>
+      <a href="tel:0996731296" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:linear-gradient(to right,#f97316,#ef4444);color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(249,115,22,0.7);">📞 โทรจองคิวขัดสี 099-673-1296</a>
+      <a href="https://lin.ee/OBB86S4" target="_blank" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:#06C755;color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(6,199,85,0.7);">💬 แอดไลน์ ประเมินสภาพสีรถฟรี</a>
     </div>
-    <p style="margin:1.5rem 0 0;"><a href="/car-polishing" style="color:#ea580c;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:1rem;">บริการขัดสีรถถึงบ้าน บางนา ศรีนครินทร์ เทพารักษ์</a></p>
+    <p style="margin:1.5rem 0 0;"><a href="/car-polishing" style="color:#ea580c;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:1rem;">บริการขัดสีรถถึงบ้าน ห้วยขวาง ดินแดง ลาดพร้าว เทพารักษ์</a></p>
     <p style="margin-top:0.75rem;"><a href="/battery-replacement" style="color:#0891b2;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:0.9rem;">เปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่ ศรีนครินทร์ เทพารักษ์ →</a></p>
     <p style="margin-top:0.5rem;"><a href="/contact-us" style="color:#64748b;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:0.9rem;">ดูเบอร์โทรและช่องทางติดต่อช่างทั้งหมด →</a></p>
   </div>

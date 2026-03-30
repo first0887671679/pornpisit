@@ -1,14 +1,14 @@
-import { PrismaClient } from "@prisma/client";
+﻿import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
 
 const htmlContent = `<h1>เปลี่ยน แบตเตอรี่ยี่ห้อไหนดี? อัปเดตปี 2026 ช่างมาบอกเอง (ทนทาน คุ้มราคา)</h1>
 <p>ถ้าคุณกำลังขับรถอยู่แถว<strong>ศรีนครินทร์</strong> หรือกำลังจะออกจากคอนโดย่าน<strong>แบริ่ง ลาซาล</strong> แล้วรถเกิดสตาร์ทไม่ติด แบตเตอรี่หมด คำถามแรกที่เด้งขึ้นมาในหัวเมื่อต้องเรียกช่างมาเปลี่ยนแบตเตอรี่คงหนีไม่พ้นคำถามยอดฮิตว่า <strong>"เปลี่ยน แบตเตอรี่ยี่ห้อไหนดี?"</strong></p>
 
-<p>วันนี้ช่างจาก FIRSTCARCENTER จะมาเล่าให้ฟังแบบเจาะลึก จากประสบการณ์ตรงที่วิ่งเปลี่ยนแบตเตอรี่ให้ลูกค้าทั่วโซน<strong>สมุทรปราการ</strong> ว่าแบตเตอรี่รถยนต์แต่ละยี่ห้อมีจุดเด่นอย่างไร แบบไหนเหมาะกับการใช้งานของคุณที่สุดครับ</p>
+<p>วันนี้ช่างจาก PORNPISIT BATTERY จะมาเล่าให้ฟังแบบเจาะลึก จากประสบการณ์ตรงที่วิ่งเปลี่ยนแบตเตอรี่ให้ลูกค้าทั่วโซน<strong>สมุทรปราการ</strong> ว่าแบตเตอรี่รถยนต์แต่ละยี่ห้อมีจุดเด่นอย่างไร แบบไหนเหมาะกับการใช้งานของคุณที่สุดครับ</p>
 
 <img src="/images/blog/pig-best-battery-brands-cover.svg" alt="เปลี่ยน แบตเตอรี่ยี่ห้อไหนดี อัปเดตปี 2026 ศรีนครินทร์ บางนา แบริ่ง" class="rounded-xl my-6 w-full object-cover shadow-sm" />
-<p class="text-sm text-center text-slate-500 mt-2"><em>ภาพ: แบตเตอรี่รถยนต์ยี่ห้อชั้นนำที่ FIRSTCARCENTER คัดสรรมาให้บริการลูกค้า</em></p>
+<p class="text-sm text-center text-slate-500 mt-2"><em>ภาพ: แบตเตอรี่รถยนต์ยี่ห้อชั้นนำที่ PORNPISIT BATTERY คัดสรรมาให้บริการลูกค้า</em></p>
 
 <h2>แบตเตอรี่ยี่ห้อไหนดี? รีวิว 4 แบรนด์ยอดฮิต ที่ช่างแนะนำ</h2>
 <p>ในตลาดมีแบตเตอรี่หลายยี่ห้อมากครับ แต่ช่างขอคัดเฉพาะยี่ห้อที่ "อึด ทน คุ้มค่า" และเป็นที่นิยมที่สุดในปี 2026 มาให้พิจารณากันครับ</p>
@@ -69,7 +69,7 @@ const htmlContent = `<h1>เปลี่ยน แบตเตอรี่ยี
   <div itemprop="mainEntity" itemscope itemtype="https://schema.org/Question" class="bg-white p-4 rounded-lg border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
     <h3 itemprop="name" class="text-lg font-bold text-slate-800 m-0">รถสตาร์ทไม่ติด เรียกช่างมาเปลี่ยนแบตเตอรี่นอกสถานที่ได้ไหม?</h3>
     <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer" class="mt-2 text-slate-600">
-      <p itemprop="text" class="m-0">ได้แน่นอนครับ! FIRSTCARCENTER มีบริการส่งช่างพร้อมแบตเตอรี่ลูกใหม่ไปเปลี่ยนให้ถึงที่ ไม่ว่าคุณจะรถเสียที่บ้าน ที่ทำงาน หรือจอดเสียอยู่ริมถนนแถว ศรีนครินทร์ บางนา แบริ่ง เราไปถึงที่อย่างรวดเร็ว พร้อมรับเทิร์นแบตลูกเก่าด้วยครับ</p>
+      <p itemprop="text" class="m-0">ได้แน่นอนครับ! PORNPISIT BATTERY มีบริการส่งช่างพร้อมแบตเตอรี่ลูกใหม่ไปเปลี่ยนให้ถึงที่ ไม่ว่าคุณจะรถเสียที่บ้าน ที่ทำงาน หรือจอดเสียอยู่ริมถนนแถว ศรีนครินทร์ บางนา แบริ่ง เราไปถึงที่อย่างรวดเร็ว พร้อมรับเทิร์นแบตลูกเก่าด้วยครับ</p>
     </div>
   </div>
 </div>
@@ -78,14 +78,14 @@ const htmlContent = `<h1>เปลี่ยน แบตเตอรี่ยี
   <div class="absolute top-0 right-0 -mt-4 -mr-4 w-24 h-24 bg-gradient-to-br from-[#FF6B00] to-[#FF3E00] rounded-full opacity-20 blur-2xl"></div>
   <div class="absolute bottom-0 left-0 -mb-4 -ml-4 w-24 h-24 bg-gradient-to-br from-[#00F2FE] to-[#4FACFE] rounded-full opacity-20 blur-2xl"></div>
   <div class="relative z-10">
-    <h2 class="text-2xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-slate-800 to-slate-600 dark:from-white dark:to-slate-300 mb-4">แบตหมด รถสตาร์ทไม่ติด? โทรเรียก FIRSTCARCENTER ด่วน!</h2>
-    <p class="text-slate-600 dark:text-slate-400 mb-8 max-w-2xl mx-auto text-lg leading-relaxed">ไม่ต้องมัวปวดหัวว่าจะเลือก <strong>แบตเตอรี่ยี่ห้อไหนดี</strong> ให้ช่างผู้เชี่ยวชาญจาก FIRSTCARCENTER ช่วยแนะนำให้ตรงกับรุ่นรถและงบประมาณของคุณสิครับ! เรามีบริการ <a href="/battery-replacement" class="text-orange-600 hover:underline">เปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่</a> บริการรวดเร็วทันใจ ได้แบตเตอรี่ใหม่แกะกล่อง มีประกันทุกลูก ครอบคลุมพื้นที่ ศรีนครินทร์, บางนา, แบริ่ง, ลาซาล, สุขุมวิท, เทพารักษ์, ซอยวัดหนามแดง, แพรกษา และ สมุทรปราการ</p>
+    <h2 class="text-2xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-slate-800 to-slate-600 dark:from-white dark:to-slate-300 mb-4">แบตหมด รถสตาร์ทไม่ติด? โทรเรียก PORNPISIT BATTERY ด่วน!</h2>
+    <p class="text-slate-600 dark:text-slate-400 mb-8 max-w-2xl mx-auto text-lg leading-relaxed">ไม่ต้องมัวปวดหัวว่าจะเลือก <strong>แบตเตอรี่ยี่ห้อไหนดี</strong> ให้ช่างผู้เชี่ยวชาญจาก PORNPISIT BATTERY ช่วยแนะนำให้ตรงกับรุ่นรถและงบประมาณของคุณสิครับ! เรามีบริการ <a href="/battery-replacement" class="text-orange-600 hover:underline">เปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่</a> บริการรวดเร็วทันใจ ได้แบตเตอรี่ใหม่แกะกล่อง มีประกันทุกลูก ครอบคลุมพื้นที่ ศรีนครินทร์, บางนา, แบริ่ง, ลาซาล, สุขุมวิท, เทพารักษ์, ซอยวัดหนามแดง, แพรกษา และ สมุทรปราการ</p>
     <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
-      <a href="tel:0887671679" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-gradient-to-r from-[#FF6B00] to-[#FF3E00] hover:from-[#E65A00] hover:to-[#E63500] text-white font-bold py-3.5 px-8 rounded-full shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300">
+      <a href="tel:0996731296" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-gradient-to-r from-[#FF6B00] to-[#FF3E00] hover:from-[#E65A00] hover:to-[#E63500] text-white font-bold py-3.5 px-8 rounded-full shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-        <span>เปลี่ยนแบตด่วน 088-767-1679</span>
+        <span>เปลี่ยนแบตด่วน 099-673-1296</span>
       </a>
-      <a href="https://lin.ee/xxqKaZn" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-gradient-to-r from-[#00c300] to-[#00a800] hover:from-[#00b300] hover:to-[#009900] text-white font-bold py-3.5 px-8 rounded-full shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300">
+      <a href="https://lin.ee/OBB86S4" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-gradient-to-r from-[#00c300] to-[#00a800] hover:from-[#00b300] hover:to-[#009900] text-white font-bold py-3.5 px-8 rounded-full shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path d="M24 10.304c0-5.369-5.383-9.738-12-9.738-6.616 0-12 4.369-12 9.738 0 4.814 4.269 8.846 10.036 9.608.391.084.922.258 1.057.592.122.303.079.778.039 1.085l-.171 1.027c-.053.303-.242 1.186 1.039.647 1.281-.54 6.911-4.069 9.428-6.967 1.739-1.907 2.572-4.103 2.572-6.002z"/></svg>
         <span>แอดไลน์ สอบถามราคาก่อนได้</span>
       </a>
@@ -94,15 +94,15 @@ const htmlContent = `<h1>เปลี่ยน แบตเตอรี่ยี
 </div>`;
 
 const postData = {
-  title: "เปลี่ยน แบตเตอรี่ยี่ห้อไหนดี? อัปเดต 2026 ทนทาน คุ้มราคา | FIRSTCARCENTER",
+  title: "เปลี่ยน แบตเตอรี่ยี่ห้อไหนดี? อัปเดต 2026 ทนทาน คุ้มราคา | PORNPISIT BATTERY",
   slug: "best-car-battery-brands-guide-2026",
-  excerpt: "รถสตาร์ทไม่ติด แบตเตอรี่หมด จะเปลี่ยน แบตเตอรี่ยี่ห้อไหนดี? ช่างจาก FIRSTCARCENTER รีวิว 4 ยี่ห้อสุดฮิต GS, FB, Panasonic, Amaron อันไหนทน อันไหนคุ้ม?",
+  excerpt: "รถสตาร์ทไม่ติด แบตเตอรี่หมด จะเปลี่ยน แบตเตอรี่ยี่ห้อไหนดี? ช่างจาก PORNPISIT BATTERY รีวิว 4 ยี่ห้อสุดฮิต GS, FB, Panasonic, Amaron อันไหนทน อันไหนคุ้ม?",
   content: htmlContent,
   coverImage: "/images/blog/pig-best-battery-brands-cover.svg",
   category: "แบตเตอรี่รถยนต์",
   tags: "แบตเตอรี่ยี่ห้อไหนดี,เปลี่ยนแบตเตอรี่,แบตเตอรี่รถยนต์,GSแบตเตอรี่,FBแบตเตอรี่,อมารอน,พานาโซนิค,แบตเตอรี่กึ่งแห้ง,ร้านเปลี่ยนแบตเตอรี่ใกล้ฉัน,ศรีนครินทร์,บางนา,แบริ่ง,ลาซาล,สมุทรปราการ",
   published: true,
-  author: "FIRSTCARCENTER",
+  author: "PORNPISIT BATTERY",
   seoTitle: "เปลี่ยน แบตเตอรี่ยี่ห้อไหนดี? อัปเดต 2026 ทนทาน คุ้มราคา ช่างแนะนำ",
   seoDescription: "รถสตาร์ทไม่ติด? แนะนำวิธีเลือก แบตเตอรี่ยี่ห้อไหนดี อัปเดต 2026 รีวิวแบรนด์ดัง GS, FB, Amaron, Panasonic อันไหนอึดทน พร้อมบริการเปลี่ยนนอกสถานที่ ศรีนครินทร์ แบริ่ง",
   seoKeywords: "แบตเตอรี่ยี่ห้อไหนดี,แบตเตอรี่รถยนต์ ยี่ห้อไหนดี,เปลี่ยนแบตเตอรี่นอกสถานที่,แบตเตอรี่ GS,แบตเตอรี่ FB,แบตเตอรี่ Amaron,แบตเตอรี่แห้ง,แบตเตอรี่กึ่งแห้ง,ร้านแบตเตอรี่,ศรีนครินทร์,บางนา,แบริ่ง,ลาซาล,สุขุมวิท,เทพารักษ์,แพรกษา,สมุทรปราการ",

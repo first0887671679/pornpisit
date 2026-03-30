@@ -1,4 +1,4 @@
-const fs = require('fs');
+﻿const fs = require('fs');
 const path = require('path');
 const Database = require('better-sqlite3');
 
@@ -149,7 +149,7 @@ const coverSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630"
   <use href="#pig-mascot" x="900" y="340" transform="scale(1.4) translate(-250, -100)"/>
 
   <rect x="40" y="580" width="200" height="30" rx="4" fill="url(#primary-grad)"/>
-  <text x="140" y="602" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">FIRSTCARCENTER</text>
+  <text x="140" y="602" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">PORNPISIT BATTERY</text>
 </svg>`;
 
 const inline1Svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
@@ -198,7 +198,7 @@ const post = {
   category: "ช่วยเหลือฉุกเฉิน",
   tags: "ร้านแบตเปิดสงกรานต์,แบตเตอรี่รถยนต์หมด,เปลี่ยนแบตช่วงเทศกาล,เปลี่ยนแบตเตอรี่นอกสถานที่,ร้านแบตเตอรี่ใกล้ฉัน,สมุทรปราการ,บางนา",
   published: 1,
-  author: "FIRSTCARCENTER",
+  author: "PORNPISIT BATTERY",
   seoTitle: "ร้านแบตเปิดสงกรานต์ วันหยุดยาวเราไม่หยุด เปลี่ยนแบต โซนบางนา",
   seoDescription: "หาร้านแบตเปิดสงกรานต์ ปีใหม่ วันหยุดยาว? รถสตาร์ทไม่ติดช่วงเทศกาล โทรหาเรา! รีวิวช่างเปลี่ยนแบตเตอรี่นอกสถานที่ โซนศรีนครินทร์ บางนา เทพารักษ์ ถึงไว 30 นาที",
   seoKeywords: "ร้านแบตเปิดสงกรานต์, ร้านแบตเตอรี่ เปิดวันหยุด, เปลี่ยนแบตเตอรี่ช่วงเทศกาล, แบตหมดวันสงกรานต์, ร้านแบตเตอรี่ใกล้ฉัน",
@@ -206,7 +206,7 @@ const post = {
   ogDescription: "แชร์ประสบการณ์ตรง เปลี่ยนแบตเตอรี่ให้ลูกค้าช่วงเทศกาลสงกรานต์ อู่ปิดแต่เราเปิด พร้อมบริการโซนศรีนครินทร์-บางนา",
   coverImage: "/images/blog/pig-open-songkran-battery-cover.svg",
   content: `
-<p class="lead">เทศกาลสงกรานต์ ปีใหม่ หรือวันหยุดยาวต่อเนื่อง คือช่วงเวลาแห่งความสุขที่หลายคนได้พักผ่อน แต่สำหรับคนใช้รถ นี่คือช่วง "วัดใจ" แบตเตอรี่ครับ! เพราะหลายคนไม่ได้ขับรถไปต่างจังหวัด แต่เลือกที่จะ <strong>"จอดรถทิ้งไว้ที่บ้านเฉยๆ 3-5 วัน"</strong> พอวันเปิดงานจะหยิบกุญแจสตาร์ทรถ ปรากฏว่ารถเงียบกริบ แบตหมดเกลี้ยง! ครั้นจะหาร้านแบตเตอรี่ อู่ใกล้บ้านก็ปิดหนีไปเที่ยวกันหมด การหา <strong>ร้านแบตเปิดสงกรานต์</strong> จึงยากเหมือนงมเข็มในมหาสมุทร แต่วันนี้ <strong>FirstCarCenter</strong> ขอยืนยันว่า <strong>"วันหยุดยาว เราไม่หยุดครับ!"</strong></p>
+<p class="lead">เทศกาลสงกรานต์ ปีใหม่ หรือวันหยุดยาวต่อเนื่อง คือช่วงเวลาแห่งความสุขที่หลายคนได้พักผ่อน แต่สำหรับคนใช้รถ นี่คือช่วง "วัดใจ" แบตเตอรี่ครับ! เพราะหลายคนไม่ได้ขับรถไปต่างจังหวัด แต่เลือกที่จะ <strong>"จอดรถทิ้งไว้ที่บ้านเฉยๆ 3-5 วัน"</strong> พอวันเปิดงานจะหยิบกุญแจสตาร์ทรถ ปรากฏว่ารถเงียบกริบ แบตหมดเกลี้ยง! ครั้นจะหาร้านแบตเตอรี่ อู่ใกล้บ้านก็ปิดหนีไปเที่ยวกันหมด การหา <strong>ร้านแบตเปิดสงกรานต์</strong> จึงยากเหมือนงมเข็มในมหาสมุทร แต่วันนี้ <strong>PORNPISIT BATTERY</strong> ขอยืนยันว่า <strong>"วันหยุดยาว เราไม่หยุดครับ!"</strong></p>
 
 <h2>ทำไมรถจอดทิ้งไว้ช่วงสงกรานต์ แบตถึงหมดเร็วกว่าปกติ?</h2>
 <p>หลายคนสงสัยว่า "รถก็ไม่ได้ขับ ทำไมแบตถึงหมด?" ความจริงคือ แม้เราจะดับเครื่องและดึงกุญแจออกแล้ว แต่ระบบไฟฟ้าในรถยังทำงานอยู่ตลอดเวลา (Parasitic Drain) เช่น ระบบกันขโมย, กล่อง ECU, นาฬิกา, และระบบ Keyless Entry หากแบตเตอรี่ของคุณอายุเกิน 1.5 - 2 ปี และไฟเริ่มอ่อนอยู่แล้ว การจอดทิ้งไว้เฉยๆ 3-4 วัน โดยไม่มีไดชาร์จปั่นไฟเข้าไปเติม ก็เพียงพอที่จะทำให้ค่า CCA (กำลังสตาร์ท) ตกลงจนรถสตาร์ทไม่ติดครับ</p>
@@ -229,16 +229,16 @@ const post = {
 <h2>Case Study 2: วันหยุดสุดท้าย เตรียมตัวไปทำงาน แต่รถตายที่คอนโดแบริ่ง</h2>
 <p>เคสนี้เจอบ่อยมากในเช้าวันเปิดงานครับ! ลูกค้าอยู่คอนโดแถว <strong>ซอยแบริ่ง</strong> จอดรถทิ้งไว้ช่วงปีใหม่ พอเช้าวันที่ 3 มกราคม ใส่ชุดทำงานเต็มยศลงมาที่ลานจอดรถ กดรีโมทปลดล็อค... เงียบ! ประตูไม่ยอมเปิด ต้องเอากุญแจฉุกเฉินเสียบไขไขเข้าไป พอเสียบกุญแจสตาร์ท ไฟหน้าปัดก็ไม่ขึ้น แบตเกลี้ยงสนิท 0 โวลต์!</p>
 
-<p>ลูกค้าลางานช่วงเช้าและโทรหาเราทันที ช่าง FirstCarCenter ขี่มอเตอร์ไซค์มุดรถติดเช้าวันเปิดงาน ไปถึงคอนโดใน 15 นาที นำแบตเตอรี่ Amaron ลูกใหม่ไปเปลี่ยนให้หน้างาน ใช้เวลาทำงานแค่ 10 นาที ลูกค้าสามารถขับรถไปทำงานช่วงบ่ายได้ทันเวลาครับ</p>
+<p>ลูกค้าลางานช่วงเช้าและโทรหาเราทันที ช่าง PORNPISIT BATTERY ขี่มอเตอร์ไซค์มุดรถติดเช้าวันเปิดงาน ไปถึงคอนโดใน 15 นาที นำแบตเตอรี่ Amaron ลูกใหม่ไปเปลี่ยนให้หน้างาน ใช้เวลาทำงานแค่ 10 นาที ลูกค้าสามารถขับรถไปทำงานช่วงบ่ายได้ทันเวลาครับ</p>
 
 <div class="my-8 rounded-2xl overflow-hidden shadow-lg border border-slate-100">
   <img src="/images/blog/open-songkran-battery-case3.svg" alt="เปลี่ยนแบตเตอรี่เสร็จไว ลูกค้าขับไปทำงานได้ทัน คอนโดแบริ่ง" class="w-full h-auto object-cover m-0" />
 </div>
 
-<h2>ทำไมลูกค้าถึงเลือก ร้านแบตเปิดสงกรานต์ FirstCarCenter?</h2>
+<h2>ทำไมลูกค้าถึงเลือก ร้านแบตเปิดสงกรานต์ PORNPISIT BATTERY?</h2>
 <ul>
   <li><strong>เปิดให้บริการ 365 วัน:</strong> สงกรานต์ ปีใหม่ วันแรงงาน วันแม่ เรา <strong>ไม่หยุด</strong> ครับ! แอดมินและช่างสแตนด์บายรับสายตลอด 24 ชั่วโมง</li>
-  <li><strong>บริการส่งถึงที่ (Delivery):</strong> คุณไม่ต้องไปเดินหาร้านให้เหนื่อย ช่างของเราขี่มอเตอร์ไซค์ไปส่งและติดตั้งให้ถึงบ้าน ครอบคลุมโซน <strong>บางนา ศรีนครินทร์ เทพารักษ์ แพรกษา สมุทรปราการ</strong></li>
+  <li><strong>บริการส่งถึงที่ (Delivery):</strong> คุณไม่ต้องไปเดินหาร้านให้เหนื่อย ช่างของเราขี่มอเตอร์ไซค์ไปส่งและติดตั้งให้ถึงบ้าน ครอบคลุมโซน <strong>ห้วยขวาง ดินแดง ลาดพร้าว เทพารักษ์ แพรกษา สมุทรปราการ</strong></li>
   <li><strong>แบตเตอรี่ใหม่แท้ 100%:</strong> เราสต็อกแบตเตอรี่ใหม่ตลอด ไม่นำแบตค้างปีมาขาย มีใบรับประกันทุกลูก 1 ปีเต็ม</li>
   <li><strong>ราคามาตรฐาน ไม่มีชาร์จเพิ่มวันหยุด:</strong> แม้จะเป็นช่วงเทศกาล เราก็คิดค่าแบตเตอรี่ในราคามาตรฐาน ไม่มีการฉวยโอกาสบวกราคาเพิ่มแน่นอนครับ</li>
 </ul>
@@ -249,10 +249,10 @@ const post = {
   <div style="position:relative;">
     <span style="display:inline-flex;align-items:center;gap:0.5rem;background:rgba(255,255,255,0.9);border:1px solid #fed7aa;border-radius:9999px;padding:0.5rem 1.25rem;font-size:0.875rem;font-weight:600;color:#ea580c;box-shadow:0 1px 3px rgba(0,0,0,0.06);">🔋 ร้านแบตเตอรี่ เปิดทุกเทศกาล</span>
     <h3 style="margin:1.5rem auto 0;max-width:600px;font-size:1.75rem;font-weight:900;line-height:1.3;color:#1e293b;">แบตหมดช่วงสงกรานต์ อู่ปิดหมด? เรียกเราเลย!</h3>
-    <p style="margin:1rem auto 0;max-width:520px;font-size:1rem;line-height:1.7;color:#64748b;">บริการเปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่ เปิดทุกวัน ไม่มีวันหยุด ส่งช่างมอเตอร์ไซค์ถึงหน้างานใน 30 นาที โซนบางนา ศรีนครินทร์</p>
+    <p style="margin:1rem auto 0;max-width:520px;font-size:1rem;line-height:1.7;color:#64748b;">บริการเปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่ เปิดทุกวัน ไม่มีวันหยุด ส่งช่างมอเตอร์ไซค์ถึงหน้างานใน 30 นาที โซนห้วยขวาง ดินแดง ลาดพร้าว</p>
     <div style="margin-top:2rem;display:flex;flex-wrap:wrap;justify-content:center;gap:1rem;">
-      <a href="tel:0887671679" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:linear-gradient(to right,#f97316,#ef4444);color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(249,115,22,0.7);">📞 โทรสั่งแบตด่วน 088-767-1679</a>
-      <a href="https://lin.ee/xxqKaZn" target="_blank" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:#06C755;color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(6,199,85,0.7);">💬 แอดไลน์ ส่งพิกัดมาได้เลย</a>
+      <a href="tel:0996731296" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:linear-gradient(to right,#f97316,#ef4444);color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(249,115,22,0.7);">📞 โทรสั่งแบตด่วน 099-673-1296</a>
+      <a href="https://lin.ee/OBB86S4" target="_blank" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:#06C755;color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(6,199,85,0.7);">💬 แอดไลน์ ส่งพิกัดมาได้เลย</a>
     </div>
     <p style="margin:1.5rem 0 0;"><a href="/battery-replacement" style="color:#ea580c;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:1rem;">เปลี่ยนแบตเตอรี่รถยนต์ นอกสถานที่ เทพารักษ์ ศรีนครินทร์</a></p>
     <p style="margin-top:0.75rem;"><a href="/mobile-tire-repair" style="color:#0891b2;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:0.9rem;">บริการปะยางนอกสถานที่ 24 ชม. บางนา เทพารักษ์ →</a></p>
@@ -280,7 +280,7 @@ const post = {
   <div class="border rounded-xl p-4" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
     <h3 class="text-lg font-bold mt-0" itemprop="name">Q: เรียกช่างมาเปลี่ยนแบตวันหยุด ราคาแพงกว่าปกติไหม?</h3>
     <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
-      <p class="mb-0 text-slate-600" itemprop="text"><strong>A:</strong> ที่ FirstCarCenter เรา <strong>ไม่มีนโยบายชาร์จราคาเพิ่มในช่วงวันหยุดเทศกาล</strong> ครับ ลูกค้าจะได้รับบริการในราคามาตรฐานตามรุ่นแบตเตอรี่ แจ้งราคาสุทธิ (Net Price) ชัดเจนก่อนที่ช่างจะออกเดินทางเสมอครับ</p>
+      <p class="mb-0 text-slate-600" itemprop="text"><strong>A:</strong> ที่ PORNPISIT BATTERY เรา <strong>ไม่มีนโยบายชาร์จราคาเพิ่มในช่วงวันหยุดเทศกาล</strong> ครับ ลูกค้าจะได้รับบริการในราคามาตรฐานตามรุ่นแบตเตอรี่ แจ้งราคาสุทธิ (Net Price) ชัดเจนก่อนที่ช่างจะออกเดินทางเสมอครับ</p>
     </div>
   </div>
 

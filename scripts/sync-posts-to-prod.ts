@@ -1,9 +1,9 @@
-/**
+﻿/**
  * Sync all published posts from local SQLite → Production via API
  * Usage: npx tsx scripts/sync-posts-to-prod.ts
  * 
  * Set SYNC_SECRET env var on Vercel + locally in .env
- * Set PROD_URL in .env (default: https://firstcarcenterthailand.com)
+ * Set PROD_URL in .env (default: https://PORNPISIT BATTERYthailand.com)
  */
 
 import Database from 'better-sqlite3';
@@ -28,7 +28,7 @@ if (fs.existsSync(envPath)) {
   });
 }
 
-const PROD_URL = process.env.PROD_URL || 'https://firstcarcenterthailand.com';
+const PROD_URL = process.env.PROD_URL || 'https://PORNPISIT BATTERYthailand.com';
 const SYNC_SECRET = process.env.SYNC_SECRET || '';
 
 const dbPath = path.join(__dirname, '..', 'prisma', 'dev.db');

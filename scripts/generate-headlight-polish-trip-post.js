@@ -1,4 +1,4 @@
-const fs = require('fs');
+﻿const fs = require('fs');
 const path = require('path');
 const Database = require('better-sqlite3');
 
@@ -146,7 +146,7 @@ const coverSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630"
   <use href="#pig-mascot" x="900" y="340" transform="scale(1.4) translate(-250, -100)"/>
 
   <rect x="40" y="580" width="200" height="30" rx="4" fill="url(#primary-grad)"/>
-  <text x="140" y="602" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">FIRSTCARCENTER</text>
+  <text x="140" y="602" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">PORNPISIT BATTERY</text>
 </svg>`;
 
 const inline1Svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
@@ -165,7 +165,7 @@ const inline2Svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450
   <g transform="translate(400, 200)" text-anchor="middle">
     <text font-size="64">🧽 ✨ 🔄</text>
     <text y="70" font-family="Prompt, sans-serif" font-size="24" font-weight="bold" fill="#f8fafc">เข้าอู่ขัดลอกคราบเหลืองด้วยกระดาษทรายและเครื่องขัด</text>
-    <text y="110" font-family="Prompt, sans-serif" font-size="18" fill="#94a3b8">สถานที่: อู่ FirstCarCenter โซนบางนา</text>
+    <text y="110" font-family="Prompt, sans-serif" font-size="18" fill="#94a3b8">สถานที่: อู่ PORNPISIT BATTERY โซนบางนา</text>
   </g>
 </svg>`;
 
@@ -195,15 +195,15 @@ const post = {
   category: "คาร์แคร์",
   tags: "ขัดไฟหน้าก่อนเดินทาง,ขัดไฟหน้าเหลือง,ไฟหน้าขุ่นมัว,เตรียมรถก่อนเดินทาง,ไฟหน้ารถไม่สว่าง,สมุทรปราการ,บางนา",
   published: 1,
-  author: "FIRSTCARCENTER",
-  seoTitle: "ขัดไฟหน้าก่อนเดินทาง แก้ไฟเหลืองมัว รีวิว โซนบางนา ศรีนครินทร์",
-  seoDescription: "ขัดไฟหน้าก่อนเดินทาง เทศกาล! ไฟหน้าเหลือง ขุ่นมัว ขับกลางคืนอันตราย มองไม่เห็นทาง แวะมาขัดไฟหน้าใสปิ๊งที่ FirstCarCenter โซนศรีนครินทร์ บางนา แบริ่ง เทพารักษ์",
+  author: "PORNPISIT BATTERY",
+  seoTitle: "ขัดไฟหน้าก่อนเดินทาง แก้ไฟเหลืองมัว รีวิว โซนห้วยขวาง ดินแดง ลาดพร้าว",
+  seoDescription: "ขัดไฟหน้าก่อนเดินทาง เทศกาล! ไฟหน้าเหลือง ขุ่นมัว ขับกลางคืนอันตราย มองไม่เห็นทาง แวะมาขัดไฟหน้าใสปิ๊งที่ PORNPISIT BATTERY โซนศรีนครินทร์ บางนา แบริ่ง เทพารักษ์",
   seoKeywords: "ขัดไฟหน้าก่อนเดินทาง, ขัดไฟหน้าเหลือง บางนา, ไฟหน้ารถขุ่นมัว, ขัดโคมไฟหน้า, เตรียมรถก่อนเดินทางไกล",
   ogTitle: "ขัดไฟหน้าก่อนเดินทาง เปลี่ยนไฟเหลืองให้ใสปิ๊ง!",
   ogDescription: "แชร์ความสำคัญและรีวิวการขัดไฟหน้าแก้ปัญหาไฟเหลืองมัว ก่อนออกทริปเดินทางไกล เพื่อความปลอดภัยในการขับขี่ตอนกลางคืน",
   coverImage: "/images/blog/pig-headlight-polish-trip-cover.svg",
   content: `
-<p class="lead">เมื่อเทศกาลวันหยุดยาวมาถึง หลายคนวางแผนขับรถทางไกลกลับต่างจังหวัด หรือไปเที่ยวพักผ่อน แต่สิ่งหนึ่งที่มักถูกมองข้ามในการเช็กรถคือ <strong>"ความสว่างของไฟหน้า"</strong> ถ้ารถของคุณมีอาการไฟหน้าเหลือง ขุ่นมัว หรือแตกลายงา การขับรถในถนนต่างจังหวัดที่มืดสนิทจะกลายเป็นฝันร้ายทันที! วันนี้ <strong>FirstCarCenter</strong> จะมาแชร์ความสำคัญของการ <strong>ขัดไฟหน้าก่อนเดินทาง</strong> และพาไปดูรีวิวการฟื้นฟูไฟหน้าที่เหลืองอ๋อย ให้กลับมาใสปิ๊งเหมือนรถใหม่ ในโซน <strong>ศรีนครินทร์ บางนา แบริ่ง ลาซาล เทพารักษ์</strong> กันครับ</p>
+<p class="lead">เมื่อเทศกาลวันหยุดยาวมาถึง หลายคนวางแผนขับรถทางไกลกลับต่างจังหวัด หรือไปเที่ยวพักผ่อน แต่สิ่งหนึ่งที่มักถูกมองข้ามในการเช็กรถคือ <strong>"ความสว่างของไฟหน้า"</strong> ถ้ารถของคุณมีอาการไฟหน้าเหลือง ขุ่นมัว หรือแตกลายงา การขับรถในถนนต่างจังหวัดที่มืดสนิทจะกลายเป็นฝันร้ายทันที! วันนี้ <strong>PORNPISIT BATTERY</strong> จะมาแชร์ความสำคัญของการ <strong>ขัดไฟหน้าก่อนเดินทาง</strong> และพาไปดูรีวิวการฟื้นฟูไฟหน้าที่เหลืองอ๋อย ให้กลับมาใสปิ๊งเหมือนรถใหม่ ในโซน <strong>ศรีนครินทร์ บางนา แบริ่ง ลาซาล เทพารักษ์</strong> กันครับ</p>
 
 <h2>ทำไมต้อง ขัดไฟหน้าก่อนเดินทาง ไกล?</h2>
 <p>การขับรถออกต่างจังหวัดในตอนกลางคืน ต่างจากการขับรถในกรุงเทพฯ ที่มีไฟถนนสว่างตลอดทาง ปัญหาของไฟหน้าเหลืองขุ่นคือ:</p>
@@ -220,7 +220,7 @@ const post = {
 <h2>Case Study: Honda Civic ไฟหน้าเหลืองขุ่น มองถนนไม่เห็นตอนกลางคืน</h2>
 <p>ลูกค้าขับรถ Honda Civic FD มาจากโซน <strong>ถนนเทพารักษ์ สมุทรปราการ</strong> เตรียมตัวจะขับรถกลับบ้านเกิดที่ภาคเหนือช่วงสงกรานต์ ลูกค้าบ่นว่า "ขับกลางคืนแถวบ้านยังแทบมองไม่เห็นเส้นถนนเลย ถ้าออกต่างจังหวัดมืดๆ คงอันตรายมาก" พอดูที่ตัวรถพบว่า โคมไฟหน้าทั้งสองข้างเหลืองอ๋อย ขุ่นจนมองไม่เห็นหลอดไฟด้านใน แถมยังมีรอยแตกลายงาที่ผิวแลคเกอร์เดิมด้วย</p>
 
-<p>ช่างของ <strong>FirstCarCenter</strong> (เราตั้งอยู่แถว <strong>บางนา-ศรีนครินทร์</strong>) จึงทำการ <strong>ขัดฟื้นฟูไฟหน้าแบบเต็มระบบ (Headlight Restoration)</strong> ให้ลูกค้าครับ โดยมีขั้นตอนดังนี้:</p>
+<p>ช่างของ <strong>PORNPISIT BATTERY</strong> (เราตั้งอยู่แถว <strong>บางนา-ศรีนครินทร์</strong>) จึงทำการ <strong>ขัดฟื้นฟูไฟหน้าแบบเต็มระบบ (Headlight Restoration)</strong> ให้ลูกค้าครับ โดยมีขั้นตอนดังนี้:</p>
 <ol>
   <li><strong>ขัดลอกแลคเกอร์เก่า:</strong> ใช้กระดาษทรายน้ำเบอร์หยาบ (เบอร์ 800 - 1500) ขัดลอกชั้นแลคเกอร์เดิมที่เสื่อมสภาพ เหลือง และแตกลายงาออกจนหมด (ขั้นตอนนี้โคมจะดูขุ่นขาวไปเลย)</li>
   <li><strong>ขัดปรับสภาพผิว:</strong> ไล่กระดาษทรายเบอร์ละเอียด (เบอร์ 2000 - 3000) เพื่อลบรอยกระดาษทรายหยาบ และทำให้ผิวพลาสติกอะคริลิกเรียบเนียนที่สุด</li>
@@ -229,7 +229,7 @@ const post = {
 </ol>
 
 <div class="my-8 rounded-2xl overflow-hidden shadow-lg border border-slate-100">
-  <img src="/images/blog/headlight-polish-case2.svg" alt="เข้าอู่ขัดลอกคราบเหลืองด้วยกระดาษทรายและเครื่องขัด อู่ FirstCarCenter โซนบางนา" class="w-full h-auto object-cover m-0" />
+  <img src="/images/blog/headlight-polish-case2.svg" alt="เข้าอู่ขัดลอกคราบเหลืองด้วยกระดาษทรายและเครื่องขัด อู่ PORNPISIT BATTERY โซนบางนา" class="w-full h-auto object-cover m-0" />
 </div>
 
 <p>หลังจากทำเสร็จ ลูกค้าว้าวมากครับ! บอกว่า "เหมือนได้โคมไฟหน้าคู่ใหม่เลย" พอลองเปิดไฟดู แสงสว่างพุ่งเป็นลำคมชัด ไม่ฟุ้งกระจาย ลูกค้าขับรถกลับบ้านแถว <strong>คอนโดซอยลาซาล</strong> ด้วยความมั่นใจ พร้อมออกทริปเดินทางไกลช่วงเทศกาลได้อย่างปลอดภัย 100% ครับ</p>
@@ -238,8 +238,8 @@ const post = {
   <img src="/images/blog/headlight-polish-case3.svg" alt="ไฟหน้ากลับมาใสปิ๊ง สว่างพุ่งไกล ขับขี่ปลอดภัย 100% ถนนศรีนครินทร์ ตัดลาซาล" class="w-full h-auto object-cover m-0" />
 </div>
 
-<h2>เตรียมความพร้อม ขัดไฟหน้าก่อนเดินทาง กับ FirstCarCenter</h2>
-<p>อย่าปล่อยให้ "ไฟหน้าเหลืองมัว" มาลดทอนความปลอดภัยในการเดินทางของคุณและครอบครัวครับ หากคุณอยู่ในโซน <strong>บางนา ศรีนครินทร์ แบริ่ง ลาซาล เทพารักษ์ แพรกษา สมุทรปราการ</strong> แวะมาใช้บริการ <strong><a href="/car-polishing" class="text-orange-600 font-bold hover:underline">ขัดไฟหน้ารถยนต์</a></strong> กับ <strong>FirstCarCenter</strong> ได้เลยครับ เราใช้เครื่องมือมาตรฐานและน้ำยาคุณภาพ ขัดลอกคราบเหลืองฝังลึกให้กลับมาใสปิ๊ง พร้อมเคลือบปกป้องให้อยู่ทนนาน รับรองว่าทริปนี้คุณจะขับรถกลางคืนได้อย่างสบายใจแน่นอน!</p>
+<h2>เตรียมความพร้อม ขัดไฟหน้าก่อนเดินทาง กับ PORNPISIT BATTERY</h2>
+<p>อย่าปล่อยให้ "ไฟหน้าเหลืองมัว" มาลดทอนความปลอดภัยในการเดินทางของคุณและครอบครัวครับ หากคุณอยู่ในโซน <strong>ห้วยขวาง ดินแดง ลาดพร้าว แบริ่ง ลาซาล เทพารักษ์ แพรกษา สมุทรปราการ</strong> แวะมาใช้บริการ <strong><a href="/car-polishing" class="text-orange-600 font-bold hover:underline">ขัดไฟหน้ารถยนต์</a></strong> กับ <strong>PORNPISIT BATTERY</strong> ได้เลยครับ เราใช้เครื่องมือมาตรฐานและน้ำยาคุณภาพ ขัดลอกคราบเหลืองฝังลึกให้กลับมาใสปิ๊ง พร้อมเคลือบปกป้องให้อยู่ทนนาน รับรองว่าทริปนี้คุณจะขับรถกลางคืนได้อย่างสบายใจแน่นอน!</p>
 
 <div style="background: linear-gradient(135deg, #fff7ed 0%, #fff 40%, #f0fdfa 100%); border: 1px solid #fed7aa; border-radius: 2rem; padding: 2.5rem 1.5rem; margin: 2.5rem 0; text-align: center; position: relative; overflow: hidden; box-shadow: 0 25px 60px -20px rgba(0,0,0,0.08);">
   <div style="position:absolute;top:-40px;right:-20px;width:160px;height:160px;background:rgba(251,146,60,0.15);border-radius:50%;filter:blur(40px);pointer-events:none;"></div>
@@ -247,13 +247,13 @@ const post = {
   <div style="position:relative;">
     <span style="display:inline-flex;align-items:center;gap:0.5rem;background:rgba(255,255,255,0.9);border:1px solid #fed7aa;border-radius:9999px;padding:0.5rem 1.25rem;font-size:0.875rem;font-weight:600;color:#ea580c;box-shadow:0 1px 3px rgba(0,0,0,0.06);">💡 บริการขัดฟื้นฟูไฟหน้าใสปิ๊ง</span>
     <h3 style="margin:1.5rem auto 0;max-width:600px;font-size:1.75rem;font-weight:900;line-height:1.3;color:#1e293b;">ไฟเหลืองมัว มองไม่เห็นทาง? เราขัดให้ใสเหมือนใหม่!</h3>
-    <p style="margin:1rem auto 0;max-width:520px;font-size:1rem;line-height:1.7;color:#64748b;">บริการขัดลอกคราบเหลือง ลบรอยแตกลายงา พร้อมเคลือบเซรามิกไฟหน้า โซนบางนา ศรีนครินทร์</p>
+    <p style="margin:1rem auto 0;max-width:520px;font-size:1rem;line-height:1.7;color:#64748b;">บริการขัดลอกคราบเหลือง ลบรอยแตกลายงา พร้อมเคลือบเซรามิกไฟหน้า โซนห้วยขวาง ดินแดง ลาดพร้าว</p>
     <div style="margin-top:2rem;display:flex;flex-wrap:wrap;justify-content:center;gap:1rem;">
-      <a href="tel:0887671679" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:linear-gradient(to right,#f97316,#ef4444);color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(249,115,22,0.7);">📞 โทรจองคิวขัดไฟหน้า 088-767-1679</a>
-      <a href="https://lin.ee/xxqKaZn" target="_blank" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:#06C755;color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(6,199,85,0.7);">💬 แอดไลน์ ประเมินอาการฟรี</a>
+      <a href="tel:0996731296" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:linear-gradient(to right,#f97316,#ef4444);color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(249,115,22,0.7);">📞 โทรจองคิวขัดไฟหน้า 099-673-1296</a>
+      <a href="https://lin.ee/OBB86S4" target="_blank" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:#06C755;color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(6,199,85,0.7);">💬 แอดไลน์ ประเมินอาการฟรี</a>
     </div>
-    <p style="margin:1.5rem 0 0;"><a href="/car-polishing" style="color:#ea580c;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:1rem;">ขัดไฟหน้าเหลือง บริการขัดสีรถถึงบ้าน บางนา ศรีนครินทร์</a></p>
-    <p style="margin-top:0.75rem;"><a href="/battery-replacement" style="color:#0891b2;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:0.9rem;">เปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่ บางนา ศรีนครินทร์ →</a></p>
+    <p style="margin:1.5rem 0 0;"><a href="/car-polishing" style="color:#ea580c;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:1rem;">ขัดไฟหน้าเหลือง บริการขัดสีรถถึงบ้าน ห้วยขวาง ดินแดง ลาดพร้าว</a></p>
+    <p style="margin-top:0.75rem;"><a href="/battery-replacement" style="color:#0891b2;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:0.9rem;">เปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่ ห้วยขวาง ดินแดง ลาดพร้าว →</a></p>
     <p style="margin-top:0.5rem;"><a href="/contact-us" style="color:#64748b;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:0.9rem;">ดูเบอร์โทรและช่องทางติดต่อช่างทั้งหมด →</a></p>
   </div>
 </div>
@@ -264,7 +264,7 @@ const post = {
   <div class="border rounded-xl p-4" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
     <h3 class="text-lg font-bold mt-0" itemprop="name">Q: ขัดไฟหน้าแล้ว จะกลับมาเหลืองอีกไหม?</h3>
     <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
-      <p class="mb-0 text-slate-600" itemprop="text"><strong>A:</strong> การขัดไฟหน้าแบบมาตรฐาน (ขัดลอกแลคเกอร์เดิมออก) จะทำให้ไฟหน้าใสขึ้นทันที แต่ถ้าไม่มีการ "เคลือบปกป้อง" ทับลงไป โคมไฟจะโดน UV เผาและกลับมาเหลืองเร็วกว่าเดิมภายในไม่กี่เดือนครับ ที่ FirstCarCenter เราจึงทำการเคลือบเซรามิกไฟหน้าให้ทุกเคส เพื่อให้อยู่ทนนานเป็นปีๆ ครับ</p>
+      <p class="mb-0 text-slate-600" itemprop="text"><strong>A:</strong> การขัดไฟหน้าแบบมาตรฐาน (ขัดลอกแลคเกอร์เดิมออก) จะทำให้ไฟหน้าใสขึ้นทันที แต่ถ้าไม่มีการ "เคลือบปกป้อง" ทับลงไป โคมไฟจะโดน UV เผาและกลับมาเหลืองเร็วกว่าเดิมภายในไม่กี่เดือนครับ ที่ PORNPISIT BATTERY เราจึงทำการเคลือบเซรามิกไฟหน้าให้ทุกเคส เพื่อให้อยู่ทนนานเป็นปีๆ ครับ</p>
     </div>
   </div>
 

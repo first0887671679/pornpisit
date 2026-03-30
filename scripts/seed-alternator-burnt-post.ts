@@ -1,11 +1,11 @@
-import { PrismaClient } from "@prisma/client";
+﻿import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
 
 const htmlContent = `<h1>ไดชาร์จไหม้ สังเกตยังไง? 4 สัญญาณเตือนก่อนรถดับกลางอากาศ</h1>
 <p>ถ้าคุณกำลังขับรถอยู่ดีๆ แล้วได้กลิ่นเหม็นไหม้คล้ายพลาสติกหรือสายไฟลอยเข้ามาในห้องโดยสาร ตามด้วยแอร์เริ่มไม่เย็น และมีไฟรูปแบตเตอรี่สีแดงโชว์หราบนหน้าปัด อาการแบบนี้อันตรายมากครับ เพราะนี่คือสัญญาณเตือนว่า <strong>ไดชาร์จไหม้</strong> อย่างรวดเร็ว! สำหรับผู้ที่ใช้รถเดินทางในโซน <strong>ศรีนครินทร์ บางนา แบริ่ง ลาซาล หรือเส้นสุขุมวิท</strong> ที่รถติดหนักๆ ความร้อนสะสมในห้องเครื่องจะเป็นตัวเร่งให้อาการนี้เกิดเร็วขึ้นครับ</p>
 
-<p>บทความนี้ FIRSTCARCENTER จะพาไปดูเคสจริงจากการออกไปกู้ภัยรถเสียหน้างาน ว่าเราจะรู้ได้อย่างไรว่า <strong>ไดชาร์จไหม้</strong> ซ่อมได้ไหม หรือว่าต้องเปลี่ยนใหม่ เพื่อให้คุณรับมือกับสถานการณ์ฉุกเฉินได้อย่างปลอดภัยที่สุดครับ</p>
+<p>บทความนี้ PORNPISIT BATTERY จะพาไปดูเคสจริงจากการออกไปกู้ภัยรถเสียหน้างาน ว่าเราจะรู้ได้อย่างไรว่า <strong>ไดชาร์จไหม้</strong> ซ่อมได้ไหม หรือว่าต้องเปลี่ยนใหม่ เพื่อให้คุณรับมือกับสถานการณ์ฉุกเฉินได้อย่างปลอดภัยที่สุดครับ</p>
 
 <img src="/images/blog/pig-alternator-burnt-cover.svg" alt="ไดชาร์จไหม้ อาการไดชาร์จเสีย เปลี่ยนไดชาร์จ ศรีนครินทร์ บางนา แบริ่ง" class="rounded-xl my-6 w-full object-cover shadow-sm" />
 <p class="text-sm text-center text-slate-500 mt-2"><em>ภาพ: เมื่อขดลวดในไดชาร์จไหม้ จะมีกลิ่นเหม็นรุนแรงและทำให้รถดับกลางอากาศได้</em></p>
@@ -25,7 +25,7 @@ const htmlContent = `<h1>ไดชาร์จไหม้ สังเกตย
 <h2>Case Study: กระบะ Isuzu D-Max ไดชาร์จไหม้ หน้าตลาดหนามแดง</h2>
 <p>เมื่อปลายเดือนที่ผ่านมา ทีมช่างของเราได้รับสายด่วนจากลูกค้าที่ขับรถกระบะส่งของแถว <strong>หน้าตลาดหนามแดง ถนนเทพารักษ์</strong> ลูกค้าแจ้งว่า "รถดับกลางถนน แอร์ร้อน และมีกลิ่นเหม็นไหม้แรงมากออกมาจากฝากระโปรงรถ" คิดว่าเครื่องฮีตหรือไฟไหม้ห้องเครื่อง</p>
 
-<p>เมื่อช่างของ FIRSTCARCENTER ไปถึงหน้างานและเปิดฝากระโปรงเช็ก พบว่าต้นตอของกลิ่นมาจากตัวไดชาร์จโดยตรง สีของขดลวดทองแดงเปลี่ยนเป็นสีดำคล้ำและมีรอยละลายชัดเจน (ชอร์ตเทิร์น) สาเหตุหลักมาจากการที่ลูกค้าติดไฟสปอร์ตไลท์และตู้เครื่องเสียงเพิ่มเติม ทำให้ไดชาร์จสเปกเดิมทำงานเกินกำลังมาตลอด 2-3 ปี</p>
+<p>เมื่อช่างของ PORNPISIT BATTERY ไปถึงหน้างานและเปิดฝากระโปรงเช็ก พบว่าต้นตอของกลิ่นมาจากตัวไดชาร์จโดยตรง สีของขดลวดทองแดงเปลี่ยนเป็นสีดำคล้ำและมีรอยละลายชัดเจน (ชอร์ตเทิร์น) สาเหตุหลักมาจากการที่ลูกค้าติดไฟสปอร์ตไลท์และตู้เครื่องเสียงเพิ่มเติม ทำให้ไดชาร์จสเปกเดิมทำงานเกินกำลังมาตลอด 2-3 ปี</p>
 
 <p>เคสนี้ ซ่อมไม่ได้ครับ ช่างจึงเสนอให้ <strong>เปลี่ยนไดชาร์จบิ้วขนาด 90 แอมป์</strong> (อัปเกรดให้สูงขึ้น) เพื่อรองรับระบบไฟที่แต่งเพิ่มไป หลังทำการถอดประกอบและเปลี่ยนเสร็จ รถก็กลับมาสตาร์ทติด ระบบไฟชาร์จเข้าแบตเตอรี่เต็มกำลัง ลูกค้าสามารถขับรถไปส่งของต่อได้ทันทีครับ</p>
 
@@ -60,13 +60,13 @@ const htmlContent = `<h1>ไดชาร์จไหม้ สังเกตย
       <span>ช่างไดนาโมมืออาชีพ วิ่งถึงที่</span>
     </div>
     <h3 class="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-800 dark:text-white mb-3 leading-tight">มีกลิ่นไหม้? รถดับกลางทาง? โทรเรียกเราด่วน!</h3>
-    <p class="text-slate-600 dark:text-slate-300 mb-6 sm:mb-8 text-sm sm:text-base md:text-lg leading-relaxed">FIRSTCARCENTER มีบริการเช็กระบบไฟ เปลี่ยนไดชาร์จ ไดสตาร์ท และแบตเตอรี่นอกสถานที่ ครอบคลุม ศรีนครินทร์ บางนา แบริ่ง ลาซาล เทพารักษ์ แพรกษา สมุทรปราการ</p>
+    <p class="text-slate-600 dark:text-slate-300 mb-6 sm:mb-8 text-sm sm:text-base md:text-lg leading-relaxed">PORNPISIT BATTERY มีบริการเช็กระบบไฟ เปลี่ยนไดชาร์จ ไดสตาร์ท และแบตเตอรี่นอกสถานที่ ครอบคลุม ศรีนครินทร์ บางนา แบริ่ง ลาซาล เทพารักษ์ แพรกษา สมุทรปราการ</p>
     <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center">
-      <a href="tel:0887671679" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-red-600 to-rose-600 hover:from-red-700 hover:to-rose-700 text-white font-bold py-3 sm:py-3.5 px-6 sm:px-8 rounded-full shadow-lg shadow-red-500/25 hover:shadow-xl hover:shadow-red-500/30 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 text-sm sm:text-base">
+      <a href="tel:0996731296" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-red-600 to-rose-600 hover:from-red-700 hover:to-rose-700 text-white font-bold py-3 sm:py-3.5 px-6 sm:px-8 rounded-full shadow-lg shadow-red-500/25 hover:shadow-xl hover:shadow-red-500/30 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 text-sm sm:text-base">
         <svg class="w-5 h-5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
-        <span>โทรเรียกช่างฉุกเฉิน 088-767-1679</span>
+        <span>โทรเรียกช่างฉุกเฉิน 099-673-1296</span>
       </a>
-      <a href="https://lin.ee/xxqKaZn" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold py-3 sm:py-3.5 px-6 sm:px-8 rounded-full shadow-lg shadow-green-500/25 hover:shadow-xl hover:shadow-green-500/30 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 text-sm sm:text-base">
+      <a href="https://lin.ee/OBB86S4" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold py-3 sm:py-3.5 px-6 sm:px-8 rounded-full shadow-lg shadow-green-500/25 hover:shadow-xl hover:shadow-green-500/30 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 text-sm sm:text-base">
         <svg class="w-5 h-5 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24"><path d="M24 10.304c0-5.369-5.383-9.738-12-9.738-6.616 0-12 4.369-12 9.738 0 4.814 4.269 8.846 10.036 9.608.391.084.922.258 1.057.592.122.303.079.778.039 1.085l-.171 1.027c-.053.303-.242 1.186 1.039.647 1.281-.54 6.911-4.069 9.428-6.967 1.739-1.907 2.572-4.103 2.572-6.002z"/></svg>
         <span>แอดไลน์ ปรึกษาช่างฟรี</span>
       </a>
@@ -87,7 +87,7 @@ const htmlContent = `<h1>ไดชาร์จไหม้ สังเกตย
   </div>
   <div>
     <h3 class="text-lg font-bold text-slate-800 dark:text-white m-0">Q: รถดับอยู่แถวเทพารักษ์ มีบริการเปลี่ยนไดชาร์จถึงที่ไหม?</h3>
-    <p class="text-slate-600 dark:text-slate-300 mt-2"><strong>A:</strong> มีครับ! FIRSTCARCENTER ให้บริการซ่อมและเปลี่ยนไดชาร์จนอกสถานที่ ครอบคลุมโซน เทพารักษ์ ศรีนครินทร์ บางนา แบริ่ง สมุทรปราการ ช่วยประหยัดค่ารถลากได้ครับ</p>
+    <p class="text-slate-600 dark:text-slate-300 mt-2"><strong>A:</strong> มีครับ! PORNPISIT BATTERY ให้บริการซ่อมและเปลี่ยนไดชาร์จนอกสถานที่ ครอบคลุมโซน เทพารักษ์ ศรีนครินทร์ บางนา แบริ่ง สมุทรปราการ ช่วยประหยัดค่ารถลากได้ครับ</p>
   </div>
 </div>
 
@@ -117,7 +117,7 @@ const htmlContent = `<h1>ไดชาร์จไหม้ สังเกตย
       "name": "รถดับอยู่แถวเทพารักษ์ มีบริการเปลี่ยนไดชาร์จถึงที่ไหม?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "มีครับ! FIRSTCARCENTER ให้บริการซ่อมและเปลี่ยนไดชาร์จนอกสถานที่ ครอบคลุมโซน เทพารักษ์ ศรีนครินทร์ บางนา แบริ่ง สมุทรปราการ ช่วยประหยัดค่ารถลากได้ครับ"
+        "text": "มีครับ! PORNPISIT BATTERY ให้บริการซ่อมและเปลี่ยนไดชาร์จนอกสถานที่ ครอบคลุมโซน เทพารักษ์ ศรีนครินทร์ บางนา แบริ่ง สมุทรปราการ ช่วยประหยัดค่ารถลากได้ครับ"
       }
     }
   ]
@@ -133,8 +133,8 @@ const postData = {
   coverImage: "/images/blog/pig-alternator-burnt-cover.svg",
   category: "ไดชาร์จ ไดสตาร์ท",
   published: true,
-  seoTitle: "ไดชาร์จไหม้ สังเกตยังไง? ซ่อมได้ไหม | FIRSTCARCENTER",
-  seoDescription: "ไดชาร์จไหม้ อาการเป็นยังไง? มีกลิ่นเหม็นไหม้ทะลุแอร์ รถดับกลางทาง ซ่อมได้ไหมหรือต้องเปลี่ยนใหม่ บริการนอกสถานที่ บางนา ศรีนครินทร์ เทพารักษ์ สมุทรปราการ",
+  seoTitle: "ไดชาร์จไหม้ สังเกตยังไง? ซ่อมได้ไหม | PORNPISIT BATTERY",
+  seoDescription: "ไดชาร์จไหม้ อาการเป็นยังไง? มีกลิ่นเหม็นไหม้ทะลุแอร์ รถดับกลางทาง ซ่อมได้ไหมหรือต้องเปลี่ยนใหม่ บริการนอกสถานที่ ห้วยขวาง ดินแดง ลาดพร้าว เทพารักษ์ สมุทรปราการ",
   seoKeywords: "ไดชาร์จไหม้,อาการไดชาร์จเสีย,เปลี่ยนไดชาร์จ,ไดชาร์จรถยนต์,ซ่อมไดชาร์จ,กลิ่นเหม็นไหม้,รถดับกลางทาง,ศรีนครินทร์,บางนา,แบริ่ง,ลาซาล,สุขุมวิท,เทพารักษ์,แพรกษา,สมุทรปราการ",
   ogTitle: "ไดชาร์จไหม้! สัญญาณอันตรายก่อนรถดับกลางอากาศ",
   ogDescription: "แชร์เคสจริง รถมีกลิ่นเหม็นไหม้ แอร์ไม่เย็น สรุปเป็นเพราะไดชาร์จไหม้ พร้อมแนะนำวิธีรับมือและเปลี่ยนใหม่หน้างาน",

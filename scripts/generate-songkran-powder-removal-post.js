@@ -1,4 +1,4 @@
-const fs = require('fs');
+﻿const fs = require('fs');
 const path = require('path');
 const Database = require('better-sqlite3');
 
@@ -142,13 +142,13 @@ const coverSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630"
     <text x="0" y="95" font-size="52" font-weight="800" fill="#FFFFFF">ด่างฝังลึก ซักไม่ออก!</text>
 
     <rect x="0" y="140" width="8" height="30" rx="4" fill="url(#primary-grad)"/>
-    <text x="24" y="164" font-size="26" font-weight="600" fill="#94A3B8">รีวิวฟื้นฟูสีรถหลังเทศกาล โซนบางนา ศรีนครินทร์</text>
+    <text x="24" y="164" font-size="26" font-weight="600" fill="#94A3B8">รีวิวฟื้นฟูสีรถหลังเทศกาล โซนห้วยขวาง ดินแดง ลาดพร้าว</text>
   </g>
 
   <use href="#pig-mascot" x="900" y="340" transform="scale(1.4) translate(-250, -100)"/>
 
   <rect x="40" y="580" width="200" height="30" rx="4" fill="url(#primary-grad)"/>
-  <text x="140" y="602" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">FIRSTCARCENTER</text>
+  <text x="140" y="602" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">PORNPISIT BATTERY</text>
 </svg>`;
 
 const inline1Svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
@@ -197,7 +197,7 @@ const post = {
   category: "คาร์แคร์",
   tags: "ขัดคราบแป้งสงกรานต์,คราบดินสอพองรถ,ขัดสีรถยนต์,ลบคราบน้ำฝังลึก,เคลือบสีรถ,สมุทรปราการ,บางนา",
   published: 1,
-  author: "FIRSTCARCENTER",
+  author: "PORNPISIT BATTERY",
   seoTitle: "ขัดคราบแป้งสงกรานต์ ดินสอพองกัดสีรถ ทำไงดี? รีวิวขัดสี โซนบางนา",
   seoDescription: "ขัดคราบแป้งสงกรานต์ ดินสอพอง คราบน้ำฝังลึก ล้างแชมพูไม่ออก รถสีด่าง! อย่าขัดเองจนสีถลอก อ่านวิธีแก้และรีวิวขัดสีรถ โซนศรีนครินทร์ บางนา แบริ่ง เทพารักษ์",
   seoKeywords: "ขัดคราบแป้งสงกรานต์, คราบดินสอพองกัดสีรถ, ขัดคราบน้ำฝังแน่น, ขัดสีรถยนต์ บางนา, ล้างคราบสงกรานต์",
@@ -205,7 +205,7 @@ const post = {
   ogDescription: "แชร์วิธีจัดการคราบแป้งและดินสอพองหลังเล่นน้ำสงกรานต์ พร้อมรีวิวขัดสีรถฟื้นฟูรอยด่างให้กลับมาเงาฉ่ำเหมือนใหม่",
   coverImage: "/images/blog/pig-songkran-powder-removal-cover.svg",
   content: `
-<p class="lead">หลังจบความสนุกสุดเหวี่ยงของเทศกาลสงกรานต์ สิ่งที่หลงเหลือไว้บนรถคันเก่งคือ "คราบแป้ง คราบดินสอพอง และคราบน้ำบาดาล" ที่เกาะแน่นหนึบ! หลายคนทิ้งไว้หลายวัน พอจะมาล้างปรากฏว่า <strong>ขัดคราบแป้งสงกรานต์</strong> ไม่ออก ล้างแชมพูไปแล้วแต่พอลูบดูก็ยังสากๆ แถมรถสีเข้มๆ กลายเป็นรอยด่างขาวฝังลึก! วันนี้ <strong>FirstCarCenter</strong> จะมาเตือนถึงอันตรายของคราบแป้ง พร้อมรีวิววิธีกู้ชีพสีรถหลังสงกรานต์ในโซน <strong>ศรีนครินทร์ บางนา ลาซาล แบริ่ง เทพารักษ์</strong> กันครับ</p>
+<p class="lead">หลังจบความสนุกสุดเหวี่ยงของเทศกาลสงกรานต์ สิ่งที่หลงเหลือไว้บนรถคันเก่งคือ "คราบแป้ง คราบดินสอพอง และคราบน้ำบาดาล" ที่เกาะแน่นหนึบ! หลายคนทิ้งไว้หลายวัน พอจะมาล้างปรากฏว่า <strong>ขัดคราบแป้งสงกรานต์</strong> ไม่ออก ล้างแชมพูไปแล้วแต่พอลูบดูก็ยังสากๆ แถมรถสีเข้มๆ กลายเป็นรอยด่างขาวฝังลึก! วันนี้ <strong>PORNPISIT BATTERY</strong> จะมาเตือนถึงอันตรายของคราบแป้ง พร้อมรีวิววิธีกู้ชีพสีรถหลังสงกรานต์ในโซน <strong>ศรีนครินทร์ บางนา ลาซาล แบริ่ง เทพารักษ์</strong> กันครับ</p>
 
 <h2>ทำไมคราบแป้งสงกรานต์ ถึงล้างออกยากและทำสีด่าง?</h2>
 <p>แป้งดินสอพองและแป้งเย็นที่ใช้สาดกันช่วงสงกรานต์ มีส่วนผสมของ <strong>"แคลเซียมคาร์บอเนต (Calcium Carbonate)"</strong> และสารเคมีบางชนิดที่มีฤทธิ์เป็นด่างสูงมาก (Alkaline) เมื่อแป้งเปียกน้ำแล้วไปเกาะบนตัวรถ พอโดนแดดเผาจนแห้งกรัง มันจะทำปฏิกิริยากัดกร่อนชั้นแลคเกอร์เคลือบสีรถโดยตรง</p>
@@ -225,7 +225,7 @@ const post = {
 <h2>Case Study: รถสีดำด่างแป้งฝังลึก ทิ้งไว้ 1 สัปดาห์ โซนบางนา</h2>
 <p>ลูกค้าขับรถ Honda Accord สีดำ ไปเล่นน้ำและโดนสาดแป้งเต็มคันที่ <strong>ถนนศรีนครินทร์</strong> หลังจากนั้นลูกค้าจอดรถทิ้งไว้ที่บ้านแถว <strong>บางนา</strong> และบินไปเที่ยวต่างประเทศต่อ กลับมาอีกทีหลังผ่านไป 1 สัปดาห์!</p>
 
-<p>พอลูกค้านำรถไปล้างอัดฉีดที่คาร์แคร์ทั่วไป ปรากฏว่าคราบแป้งหนาๆ หลุดออก แต่ <strong>"ทิ้งรอยด่างขาวๆ รูปหยดน้ำไว้เต็มคัน"</strong> พอลูบดูผิวรถสากมือมาก ล้างยังไงก็ไม่ออก ลูกค้าจึงนำรถมาให้ <strong>FirstCarCenter</strong> ช่วยจัดการ</p>
+<p>พอลูกค้านำรถไปล้างอัดฉีดที่คาร์แคร์ทั่วไป ปรากฏว่าคราบแป้งหนาๆ หลุดออก แต่ <strong>"ทิ้งรอยด่างขาวๆ รูปหยดน้ำไว้เต็มคัน"</strong> พอลูบดูผิวรถสากมือมาก ล้างยังไงก็ไม่ออก ลูกค้าจึงนำรถมาให้ <strong>PORNPISIT BATTERY</strong> ช่วยจัดการ</p>
 
 <p>เคสนี้คราบด่างกัดลงไปในชั้นแลคเกอร์แล้ว (ระดับ Water Spot Stage 2-3) ช่างของเราจึงต้องทำการฟื้นฟูสีแบบเต็มระบบ (Paint Correction):</p>
 <ol>
@@ -244,8 +244,8 @@ const post = {
   <img src="/images/blog/songkran-powder-case3.svg" alt="รถกลับมาเงาฉ่ำ ไร้รอยด่าง พร้อมลุยงานหลังหยุดยาว คอนโดซอยลาซาล" class="w-full h-auto object-cover m-0" />
 </div>
 
-<h2>รถสีด่าง คราบแป้งฝังแน่น? ให้ FirstCarCenter ขัดเคลือบสีให้ครับ</h2>
-<p>หลังเทศกาลสงกรานต์ ถ้ารถของคุณเจอปัญหา <strong>ขัดคราบแป้งสงกรานต์</strong> ไม่ออก ผิวรถสาก เป็นรอยด่างขาว อย่าเสี่ยงเอาน้ำยาแปลกๆ ไปขัดเองเลยครับ แวะมาให้ทีมงานผู้เชี่ยวชาญที่ <strong>FirstCarCenter</strong> ดูแลดีกว่า เรามีบริการ <a href="/car-polishing" class="text-orange-600 font-bold hover:underline">ขัดสีรถยนต์ลบรอย</a> และขจัดคราบน้ำฝังลึก (Water Spot Removal) บริการลูกค้าในย่าน <strong>บางนา ศรีนครินทร์ แบริ่ง ลาซาล เทพารักษ์ สมุทรปราการ</strong> รับรองว่ารถของคุณจะกลับมาหล่อ เงาใส พร้อมลุยงานต่อแน่นอน!</p>
+<h2>รถสีด่าง คราบแป้งฝังแน่น? ให้ PORNPISIT BATTERY ขัดเคลือบสีให้ครับ</h2>
+<p>หลังเทศกาลสงกรานต์ ถ้ารถของคุณเจอปัญหา <strong>ขัดคราบแป้งสงกรานต์</strong> ไม่ออก ผิวรถสาก เป็นรอยด่างขาว อย่าเสี่ยงเอาน้ำยาแปลกๆ ไปขัดเองเลยครับ แวะมาให้ทีมงานผู้เชี่ยวชาญที่ <strong>PORNPISIT BATTERY</strong> ดูแลดีกว่า เรามีบริการ <a href="/car-polishing" class="text-orange-600 font-bold hover:underline">ขัดสีรถยนต์ลบรอย</a> และขจัดคราบน้ำฝังลึก (Water Spot Removal) บริการลูกค้าในย่าน <strong>ห้วยขวาง ดินแดง ลาดพร้าว แบริ่ง ลาซาล เทพารักษ์ สมุทรปราการ</strong> รับรองว่ารถของคุณจะกลับมาหล่อ เงาใส พร้อมลุยงานต่อแน่นอน!</p>
 
 <div style="background: linear-gradient(135deg, #fff7ed 0%, #fff 40%, #f0fdfa 100%); border: 1px solid #fed7aa; border-radius: 2rem; padding: 2.5rem 1.5rem; margin: 2.5rem 0; text-align: center; position: relative; overflow: hidden; box-shadow: 0 25px 60px -20px rgba(0,0,0,0.08);">
   <div style="position:absolute;top:-40px;right:-20px;width:160px;height:160px;background:rgba(251,146,60,0.15);border-radius:50%;filter:blur(40px);pointer-events:none;"></div>
@@ -253,10 +253,10 @@ const post = {
   <div style="position:relative;">
     <span style="display:inline-flex;align-items:center;gap:0.5rem;background:rgba(255,255,255,0.9);border:1px solid #fed7aa;border-radius:9999px;padding:0.5rem 1.25rem;font-size:0.875rem;font-weight:600;color:#ea580c;box-shadow:0 1px 3px rgba(0,0,0,0.06);">✨ บริการขัดเคลือบสี ฟื้นฟูหลังเทศกาล</span>
     <h3 style="margin:1.5rem auto 0;max-width:600px;font-size:1.75rem;font-weight:900;line-height:1.3;color:#1e293b;">คราบแป้งด่างฝังลึก? เราขัดให้กลับมาเงาใส 100%</h3>
-    <p style="margin:1rem auto 0;max-width:520px;font-size:1rem;line-height:1.7;color:#64748b;">บริการลูบดินน้ำมัน ขัดลอกคราบแป้ง คราบน้ำบาดาล และลบรอยขนแมว พร้อมเคลือบเงาฉ่ำ โซนบางนา ศรีนครินทร์</p>
+    <p style="margin:1rem auto 0;max-width:520px;font-size:1rem;line-height:1.7;color:#64748b;">บริการลูบดินน้ำมัน ขัดลอกคราบแป้ง คราบน้ำบาดาล และลบรอยขนแมว พร้อมเคลือบเงาฉ่ำ โซนห้วยขวาง ดินแดง ลาดพร้าว</p>
     <div style="margin-top:2rem;display:flex;flex-wrap:wrap;justify-content:center;gap:1rem;">
-      <a href="tel:0887671679" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:linear-gradient(to right,#f97316,#ef4444);color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(249,115,22,0.7);">📞 โทรจองคิวขัดสี 088-767-1679</a>
-      <a href="https://lin.ee/xxqKaZn" target="_blank" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:#06C755;color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(6,199,85,0.7);">💬 แอดไลน์ ประเมินสภาพสีรถฟรี</a>
+      <a href="tel:0996731296" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:linear-gradient(to right,#f97316,#ef4444);color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(249,115,22,0.7);">📞 โทรจองคิวขัดสี 099-673-1296</a>
+      <a href="https://lin.ee/OBB86S4" target="_blank" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:#06C755;color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(6,199,85,0.7);">💬 แอดไลน์ ประเมินสภาพสีรถฟรี</a>
     </div>
     <p style="margin:1.5rem 0 0;"><a href="/car-polishing" style="color:#ea580c;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:1rem;">บริการขัดสีรถถึงบ้าน ศรีนครินทร์ บางนา เทพารักษ์</a></p>
     <p style="margin-top:0.75rem;"><a href="/battery-replacement" style="color:#0891b2;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:0.9rem;">เปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่ บางนา เทพารักษ์ →</a></p>

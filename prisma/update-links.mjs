@@ -1,4 +1,4 @@
-/**
+﻿/**
  * One-time migration script to update internal links in live DB
  * Run: node prisma/update-links.mjs
  */
@@ -23,9 +23,9 @@ async function main() {
   const headerSec = sections.find((s) => s.type === 'header')
   if (headerSec) {
     const data = JSON.parse(headerSec.content || '{}')
-    data.brandName = 'FIRSTCARCENTER'
-    data.phone = '0887671679'
-    data.lineUrl = 'https://lin.ee/xxqKaZn'
+    data.brandName = 'PORNPISIT BATTERY'
+    data.phone = '0996731296'
+    data.lineUrl = 'https://lin.ee/OBB86S4'
     data.links = [
       { label: 'หน้าแรก', href: '/' },
       {
@@ -55,7 +55,7 @@ async function main() {
     data.items = [
       {
         title: 'ปะยางนอกสถานที่ 24 ชม.',
-        description: 'ยางแตก ยางรั่ว ช่างปะยางถึงที่ภายใน 30 นาที โซนบางนา ศรีนครินทร์ สมุทรปราการ',
+        description: 'ยางแตก ยางรั่ว ช่างปะยางถึงที่ภายใน 30 นาที โซนห้วยขวาง ดินแดง ลาดพร้าว บางกะปิ บางเขน จตุจักร ดุสิต บางซื่อ',
         icon: 'PenTool',
         href: '/mobile-tire-repair',
       },
@@ -89,15 +89,15 @@ async function main() {
   const footerSec = sections.find((s) => s.type === 'footer')
   if (footerSec) {
     const data = JSON.parse(footerSec.content || '{}')
-    data.brandName = 'FIRSTCARCENTER'
-    data.description = 'FIRSTCARCENTER บริการดูแลรักษารถยนต์นอกสถานที่ 24 ชั่วโมง ถึงที่รวดเร็วทันใจ โดยช่างผู้เชี่ยวชาญ'
-    data.area = 'โซนบางนา ศรีนครินทร์ สมุทรปราการ'
-    data.phone = '0887671679'
-    data.lineId = '@730ohrmd'
-    data.lineUrl = 'https://lin.ee/xxqKaZn'
-    data.facebook = 'https://www.facebook.com/profile.php?id=61577014751997'
-    data.googleMap = 'https://maps.app.goo.gl/Ur2fJNEtkoq8NxXE8'
-    data.copyright = 'FIRSTCARCENTER. All rights reserved.'
+    data.brandName = 'PORNPISIT BATTERY'
+    data.description = 'PORNPISIT BATTERY บริการดูแลรักษารถยนต์นอกสถานที่ 24 ชั่วโมง ถึงที่รวดเร็วทันใจ โดยช่างผู้เชี่ยวชาญ'
+    data.area = 'โซนห้วยขวาง ดินแดง ลาดพร้าว บางกะปิ บางเขน จตุจักร ดุสิต บางซื่อ'
+    data.phone = '0996731296'
+    data.lineId = '@398kyxfq'
+    data.lineUrl = 'https://lin.ee/OBB86S4'
+    data.facebook = 'https://www.facebook.com/profile.php?id=61586430572682'
+    data.googleMap = 'https://maps.app.goo.gl/vEpxr93MhWHrDB3Y9?g_st=ic'
+    data.copyright = 'PORNPISIT BATTERY. All rights reserved.'
     data.serviceLinks = [
       { label: 'ปะยางนอกสถานที่ 24 ชม.', href: '/mobile-tire-repair' },
       { label: 'เปลี่ยนแบตเตอรี่รถยนต์', href: '/battery-replacement' },
@@ -117,9 +117,9 @@ async function main() {
   const contactSec = sections.find((s) => s.type === 'contact')
   if (contactSec) {
     const data = JSON.parse(contactSec.content || '{}')
-    data.phone = '0887671679'
-    data.lineId = '@730ohrmd'
-    data.lineUrl = 'https://lin.ee/xxqKaZn'
+    data.phone = '0996731296'
+    data.lineId = '@398kyxfq'
+    data.lineUrl = 'https://lin.ee/OBB86S4'
     await prisma.pageSection.update({
       where: { id: contactSec.id },
       data: { content: JSON.stringify(data) },
@@ -134,8 +134,8 @@ async function main() {
     if (Array.isArray(data.slides)) {
       data.slides = data.slides.map((slide) => ({
         ...slide,
-        phoneUrl: 'tel:0887671679',
-        lineUrl: 'https://lin.ee/xxqKaZn',
+        phoneUrl: 'tel:0996731296',
+        lineUrl: 'https://lin.ee/OBB86S4',
       }))
     }
     await prisma.pageSection.update({

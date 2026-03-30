@@ -1,4 +1,4 @@
-const fs = require('fs');
+﻿const fs = require('fs');
 const path = require('path');
 const Database = require('better-sqlite3');
 
@@ -143,13 +143,13 @@ const coverSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630"
     <text x="0" y="95" font-size="52" font-weight="800" fill="#FFFFFF">กลางดึก ทำยังไงดี?</text>
 
     <rect x="0" y="140" width="8" height="30" rx="4" fill="url(#primary-grad)"/>
-    <text x="24" y="164" font-size="26" font-weight="600" fill="#94A3B8">รีวิวช่วยลูกค้าเปลี่ยนยางอะไหล่ โซนบางนา ศรีนครินทร์</text>
+    <text x="24" y="164" font-size="26" font-weight="600" fill="#94A3B8">รีวิวช่วยลูกค้าเปลี่ยนยางอะไหล่ โซนห้วยขวาง ดินแดง ลาดพร้าว</text>
   </g>
 
   <use href="#pig-mascot" x="900" y="340" transform="scale(1.4) translate(-250, -100)"/>
 
   <rect x="40" y="580" width="200" height="30" rx="4" fill="url(#primary-grad)"/>
-  <text x="140" y="602" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">FIRSTCARCENTER</text>
+  <text x="140" y="602" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">PORNPISIT BATTERY</text>
 </svg>`;
 
 const inline1Svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
@@ -194,19 +194,19 @@ console.log('SVGs created.');
 const post = {
   title: "ยางแบนบนทางด่วน กลางดึก ทำยังไงดี? รวมวิธีรับมือ + เคสรีวิวเรียกช่าง",
   slug: "flat-tire-on-highway-survival-guide",
-  excerpt: "ขับรถอยู่ดีๆ ยางแบนบนทางด่วน ตอนกลางคืน! จอดรถตรงไหน? เรียกใครช่วย? อ่านวิธีเอาตัวรอดที่ปลอดภัยที่สุด พร้อมเคสรีวิวเรียกช่างเปลี่ยนยางอะไหล่ โซนบางนา ศรีนครินทร์",
+  excerpt: "ขับรถอยู่ดีๆ ยางแบนบนทางด่วน ตอนกลางคืน! จอดรถตรงไหน? เรียกใครช่วย? อ่านวิธีเอาตัวรอดที่ปลอดภัยที่สุด พร้อมเคสรีวิวเรียกช่างเปลี่ยนยางอะไหล่ โซนห้วยขวาง ดินแดง ลาดพร้าว",
   category: "ช่วยเหลือฉุกเฉิน",
   tags: "ยางแบนบนทางด่วน,ยางแตกบนทางด่วน,เปลี่ยนยางอะไหล่,ปะยางนอกสถานที่,รถเสียบนทางด่วน,สมุทรปราการ,บางนา",
   published: 1,
-  author: "FIRSTCARCENTER",
+  author: "PORNPISIT BATTERY",
   seoTitle: "ยางแบนบนทางด่วน ทำไงดี? วิธีเอาตัวรอด+เรียกช่าง โซนบางนา",
   seoDescription: "ยางแบนบนทางด่วน กลางคืน อันตรายมาก! อ่านวิธีรับมือ โทรเบอร์ไหน จอดตรงไหน พร้อมเคสรีวิวเรียกช่างเปลี่ยนยางอะไหล่ด่วน โซนศรีนครินทร์ บางนา",
   seoKeywords: "ยางแบนบนทางด่วน, ยางแตกบนทางด่วน, เปลี่ยนยางอะไหล่นอกสถานที่, รถเสียบนทางด่วน, ปะยางนอกสถานที่ 24 ชม",
   ogTitle: "ยางแบนบนทางด่วน กลางดึก! รอดได้ด้วยวิธีนี้",
-  ogDescription: "แชร์ประสบการณ์ตรง ยางแตกบนทางด่วนบูรพาวิถีตอนกลางคืน พร้อมขั้นตอนเอาตัวรอด และรีวิวเรียกช่าง FirstCarCenter",
+  ogDescription: "แชร์ประสบการณ์ตรง ยางแตกบนทางด่วนบูรพาวิถีตอนกลางคืน พร้อมขั้นตอนเอาตัวรอด และรีวิวเรียกช่าง PORNPISIT BATTERY",
   coverImage: "/images/blog/pig-flat-tire-highway-cover.svg",
   content: `
-<p class="lead">การเกิดเหตุ <strong>ยางแบนบนทางด่วน</strong> หรือยางแตกขณะขับรถด้วยความเร็วสูง เป็นสถานการณ์ที่อันตรายและน่ากลัวที่สุดอย่างหนึ่งของคนใช้รถครับ ยิ่งถ้าเกิดเหตุตอนกลางคืน ดึกๆ ดื่นๆ บนทางด่วน <strong>บูรพาวิถี (บางนา-ตราด) หรือทางด่วนกาญจนาภิเษก (ศรีนครินทร์-เทพารักษ์)</strong> ที่รถบรรทุกวิ่งเยอะ ยิ่งต้องมีสติ วันนี้ <strong>FirstCarCenter</strong> จะมาแนะนำขั้นตอนการเอาตัวรอดที่ถูกต้อง พร้อมแชร์ Case Study จริงที่เพิ่งไปช่วยเหลือลูกค้ามาครับ</p>
+<p class="lead">การเกิดเหตุ <strong>ยางแบนบนทางด่วน</strong> หรือยางแตกขณะขับรถด้วยความเร็วสูง เป็นสถานการณ์ที่อันตรายและน่ากลัวที่สุดอย่างหนึ่งของคนใช้รถครับ ยิ่งถ้าเกิดเหตุตอนกลางคืน ดึกๆ ดื่นๆ บนทางด่วน <strong>บูรพาวิถี (บางนา-ตราด) หรือทางด่วนกาญจนาภิเษก (ศรีนครินทร์-เทพารักษ์)</strong> ที่รถบรรทุกวิ่งเยอะ ยิ่งต้องมีสติ วันนี้ <strong>PORNPISIT BATTERY</strong> จะมาแนะนำขั้นตอนการเอาตัวรอดที่ถูกต้อง พร้อมแชร์ Case Study จริงที่เพิ่งไปช่วยเหลือลูกค้ามาครับ</p>
 
 <h2>เมื่อ "ยางแบนบนทางด่วน" สิ่งแรกที่ต้องทำคืออะไร?</h2>
 <p>หากคุณได้ยินเสียงยางระเบิด "ปัง!" หรือรู้สึกว่าพวงมาลัยดึงไปข้างใดข้างหนึ่งอย่างแรง รถมีอาการส่าย <strong>นี่คือกฎเหล็ก 4 ข้อที่ต้องจำให้ขึ้นใจ:</strong></p>
@@ -228,7 +228,7 @@ const post = {
 <p><strong>วิธีที่ถูกต้องและปลอดภัยที่สุดคือ:</strong></p>
 <ol>
   <li><strong>โทรเรียกกู้ภัยทางด่วน (เบอร์ 1543 หรือ 1586 หรือ 1193):</strong> แจ้งพิกัด (ดูป้ายกิโลเมตรข้างทาง) ให้เจ้าหน้าที่นำรถลาก (Slide) มาลากรถของคุณลงไปจอดในจุดที่ปลอดภัยด้านล่างทางด่วน เช่น ปั๊มน้ำมัน ลานจอดห้าง หรือริมถนนปกติ (บริการลากลงทางด่วนมักจะฟรี หรือมีค่าใช้จ่ายเล็กน้อยตามระยะทาง)</li>
-  <li><strong>โทรเรียก FirstCarCenter ไปรอรับช่วงต่อ:</strong> ขณะที่รอรถลาก คุณสามารถโทรหาเราเพื่อนัดหมายสถานที่ด้านล่างทางด่วน ช่างของเราจะไปสแตนด์บายรอ เมื่อรถคุณลงมาถึง ช่างก็พร้อมเข้าชาร์จทันที!</li>
+  <li><strong>โทรเรียก PORNPISIT BATTERY ไปรอรับช่วงต่อ:</strong> ขณะที่รอรถลาก คุณสามารถโทรหาเราเพื่อนัดหมายสถานที่ด้านล่างทางด่วน ช่างของเราจะไปสแตนด์บายรอ เมื่อรถคุณลงมาถึง ช่างก็พร้อมเข้าชาร์จทันที!</li>
 </ol>
 
 <div class="my-8 rounded-2xl overflow-hidden shadow-lg border border-slate-100">
@@ -238,16 +238,16 @@ const post = {
 <h2>Case Study: ยางแตกบนด่วนบูรพาวิถี กลางดึกตี 1</h2>
 <p>ลูกค้าขับรถ SUV พาครอบครัวกลับจากชลบุรี ใช้ทางด่วน <strong>บูรพาวิถี ช่วงกิโลเมตรที่ 5 (บางนา)</strong> เวลาประมาณตี 1 จู่ๆ ยางหน้าซ้ายระเบิด ลูกค้ามีสติประคองรถเข้าจอดไหล่ทางได้สำเร็จ</p>
 
-<p>ลูกค้าโทรหา FirstCarCenter เราได้แนะนำให้ลูกค้าอยู่ในรถอย่างปลอดภัยและ <strong>โทรเรียกกู้ภัยทางด่วน (1543)</strong> ให้ช่วยสไลด์รถลงมาจอดที่ลานจอดรถด้านหน้า <strong>เซ็นทรัลบางนา</strong> (ซึ่งอยู่ใกล้จุดลงทางด่วนที่สุด)</p>
+<p>ลูกค้าโทรหา PORNPISIT BATTERY เราได้แนะนำให้ลูกค้าอยู่ในรถอย่างปลอดภัยและ <strong>โทรเรียกกู้ภัยทางด่วน (1543)</strong> ให้ช่วยสไลด์รถลงมาจอดที่ลานจอดรถด้านหน้า <strong>เซ็นทรัลบางนา</strong> (ซึ่งอยู่ใกล้จุดลงทางด่วนที่สุด)</p>
 
-<p>ระหว่างที่รถลากกำลังดำเนินการ ทีมช่างของ FirstCarCenter ก็ขี่มอเตอร์ไซค์ไปสแตนด์บายรอที่เซ็นทรัลบางนาแล้ว พอรถลูกค้าลงมาถึง ช่างก็ใช้แม่แรงตะเข้ยกรถ ถอดล้อที่ยางแตกยับออก (ปะไม่ได้แล้ว) และนำ <a href="/mobile-tire-repair" class="text-orange-600 font-bold hover:underline">บริการเปลี่ยนยางอะไหล่นอกสถานที่</a> โดยนำยางจากท้ายรถลูกค้ามาเปลี่ยนใส่ให้ เติมลมเช็กความดันให้พร้อมใช้งาน ใช้เวลาจากตอนที่รถลงทางด่วนมาจนขับกลับบ้านได้ ไม่ถึง 20 นาทีครับ!</p>
+<p>ระหว่างที่รถลากกำลังดำเนินการ ทีมช่างของ PORNPISIT BATTERY ก็ขี่มอเตอร์ไซค์ไปสแตนด์บายรอที่เซ็นทรัลบางนาแล้ว พอรถลูกค้าลงมาถึง ช่างก็ใช้แม่แรงตะเข้ยกรถ ถอดล้อที่ยางแตกยับออก (ปะไม่ได้แล้ว) และนำ <a href="/mobile-tire-repair" class="text-orange-600 font-bold hover:underline">บริการเปลี่ยนยางอะไหล่นอกสถานที่</a> โดยนำยางจากท้ายรถลูกค้ามาเปลี่ยนใส่ให้ เติมลมเช็กความดันให้พร้อมใช้งาน ใช้เวลาจากตอนที่รถลงทางด่วนมาจนขับกลับบ้านได้ ไม่ถึง 20 นาทีครับ!</p>
 
 <div class="my-8 rounded-2xl overflow-hidden shadow-lg border border-slate-100">
   <img src="/images/blog/flat-tire-highway-case3.svg" alt="ช่างเปลี่ยนยางอะไหล่เสร็จไว ลานจอดรถเซ็นทรัลบางนา" class="w-full h-auto object-cover m-0" />
 </div>
 
 <h2>สรุป: ยางแบนบนทางด่วน จำไว้ว่า "ลงข้างล่างก่อน แล้วค่อยซ่อม"</h2>
-<p>ความปลอดภัยของชีวิตคุณและครอบครัวสำคัญกว่ารถครับ <strong>อย่าเสี่ยงเปลี่ยนยางเองบนทางด่วนเด็ดขาด</strong> ให้กู้ภัยลากลงมาที่ <strong>แยกบางนา ศรีนครินทร์ เทพารักษ์ ลาซาล แบริ่ง สุขุมวิท หรือ สมุทรปราการ</strong> แล้วโทรหา <strong>FirstCarCenter</strong> เรามีทีมช่างมอเตอร์ไซค์ 24 ชั่วโมง วิ่งไปปะยาง หรือเปลี่ยนยางอะไหล่ให้ถึงที่ รวดเร็ว ปลอดภัย ไม่ต้องเสี่ยงรถชนครับ</p>
+<p>ความปลอดภัยของชีวิตคุณและครอบครัวสำคัญกว่ารถครับ <strong>อย่าเสี่ยงเปลี่ยนยางเองบนทางด่วนเด็ดขาด</strong> ให้กู้ภัยลากลงมาที่ <strong>แยกห้วยขวาง ดินแดง ลาดพร้าว เทพารักษ์ ลาซาล แบริ่ง สุขุมวิท หรือ สมุทรปราการ</strong> แล้วโทรหา <strong>PORNPISIT BATTERY</strong> เรามีทีมช่างมอเตอร์ไซค์ 24 ชั่วโมง วิ่งไปปะยาง หรือเปลี่ยนยางอะไหล่ให้ถึงที่ รวดเร็ว ปลอดภัย ไม่ต้องเสี่ยงรถชนครับ</p>
 
 <div style="background: linear-gradient(135deg, #fff7ed 0%, #fff 40%, #f0fdfa 100%); border: 1px solid #fed7aa; border-radius: 2rem; padding: 2.5rem 1.5rem; margin: 2.5rem 0; text-align: center; position: relative; overflow: hidden; box-shadow: 0 25px 60px -20px rgba(0,0,0,0.08);">
   <div style="position:absolute;top:-40px;right:-20px;width:160px;height:160px;background:rgba(251,146,60,0.15);border-radius:50%;filter:blur(40px);pointer-events:none;"></div>
@@ -255,12 +255,12 @@ const post = {
   <div style="position:relative;">
     <span style="display:inline-flex;align-items:center;gap:0.5rem;background:rgba(255,255,255,0.9);border:1px solid #fed7aa;border-radius:9999px;padding:0.5rem 1.25rem;font-size:0.875rem;font-weight:600;color:#ea580c;box-shadow:0 1px 3px rgba(0,0,0,0.06);">📞 บริการ 24 ชม. ถึงที่ทันที</span>
     <h3 style="margin:1.5rem auto 0;max-width:600px;font-size:1.75rem;font-weight:900;line-height:1.3;color:#1e293b;">ลงจากทางด่วนแล้ว ยางแบน ไปต่อไม่ได้?</h3>
-    <p style="margin:1rem auto 0;max-width:520px;font-size:1rem;line-height:1.7;color:#64748b;">ให้กู้ภัยลากรถลงมาที่ปลอดภัย แล้วเรียกเรา! ช่างพร้อมชุดปะยางและแม่แรง วิ่งไปเปลี่ยนยางอะไหล่ให้ถึงที่ 24 ชม. โซนบางนา ศรีนครินทร์</p>
+    <p style="margin:1rem auto 0;max-width:520px;font-size:1rem;line-height:1.7;color:#64748b;">ให้กู้ภัยลากรถลงมาที่ปลอดภัย แล้วเรียกเรา! ช่างพร้อมชุดปะยางและแม่แรง วิ่งไปเปลี่ยนยางอะไหล่ให้ถึงที่ 24 ชม. โซนห้วยขวาง ดินแดง ลาดพร้าว</p>
     <div style="margin-top:2rem;display:flex;flex-wrap:wrap;justify-content:center;gap:1rem;">
-      <a href="tel:0887671679" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:linear-gradient(to right,#f97316,#ef4444);color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(249,115,22,0.7);">📞 โทรเรียกช่าง 088-767-1679</a>
-      <a href="https://lin.ee/xxqKaZn" target="_blank" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:#06C755;color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(6,199,85,0.7);">💬 แอดไลน์ ส่งพิกัดจุดจอดรถ</a>
+      <a href="tel:0996731296" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:linear-gradient(to right,#f97316,#ef4444);color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(249,115,22,0.7);">📞 โทรเรียกช่าง 099-673-1296</a>
+      <a href="https://lin.ee/OBB86S4" target="_blank" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:#06C755;color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(6,199,85,0.7);">💬 แอดไลน์ ส่งพิกัดจุดจอดรถ</a>
     </div>
-    <p style="margin-top:1.5rem;"><a href="/mobile-tire-repair" style="color:#ea580c;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:1rem;">เรียกช่างปะยางนอกสถานที่ 24 ชม. บางนา ศรีนครินทร์</a></p>
+    <p style="margin-top:1.5rem;"><a href="/mobile-tire-repair" style="color:#ea580c;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:1rem;">เรียกช่างปะยางนอกสถานที่ 24 ชม. ห้วยขวาง ดินแดง ลาดพร้าว</a></p>
     <p style="margin-top:0.75rem;"><a href="/battery-replacement" style="color:#0891b2;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:0.9rem;">เปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่ ศรีนครินทร์ เทพารักษ์ →</a></p>
     <p style="margin-top:0.5rem;"><a href="/contact-us" style="color:#64748b;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:0.9rem;">ดูเบอร์โทรและช่องทางติดต่อช่างทั้งหมด →</a></p>
   </div>
@@ -277,7 +277,7 @@ const post = {
   </div>
 
   <div class="border rounded-xl p-4" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
-    <h3 class="text-lg font-bold mt-0" itemprop="name">Q: ช่าง FirstCarCenter ขึ้นไปซ่อมบนทางด่วนได้ไหม?</h3>
+    <h3 class="text-lg font-bold mt-0" itemprop="name">Q: ช่าง PORNPISIT BATTERY ขึ้นไปซ่อมบนทางด่วนได้ไหม?</h3>
     <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
       <p class="mb-0 text-slate-600" itemprop="text"><strong>A:</strong> <strong>ไม่ได้ครับ</strong> เพื่อความปลอดภัยสูงสุดของลูกค้าและช่าง กฎหมายไม่อนุญาตให้ซ่อมรถบนไหล่ทางด่วน (ยกเว้นช่างของการทางฯ) ลูกค้าต้องให้รถลากนำรถลงมาจอดด้านล่างก่อน เราถึงจะเข้าไปให้บริการปะยางหรือเปลี่ยนยางอะไหล่ได้ครับ</p>
     </div>

@@ -6,7 +6,7 @@ import ServicePageRenderer from "@/components/ServicePageRenderer";
 export const revalidate = 60;
 
 const SLUG = "mobile-tire-repair";
-const FALLBACK_TITLE = "ปะยางนอกสถานที่ 24 ชม. บางนา ศรีนครินทร์ ถึงไว ด่วนทันใจ";
+const FALLBACK_TITLE = "ปะยางนอกสถานที่ 24 ชม. ห้วยขวาง ดินแดง ลาดพร้าว ถึงไว ด่วนทันใจ";
 const FALLBACK_DESC = "ยางแตก ยางรั่ว โทรเรียกเรา! บริการปะยางนอกสถานที่ด่วน โซนสุขุมวิท บางนา เทพารักษ์ วัดด่าน ช่างชำนาญงาน พร้อมให้บริการและแก้ปัญหาทันที";
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -28,7 +28,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       siteName: SITE_CONFIG.siteName,
       locale: SITE_CONFIG.locale,
-      images: [{ url: SITE_CONFIG.ogImage, width: 1200, height: 630, alt: "ร้านปะยางใกล้ฉัน ปะยางนอกสถานที่ 24 ชม. บางนา ศรีนครินทร์" }],
+      images: [{ url: SITE_CONFIG.ogImage, width: 1200, height: 630, alt: "ร้านปะยางใกล้ฉัน ปะยางนอกสถานที่ 24 ชม. ห้วยขวาง ดินแดง ลาดพร้าว" }],
     },
     twitter: { card: "summary_large_image", title, description, images: [SITE_CONFIG.ogImage] },
   };

@@ -1,4 +1,4 @@
-const fs = require('fs');
+﻿const fs = require('fs');
 const path = require('path');
 const Database = require('better-sqlite3');
 
@@ -149,7 +149,7 @@ const coverSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630"
   <use href="#pig-mascot" x="900" y="340" transform="scale(1.4) translate(-250, -100)"/>
 
   <rect x="40" y="580" width="200" height="30" rx="4" fill="url(#primary-grad)"/>
-  <text x="140" y="602" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">FIRSTCARCENTER</text>
+  <text x="140" y="602" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">PORNPISIT BATTERY</text>
 </svg>`;
 
 const inline1Svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
@@ -198,7 +198,7 @@ const post = {
   category: "ช่วยเหลือฉุกเฉิน",
   tags: "รถติดความร้อนขึ้น,เครื่องฮีท,แอร์ไม่เย็นตอนรถติด,พัดลมหม้อน้ำเสีย,รถเสียกลางทาง,สมุทรปราการ,บางนา",
   published: 1,
-  author: "FIRSTCARCENTER",
+  author: "PORNPISIT BATTERY",
   seoTitle: "รถติดความร้อนขึ้น เครื่องฮีททำไงดี? รีวิววิธีรอด | โซนบางนา",
   seoDescription: "รถติดความร้อนขึ้น แอร์ไม่เย็น มีแต่ลมร้อน เข็มความร้อนชี้ตัว H อย่าฝืนขับ! อ่านวิธีรับมือที่ถูกต้อง และเคสรีวิวเรียกช่างฉุกเฉิน โซนศรีนครินทร์ บางนา เทพารักษ์ แพรกษา",
   seoKeywords: "รถติดความร้อนขึ้น, เครื่องฮีท, แอร์ไม่เย็นตอนรถติด, พัดลมหม้อน้ำไม่หมุน, เปลี่ยนแบตเตอรี่นอกสถานที่, รถดับกลางทาง",
@@ -206,7 +206,7 @@ const post = {
   ogDescription: "แชร์ประสบการณ์ตรง รถติดหนึบจนเครื่องฮีท แอร์มีแต่ลมร้อน พร้อมวิธีเอาตัวรอดไม่ให้ฝาสูบโก่ง โซนศรีนครินทร์-บางนา",
   coverImage: "/images/blog/pig-traffic-jam-overheat-cover.svg",
   content: `
-<p class="lead">การขับรถในกรุงเทพฯ หรือปริมณฑลช่วงเวลาเร่งด่วน สิ่งที่ต้องเผชิญเป็นประจำคือ "รถติดสาหัส" ครับ แต่ปัญหาที่น่ากลัวกว่ารถติดคือ เมื่อจอดแช่นานๆ แล้ว <strong>"รถติดความร้อนขึ้น"</strong> เข็มความร้อนหน้าปัดค่อยๆ ตีขึ้นไปทางตัว H แอร์ที่เคยเย็นฉ่ำกลับมีแต่ลมร้อนพ่นออกมา! ถือเป็นสัญญาณเตือนว่า "เครื่องกำลังจะฮีท" (Overheat) วันนี้ <strong>FirstCarCenter</strong> จะมาบอกวิธีรับมือเฉพาะหน้า และเล่าเคสช่วยเหลือลูกค้าในโซน <strong>ศรีนครินทร์ บางนา เทพารักษ์ ลาซาล แบริ่ง</strong> ให้ฟังครับ</p>
+<p class="lead">การขับรถในกรุงเทพฯ หรือปริมณฑลช่วงเวลาเร่งด่วน สิ่งที่ต้องเผชิญเป็นประจำคือ "รถติดสาหัส" ครับ แต่ปัญหาที่น่ากลัวกว่ารถติดคือ เมื่อจอดแช่นานๆ แล้ว <strong>"รถติดความร้อนขึ้น"</strong> เข็มความร้อนหน้าปัดค่อยๆ ตีขึ้นไปทางตัว H แอร์ที่เคยเย็นฉ่ำกลับมีแต่ลมร้อนพ่นออกมา! ถือเป็นสัญญาณเตือนว่า "เครื่องกำลังจะฮีท" (Overheat) วันนี้ <strong>PORNPISIT BATTERY</strong> จะมาบอกวิธีรับมือเฉพาะหน้า และเล่าเคสช่วยเหลือลูกค้าในโซน <strong>ศรีนครินทร์ บางนา เทพารักษ์ ลาซาล แบริ่ง</strong> ให้ฟังครับ</p>
 
 <h2>ทำไมพอ "รถติด" แล้วความร้อนถึงขึ้น?</h2>
 <p>เวลารถวิ่งด้วยความเร็ว จะมีลมปะทะหน้ารถคอยช่วยระบายความร้อนให้หม้อน้ำ แต่พอ <strong>รถติดความร้อนขึ้น</strong> เพราะไม่มีลมปะทะตามธรรมชาติ ภาระทั้งหมดจึงตกไปอยู่ที่ <strong>"พัดลมไฟฟ้า (พัดลมหม้อน้ำ/พัดลมแอร์)"</strong> ถ้าพัดลมทำงานไม่เต็มประสิทธิภาพ จะเกิดปัญหาตามมาครับ สาเหตุหลักๆ ได้แก่:</p>
@@ -236,7 +236,7 @@ const post = {
 <h2>Case Study 1: พัดลมหม้อน้ำตาย รถติดหน้าซีคอน ศรีนครินทร์</h2>
 <p>ลูกค้าขับรถ Honda City ติดแหง็กอยู่หน้าห้าง <strong>ซีคอนสแควร์ ถนนศรีนครินทร์</strong> ช่วงเย็นวันศุกร์ จู่ๆ แอร์ในรถมีแต่ลมร้อน ลูกค้าสังเกตเห็นไฟเตือนความร้อนหน้าปัดกระพริบ จึงตัดสินใจหักพวงมาลัยเลี้ยวเข้าไปจอดพักรถในลานจอดของห้างทันที</p>
 
-<p>ลูกค้าโทรหา FirstCarCenter ช่างมอเตอร์ไซค์ของเราไปถึงหน้างานใน 20 นาที เมื่อเปิดฝากระโปรงเช็กดู พบว่า <strong>มอเตอร์พัดลมหม้อน้ำตายสนิท</strong> (เคาะแล้วก็ไม่หมุน) ทำให้น้ำในหม้อน้ำเดือดพล่านดันออกมาที่หม้อพักสำรอง</p>
+<p>ลูกค้าโทรหา PORNPISIT BATTERY ช่างมอเตอร์ไซค์ของเราไปถึงหน้างานใน 20 นาที เมื่อเปิดฝากระโปรงเช็กดู พบว่า <strong>มอเตอร์พัดลมหม้อน้ำตายสนิท</strong> (เคาะแล้วก็ไม่หมุน) ทำให้น้ำในหม้อน้ำเดือดพล่านดันออกมาที่หม้อพักสำรอง</p>
 
 <p>เคสนี้ช่างแนะนำให้รอจนเครื่องเย็นสนิท เติมน้ำกลับเข้าไป แล้วค่อยๆ ขับประคองรถ (โดยไม่เปิดแอร์) ไปที่อู่ซ่อมไดนาโม/หม้อน้ำที่อยู่ใกล้ที่สุด เพื่อเปลี่ยนมอเตอร์พัดลมใหม่ครับ</p>
 
@@ -249,8 +249,8 @@ const post = {
   <img src="/images/blog/traffic-jam-overheat-case3.svg" alt="ช่างตรวจเช็กพัดลมหม้อน้ำและระบบไฟหน้างาน ถนนบางนา-ตราด" class="w-full h-auto object-cover m-0" />
 </div>
 
-<h2>รถมีปัญหา ความร้อนขึ้น สตาร์ทไม่ติด? เรียก FirstCarCenter สิครับ</h2>
-<p>หากคุณเจอสถานการณ์ <strong>รถติดความร้อนขึ้น</strong> หรือดับเครื่องพักแล้วรถสตาร์ทไม่ติดกลางทาง ในเขต <strong>บางนา ศรีนครินทร์ แบริ่ง ลาซาล เทพารักษ์ แพรกษา หรือสมุทรปราการ</strong> โทรเรียก <strong>FirstCarCenter</strong> ได้เลยครับ ทีมช่างของเราพร้อมวิ่งไปตรวจเช็กปัญหาเบื้องต้นให้ถึงหน้างาน ไม่ว่าจะเป็นเรื่องแบตเตอรี่ ไดชาร์จ หรือช่วยประเมินสถานการณ์ว่าควรเรียกรถลากหรือไม่ เพื่อให้คุณปลอดภัยและเสียค่าใช้จ่ายน้อยที่สุดครับ!</p>
+<h2>รถมีปัญหา ความร้อนขึ้น สตาร์ทไม่ติด? เรียก PORNPISIT BATTERY สิครับ</h2>
+<p>หากคุณเจอสถานการณ์ <strong>รถติดความร้อนขึ้น</strong> หรือดับเครื่องพักแล้วรถสตาร์ทไม่ติดกลางทาง ในเขต <strong>ห้วยขวาง ดินแดง ลาดพร้าว แบริ่ง ลาซาล เทพารักษ์ แพรกษา หรือสมุทรปราการ</strong> โทรเรียก <strong>PORNPISIT BATTERY</strong> ได้เลยครับ ทีมช่างของเราพร้อมวิ่งไปตรวจเช็กปัญหาเบื้องต้นให้ถึงหน้างาน ไม่ว่าจะเป็นเรื่องแบตเตอรี่ ไดชาร์จ หรือช่วยประเมินสถานการณ์ว่าควรเรียกรถลากหรือไม่ เพื่อให้คุณปลอดภัยและเสียค่าใช้จ่ายน้อยที่สุดครับ!</p>
 
 <div style="background: linear-gradient(135deg, #fff7ed 0%, #fff 40%, #f0fdfa 100%); border: 1px solid #fed7aa; border-radius: 2rem; padding: 2.5rem 1.5rem; margin: 2.5rem 0; text-align: center; position: relative; overflow: hidden; box-shadow: 0 25px 60px -20px rgba(0,0,0,0.08);">
   <div style="position:absolute;top:-40px;right:-20px;width:160px;height:160px;background:rgba(251,146,60,0.15);border-radius:50%;filter:blur(40px);pointer-events:none;"></div>
@@ -258,10 +258,10 @@ const post = {
   <div style="position:relative;">
     <span style="display:inline-flex;align-items:center;gap:0.5rem;background:rgba(255,255,255,0.9);border:1px solid #fed7aa;border-radius:9999px;padding:0.5rem 1.25rem;font-size:0.875rem;font-weight:600;color:#ea580c;box-shadow:0 1px 3px rgba(0,0,0,0.06);">🚨 บริการช่วยเหลือฉุกเฉิน 24 ชม.</span>
     <h3 style="margin:1.5rem auto 0;max-width:600px;font-size:1.75rem;font-weight:900;line-height:1.3;color:#1e293b;">เครื่องฮีท จอดดับแล้วสตาร์ทไม่ติด? เราไปเช็กให้!</h3>
-    <p style="margin:1rem auto 0;max-width:520px;font-size:1rem;line-height:1.7;color:#64748b;">บริการตรวจเช็กระบบไฟ จั๊มสตาร์ท และเปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่ ด่วนใน 30 นาที โซนบางนา ศรีนครินทร์ เทพารักษ์</p>
+    <p style="margin:1rem auto 0;max-width:520px;font-size:1rem;line-height:1.7;color:#64748b;">บริการตรวจเช็กระบบไฟ จั๊มสตาร์ท และเปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่ ด่วนใน 30 นาที โซนห้วยขวาง ดินแดง ลาดพร้าว เทพารักษ์</p>
     <div style="margin-top:2rem;display:flex;flex-wrap:wrap;justify-content:center;gap:1rem;">
-      <a href="tel:0887671679" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:linear-gradient(to right,#f97316,#ef4444);color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(249,115,22,0.7);">📞 โทรเรียกช่างด่วน 088-767-1679</a>
-      <a href="https://lin.ee/xxqKaZn" target="_blank" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:#06C755;color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(6,199,85,0.7);">💬 แอดไลน์ ส่งพิกัดรถเสีย</a>
+      <a href="tel:0996731296" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:linear-gradient(to right,#f97316,#ef4444);color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(249,115,22,0.7);">📞 โทรเรียกช่างด่วน 099-673-1296</a>
+      <a href="https://lin.ee/OBB86S4" target="_blank" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:#06C755;color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(6,199,85,0.7);">💬 แอดไลน์ ส่งพิกัดรถเสีย</a>
     </div>
     <p style="margin:1.5rem 0 0;"><a href="/battery-replacement" style="color:#ea580c;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:1rem;">เปลี่ยนแบตเตอรี่รถยนต์ นอกสถานที่ ศรีนครินทร์ บางนา</a></p>
     <p style="margin-top:0.75rem;"><a href="/alternator-starter" style="color:#0891b2;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:0.9rem;">ซ่อมไดชาร์จ ไดสตาร์ท นอกสถานที่ บางนา เทพารักษ์ →</a></p>

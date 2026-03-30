@@ -1,11 +1,11 @@
-import { PrismaClient } from "@prisma/client";
+﻿import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
 
 const htmlContent = `<h1>ยาสีฟันขัดไฟหน้า ช่วยให้ไฟหน้าหายเหลืองได้จริงไหม? ฟังความจริงจากช่าง! (อัปเดต 2026)</h1>
 <p>สำหรับคนใช้รถแถว<strong>ศรีนครินทร์</strong> หรือ<strong>บางนา</strong> ที่ต้องจอดรถตากแดดบ่อยๆ คงหนีไม่พ้นปัญหา "ไฟหน้าเหลืองหมอง" จนดูเก่าและแสงสว่างส่องไม่ทะลุตอนกลางคืน หลายคนพยายามหาวิธี DIY ประหยัดงบ และหนึ่งในสูตรลับระดับตำนานที่ถูกส่งต่อกันมาก็คือการใช้ <strong>"ยาสีฟันขัดไฟหน้า"</strong></p>
 
-<p>แต่วิธีนี้มันได้ผลจริงๆ หรือเป็นแค่ความเชื่อผิดๆ? วันนี้ช่างจาก FIRSTCARCENTER จะมาแฉความจริง พร้อมสอนวิธีทำทีละขั้นตอน และบอกข้อควรระวังที่คุณอาจไม่เคยรู้มาก่อนครับ!</p>
+<p>แต่วิธีนี้มันได้ผลจริงๆ หรือเป็นแค่ความเชื่อผิดๆ? วันนี้ช่างจาก PORNPISIT BATTERY จะมาแฉความจริง พร้อมสอนวิธีทำทีละขั้นตอน และบอกข้อควรระวังที่คุณอาจไม่เคยรู้มาก่อนครับ!</p>
 
 <img src="/images/blog/pig-toothpaste-headlight-cover.svg" alt="ยาสีฟันขัดไฟหน้า ขัดไฟหน้าเหลือง ศรีนครินทร์ บางนา" class="rounded-xl my-6 w-full object-cover shadow-sm" />
 <p class="text-sm text-center text-slate-500 mt-2"><em>ภาพ: การใช้ยาสีฟันขัดไฟหน้า เป็นวิธียอดฮิตที่คนมักทำเพื่อแก้ปัญหาไฟหน้าเหลืองหมองเบื้องต้น</em></p>
@@ -67,13 +67,13 @@ const htmlContent = `<h1>ยาสีฟันขัดไฟหน้า ช่
   <div class="absolute bottom-0 left-0 -mb-4 -ml-4 w-24 h-24 bg-gradient-to-br from-[#00F2FE] to-[#4FACFE] rounded-full opacity-20 blur-2xl"></div>
   <div class="relative z-10">
     <h2 class="text-2xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-slate-800 to-slate-600 dark:from-white dark:to-slate-300 mb-4">ขัดเองไม่หาย ไฟหน้ายังเหลืองหมอง? โทรหาเรา!</h2>
-    <p class="text-slate-600 dark:text-slate-400 mb-8 max-w-2xl mx-auto text-lg leading-relaxed">อย่าปล่อยให้ไฟหน้าเหลืองบดบังทัศนวิสัยตอนกลางคืน หรือทำตามวิธี <strong>ยาสีฟันขัดไฟหน้า</strong> แล้วกลับมาเหลืองซ้ำ! FIRSTCARCENTER มีบริการ <a href="/car-polishing" class="text-orange-600 hover:underline">ขัดเคลือบฟื้นฟูไฟหน้าเต็มระบบ</a> ด้วยน้ำยาเคลือบเฉพาะทาง ใสทนทานยาวนาน รับประกันผลงาน บริการทั้งในและนอกสถานที่ ครอบคลุมโซน ศรีนครินทร์, บางนา, แบริ่ง, ลาซาล, สุขุมวิท, เทพารักษ์, ซอยวัดหนามแดง, แพรกษา และ สมุทรปราการ</p>
+    <p class="text-slate-600 dark:text-slate-400 mb-8 max-w-2xl mx-auto text-lg leading-relaxed">อย่าปล่อยให้ไฟหน้าเหลืองบดบังทัศนวิสัยตอนกลางคืน หรือทำตามวิธี <strong>ยาสีฟันขัดไฟหน้า</strong> แล้วกลับมาเหลืองซ้ำ! PORNPISIT BATTERY มีบริการ <a href="/car-polishing" class="text-orange-600 hover:underline">ขัดเคลือบฟื้นฟูไฟหน้าเต็มระบบ</a> ด้วยน้ำยาเคลือบเฉพาะทาง ใสทนทานยาวนาน รับประกันผลงาน บริการทั้งในและนอกสถานที่ ครอบคลุมโซน ศรีนครินทร์, บางนา, แบริ่ง, ลาซาล, สุขุมวิท, เทพารักษ์, ซอยวัดหนามแดง, แพรกษา และ สมุทรปราการ</p>
     <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
-      <a href="tel:0887671679" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-gradient-to-r from-[#FF6B00] to-[#FF3E00] hover:from-[#E65A00] hover:to-[#E63500] text-white font-bold py-3.5 px-8 rounded-full shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300">
+      <a href="tel:0996731296" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-gradient-to-r from-[#FF6B00] to-[#FF3E00] hover:from-[#E65A00] hover:to-[#E63500] text-white font-bold py-3.5 px-8 rounded-full shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-        <span>จองคิวขัดไฟหน้า 088-767-1679</span>
+        <span>จองคิวขัดไฟหน้า 099-673-1296</span>
       </a>
-      <a href="https://lin.ee/xxqKaZn" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-gradient-to-r from-[#00c300] to-[#00a800] hover:from-[#00b300] hover:to-[#009900] text-white font-bold py-3.5 px-8 rounded-full shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300">
+      <a href="https://lin.ee/OBB86S4" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-gradient-to-r from-[#00c300] to-[#00a800] hover:from-[#00b300] hover:to-[#009900] text-white font-bold py-3.5 px-8 rounded-full shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path d="M24 10.304c0-5.369-5.383-9.738-12-9.738-6.616 0-12 4.369-12 9.738 0 4.814 4.269 8.846 10.036 9.608.391.084.922.258 1.057.592.122.303.079.778.039 1.085l-.171 1.027c-.053.303-.242 1.186 1.039.647 1.281-.54 6.911-4.069 9.428-6.967 1.739-1.907 2.572-4.103 2.572-6.002z"/></svg>
         <span>แอดไลน์ ประเมินราคาฟรี</span>
       </a>
@@ -90,7 +90,7 @@ const postData = {
   category: "เคล็ดลับดูแลรถยนต์",
   tags: "ยาสีฟันขัดไฟหน้า,ขัดไฟหน้าเหลือง,วิธีขัดไฟหน้าด้วยตัวเอง,ไฟหน้าหมอง,น้ำยาขัดไฟหน้า,ร้านขัดไฟหน้าใกล้ฉัน,ศรีนครินทร์,บางนา,แบริ่ง,ลาซาล,สมุทรปราการ",
   published: true,
-  author: "FIRSTCARCENTER",
+  author: "PORNPISIT BATTERY",
   seoTitle: "ยาสีฟันขัดไฟหน้า หายเหลืองจริงไหม? อัปเดตวิธีขัด 2026",
   seoDescription: "ไฟหน้าเหลือง? พิสูจน์สูตร ยาสีฟันขัดไฟหน้า ได้ผลจริงหรือทำลายโคม? ช่างแนะวิธีขัดไฟหน้าด้วยตัวเองที่ถูกต้อง พร้อมบริการขัดเคลือบไฟหน้า ศรีนครินทร์ บางนา แบริ่ง",
   seoKeywords: "ยาสีฟันขัดไฟหน้า,ขัดไฟหน้าเหลือง,วิธีขัดไฟหน้าด้วยตัวเอง,ไฟหน้าหมอง,ร้านขัดไฟหน้าใกล้ฉัน,น้ำยาขัดไฟหน้า,เคลือบแก้วไฟหน้า,ศรีนครินทร์,บางนา,แบริ่ง,ลาซาล,สุขุมวิท,เทพารักษ์,แพรกษา,สมุทรปราการ",

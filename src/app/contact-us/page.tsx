@@ -1,4 +1,4 @@
-import { Metadata } from "next";
+﻿import { Metadata } from "next";
 import { SITE_CONFIG, generateBreadcrumbJsonLd, generateWebPageJsonLd } from "@/lib/seo";
 import { ensureServicePages, getServicePageData } from "@/lib/ensureServicePages";
 import ServicePageRenderer from "@/components/ServicePageRenderer";
@@ -6,8 +6,8 @@ import ServicePageRenderer from "@/components/ServicePageRenderer";
 export const revalidate = 60;
 
 const SLUG = "contact-us";
-const FALLBACK_TITLE = `เบอร์โทรช่างซ่อมรถ นอกสถานที่ 24 ชม. บางนา ศรีนครินทร์ | FIRSTCARCENTER`;
-const FALLBACK_DESC = "ต้องการช่างด่วน? เบอร์โทรติดต่อช่างซ่อมรถนอกสถานที่ ปะยาง เปลี่ยนแบต ไดชาร์จ โซนบางนา ศรีนครินทร์ เทพารักษ์ แพรกษา พร้อมออกเดินทางทันที โทรเลยตลอด 24 ชม.";
+const FALLBACK_TITLE = `เบอร์โทรช่างซ่อมรถ นอกสถานที่ 24 ชม. ห้วยขวาง ดินแดง ลาดพร้าว | PORNPISIT BATTERY`;
+const FALLBACK_DESC = "ต้องการช่างด่วน? เบอร์โทรติดต่อช่างซ่อมรถนอกสถานที่ ปะยาง เปลี่ยนแบต ไดชาร์จ โซนห้วยขวาง ดินแดง ลาดพร้าว เทพารักษ์ แพรกษา พร้อมออกเดินทางทันที โทรเลยตลอด 24 ชม.";
 
 export async function generateMetadata(): Promise<Metadata> {
   await ensureServicePages();
@@ -41,7 +41,7 @@ function generateContactPageJsonLd() {
     "@type": "AutoRepair",
     "@id": `${SITE_CONFIG.url}/#organization`,
     name: SITE_CONFIG.siteName,
-    alternateName: "Firstcar Service",
+    alternateName: "PORNPISIT BATTERY Service",
     image: SITE_CONFIG.logo,
     logo: {
       "@type": "ImageObject",

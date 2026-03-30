@@ -1,13 +1,13 @@
-import { PrismaClient } from "@prisma/client";
+﻿import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
 
 const htmlContent = `<h1>อาการไดชาร์จเสีย ดูยังไง? เช็ก 5 สัญญาณเตือนก่อนรถดับกลางทาง (อัปเดต 2026)</h1>
 <p>เคยไหมครับ? ขับรถอยู่ดีๆ บนถนน<strong>ศรีนครินทร์</strong> หรือกำลังติดไฟแดงอยู่ตรง<strong>แยกเทพารักษ์</strong> จู่ๆ หน้าปัดรถก็มีไฟเตือนรูปแบตเตอรี่สว่างวาบขึ้นมา หลายคนมักจะคิดว่า "แบตเตอรี่หมดแน่เลย" แต่รู้หรือไม่ครับว่า จริงๆ แล้วต้นเหตุอาจมาจาก <strong>"อาการไดชาร์จเสีย"</strong> (Alternator Failure) ต่างหาก!</p>
 
-<p>วันนี้ช่างจาก FIRSTCARCENTER จะมาเล่าให้ฟังแบบเจาะลึก เข้าใจง่ายๆ เหมือนเพื่อนคุยกัน ว่าเราจะรู้ได้อย่างไรว่าไดชาร์จรถยนต์กำลังจะพัง เพื่อให้คุณเตรียมตัวรับมือได้ทันท่วงที ก่อนที่รถจะไปตายสนิทอยู่หน้า<strong>ตลาดหนามแดง</strong> หรือกลางห้าง<strong>เมกาบางนา</strong>ครับ</p>
+<p>วันนี้ช่างจาก PORNPISIT BATTERY จะมาเล่าให้ฟังแบบเจาะลึก เข้าใจง่ายๆ เหมือนเพื่อนคุยกัน ว่าเราจะรู้ได้อย่างไรว่าไดชาร์จรถยนต์กำลังจะพัง เพื่อให้คุณเตรียมตัวรับมือได้ทันท่วงที ก่อนที่รถจะไปตายสนิทอยู่หน้า<strong>ตลาดหนามแดง</strong> หรือกลางห้าง<strong>เมกาบางนา</strong>ครับ</p>
 
-<img src="/images/blog/pig-alternator-seo-cover.svg" alt="ภาพการ์ตูนหมูช่าง FIRSTCARCENTER อธิบาย อาการไดชาร์จเสีย ดูยังไง ศรีนครินทร์ บางนา" class="rounded-xl my-6 w-full object-cover shadow-sm" />
+<img src="/images/blog/pig-alternator-seo-cover.svg" alt="ภาพการ์ตูนหมูช่าง PORNPISIT BATTERY อธิบาย อาการไดชาร์จเสีย ดูยังไง ศรีนครินทร์ บางนา" class="rounded-xl my-6 w-full object-cover shadow-sm" />
 
 <h2>ไดชาร์จ (Alternator) คืออะไร? ทำหน้าที่อะไรในรถของเรา?</h2>
 <p>อธิบายง่ายๆ <strong>ไดชาร์จ</strong> ก็เปรียบเสมือน "โรงไฟฟ้า" ประจำรถยนต์ครับ ในขณะที่เราสตาร์ทเครื่องยนต์ ไดชาร์จจะทำหน้าที่ปั่นกระแสไฟฟ้าไปเลี้ยงระบบต่างๆ ในรถ (แอร์, วิทยุ, ไฟหน้า) และที่สำคัญที่สุดคือ <strong>ชาร์จไฟกลับเข้าไปเก็บไว้ในแบตเตอรี่</strong> ถ้าโรงไฟฟ้านี้พัง แบตเตอรี่ก็จะมีไฟใช้ได้แค่ชั่วคราว หมดแล้วก็หมดเลย รถก็จะดับในที่สุดครับ</p>
@@ -41,7 +41,7 @@ const htmlContent = `<h1>อาการไดชาร์จเสีย ดู
 </ul>
 
 <h2>รถดับแถวสุขุมวิท ลาซาล หรือแพรกษา ทำยังไงดี?</h2>
-<p>ถ้าคุณกำลังเจอปัญหารถดับ สตาร์ทไม่ติด และสงสัยว่าจะเป็น <strong>อาการไดชาร์จเสีย</strong> หรือ <strong>แบตเสื่อม</strong> อย่าเพิ่งตกใจครับ ไม่ว่าคุณจะจอดเสียอยู่ซอย<strong>ลาซาล</strong> ถนน<strong>สุขุมวิท</strong> หรือแถว<strong>แพรกษา สมุทรปราการ</strong> ทีมช่างจาก FIRSTCARCENTER พร้อมดูแลคุณครับ</p>
+<p>ถ้าคุณกำลังเจอปัญหารถดับ สตาร์ทไม่ติด และสงสัยว่าจะเป็น <strong>อาการไดชาร์จเสีย</strong> หรือ <strong>แบตเสื่อม</strong> อย่าเพิ่งตกใจครับ ไม่ว่าคุณจะจอดเสียอยู่ซอย<strong>ลาซาล</strong> ถนน<strong>สุขุมวิท</strong> หรือแถว<strong>แพรกษา สมุทรปราการ</strong> ทีมช่างจาก PORNPISIT BATTERY พร้อมดูแลคุณครับ</p>
 
 <p>เรามีบริการตรวจเช็กระบบไฟด้วยเครื่องมือดิจิทัลมาตรฐานสูง เพื่อฟันธงว่าปัญหาอยู่ที่จุดไหน หากเป็นที่แบตเตอรี่ เรามีบริการ <a href="/battery-replacement" title="บริการเปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่" class="text-orange-600 font-semibold hover:underline">เปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่</a> ด่วน 24 ชม. แต่หากประเมินแล้วว่าไดชาร์จกลับบ้านเก่า เราก็มีบริการรับ <strong>ซ่อมไดชาร์จ</strong> และเปลี่ยนไดชาร์จนอกสถานที่เช่นกันครับ ให้คุณอุ่นใจ ไม่ต้องทิ้งรถไว้ข้างทาง</p>
 
@@ -72,13 +72,13 @@ const htmlContent = `<h1>อาการไดชาร์จเสีย ดู
   <div class="absolute bottom-0 left-0 -mb-4 -ml-4 w-24 h-24 bg-gradient-to-br from-[#00F2FE] to-[#4FACFE] rounded-full opacity-20 blur-2xl"></div>
   <div class="relative z-10">
     <h2 class="text-2xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-slate-800 to-slate-600 dark:from-white dark:to-slate-300 mb-4">สงสัยว่าไดชาร์จพัง หรือ แบตหมด? ปรึกษาช่างฟรี!</h2>
-    <p class="text-slate-600 dark:text-slate-400 mb-8 max-w-2xl mx-auto text-lg leading-relaxed">ไม่ต้องเดาให้ปวดหัว FIRSTCARCENTER บริการตรวจเช็ก ซ่อมไดชาร์จ และเปลี่ยนแบตเตอรี่ ถึงที่ด่วน 24 ชม. ครอบคลุมพื้นที่ ศรีนครินทร์, บางนา, แบริ่ง, ลาซาล, เทพารักษ์, สมุทรปราการ</p>
+    <p class="text-slate-600 dark:text-slate-400 mb-8 max-w-2xl mx-auto text-lg leading-relaxed">ไม่ต้องเดาให้ปวดหัว PORNPISIT BATTERY บริการตรวจเช็ก ซ่อมไดชาร์จ และเปลี่ยนแบตเตอรี่ ถึงที่ด่วน 24 ชม. ครอบคลุมพื้นที่ ศรีนครินทร์, บางนา, แบริ่ง, ลาซาล, เทพารักษ์, สมุทรปราการ</p>
     <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
-      <a href="tel:0887671679" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-gradient-to-r from-[#FF6B00] to-[#FF3E00] hover:from-[#E65A00] hover:to-[#E63500] text-white font-bold py-3.5 px-8 rounded-full shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300">
+      <a href="tel:0996731296" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-gradient-to-r from-[#FF6B00] to-[#FF3E00] hover:from-[#E65A00] hover:to-[#E63500] text-white font-bold py-3.5 px-8 rounded-full shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-        <span>โทรเรียกช่างด่วน 088-767-1679</span>
+        <span>โทรเรียกช่างด่วน 099-673-1296</span>
       </a>
-      <a href="https://lin.ee/xxqKaZn" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-gradient-to-r from-[#00c300] to-[#00a800] hover:from-[#00b300] hover:to-[#009900] text-white font-bold py-3.5 px-8 rounded-full shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300">
+      <a href="https://lin.ee/OBB86S4" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-gradient-to-r from-[#00c300] to-[#00a800] hover:from-[#00b300] hover:to-[#009900] text-white font-bold py-3.5 px-8 rounded-full shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path d="M24 10.304c0-5.369-5.383-9.738-12-9.738-6.616 0-12 4.369-12 9.738 0 4.814 4.269 8.846 10.036 9.608.391.084.922.258 1.057.592.122.303.079.778.039 1.085l-.171 1.027c-.053.303-.242 1.186 1.039.647 1.281-.54 6.911-4.069 9.428-6.967 1.739-1.907 2.572-4.103 2.572-6.002z"/></svg>
         <span>แอดไลน์ ส่งพิกัดรถเสีย</span>
       </a>
@@ -87,7 +87,7 @@ const htmlContent = `<h1>อาการไดชาร์จเสีย ดู
 </div>`;
 
 const postData = {
-  title: "อาการไดชาร์จเสีย ดูยังไง? เช็ก 5 สัญญาณเตือนก่อนรถดับ (อัปเดต 2026) | FIRSTCARCENTER",
+  title: "อาการไดชาร์จเสีย ดูยังไง? เช็ก 5 สัญญาณเตือนก่อนรถดับ (อัปเดต 2026) | PORNPISIT BATTERY",
   slug: "alternator-failure-symptoms-guide",
   excerpt: "อาการไดชาร์จเสีย หรือแบตเสื่อม? ดู 5 สัญญาณเตือนที่ต้องรู้ พร้อมวิธีแยกอาการ และบริการซ่อม-เปลี่ยนไดชาร์จด่วน ศรีนครินทร์ บางนา แบริ่ง เทพารักษ์ สมุทรปราการ",
   content: htmlContent,
@@ -95,7 +95,7 @@ const postData = {
   category: "ซ่อมบำรุง",
   tags: "อาการไดชาร์จเสีย,ไดชาร์จพัง,แบตเสื่อมหรือไดชาร์จเสีย,ซ่อมไดชาร์จรถยนต์,ไฟรูปแบตเตอรี่โชว์,ศรีนครินทร์,บางนา,แบริ่ง,ลาซาล,เทพารักษ์,สมุทรปราการ",
   published: true,
-  author: "FIRSTCARCENTER",
+  author: "PORNPISIT BATTERY",
   seoTitle: "อาการไดชาร์จเสีย ดูยังไง? 5 สัญญาณเตือนก่อนรถดับ (อัปเดต 2026)",
   seoDescription: "อาการไดชาร์จเสีย หรือแบตเสื่อม? ดู 5 สัญญาณเตือนที่ต้องรู้ พร้อมบริการซ่อม-เปลี่ยนไดชาร์จด่วน ศรีนครินทร์ บางนา แบริ่ง เทพารักษ์ สมุทรปราการ",
   seoKeywords: "อาการไดชาร์จเสีย,ไดชาร์จพัง,ไดชาร์จเสื่อม,แบตเสื่อมหรือไดชาร์จเสีย,ซ่อมไดชาร์จรถยนต์,ไฟรูปแบตเตอรี่โชว์,ศรีนครินทร์,บางนา,แบริ่ง,ลาซาล,สุขุมวิท,เทพารักษ์,แพรกษา,สมุทรปราการ",

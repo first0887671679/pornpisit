@@ -1,4 +1,4 @@
-const fs = require('fs');
+﻿const fs = require('fs');
 const path = require('path');
 const Database = require('better-sqlite3');
 
@@ -149,7 +149,7 @@ const coverSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630"
   <use href="#pig-mascot" x="900" y="340" transform="scale(1.4) translate(-250, -100)"/>
 
   <rect x="40" y="580" width="200" height="30" rx="4" fill="url(#primary-grad)"/>
-  <text x="140" y="602" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">FIRSTCARCENTER</text>
+  <text x="140" y="602" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">PORNPISIT BATTERY</text>
 </svg>`;
 
 const inline1Svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
@@ -198,7 +198,7 @@ const post = {
   category: "ช่วยเหลือฉุกเฉิน",
   tags: "เช็คแบตเตอรี่ก่อนเดินทาง,แบตเตอรี่รถยนต์เสื่อม,เปลี่ยนแบตเตอรี่นอกสถานที่,แบตหมดกลางทาง,สตาร์ทไม่ติด,สมุทรปราการ,บางนา",
   published: 1,
-  author: "FIRSTCARCENTER",
+  author: "PORNPISIT BATTERY",
   seoTitle: "เช็คแบตเตอรี่ก่อนเดินทาง ก่อนทริปล่ม! รีวิวเปลี่ยนแบต โซนบางนา",
   seoDescription: "อย่าปล่อยให้รถตายกลางทาง! วิธี เช็คแบตเตอรี่ก่อนเดินทาง ช่วงเทศกาล พร้อมเคสรีวิวเปลี่ยนแบตเตอรี่ด่วนหน้าบ้าน โซนศรีนครินทร์ บางนา แบริ่ง เทพารักษ์ แพรกษา",
   seoKeywords: "เช็คแบตเตอรี่ก่อนเดินทาง, เปลี่ยนแบตเตอรี่นอกสถานที่ บางนา, แบตเตอรี่รถยนต์หมด, รถสตาร์ทไม่ติด, ร้านแบตเตอรี่ใกล้ฉัน",
@@ -206,7 +206,7 @@ const post = {
   ogDescription: "แชร์วิธีเช็กแบตเตอรี่รถยนต์ง่ายๆ ก่อนออกทริป และรีวิวเรียกช่างเปลี่ยนแบตเตอรี่ด่วนให้ทันเวลาเที่ยว",
   coverImage: "/images/blog/pig-check-battery-before-trip-cover.svg",
   content: `
-<p class="lead">เข้าสู่ช่วงเทศกาลวันหยุดยาวทีไร หลายครอบครัวคงเตรียมแพ็คกระเป๋า เตรียมขับรถเที่ยวต่างจังหวัดกันใช่ไหมครับ? แต่เชื่อมั้ยว่า ปัญหาอันดับ 1 ที่ทำให้ "ทริปล่ม" ตั้งแต่ยังไม่ออกจากบ้าน หรือไปตายกลางทาง ก็คือ <strong>"แบตเตอรี่รถยนต์เสื่อม"</strong> นั่นเองครับ การ <strong>เช็คแบตเตอรี่ก่อนเดินทาง</strong> จึงเป็นสิ่งสำคัญมาก วันนี้ <strong>FirstCarCenter</strong> จะมาแชร์วิธีเช็กแบตเตอรี่ง่ายๆ พร้อมเล่าเคสระทึกของลูกค้าที่เกือบอดเที่ยวในโซน <strong>บางนา ศรีนครินทร์ เทพารักษ์ สมุทรปราการ</strong> ให้ฟังกันครับ</p>
+<p class="lead">เข้าสู่ช่วงเทศกาลวันหยุดยาวทีไร หลายครอบครัวคงเตรียมแพ็คกระเป๋า เตรียมขับรถเที่ยวต่างจังหวัดกันใช่ไหมครับ? แต่เชื่อมั้ยว่า ปัญหาอันดับ 1 ที่ทำให้ "ทริปล่ม" ตั้งแต่ยังไม่ออกจากบ้าน หรือไปตายกลางทาง ก็คือ <strong>"แบตเตอรี่รถยนต์เสื่อม"</strong> นั่นเองครับ การ <strong>เช็คแบตเตอรี่ก่อนเดินทาง</strong> จึงเป็นสิ่งสำคัญมาก วันนี้ <strong>PORNPISIT BATTERY</strong> จะมาแชร์วิธีเช็กแบตเตอรี่ง่ายๆ พร้อมเล่าเคสระทึกของลูกค้าที่เกือบอดเที่ยวในโซน <strong>ห้วยขวาง ดินแดง ลาดพร้าว เทพารักษ์ สมุทรปราการ</strong> ให้ฟังกันครับ</p>
 
 <h2>3 สัญญาณเตือน! แบตเตอรี่เริ่มเสื่อม ต้องรีบเปลี่ยนก่อนเดินทาง</h2>
 <p>ก่อนจะสตาร์ทรถออกต่างจังหวัด ลองสังเกตอาการเหล่านี้ดูครับ ถ้ารถคุณมีอาการ 1 ใน 3 ข้อนี้ แนะนำให้เรียกร้านแบตเตอรี่มาเช็กด่วน!</p>
@@ -223,7 +223,7 @@ const post = {
 <h2>Case Study 1: ทริปเกือบล่ม! เช้าวันเสาร์ที่ ซอยวัดหนามแดง เทพารักษ์</h2>
 <p>เช้าวันเสาร์ช่วงหยุดยาว ลูกค้าครอบครัวหนึ่งใน <strong>ซอยวัดหนามแดง ถนนเทพารักษ์</strong> จัดกระเป๋าขึ้นรถ Toyota Fortuner เตรียมตัวจะขับรถไปเที่ยวเขาใหญ่ตอน 7 โมงเช้า พอทุกคนขึ้นรถพร้อม ลูกค้าบิดกุญแจสตาร์ท ปรากฏว่า... <strong>"แชะ... เงียบกริบ!"</strong> หน้าปัดไฟหรี่ลง รถสตาร์ทไม่ติด</p>
 
-<p>ลูกค้าตกใจมาก เพราะจองที่พักไว้หมดแล้ว จึงรีบเสิร์ชหา <a href="/battery-replacement" class="text-orange-600 font-bold hover:underline">เปลี่ยนแบตเตอรี่นอกสถานที่</a> และเจอเรา FirstCarCenter ทีมช่างรีบวิ่งมอเตอร์ไซค์ไปถึงบ้านลูกค้าภายใน 20 นาที</p>
+<p>ลูกค้าตกใจมาก เพราะจองที่พักไว้หมดแล้ว จึงรีบเสิร์ชหา <a href="/battery-replacement" class="text-orange-600 font-bold hover:underline">เปลี่ยนแบตเตอรี่นอกสถานที่</a> และเจอเรา PORNPISIT BATTERY ทีมช่างรีบวิ่งมอเตอร์ไซค์ไปถึงบ้านลูกค้าภายใน 20 นาที</p>
 
 <p>ช่างนำเครื่องวัดแบตเตอรี่ (Battery Tester) มาเช็ก พบว่าค่า CCA ต่ำกว่าเกณฑ์มาก และแบตลูกนี้ใช้มาเกือบ 2 ปีครึ่งแล้ว ช่างจึงทำการเปลี่ยนแบตเตอรี่ลูกใหม่ตรงรุ่นให้ทันที พร้อมสำรองไฟ (เลี้ยงระบบ) เพื่อไม่ให้ความจำวิทยุและนาฬิกาหาย ใช้เวลาเปลี่ยนไม่ถึง 15 นาที ลูกค้าก็สามารถสตาร์ทรถและออกเดินทางไปเขาใหญ่ได้อย่างสบายใจครับ</p>
 
@@ -234,7 +234,7 @@ const post = {
 <h2>Case Study 2: แบตหมดกลางปั๊มน้ำมัน แวะเข้าห้องน้ำบนถนนศรีนครินทร์</h2>
 <p>เคสนี้อันตรายกว่าเคสแรกครับ! ลูกค้าขับรถออกจากบ้านแถว <strong>แบริ่ง</strong> ได้สักพัก แวะปั๊มน้ำมันริม <strong>ถนนศรีนครินทร์</strong> เพื่อซื้อกาแฟและเข้าห้องน้ำ พอทำธุระเสร็จ กลับมาขึ้นรถ ปรากฏว่าสตาร์ทไม่ติดแล้ว (อาการแบบนี้เรียกว่า แบตช็อตช่อง หรือแผ่นธาตุขาดเฉียบพลัน ซึ่งมักเกิดกับแบตที่อายุเยอะ)</p>
 
-<p>โชคดีที่ลูกค้ายังอยู่ในเขตกรุงเทพฯ/สมุทรปราการ จึงโทรเรียก <strong>FirstCarCenter</strong> ให้ไปเปลี่ยนแบตเตอรี่กลางปั๊มน้ำมันได้ ลองจินตนาการดูสิครับว่า ถ้าไปเกิดเหตุแบบนี้ในปั๊มมืดๆ ระหว่างทางขึ้นเขา จะลำบากแค่ไหน? นี่จึงเป็นเหตุผลที่ต้อง <strong>เช็คแบตเตอรี่ก่อนเดินทาง</strong> เสมอครับ</p>
+<p>โชคดีที่ลูกค้ายังอยู่ในเขตกรุงเทพฯ/สมุทรปราการ จึงโทรเรียก <strong>PORNPISIT BATTERY</strong> ให้ไปเปลี่ยนแบตเตอรี่กลางปั๊มน้ำมันได้ ลองจินตนาการดูสิครับว่า ถ้าไปเกิดเหตุแบบนี้ในปั๊มมืดๆ ระหว่างทางขึ้นเขา จะลำบากแค่ไหน? นี่จึงเป็นเหตุผลที่ต้อง <strong>เช็คแบตเตอรี่ก่อนเดินทาง</strong> เสมอครับ</p>
 
 <div class="my-8 rounded-2xl overflow-hidden shadow-lg border border-slate-100">
   <img src="/images/blog/check-battery-trip-case3.svg" alt="เปลี่ยนแบตเตอรี่ลูกใหม่ตรงรุ่น ก่อนเดินทาง บ้านลูกค้าโซนบางนา" class="w-full h-auto object-cover m-0" />
@@ -247,8 +247,8 @@ const post = {
   <li><strong>เช็กอายุแบตเตอรี่:</strong> ดูวันที่ที่ร้านเก่าจดไว้บนสติกเกอร์หน้าแบตเตอรี่ ถ้าใกล้ครบ 2 ปีแล้ว เปลี่ยนใหม่เพื่อความชัวร์ดีกว่าครับ</li>
 </ul>
 
-<h2>ก่อนเดินทางไกล เรียก FirstCarCenter ไปเช็กหรือเปลี่ยนแบตให้สิครับ!</h2>
-<p>อย่าปล่อยให้ความสนุกของทริปต้องสะดุดเพราะแบตเตอรี่หมดกลางทาง! หากคุณไม่แน่ใจว่าแบตเตอรี่รถยนต์ของคุณยังไหวไหม หรือรถเริ่มสตาร์ทอืดๆ โทรเรียก <strong>FirstCarCenter</strong> ได้เลยครับ เรารับบริการเปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่ จัดส่งและติดตั้งให้ถึงบ้าน ภายใน 30 นาที ครอบคลุมพื้นที่ <strong>บางนา ศรีนครินทร์ แบริ่ง ลาซาล เทพารักษ์ แพรกษา สมุทรปราการ</strong> แบตเตอรี่ใหม่แกะกล่อง มีใบรับประกันทุกลูก เที่ยวไกลแค่ไหนก็อุ่นใจครับ!</p>
+<h2>ก่อนเดินทางไกล เรียก PORNPISIT BATTERY ไปเช็กหรือเปลี่ยนแบตให้สิครับ!</h2>
+<p>อย่าปล่อยให้ความสนุกของทริปต้องสะดุดเพราะแบตเตอรี่หมดกลางทาง! หากคุณไม่แน่ใจว่าแบตเตอรี่รถยนต์ของคุณยังไหวไหม หรือรถเริ่มสตาร์ทอืดๆ โทรเรียก <strong>PORNPISIT BATTERY</strong> ได้เลยครับ เรารับบริการเปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่ จัดส่งและติดตั้งให้ถึงบ้าน ภายใน 30 นาที ครอบคลุมพื้นที่ <strong>ห้วยขวาง ดินแดง ลาดพร้าว แบริ่ง ลาซาล เทพารักษ์ แพรกษา สมุทรปราการ</strong> แบตเตอรี่ใหม่แกะกล่อง มีใบรับประกันทุกลูก เที่ยวไกลแค่ไหนก็อุ่นใจครับ!</p>
 
 <div style="background: linear-gradient(135deg, #fff7ed 0%, #fff 40%, #f0fdfa 100%); border: 1px solid #fed7aa; border-radius: 2rem; padding: 2.5rem 1.5rem; margin: 2.5rem 0; text-align: center; position: relative; overflow: hidden; box-shadow: 0 25px 60px -20px rgba(0,0,0,0.08);">
   <div style="position:absolute;top:-40px;right:-20px;width:160px;height:160px;background:rgba(251,146,60,0.15);border-radius:50%;filter:blur(40px);pointer-events:none;"></div>
@@ -256,13 +256,13 @@ const post = {
   <div style="position:relative;">
     <span style="display:inline-flex;align-items:center;gap:0.5rem;background:rgba(255,255,255,0.9);border:1px solid #fed7aa;border-radius:9999px;padding:0.5rem 1.25rem;font-size:0.875rem;font-weight:600;color:#ea580c;box-shadow:0 1px 3px rgba(0,0,0,0.06);">🔋 เปลี่ยนแบตเตอรี่ด่วน นอกสถานที่</span>
     <h3 style="margin:1.5rem auto 0;max-width:600px;font-size:1.75rem;font-weight:900;line-height:1.3;color:#1e293b;">แบตเสื่อมก่อนออกทริป? เราส่งแบตใหม่ให้ถึงบ้าน 30 นาที!</h3>
-    <p style="margin:1rem auto 0;max-width:520px;font-size:1rem;line-height:1.7;color:#64748b;">บริการเช็กค่า CCA และเปลี่ยนแบตเตอรี่รถยนต์ พร้อมเลี้ยงไฟระบบ ไม่ต้องจั๊มสตาร์ท โซนบางนา ศรีนครินทร์ เทพารักษ์</p>
+    <p style="margin:1rem auto 0;max-width:520px;font-size:1rem;line-height:1.7;color:#64748b;">บริการเช็กค่า CCA และเปลี่ยนแบตเตอรี่รถยนต์ พร้อมเลี้ยงไฟระบบ ไม่ต้องจั๊มสตาร์ท โซนห้วยขวาง ดินแดง ลาดพร้าว เทพารักษ์</p>
     <div style="margin-top:2rem;display:flex;flex-wrap:wrap;justify-content:center;gap:1rem;">
-      <a href="tel:0887671679" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:linear-gradient(to right,#f97316,#ef4444);color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(249,115,22,0.7);">📞 สั่งแบตเตอรี่ด่วน 088-767-1679</a>
-      <a href="https://lin.ee/xxqKaZn" target="_blank" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:#06C755;color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(6,199,85,0.7);">💬 แอดไลน์ ส่งรุ่นรถมาเช็กราคา</a>
+      <a href="tel:0996731296" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:linear-gradient(to right,#f97316,#ef4444);color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(249,115,22,0.7);">📞 สั่งแบตเตอรี่ด่วน 099-673-1296</a>
+      <a href="https://lin.ee/OBB86S4" target="_blank" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:#06C755;color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(6,199,85,0.7);">💬 แอดไลน์ ส่งรุ่นรถมาเช็กราคา</a>
     </div>
     <p style="margin:1.5rem 0 0;"><a href="/battery-replacement" style="color:#ea580c;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:1rem;">เปลี่ยนแบตเตอรี่รถยนต์ นอกสถานที่ เทพารักษ์ บางนา</a></p>
-    <p style="margin-top:0.75rem;"><a href="/mobile-tire-repair" style="color:#0891b2;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:0.9rem;">บริการปะยางนอกสถานที่ 24 ชม. บางนา ศรีนครินทร์ →</a></p>
+    <p style="margin-top:0.75rem;"><a href="/mobile-tire-repair" style="color:#0891b2;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:0.9rem;">บริการปะยางนอกสถานที่ 24 ชม. ห้วยขวาง ดินแดง ลาดพร้าว →</a></p>
     <p style="margin-top:0.5rem;"><a href="/contact-us" style="color:#64748b;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:0.9rem;">ดูเบอร์โทรและช่องทางติดต่อช่างทั้งหมด →</a></p>
   </div>
 </div>

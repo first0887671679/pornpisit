@@ -16,7 +16,7 @@ const ctaConfigs = {
     badge: '📞 บริการ 24 ชม. ถึงที่ทันที',
     heading: 'ยางแตก ยางรั่ว หรือรันแฟลตมีปัญหา? เรียกช่างปะยางถึงที่!',
     description: 'ช่างพร้อมเข้าช่วยเหลือนอกสถานที่ใน 30 นาที รองรับรถยุโรปและยาง Runflat ส่งพิกัดมาได้เลย ประเมินหน้างานก่อนเริ่มทำ',
-    callLabel: 'โทรเรียกช่าง 088-767-1679',
+    callLabel: 'โทรเรียกช่าง 099-673-1296',
     lineLabel: 'แอดไลน์ ส่งพิกัดเรียกช่าง',
     serviceHref: '/mobile-tire-repair',
     serviceLabel: 'ดูบริการปะยางนอกสถานที่ →',
@@ -25,7 +25,7 @@ const ctaConfigs = {
     badge: '📞 บริการ 24 ชม. นัดคิวถึงที่',
     heading: 'รถจะขาย สีไม่สวย? เรียกช่างขัดสีถึงที่!',
     description: 'ช่างพร้อมนำแบตเตอรี่แท้ไปเปลี่ยนให้ถึงที่ภายใน 30 นาที รับประกัน 1-2 ปี เช็คระบบไฟฟรี',
-    callLabel: 'โทรเรียกช่าง 088-767-1679',
+    callLabel: 'โทรเรียกช่าง 099-673-1296',
     lineLabel: 'แอดไลน์ ส่งรูปประเมินฟรี',
     serviceHref: '/car-polishing',
     serviceLabel: 'ดูบริการขัดสีรถ →',
@@ -34,7 +34,7 @@ const ctaConfigs = {
     badge: '📞 บริการ 24 ชม. นัดคิวถึงที่',
     heading: 'คราบยางมะตอยเกาะรถ ขจัดไม่ออก? เรียกช่างถึงที่!',
     description: 'ช่างพร้อมนำอุปกรณ์เฉพาะทางไปขจัดคราบยางมะตอยถึงที่ ไม่ทำลายสีรถ รับประกันงาน ส่งรูปประเมินก่อนได้เลย',
-    callLabel: 'โทรเรียกช่าง 088-767-1679',
+    callLabel: 'โทรเรียกช่าง 099-673-1296',
     lineLabel: 'แอดไลน์ ส่งรูปประเมินฟรี',
     serviceHref: '/car-polishing',
     serviceLabel: 'ดูบริการขัดสีรถ →',
@@ -43,7 +43,7 @@ const ctaConfigs = {
     badge: '📞 บริการ 24 ชม. นัดคิวถึงที่',
     heading: 'รถโดนละอองสี สีสาก? เรียกช่างลบรอยถึงที่!',
     description: 'ผู้เชี่ยวชาญด้านการขัดลบรอยละอองสี โซนศรีนครินทร์ บางนา สมุทรปราการ งานละเอียด ปลอดภัยต่อสีรถแน่นอน',
-    callLabel: 'โทรเรียกช่าง 088-767-1679',
+    callLabel: 'โทรเรียกช่าง 099-673-1296',
     lineLabel: 'แอดไลน์ ส่งรูปประเมินฟรี',
     serviceHref: '/car-polishing',
     serviceLabel: 'ดูบริการขัดสีรถ →',
@@ -59,8 +59,8 @@ function buildNewCta(cfg) {
     <h3 style="margin:1.5rem auto 0;max-width:600px;font-size:1.75rem;font-weight:900;line-height:1.3;color:#1e293b;">${cfg.heading}</h3>
     <p style="margin:1rem auto 0;max-width:520px;font-size:1rem;line-height:1.7;color:#64748b;">${cfg.description}</p>
     <div style="margin-top:2rem;display:flex;flex-wrap:wrap;justify-content:center;gap:1rem;">
-      <a href="tel:0887671679" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:linear-gradient(to right,#f97316,#ef4444);color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(249,115,22,0.7);">📞 ${cfg.callLabel}</a>
-      <a href="https://lin.ee/xxqKaZn" target="_blank" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:#06C755;color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(6,199,85,0.7);">💬 ${cfg.lineLabel}</a>
+      <a href="tel:0996731296" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:linear-gradient(to right,#f97316,#ef4444);color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(249,115,22,0.7);">📞 ${cfg.callLabel}</a>
+      <a href="https://lin.ee/OBB86S4" target="_blank" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:#06C755;color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(6,199,85,0.7);">💬 ${cfg.lineLabel}</a>
     </div>
     <p style="margin-top:1.5rem;"><a href="${cfg.serviceHref}" style="color:#ea580c;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:1rem;">${cfg.serviceLabel}</a></p>
   </div>

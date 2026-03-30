@@ -1,4 +1,4 @@
-const fs = require('fs');
+﻿const fs = require('fs');
 const path = require('path');
 const Database = require('better-sqlite3');
 
@@ -94,19 +94,19 @@ console.log('✅ SVGs created.');
 const post = {
   title: "แบตเตอรี่ Toyota Vios หมด สตาร์ทไม่ติด แก้ยังไง? รีวิวเปลี่ยนแบตด่วนถึงที่",
   slug: "toyota-vios-battery-replacement-guide",
-  excerpt: "รถ Toyota Vios สตาร์ทไม่ติด แบตหมดกลางทาง? ดูเคสจริงเปลี่ยนแบตเตอรี่ Vios นอกสถานที่ โซนบางนา ศรีนครินทร์ แบริ่ง พร้อมแนะนำวิธีเลือกแบตเตอรี่ที่คุ้มค่าและอยู่ทน",
+  excerpt: "รถ Toyota Vios สตาร์ทไม่ติด แบตหมดกลางทาง? ดูเคสจริงเปลี่ยนแบตเตอรี่ Vios นอกสถานที่ โซนห้วยขวาง ดินแดง ลาดพร้าว แบริ่ง พร้อมแนะนำวิธีเลือกแบตเตอรี่ที่คุ้มค่าและอยู่ทน",
   coverImage: "/images/blog/pig-vios-battery-cover.svg",
   category: "ซ่อมบำรุง",
   tags: "แบตเตอรี่รถยนต์,แบตเตอรี่ Toyota Vios,เปลี่ยนแบตนอกสถานที่,สตาร์ทไม่ติด,แบตเตอรี่ 46B24L,สมุทรปราการ,บางนา",
   published: 1,
-  author: "FIRSTCARCENTER",
-  seoTitle: "แบตเตอรี่ Toyota Vios ราคา+รีวิว เปลี่ยนแบตด่วนถึงที่ บางนา ศรีนครินทร์",
-  seoDescription: "รีวิวเปลี่ยนแบตเตอรี่ Toyota Vios นอกสถานที่ 24 ชม. บางนา ศรีนครินทร์ แบริ่ง เทพารักษ์ แนะนำรุ่นแบตที่เหมาะกับ Vios พร้อมราคาอัปเดต",
+  author: "PORNPISIT BATTERY",
+  seoTitle: "แบตเตอรี่ Toyota Vios ราคา+รีวิว เปลี่ยนแบตด่วนถึงที่ ห้วยขวาง ดินแดง ลาดพร้าว",
+  seoDescription: "รีวิวเปลี่ยนแบตเตอรี่ Toyota Vios นอกสถานที่ 24 ชม. ห้วยขวาง ดินแดง ลาดพร้าว แบริ่ง เทพารักษ์ แนะนำรุ่นแบตที่เหมาะกับ Vios พร้อมราคาอัปเดต",
   seoKeywords: "แบตเตอรี่ Toyota Vios, เปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่, แบตเตอรี่รถยนต์ บางนา, แบตเตอรี่ 46B24L, Vios สตาร์ทไม่ติด",
   ogTitle: "แบตเตอรี่ Toyota Vios สตาร์ทไม่ติด ทำไงดี? รีวิวเปลี่ยนแบตถึงที่ โซนบางนา",
   ogDescription: "เจาะลึกเคส Toyota Vios แบตหมดกลางทาง พร้อมวิธีเลือกแบตเตอรี่ให้ตรงรุ่น เรียกช่างด่วน 24 ชม. ฟรีค่าแรง",
   content: `
-<p class="lead"><strong>แบตเตอรี่ Toyota Vios</strong> เป็นอะไหล่ที่เจ้าของรถรุ่นนี้ต้องเปลี่ยนบ่อยที่สุดอันดับต้นๆ เพราะ Vios ขายดีมากในไทย ใช้กันทั้งเป็นรถส่วนตัวและรถแท็กซี่ วันนี้ <strong>FirstCarCenter</strong> จะมาเล่าเคสจริงที่ออกไปช่วยลูกค้า <strong>Toyota Vios สตาร์ทไม่ติด</strong> กลางทางในพื้นที่ <strong>บางนา ศรีนครินทร์ แบริ่ง ลาซาล</strong> พร้อมแนะนำเคล็ดลับเลือก<a href="/battery-replacement" class="text-orange-600 font-bold hover:underline">แบตเตอรี่รถยนต์</a>ให้อยู่ทนและคุ้มค่าที่สุดครับ</p>
+<p class="lead"><strong>แบตเตอรี่ Toyota Vios</strong> เป็นอะไหล่ที่เจ้าของรถรุ่นนี้ต้องเปลี่ยนบ่อยที่สุดอันดับต้นๆ เพราะ Vios ขายดีมากในไทย ใช้กันทั้งเป็นรถส่วนตัวและรถแท็กซี่ วันนี้ <strong>PORNPISIT BATTERY</strong> จะมาเล่าเคสจริงที่ออกไปช่วยลูกค้า <strong>Toyota Vios สตาร์ทไม่ติด</strong> กลางทางในพื้นที่ <strong>ห้วยขวาง ดินแดง ลาดพร้าว แบริ่ง ลาซาล</strong> พร้อมแนะนำเคล็ดลับเลือก<a href="/battery-replacement" class="text-orange-600 font-bold hover:underline">แบตเตอรี่รถยนต์</a>ให้อยู่ทนและคุ้มค่าที่สุดครับ</p>
 
 <h2>อาการเตือนว่า แบตเตอรี่ Toyota Vios กำลังจะหมด</h2>
 <p>ก่อนที่รถจะดับสนิท แบตเตอรี่จะส่งสัญญาณเตือนให้เราสังเกตได้ล่วงหน้าหลายวัน หากเจออาการเหล่านี้ ควรรีบเตรียมตัวเปลี่ยนแบตเตอรี่ได้เลยครับ:</p>
@@ -124,7 +124,7 @@ const post = {
 <h2>Case Study: Vios สตาร์ทไม่ติดกลางลานจอดเซ็นทรัลบางนา</h2>
 <p>เมื่อไม่กี่วันก่อน ลูกค้าท่านหนึ่งโทรเข้ามาด่วน แจ้งว่าจอดรถ <strong>Toyota Vios 2022</strong> ไว้ที่ลานจอด <strong>เซ็นทรัลบางนา ชั้น B2</strong> ตอนบ่ายสาม พอจะกลับบ้านปรากฏว่ารถสตาร์ทไม่ติดเลย ไฟหน้าปัดติดริบหรี่ กดสตาร์ทแล้วมีแต่เสียง "แชะ แชะ" ลูกค้าลองจัมป์สตาร์ทขอพลังจากรถคันข้างๆ สตาร์ทติดได้ แต่พอดับเครื่องอีกทีก็สตาร์ทไม่ได้อีก</p>
 
-<p>ทีม FirstCarCenter รับสายแล้ว ช่างรีบจัดแบตเตอรี่ที่ตรงรุ่น Vios ขึ้นมอเตอร์ไซค์ฝ่ารถติดช่วงเย็นมุ่งหน้าไปยังจุดเกิดเหตุ ถึงภายใน <strong>25 นาที</strong> พอถึงหน้างาน ช่างใช้เครื่องวัดแบตเตอรี่ดิจิทัลเช็กค่า CCA (Cold Cranking Amps) พบว่าตกเหลือเพียง <strong>120 CCA จากเกณฑ์ปกติ 380 CCA</strong> ยืนยันชัดเจนว่าแบตเตอรี่เสื่อมสภาพหนัก เก็บไฟไม่ได้แล้ว</p>
+<p>ทีม PORNPISIT BATTERY รับสายแล้ว ช่างรีบจัดแบตเตอรี่ที่ตรงรุ่น Vios ขึ้นมอเตอร์ไซค์ฝ่ารถติดช่วงเย็นมุ่งหน้าไปยังจุดเกิดเหตุ ถึงภายใน <strong>25 นาที</strong> พอถึงหน้างาน ช่างใช้เครื่องวัดแบตเตอรี่ดิจิทัลเช็กค่า CCA (Cold Cranking Amps) พบว่าตกเหลือเพียง <strong>120 CCA จากเกณฑ์ปกติ 380 CCA</strong> ยืนยันชัดเจนว่าแบตเตอรี่เสื่อมสภาพหนัก เก็บไฟไม่ได้แล้ว</p>
 
 <h3>ขั้นตอนการเปลี่ยนแบตเตอรี่ Toyota Vios อย่างปลอดภัย</h3>
 <ol>
@@ -164,7 +164,7 @@ const post = {
 </ul>
 
 <h2>รถ Vios สตาร์ทไม่ติด แถวเทพารักษ์ แพรกษา สุขุมวิท เรียกเราได้ตลอด 24 ชม.</h2>
-<p>ไม่ว่าคุณจะจอดรถเสียอยู่ที่ <strong>แยกเทพารักษ์ หน้าตลาดหนามแดง ซอยวัดหนามแดง สุขุมวิท 107 (แบริ่ง)</strong> หรือย่านลึกๆ อย่าง <strong>แพรกษา สมุทรปราการ</strong> ทีม FirstCarCenter มีช่างพร้อมแบตเตอรี่ทุกรุ่น ทุกยี่ห้อ สแตนด์บายตลอด 24 ชั่วโมง วิ่งไปเปลี่ยนให้ถึงหน้าบ้าน คอนโด ลานจอดห้าง หรือริมถนน โดยไม่ต้องจ่ายค่าลากรถเลยครับ</p>
+<p>ไม่ว่าคุณจะจอดรถเสียอยู่ที่ <strong>แยกเทพารักษ์ หน้าตลาดหนามแดง ซอยวัดหนามแดง สุขุมวิท 107 (แบริ่ง)</strong> หรือย่านลึกๆ อย่าง <strong>แพรกษา สมุทรปราการ</strong> ทีม PORNPISIT BATTERY มีช่างพร้อมแบตเตอรี่ทุกรุ่น ทุกยี่ห้อ สแตนด์บายตลอด 24 ชั่วโมง วิ่งไปเปลี่ยนให้ถึงหน้าบ้าน คอนโด ลานจอดห้าง หรือริมถนน โดยไม่ต้องจ่ายค่าลากรถเลยครับ</p>
 
 <div style="background: linear-gradient(135deg, #fff7ed 0%, #fff 40%, #f0fdfa 100%); border: 1px solid #fed7aa; border-radius: 2rem; padding: 2.5rem 1.5rem; margin: 2.5rem 0; text-align: center; position: relative; overflow: hidden; box-shadow: 0 25px 60px -20px rgba(0,0,0,0.08);">
   <div style="position:absolute;top:-40px;right:-20px;width:160px;height:160px;background:rgba(251,146,60,0.15);border-radius:50%;filter:blur(40px);pointer-events:none;"></div>
@@ -174,10 +174,10 @@ const post = {
     <h3 style="margin:1.5rem auto 0;max-width:600px;font-size:1.75rem;font-weight:900;line-height:1.3;color:#1e293b;">แบตหมด สตาร์ทไม่ติด? เรียกช่างเปลี่ยนแบตถึงที่!</h3>
     <p style="margin:1rem auto 0;max-width:520px;font-size:1rem;line-height:1.7;color:#64748b;">ช่างพร้อมนำแบตเตอรี่แท้ไปเปลี่ยนให้ถึงที่ภายใน 30 นาที รับประกัน 1-2 ปี เช็กระบบไฟฟรี เลือกขนาดให้ตรงรุ่น Toyota Vios ทุกรุ่นปี</p>
     <div style="margin-top:2rem;display:flex;flex-wrap:wrap;justify-content:center;gap:1rem;">
-      <a href="tel:0887671679" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:linear-gradient(to right,#f97316,#ef4444);color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(249,115,22,0.7);">📞 โทรเรียกช่าง 088-767-1679</a>
-      <a href="https://lin.ee/xxqKaZn" target="_blank" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:#06C755;color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(6,199,85,0.7);">💬 แอดไลน์ ส่งรูปประเมินฟรี</a>
+      <a href="tel:0996731296" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:linear-gradient(to right,#f97316,#ef4444);color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(249,115,22,0.7);">📞 โทรเรียกช่าง 099-673-1296</a>
+      <a href="https://lin.ee/OBB86S4" target="_blank" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:#06C755;color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(6,199,85,0.7);">💬 แอดไลน์ ส่งรูปประเมินฟรี</a>
     </div>
-    <p style="margin-top:1.5rem;"><a href="/battery-replacement" style="color:#ea580c;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:1rem;">เปลี่ยนแบตเตอรี่รถยนต์ นอกสถานที่ บางนา ศรีนครินทร์</a></p>
+    <p style="margin-top:1.5rem;"><a href="/battery-replacement" style="color:#ea580c;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:1rem;">เปลี่ยนแบตเตอรี่รถยนต์ นอกสถานที่ ห้วยขวาง ดินแดง ลาดพร้าว</a></p>
     <p style="margin-top:0.75rem;"><a href="/alternator-starter" style="color:#0891b2;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:0.9rem;">ซ่อมไดชาร์จ ไดสตาร์ท นอกสถานที่ บางนา แบริ่ง →</a></p>
     <p style="margin-top:0.5rem;"><a href="/contact-us" style="color:#64748b;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:0.9rem;">ดูเบอร์โทรและช่องทางติดต่อช่างทั้งหมด →</a></p>
   </div>

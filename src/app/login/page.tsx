@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState } from "react";
 import { signIn } from "next-auth/react";
@@ -46,7 +46,7 @@ export default function LoginPage() {
       <Card className="w-full max-w-md">
         <CardHeader className="space-y-1 text-center">
           <CardTitle className="text-2xl font-bold tracking-tight text-red-600">
-            Firstcar Admin
+            PORNPISIT BATTERY Admin
           </CardTitle>
           <CardDescription>
             เข้าสู่ระบบเพื่อจัดการข้อมูลเว็บไซต์

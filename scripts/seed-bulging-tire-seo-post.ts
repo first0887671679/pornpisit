@@ -1,11 +1,11 @@
-import { PrismaClient } from "@prisma/client";
+﻿import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
 
 const htmlContent = `<h1>ยางบวม อาการเป็นอย่างไร? วิ่งต่อได้ไหม หรือเสี่ยงระเบิด! (อัปเดต 2026)</h1>
 <p>เคยขับรถอยู่ดีๆ แล้วพวงมาลัยสั่นกึกๆ หรือรู้สึกว่ารถวิ่งไม่เรียบไหมครับ? โดยเฉพาะเวลาขับรถลุยหลุมบ่อแถว<strong>ถนนศรีนครินทร์</strong> หรือเส้นทางกำลังก่อสร้างแถว<strong>สมุทรปราการ</strong> พอกลับมาจอดรถที่บ้านแล้วเดินดูรอบคัน อ้าว! ไปเจอว่าแก้มยางมีรอยปูดนูนออกมา อาการแบบนี้แหละครับที่ช่างเรียกว่า <strong>"ยางบวม"</strong></p>
 
-<p>วันนี้ช่างจาก FIRSTCARCENTER จะมาเล่าให้ฟังแบบเจาะลึกครับว่า อาการยางบวมเกิดจากอะไร ถ้าเจอปัญหานี้แล้วฝืนขับต่อจะอันตรายแค่ไหน และที่สำคัญคือเคลมประกันได้ไหม? เพื่อให้คนใช้รถแถว<strong>บางนา แบริ่ง</strong> ขับขี่ได้อย่างปลอดภัยครับ</p>
+<p>วันนี้ช่างจาก PORNPISIT BATTERY จะมาเล่าให้ฟังแบบเจาะลึกครับว่า อาการยางบวมเกิดจากอะไร ถ้าเจอปัญหานี้แล้วฝืนขับต่อจะอันตรายแค่ไหน และที่สำคัญคือเคลมประกันได้ไหม? เพื่อให้คนใช้รถแถว<strong>บางนา แบริ่ง</strong> ขับขี่ได้อย่างปลอดภัยครับ</p>
 
 <img src="/images/blog/pig-bulging-tire-cover.svg" alt="ยางบวม อาการยางปูด อันตรายไหม ศรีนครินทร์ บางนา แบริ่ง" class="rounded-xl my-6 w-full object-cover shadow-sm" />
 <p class="text-sm text-center text-slate-500 mt-2"><em>ภาพ: ลักษณะของแก้มยางบวมปูด ซึ่งเป็นอันตรายอย่างมากหากฝืนนำไปขับขี่ด้วยความเร็ว</em></p>
@@ -61,14 +61,14 @@ const htmlContent = `<h1>ยางบวม อาการเป็นอย่
   <div class="absolute top-0 right-0 -mt-4 -mr-4 w-24 h-24 bg-gradient-to-br from-[#FF6B00] to-[#FF3E00] rounded-full opacity-20 blur-2xl"></div>
   <div class="absolute bottom-0 left-0 -mb-4 -ml-4 w-24 h-24 bg-gradient-to-br from-[#00F2FE] to-[#4FACFE] rounded-full opacity-20 blur-2xl"></div>
   <div class="relative z-10">
-    <h2 class="text-2xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-slate-800 to-slate-600 dark:from-white dark:to-slate-300 mb-4">เจอยางบวม ยางแตกกลางทาง โทรเรียก FIRSTCARCENTER ช่วยเหลือด่วน!</h2>
-    <p class="text-slate-600 dark:text-slate-400 mb-8 max-w-2xl mx-auto text-lg leading-relaxed">หากคุณขับรถมาตกหลุมแล้วเจอปัญหา <strong>ยางบวม</strong> จนไม่กล้าขับต่อ หรือยางแตกยางแบนไปแล้ว FIRSTCARCENTER มีบริการ <a href="/mobile-tire-repair" class="text-orange-600 hover:underline">เปลี่ยนยางอะไหล่และปะยางนอกสถานที่</a> บริการส่งช่างไปช่วยคุณอย่างรวดเร็วถึงที่ ปลอดภัย ไม่ต้องเสี่ยงขับรถยางจะระเบิด ครอบคลุมพื้นที่ ศรีนครินทร์, บางนา, แบริ่ง, ลาซาล, สุขุมวิท, เทพารักษ์, ซอยวัดหนามแดง, แพรกษา และ สมุทรปราการ</p>
+    <h2 class="text-2xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-slate-800 to-slate-600 dark:from-white dark:to-slate-300 mb-4">เจอยางบวม ยางแตกกลางทาง โทรเรียก PORNPISIT BATTERY ช่วยเหลือด่วน!</h2>
+    <p class="text-slate-600 dark:text-slate-400 mb-8 max-w-2xl mx-auto text-lg leading-relaxed">หากคุณขับรถมาตกหลุมแล้วเจอปัญหา <strong>ยางบวม</strong> จนไม่กล้าขับต่อ หรือยางแตกยางแบนไปแล้ว PORNPISIT BATTERY มีบริการ <a href="/mobile-tire-repair" class="text-orange-600 hover:underline">เปลี่ยนยางอะไหล่และปะยางนอกสถานที่</a> บริการส่งช่างไปช่วยคุณอย่างรวดเร็วถึงที่ ปลอดภัย ไม่ต้องเสี่ยงขับรถยางจะระเบิด ครอบคลุมพื้นที่ ศรีนครินทร์, บางนา, แบริ่ง, ลาซาล, สุขุมวิท, เทพารักษ์, ซอยวัดหนามแดง, แพรกษา และ สมุทรปราการ</p>
     <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
-      <a href="tel:0887671679" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-gradient-to-r from-[#FF6B00] to-[#FF3E00] hover:from-[#E65A00] hover:to-[#E63500] text-white font-bold py-3.5 px-8 rounded-full shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300">
+      <a href="tel:0996731296" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-gradient-to-r from-[#FF6B00] to-[#FF3E00] hover:from-[#E65A00] hover:to-[#E63500] text-white font-bold py-3.5 px-8 rounded-full shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-        <span>เรียกช่างเปลี่ยนยางอะไหล่ 088-767-1679</span>
+        <span>เรียกช่างเปลี่ยนยางอะไหล่ 099-673-1296</span>
       </a>
-      <a href="https://lin.ee/xxqKaZn" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-gradient-to-r from-[#00c300] to-[#00a800] hover:from-[#00b300] hover:to-[#009900] text-white font-bold py-3.5 px-8 rounded-full shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300">
+      <a href="https://lin.ee/OBB86S4" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-gradient-to-r from-[#00c300] to-[#00a800] hover:from-[#00b300] hover:to-[#009900] text-white font-bold py-3.5 px-8 rounded-full shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path d="M24 10.304c0-5.369-5.383-9.738-12-9.738-6.616 0-12 4.369-12 9.738 0 4.814 4.269 8.846 10.036 9.608.391.084.922.258 1.057.592.122.303.079.778.039 1.085l-.171 1.027c-.053.303-.242 1.186 1.039.647 1.281-.54 6.911-4.069 9.428-6.967 1.739-1.907 2.572-4.103 2.572-6.002z"/></svg>
         <span>แอดไลน์ ถ่ายรูปยางให้ช่างประเมิน</span>
       </a>
@@ -85,7 +85,7 @@ const postData = {
   category: "ยางรถยนต์",
   tags: "ยางบวม,ยางปูด,ยางรถยนต์บวม,ยางบวมขับต่อได้ไหม,ยางบวมเคลมประกันได้ไหม,ยางแตก,เปลี่ยนยางอะไหล่,ปะยางนอกสถานที่,ศรีนครินทร์,บางนา,แบริ่ง,ลาซาล,สมุทรปราการ",
   published: true,
-  author: "FIRSTCARCENTER",
+  author: "PORNPISIT BATTERY",
   seoTitle: "ยางบวม อาการเป็นยังไง? ขับต่อเสี่ยงระเบิดไหม เช็กเลย 2026",
   seoDescription: "ตกหลุมจน แก้มยางบวม ปูดนูน! เตือนภัยขับต่อเสี่ยงระเบิด พร้อมวิธีรับมือฉุกเฉิน ยางบวมปะได้ไหม เคลมประกันได้หรือเปล่า บริการเปลี่ยนยางนอกสถานที่ ศรีนครินทร์ บางนา",
   seoKeywords: "ยางบวม,ยางปูด,แก้มยางบวม,ยางรถยนต์บวม,ยางบวมขับต่อได้ไหม,ยางบวมเคลมประกันได้ไหม,ยางระเบิด,เปลี่ยนยางอะไหล่,ปะยางนอกสถานที่,ศรีนครินทร์,บางนา,แบริ่ง,ลาซาล,สุขุมวิท,เทพารักษ์,แพรกษา,สมุทรปราการ",

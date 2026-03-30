@@ -1,4 +1,4 @@
-const fs = require('fs');
+﻿const fs = require('fs');
 const path = require('path');
 const Database = require('better-sqlite3');
 
@@ -149,7 +149,7 @@ const coverSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630"
   <use href="#pig-mascot" x="900" y="340" transform="scale(1.4) translate(-250, -100)"/>
 
   <rect x="40" y="580" width="200" height="30" rx="4" fill="url(#primary-grad)"/>
-  <text x="140" y="602" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">FIRSTCARCENTER</text>
+  <text x="140" y="602" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">PORNPISIT BATTERY</text>
 </svg>`;
 
 const inline1Svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
@@ -198,15 +198,15 @@ const post = {
   category: "ช่วยเหลือฉุกเฉิน",
   tags: "ร้านปะยางเปิดสงกรานต์,ปะยางนอกสถานที่,เปลี่ยนยางอะไหล่,ยางแตกช่วงเทศกาล,ร้านปะยางใกล้ฉัน,สมุทรปราการ,บางนา",
   published: 1,
-  author: "FIRSTCARCENTER",
+  author: "PORNPISIT BATTERY",
   seoTitle: "ร้านปะยางเปิดสงกรานต์ ยางแตกช่วงหยุดยาว เรียกช่าง โซนบางนา",
   seoDescription: "หาร้านปะยางเปิดสงกรานต์ ปีใหม่? ยางแตก ยางรั่วระหว่างเดินทาง โทรหาเรา! รีวิวช่างปะยางนอกสถานที่ และเปลี่ยนยางอะไหล่ โซนศรีนครินทร์ บางนา เทพารักษ์ แพรกษา",
   seoKeywords: "ร้านปะยางเปิดสงกรานต์, ร้านปะยาง เปิดวันหยุด, ปะยางนอกสถานที่, เปลี่ยนยางอะไหล่, ยางแตกช่วงเทศกาล, ร้านปะยางใกล้ฉัน",
   ogTitle: "ร้านปะยางเปิดสงกรานต์ ยางแตกวันหยุด เราไปช่วยปะให้!",
-  ogDescription: "แชร์ประสบการณ์ช่วยลูกค้ายางแตกระหว่างเดินทางเที่ยวสงกรานต์ หาร้านซ่อมไม่ได้ เรียกช่าง FirstCarCenter ไปปะถึงที่",
+  ogDescription: "แชร์ประสบการณ์ช่วยลูกค้ายางแตกระหว่างเดินทางเที่ยวสงกรานต์ หาร้านซ่อมไม่ได้ เรียกช่าง PORNPISIT BATTERY ไปปะถึงที่",
   coverImage: "/images/blog/pig-open-songkran-tire-repair-cover.svg",
   content: `
-<p class="lead">กำลังขับรถพาครอบครัวไปเที่ยวพักผ่อนช่วงสงกรานต์หรือปีใหม่ อารมณ์กำลังดีๆ ดันได้ยินเสียง "ปัง!" ตามด้วยพวงมาลัยสั่น ยางแตกซะงั้น! พอจอดข้างทางแล้วเสิร์ชหา <strong>ร้านปะยางเปิดสงกรานต์</strong> ก็พบว่าร้านยาง อู่ซ่อมรถ และศูนย์บริการพากันปิดร้านกลับต่างจังหวัดกันหมด ทำเอาใจเสียกลายเป็นการนั่งรอความหวังข้างถนน วันนี้ <strong>FirstCarCenter</strong> ขอยืนยันว่าเราคือ "อู่ฉุกเฉินที่ไม่มีวันหยุด" ครับ! มาดูเคสรีวิวที่เราออกไปปะยางและเปลี่ยนยางอะไหล่ให้ลูกค้าในโซน <strong>บางนา ศรีนครินทร์ เทพารักษ์ แบริ่ง</strong> กันครับ</p>
+<p class="lead">กำลังขับรถพาครอบครัวไปเที่ยวพักผ่อนช่วงสงกรานต์หรือปีใหม่ อารมณ์กำลังดีๆ ดันได้ยินเสียง "ปัง!" ตามด้วยพวงมาลัยสั่น ยางแตกซะงั้น! พอจอดข้างทางแล้วเสิร์ชหา <strong>ร้านปะยางเปิดสงกรานต์</strong> ก็พบว่าร้านยาง อู่ซ่อมรถ และศูนย์บริการพากันปิดร้านกลับต่างจังหวัดกันหมด ทำเอาใจเสียกลายเป็นการนั่งรอความหวังข้างถนน วันนี้ <strong>PORNPISIT BATTERY</strong> ขอยืนยันว่าเราคือ "อู่ฉุกเฉินที่ไม่มีวันหยุด" ครับ! มาดูเคสรีวิวที่เราออกไปปะยางและเปลี่ยนยางอะไหล่ให้ลูกค้าในโซน <strong>ห้วยขวาง ดินแดง ลาดพร้าว เทพารักษ์ แบริ่ง</strong> กันครับ</p>
 
 <h2>ยางแตกช่วงเทศกาล สิ่งแรกที่ต้องทำเมื่อ "ร้านปิดหมด"</h2>
 <p>ถ้าคุณเกิดเหตุยางรั่วหรือแตกในช่วงที่ร้านยางส่วนใหญ่ปิดทำการ ให้ตั้งสติและทำตามขั้นตอนนี้เพื่อความปลอดภัยครับ:</p>
@@ -214,7 +214,7 @@ const post = {
   <li><strong>ประคองรถเข้าข้างทางที่ปลอดภัย:</strong> เปิดไฟฉุกเฉิน และจอดให้ชิดซ้ายที่สุด หลีกเลี่ยงการจอดในจุดบอด หรือทางโค้ง</li>
   <li><strong>อย่ายืนท้ายรถ:</strong> ให้อยู่ในรถหรือยืนหลังแบริเออร์ (ถ้าอยู่บนทางด่วน ให้โทร 1543 ให้รถลากลงมาข้างล่างก่อน)</li>
   <li><strong>สำรวจท้ายรถว่ามี "ยางอะไหล่" ไหม:</strong> รถหลายรุ่นมีล้ออะไหล่และแม่แรงแถมมาให้ท้ายรถ ซึ่งจะช่วยให้คุณไปต่อได้ แม้ร้านยางจะปิดหมดก็ตาม</li>
-  <li><strong>โทรเรียกช่าง FirstCarCenter:</strong> ถ้าคุณเปลี่ยนยางเองไม่เป็น หรือไม่มีเครื่องมือ โทรหาเราได้เลยครับ เราเปิดบริการทุกเทศกาล</li>
+  <li><strong>โทรเรียกช่าง PORNPISIT BATTERY:</strong> ถ้าคุณเปลี่ยนยางเองไม่เป็น หรือไม่มีเครื่องมือ โทรหาเราได้เลยครับ เราเปิดบริการทุกเทศกาล</li>
 </ol>
 
 <div class="my-8 rounded-2xl overflow-hidden shadow-lg border border-slate-100">
@@ -241,8 +241,8 @@ const post = {
   <img src="/images/blog/open-songkran-tire-case3.svg" alt="เปลี่ยนยางอะไหล่ ลูกค้าเดินทางเที่ยวต่อได้ ปากซอยวัดหนามแดง เทพารักษ์" class="w-full h-auto object-cover m-0" />
 </div>
 
-<h2>หา ร้านปะยางเปิดสงกรานต์ ไม่เจอ? เรียก FirstCarCenter!</h2>
-<p>ถ้าคุณกำลังเจอปัญหายางแตก ยางแบน หรือต้องการเปลี่ยนล้ออะไหล่ ในช่วงวันหยุดเทศกาล โซน <strong>บางนา ศรีนครินทร์ แบริ่ง ลาซาล เทพารักษ์ แพรกษา สมุทรปราการ</strong> อย่ามัวเสียเวลาวนหาร้านครับ! โทรเรียก <strong>FirstCarCenter</strong> ได้เลย เรามีทีมช่างมอเตอร์ไซค์เคลื่อนที่เร็ว สแตนด์บาย 24 ชั่วโมง เปิดทุกวันไม่เว้นวันหยุดเทศกาล พร้อมอุปกรณ์ครบมือ วิ่งไปปะยางหรือเปลี่ยนล้อให้คุณถึงหน้างาน ไม่ต้องทิ้งรถไว้ข้างถนนครับ!</p>
+<h2>หา ร้านปะยางเปิดสงกรานต์ ไม่เจอ? เรียก PORNPISIT BATTERY!</h2>
+<p>ถ้าคุณกำลังเจอปัญหายางแตก ยางแบน หรือต้องการเปลี่ยนล้ออะไหล่ ในช่วงวันหยุดเทศกาล โซน <strong>ห้วยขวาง ดินแดง ลาดพร้าว แบริ่ง ลาซาล เทพารักษ์ แพรกษา สมุทรปราการ</strong> อย่ามัวเสียเวลาวนหาร้านครับ! โทรเรียก <strong>PORNPISIT BATTERY</strong> ได้เลย เรามีทีมช่างมอเตอร์ไซค์เคลื่อนที่เร็ว สแตนด์บาย 24 ชั่วโมง เปิดทุกวันไม่เว้นวันหยุดเทศกาล พร้อมอุปกรณ์ครบมือ วิ่งไปปะยางหรือเปลี่ยนล้อให้คุณถึงหน้างาน ไม่ต้องทิ้งรถไว้ข้างถนนครับ!</p>
 
 <div style="background: linear-gradient(135deg, #fff7ed 0%, #fff 40%, #f0fdfa 100%); border: 1px solid #fed7aa; border-radius: 2rem; padding: 2.5rem 1.5rem; margin: 2.5rem 0; text-align: center; position: relative; overflow: hidden; box-shadow: 0 25px 60px -20px rgba(0,0,0,0.08);">
   <div style="position:absolute;top:-40px;right:-20px;width:160px;height:160px;background:rgba(251,146,60,0.15);border-radius:50%;filter:blur(40px);pointer-events:none;"></div>
@@ -250,12 +250,12 @@ const post = {
   <div style="position:relative;">
     <span style="display:inline-flex;align-items:center;gap:0.5rem;background:rgba(255,255,255,0.9);border:1px solid #fed7aa;border-radius:9999px;padding:0.5rem 1.25rem;font-size:0.875rem;font-weight:600;color:#ea580c;box-shadow:0 1px 3px rgba(0,0,0,0.06);">🚨 บริการปะยาง 24 ชม. เปิดทุกเทศกาล</span>
     <h3 style="margin:1.5rem auto 0;max-width:600px;font-size:1.75rem;font-weight:900;line-height:1.3;color:#1e293b;">ร้านยางปิดหมด? เราวิ่งไปปะให้ถึงที่!</h3>
-    <p style="margin:1rem auto 0;max-width:520px;font-size:1rem;line-height:1.7;color:#64748b;">บริการปะยางแทงใยไหม และเปลี่ยนล้ออะไหล่นอกสถานที่ ด่วนใน 30 นาที โซนบางนา ศรีนครินทร์ เทพารักษ์</p>
+    <p style="margin:1rem auto 0;max-width:520px;font-size:1rem;line-height:1.7;color:#64748b;">บริการปะยางแทงใยไหม และเปลี่ยนล้ออะไหล่นอกสถานที่ ด่วนใน 30 นาที โซนห้วยขวาง ดินแดง ลาดพร้าว เทพารักษ์</p>
     <div style="margin-top:2rem;display:flex;flex-wrap:wrap;justify-content:center;gap:1rem;">
-      <a href="tel:0887671679" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:linear-gradient(to right,#f97316,#ef4444);color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(249,115,22,0.7);">📞 โทรเรียกช่างปะยาง 088-767-1679</a>
-      <a href="https://lin.ee/xxqKaZn" target="_blank" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:#06C755;color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(6,199,85,0.7);">💬 แอดไลน์ ส่งพิกัดมาได้เลย</a>
+      <a href="tel:0996731296" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:linear-gradient(to right,#f97316,#ef4444);color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(249,115,22,0.7);">📞 โทรเรียกช่างปะยาง 099-673-1296</a>
+      <a href="https://lin.ee/OBB86S4" target="_blank" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:#06C755;color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(6,199,85,0.7);">💬 แอดไลน์ ส่งพิกัดมาได้เลย</a>
     </div>
-    <p style="margin:1.5rem 0 0;"><a href="/mobile-tire-repair" style="color:#ea580c;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:1rem;">บริการปะยางด่วน 24 ชม. บางนา ศรีนครินทร์ เทพารักษ์</a></p>
+    <p style="margin:1.5rem 0 0;"><a href="/mobile-tire-repair" style="color:#ea580c;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:1rem;">บริการปะยางด่วน 24 ชม. ห้วยขวาง ดินแดง ลาดพร้าว เทพารักษ์</a></p>
     <p style="margin-top:0.75rem;"><a href="/battery-replacement" style="color:#0891b2;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:0.9rem;">เปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่ บางนา แบริ่ง ลาซาล →</a></p>
     <p style="margin-top:0.5rem;"><a href="/contact-us" style="color:#64748b;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:0.9rem;">ดูเบอร์โทรและช่องทางติดต่อช่างทั้งหมด →</a></p>
   </div>
@@ -272,7 +272,7 @@ const post = {
   </div>
 
   <div class="border rounded-xl p-4" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
-    <h3 class="text-lg font-bold mt-0" itemprop="name">Q: FirstCarCenter มีบริการเปลี่ยนยางเส้นใหม่หน้างานไหม?</h3>
+    <h3 class="text-lg font-bold mt-0" itemprop="name">Q: PORNPISIT BATTERY มีบริการเปลี่ยนยางเส้นใหม่หน้างานไหม?</h3>
     <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
       <p class="mb-0 text-slate-600" itemprop="text"><strong>A:</strong> เราเน้นบริการซ่อมฉุกเฉิน (First Aid) คือปะยางและ <strong>เปลี่ยนยางอะไหล่</strong> ของลูกค้าใส่แทนชั่วคราวครับ เราไม่มีบริการขายยางเส้นใหม่ไปเปลี่ยนหน้างาน เนื่องจากยางมีไซส์และยี่ห้อที่หลากหลายมากครับ</p>
     </div>

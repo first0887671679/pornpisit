@@ -1,11 +1,11 @@
 {
-  "name": "Firstcar - บริการดูแลรักษารถยนต์นอกสถานที่ 24 ชม.",
-  "short_name": "Firstcar",
-  "description": "บริการดูแลรักษารถยนต์นอกสถานที่ 24 ชั่วโมง เปลี่ยนแบตเตอรี่ ซ่อมไดชาร์จ ไดสตาร์ท ขัดไฟหน้ารถ ปะยางนอกสถานที่",
+  "name": "PORNPISIT BATTERY - บริการเปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่ 24 ชม.",
+  "short_name": "PORNPISIT BATTERY",
+  "description": "บริการเปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่ 24 ชั่วโมง พ่วงแบตฤกษ์ฉุกเฉิน ตรวจเช็คแบตฟรี ห้วยขวาง ดินแดง ลาดพร้าว บางกะปิ",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#ffffff",
-  "theme_color": "#f97316",
+  "background_color": "#0a0a0a",
+  "theme_color": "#dc2626",
   "icons": [
     {
       "src": "/favicon.ico",

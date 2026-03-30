@@ -8,9 +8,9 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {/* Company Info */}
           <div>
-            <h3 className="text-2xl font-extrabold text-red-600 mb-4">FIRSTCARCENTER</h3>
+            <h3 className="text-2xl font-extrabold text-red-600 mb-4">PORNPISIT BATTERY</h3>
             <p className="text-slate-300 text-sm leading-relaxed">
-              บริการดูแลรักษารถยนต์นอกสถานที่ 24 ชั่วโมง
+              บริการเปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่ 24 ชั่วโมง
               ถึงที่รวดเร็วทันใจ โดยช่างผู้เชี่ยวชาญ
             </p>
             <div className="flex items-center gap-2 mt-4 text-slate-400 text-sm">
@@ -19,7 +19,7 @@ export default function Footer() {
             </div>
             <div className="flex items-center gap-2 mt-2 text-slate-400 text-sm">
               <MapPin className="w-4 h-4 text-red-400" />
-              <span>กรุงเทพและปริมณฑล</span>
+              <span>ห้วยขวาง ดินแดง ลาดพร้าว บางกะปิ บางเขน จตุจักร ดุสิต บางซื่อ</span>
             </div>
           </div>
 
@@ -29,22 +29,17 @@ export default function Footer() {
             <ul className="space-y-2 text-slate-300 text-sm">
               <li>
                 <Link href="/services/battery" className="hover:text-red-400 transition-colors">
-                  เปลี่ยนแบตเตอรี่รถยนต์
+                  เปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่
                 </Link>
               </li>
               <li>
-                <Link href="/services/alternator-starter" className="hover:text-red-400 transition-colors">
-                  ซ่อม/เปลี่ยน ไดชาร์จ ไดสตาร์ท
+                <Link href="/services/battery" className="hover:text-red-400 transition-colors">
+                  พ่วงแบตเตอรี่ฉุกเฉิน
                 </Link>
               </li>
               <li>
-                <Link href="/services/headlight-restoration" className="hover:text-red-400 transition-colors">
-                  ขัดไฟหน้ารถ
-                </Link>
-              </li>
-              <li>
-                <Link href="/services/tire-repair" className="hover:text-red-400 transition-colors">
-                  ปะยางนอกสถานที่
+                <Link href="/services/battery" className="hover:text-red-400 transition-colors">
+                  ตรวจเช็คแบตเตอรี่ฟรี
                 </Link>
               </li>
             </ul>
@@ -55,19 +50,19 @@ export default function Footer() {
             <h4 className="text-lg font-bold mb-4">ติดต่อเรา</h4>
             <div className="space-y-3">
               <Link
-                href="tel:0887671679"
+                href="tel:0996731296"
                 className="flex items-center gap-3 text-slate-300 hover:text-red-400 transition-colors"
               >
                 <PhoneCall className="w-5 h-5 text-red-400" />
-                <span>088-767-1679</span>
+                <span>099-673-1296</span>
               </Link>
               <Link
-                href="https://lin.ee/xxqKaZn"
+                href="https://lin.ee/OBB86S4"
                 target="_blank"
                 className="flex items-center gap-3 text-slate-300 hover:text-red-400 transition-colors"
               >
                 <MessageCircle className="w-5 h-5 text-[#00B900]" />
-                <span>@730ohrmd</span>
+                <span>@398kyxfq</span>
               </Link>
             </div>
           </div>
@@ -75,7 +70,7 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="border-t border-slate-800 mt-10 pt-6 text-center text-slate-500 text-sm">
-          © {new Date().getFullYear()} FIRSTCARCENTER. All rights reserved.
+          © {new Date().getFullYear()} PORNPISIT BATTERY. All rights reserved.
         </div>
       </div>
     </footer>

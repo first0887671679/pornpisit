@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
@@ -25,7 +25,7 @@ export default function AdminDashboard() {
   // Header
   const [sectionId, setSectionId] = useState("");
   const [homeId, setHomeId] = useState("");
-  const [brandName, setBrandName] = useState("Firstcar");
+  const [brandName, setBrandName] = useState("PORNPISIT BATTERY");
   const [logoUrl, setLogoUrl] = useState("");
   const [logoRatio, setLogoRatio] = useState("free");
   const [logoSize, setLogoSize] = useState(40);
@@ -70,7 +70,7 @@ export default function AdminDashboard() {
       if (headerSec) {
         setSectionId(headerSec.id);
         const d = JSON.parse(headerSec.content || "{}");
-        setBrandName(d.brandName || "Firstcar");
+        setBrandName(d.brandName || "PORNPISIT BATTERY");
         setBrandSub(d.brandSub || "");
         setLogoUrl(headerSec.imageUrl || "");
         setLogoRatio(d.logoRatio || "free");

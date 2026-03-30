@@ -1,13 +1,13 @@
-import { PrismaClient } from "@prisma/client";
+﻿import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
 
 const htmlContent = `<h1>ซ่อมไดชาร์จราคา เท่าไหร่? เปลี่ยนใหม่หรือซ่อมเฉพาะจุด แบบไหนคุ้มกว่ากัน</h1>
 <p>อาการไฟรูปแบตเตอรี่โชว์หน้าปัด รถดับกลางทาง หรือแอร์เริ่มไม่เย็น อาการเหล่านี้มักไม่ได้มาจากแบตเตอรี่เสื่อมเสมอไปครับ แต่ส่วนใหญ่มักเป็นสัญญาณเตือนว่า <strong>"ไดชาร์จเสีย"</strong> หรือระบบชาร์จไฟมีปัญหา สำหรับคนใช้รถแถว <strong>ศรีนครินทร์ บางนา แบริ่ง ลาซาล สุขุมวิท เทพารักษ์ หรือสมุทรปราการ</strong> คำถามแรกที่มักจะเกิดขึ้นคือ <strong>ซ่อมไดชาร์จราคา</strong> ประมาณเท่าไหร่? ควรซ่อมเฉพาะจุดหรือเปลี่ยนลูกใหม่ไปเลยดี?</p>
 
-<p>บทความนี้ FIRSTCARCENTER จะมาแชร์ <strong>Case Study จริง</strong> จากการออกไปแก้ปัญหาให้ลูกค้าหน้างาน เพื่อเจาะลึกว่าไดชาร์จชิ้นส่วนไหนที่มักจะพัง ซ่อมได้ไหม และราคาประเมินเบื้องต้นอยู่ที่เท่าไหร่ เพื่อให้คุณตัดสินใจได้คุ้มค่าที่สุดครับ</p>
+<p>บทความนี้ PORNPISIT BATTERY จะมาแชร์ <strong>Case Study จริง</strong> จากการออกไปแก้ปัญหาให้ลูกค้าหน้างาน เพื่อเจาะลึกว่าไดชาร์จชิ้นส่วนไหนที่มักจะพัง ซ่อมได้ไหม และราคาประเมินเบื้องต้นอยู่ที่เท่าไหร่ เพื่อให้คุณตัดสินใจได้คุ้มค่าที่สุดครับ</p>
 
-<img src="/images/blog/pig-alternator-repair-price-cover.svg" alt="ซ่อมไดชาร์จราคา ไดชาร์จเสีย เปลี่ยนไดชาร์จ บางนา ศรีนครินทร์ แบริ่ง" class="rounded-xl my-6 w-full object-cover shadow-sm" />
+<img src="/images/blog/pig-alternator-repair-price-cover.svg" alt="ซ่อมไดชาร์จราคา ไดชาร์จเสีย เปลี่ยนไดชาร์จ ห้วยขวาง ดินแดง ลาดพร้าว แบริ่ง" class="rounded-xl my-6 w-full object-cover shadow-sm" />
 <p class="text-sm text-center text-slate-500 mt-2"><em>ภาพ: เมื่อไฟรูปแบตเตอรี่โชว์บนหน้าปัด มักเป็นสัญญาณของไดชาร์จเสีย ไม่ใช่แบตเตอรี่หมด</em></p>
 
 <h2>เจาะลึก 4 อาการไดชาร์จเสีย และ ซ่อมไดชาร์จราคา ประมาณเท่าไหร่?</h2>
@@ -47,7 +47,7 @@ const htmlContent = `<h1>ซ่อมไดชาร์จราคา เท่
 <h2>Case Study: ลูกค้า Toyota Vios รถดับหน้าตลาดหนามแดง</h2>
 <p>เมื่อต้นเดือนที่ผ่านมา มีลูกค้าขับ Toyota Vios โทรแจ้งมาว่า <strong>รถดับกลางทางแถวหน้าตลาดหนามแดง ถนนเทพารักษ์</strong> ก่อนดับมีอาการแอร์เริ่มมีแต่ลมร้อน วิทยุดับ หน้าปัดไฟโชว์เต็มไปหมด ลูกค้าคิดว่าแบตเตอรี่เสียแน่นอน</p>
 
-<p>เมื่อช่างของ FIRSTCARCENTER ไปถึงและเช็กระบบไฟ พบว่า <strong>ไดชาร์จเสีย</strong> ไม่ยอมปั่นไฟกลับเข้าแบตเตอรี่ ทำให้รถดึงไฟจากแบตเตอรี่มาใช้จนหมดเกลี้ยง (Battery Drain) จากการประเมินพบว่ารถใช้งานมาเกือบ 2 แสนกิโลเมตร ชิ้นส่วนภายในไดชาร์จทั้งแปลงถ่านและลูกปืนเสื่อมสภาพหนัก ช่างจึงแนะนำให้ <strong>เปลี่ยนไดชาร์จบิ้วโรงงาน (Rebuilt Alternator)</strong> พร้อมรับประกัน ซึ่งลูกค้าตกลง</p>
+<p>เมื่อช่างของ PORNPISIT BATTERY ไปถึงและเช็กระบบไฟ พบว่า <strong>ไดชาร์จเสีย</strong> ไม่ยอมปั่นไฟกลับเข้าแบตเตอรี่ ทำให้รถดึงไฟจากแบตเตอรี่มาใช้จนหมดเกลี้ยง (Battery Drain) จากการประเมินพบว่ารถใช้งานมาเกือบ 2 แสนกิโลเมตร ชิ้นส่วนภายในไดชาร์จทั้งแปลงถ่านและลูกปืนเสื่อมสภาพหนัก ช่างจึงแนะนำให้ <strong>เปลี่ยนไดชาร์จบิ้วโรงงาน (Rebuilt Alternator)</strong> พร้อมรับประกัน ซึ่งลูกค้าตกลง</p>
 
 <p>หลังเปลี่ยนไดชาร์จเสร็จ ช่างได้ทำการ <strong>จั๊มสตาร์ท</strong> และวัดค่าการชาร์จ พบว่ากระแสไฟกลับมาที่ 13.8V - 14.2V ถือว่าสมบูรณ์แบบ ลูกค้าสามารถขับรถไปส่งของต่อได้ทันทีโดยไม่ต้องเรียกรถสไลด์ ซึ่งช่วยประหยัดเวลาและค่าใช้จ่ายไปได้มากครับ</p>
 
@@ -76,13 +76,13 @@ const htmlContent = `<h1>ซ่อมไดชาร์จราคา เท่
       <span>เช็กระบบชาร์จไฟฟรี ประเมินราคาหน้างาน</span>
     </div>
     <h3 class="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-800 dark:text-white mb-3 leading-tight">ไฟรูปแบตโชว์? รถดับกลางทาง? โทรเรียกเราด่วน!</h3>
-    <p class="text-slate-600 dark:text-slate-300 mb-6 sm:mb-8 text-sm sm:text-base md:text-lg leading-relaxed">FIRSTCARCENTER มีช่างผู้เชี่ยวชาญพร้อมเครื่องมือวัดค่าระบบไฟ ให้บริการนอกสถานที่ ครอบคลุม ศรีนครินทร์ บางนา แบริ่ง ลาซาล เทพารักษ์ แพรกษา สมุทรปราการ</p>
+    <p class="text-slate-600 dark:text-slate-300 mb-6 sm:mb-8 text-sm sm:text-base md:text-lg leading-relaxed">PORNPISIT BATTERY มีช่างผู้เชี่ยวชาญพร้อมเครื่องมือวัดค่าระบบไฟ ให้บริการนอกสถานที่ ครอบคลุม ศรีนครินทร์ บางนา แบริ่ง ลาซาล เทพารักษ์ แพรกษา สมุทรปราการ</p>
     <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center">
-      <a href="tel:0887671679" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-rose-500 to-red-600 hover:from-rose-600 hover:to-red-700 text-white font-bold py-3 sm:py-3.5 px-6 sm:px-8 rounded-full shadow-lg shadow-rose-500/25 hover:shadow-xl hover:shadow-rose-500/30 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 text-sm sm:text-base">
+      <a href="tel:0996731296" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-rose-500 to-red-600 hover:from-rose-600 hover:to-red-700 text-white font-bold py-3 sm:py-3.5 px-6 sm:px-8 rounded-full shadow-lg shadow-rose-500/25 hover:shadow-xl hover:shadow-rose-500/30 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 text-sm sm:text-base">
         <svg class="w-5 h-5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
-        <span>โทรเรียกช่าง 088-767-1679</span>
+        <span>โทรเรียกช่าง 099-673-1296</span>
       </a>
-      <a href="https://lin.ee/xxqKaZn" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold py-3 sm:py-3.5 px-6 sm:px-8 rounded-full shadow-lg shadow-green-500/25 hover:shadow-xl hover:shadow-green-500/30 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 text-sm sm:text-base">
+      <a href="https://lin.ee/OBB86S4" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold py-3 sm:py-3.5 px-6 sm:px-8 rounded-full shadow-lg shadow-green-500/25 hover:shadow-xl hover:shadow-green-500/30 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 text-sm sm:text-base">
         <svg class="w-5 h-5 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24"><path d="M24 10.304c0-5.369-5.383-9.738-12-9.738-6.616 0-12 4.369-12 9.738 0 4.814 4.269 8.846 10.036 9.608.391.084.922.258 1.057.592.122.303.079.778.039 1.085l-.171 1.027c-.053.303-.242 1.186 1.039.647 1.281-.54 6.911-4.069 9.428-6.967 1.739-1.907 2.572-4.103 2.572-6.002z"/></svg>
         <span>แอดไลน์ ปรึกษาอาการฟรี</span>
       </a>
@@ -102,7 +102,7 @@ const htmlContent = `<h1>ซ่อมไดชาร์จราคา เท่
   </div>
   <div>
     <h3 class="text-lg font-bold text-slate-800 dark:text-white m-0">Q: เปลี่ยนไดชาร์จนอกสถานที่ได้ไหม หรือต้องลากเข้าอู่?</h3>
-    <p class="text-slate-600 dark:text-slate-300 mt-2"><strong>A:</strong> สามารถเปลี่ยนนอกสถานที่ได้ครับ! FIRSTCARCENTER มีบริการเช็กและเปลี่ยนไดชาร์จนอกสถานที่ โซน ศรีนครินทร์ บางนา แบริ่ง เทพารักษ์ แพรกษา ช่วยให้คุณไม่ต้องเสียค่ารถสไลด์</p>
+    <p class="text-slate-600 dark:text-slate-300 mt-2"><strong>A:</strong> สามารถเปลี่ยนนอกสถานที่ได้ครับ! PORNPISIT BATTERY มีบริการเช็กและเปลี่ยนไดชาร์จนอกสถานที่ โซน ศรีนครินทร์ บางนา แบริ่ง เทพารักษ์ แพรกษา ช่วยให้คุณไม่ต้องเสียค่ารถสไลด์</p>
   </div>
 </div>
 
@@ -132,7 +132,7 @@ const htmlContent = `<h1>ซ่อมไดชาร์จราคา เท่
       "name": "เปลี่ยนไดชาร์จนอกสถานที่ได้ไหม หรือต้องลากเข้าอู่?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "สามารถเปลี่ยนนอกสถานที่ได้ครับ! FIRSTCARCENTER มีบริการเช็กและเปลี่ยนไดชาร์จนอกสถานที่ โซน ศรีนครินทร์ บางนา แบริ่ง เทพารักษ์ แพรกษา ช่วยให้คุณไม่ต้องเสียค่ารถสไลด์"
+        "text": "สามารถเปลี่ยนนอกสถานที่ได้ครับ! PORNPISIT BATTERY มีบริการเช็กและเปลี่ยนไดชาร์จนอกสถานที่ โซน ศรีนครินทร์ บางนา แบริ่ง เทพารักษ์ แพรกษา ช่วยให้คุณไม่ต้องเสียค่ารถสไลด์"
       }
     }
   ]
@@ -148,8 +148,8 @@ const postData = {
   coverImage: "/images/blog/pig-alternator-repair-price-cover.svg",
   category: "ไดชาร์จ ไดสตาร์ท",
   published: true,
-  seoTitle: "ซ่อมไดชาร์จราคา เท่าไหร่? สรุปอาการไดชาร์จเสีย | FIRSTCARCENTER",
-  seoDescription: "ซ่อมไดชาร์จราคา ประมาณเท่าไหร่? เช็กอาการไฟรูปแบตโชว์ แอร์ไม่เย็น ซ่อมได้ไหมหรือต้องเปลี่ยนใหม่ พร้อมบริการนอกสถานที่ บางนา ศรีนครินทร์ เทพารักษ์",
+  seoTitle: "ซ่อมไดชาร์จราคา เท่าไหร่? สรุปอาการไดชาร์จเสีย | PORNPISIT BATTERY",
+  seoDescription: "ซ่อมไดชาร์จราคา ประมาณเท่าไหร่? เช็กอาการไฟรูปแบตโชว์ แอร์ไม่เย็น ซ่อมได้ไหมหรือต้องเปลี่ยนใหม่ พร้อมบริการนอกสถานที่ ห้วยขวาง ดินแดง ลาดพร้าว เทพารักษ์",
   seoKeywords: "ซ่อมไดชาร์จราคา,ไดชาร์จเสีย,เปลี่ยนไดชาร์จ,ไดชาร์จรถยนต์,ไฟรูปแบตโชว์,ไดชาร์จบิ้ว,เช็กไดชาร์จ,ศรีนครินทร์,บางนา,แบริ่ง,ลาซาล,สุขุมวิท,เทพารักษ์,แพรกษา,สมุทรปราการ",
   ogTitle: "ซ่อมไดชาร์จ หรือ เปลี่ยนลูกใหม่ แบบไหนประหยัดและจบกว่ากัน?",
   ogDescription: "แชร์เคสจริง เปลี่ยนไดชาร์จนอกสถานที่ พร้อมราคาประเมินการซ่อมไดชาร์จเฉพาะจุด",

@@ -1,11 +1,11 @@
-import { PrismaClient } from "@prisma/client";
+﻿import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
 
 const htmlContent = `<h1>แบตเตอรี่บวม อันตรายแค่ไหน? สาเหตุและวิธีรับมือด่วน (อัปเดต 2026)</h1>
 <p>คุณกำลังเจอปัญหาเปิดฝากระโปรงรถมาแล้วเจอ <strong>"แบตเตอรี่บวม"</strong> ปูดเป่งจนผิดรูปอยู่ใช่ไหมครับ? หรือรถสตาร์ทไม่ติด พอช่างมาเช็กก็บอกว่าแบตบวมไปแล้ว... หลายคนอาจจะคิดว่า <em>"บวมนิดหน่อยคงไม่เป็นไร ฝืนขับไปก่อนได้"</em> แต่ในฐานะช่างแบตเตอรี่ ผมขอบอกเลยครับว่า <strong>"อันตรายกว่าที่คิดมาก!"</strong></p>
 
-<p>โดยเฉพาะหน้าร้อนของเมืองไทยบวกกับการจราจรติดขัดในแถบ <strong>ศรีนครินทร์ บางนา แบริ่ง หรือสุขุมวิท</strong> ยิ่งทำให้ห้องเครื่องร้อนระอุ ซึ่งเป็นตัวเร่งให้แบตเตอรี่บวมและเสื่อมสภาพเร็วขึ้นไปอีก วันนี้ FIRSTCARCENTER จะมาเล่าให้ฟังแบบเจาะลึกว่า อาการแบตเตอรี่รถยนต์บวม เกิดจากอะไร? ฝืนใช้ต่อจะระเบิดไหม? และวิธีรับมือที่ถูกต้องที่สุดครับ</p>
+<p>โดยเฉพาะหน้าร้อนของเมืองไทยบวกกับการจราจรติดขัดในแถบ <strong>ศรีนครินทร์ บางนา แบริ่ง หรือสุขุมวิท</strong> ยิ่งทำให้ห้องเครื่องร้อนระอุ ซึ่งเป็นตัวเร่งให้แบตเตอรี่บวมและเสื่อมสภาพเร็วขึ้นไปอีก วันนี้ PORNPISIT BATTERY จะมาเล่าให้ฟังแบบเจาะลึกว่า อาการแบตเตอรี่รถยนต์บวม เกิดจากอะไร? ฝืนใช้ต่อจะระเบิดไหม? และวิธีรับมือที่ถูกต้องที่สุดครับ</p>
 
 <img src="/images/blog/pig-swollen-battery-cover.svg" alt="แบตเตอรี่บวม อันตรายไหม สาเหตุแบตบวม ศรีนครินทร์ บางนา แบริ่ง" class="rounded-xl my-6 w-full object-cover shadow-sm" />
 <p class="text-sm text-center text-slate-500 mt-2"><em>ภาพ: อาการแบตเตอรี่บวมปูด ถือเป็นสัญญาณอันตรายที่ไม่ควรมองข้ามเด็ดขาด</em></p>
@@ -45,7 +45,7 @@ const htmlContent = `<h1>แบตเตอรี่บวม อันตรา
     <svg class="w-12 h-12 text-slate-400 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg>
     <p class="text-slate-500 font-medium text-center">ภาพผลงานจริง: เปลี่ยนแบตเตอรี่บวมให้ลูกค้า<br/>(พื้นที่สำหรับแทรกรูปภาพผลงานจริงจากร้าน)</p>
   </div>
-  <p class="text-sm text-center text-slate-500 mt-2"><em>ตัวอย่างเคสจริงจากลูกค้า FIRSTCARCENTER: แบตบวมจนดันฝาปิดเกือบแตก ช่างไปเปลี่ยนให้ถึงที่พร้อมเช็คไดชาร์จพบว่าโอเวอร์ชาร์จ</em></p>
+  <p class="text-sm text-center text-slate-500 mt-2"><em>ตัวอย่างเคสจริงจากลูกค้า PORNPISIT BATTERY: แบตบวมจนดันฝาปิดเกือบแตก ช่างไปเปลี่ยนให้ถึงที่พร้อมเช็คไดชาร์จพบว่าโอเวอร์ชาร์จ</em></p>
 </div>
 
 <h2>วิธีแก้ปัญหาเมื่อเจอ "แบตเตอรี่บวม"</h2>
@@ -64,13 +64,13 @@ const htmlContent = `<h1>แบตเตอรี่บวม อันตรา
       <span>บริการ 24 ชม. ถึงที่ทันที</span>
     </div>
     <h3 class="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-800 dark:text-white mb-3 leading-tight">แบตบวม สตาร์ทไม่ติด? อย่าเสี่ยงขับ โทรหาเราด่วน!</h3>
-    <p class="text-slate-600 dark:text-slate-300 mb-6 sm:mb-8 text-sm sm:text-base md:text-lg leading-relaxed">FIRSTCARCENTER พร้อมส่งช่างเปลี่ยนแบตเตอรี่ไปถึงที่ ภายใน 30 นาที ครอบคลุมโซน ศรีนครินทร์, บางนา, แบริ่ง, ลาซาล, เทพารักษ์ และสมุทรปราการ พร้อมเช็กไดชาร์จให้ฟรี!</p>
+    <p class="text-slate-600 dark:text-slate-300 mb-6 sm:mb-8 text-sm sm:text-base md:text-lg leading-relaxed">PORNPISIT BATTERY พร้อมส่งช่างเปลี่ยนแบตเตอรี่ไปถึงที่ ภายใน 30 นาที ครอบคลุมโซน ศรีนครินทร์, บางนา, แบริ่ง, ลาซาล, เทพารักษ์ และสมุทรปราการ พร้อมเช็กไดชาร์จให้ฟรี!</p>
     <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center">
-      <a href="tel:0887671679" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-bold py-3 sm:py-3.5 px-6 sm:px-8 rounded-full shadow-lg shadow-orange-500/25 hover:shadow-xl hover:shadow-orange-500/30 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 text-sm sm:text-base">
+      <a href="tel:0996731296" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-bold py-3 sm:py-3.5 px-6 sm:px-8 rounded-full shadow-lg shadow-orange-500/25 hover:shadow-xl hover:shadow-orange-500/30 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 text-sm sm:text-base">
         <svg class="w-5 h-5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
-        <span>โทรเรียกช่าง 088-767-1679</span>
+        <span>โทรเรียกช่าง 099-673-1296</span>
       </a>
-      <a href="https://lin.ee/xxqKaZn" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold py-3 sm:py-3.5 px-6 sm:px-8 rounded-full shadow-lg shadow-green-500/25 hover:shadow-xl hover:shadow-green-500/30 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 text-sm sm:text-base">
+      <a href="https://lin.ee/OBB86S4" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold py-3 sm:py-3.5 px-6 sm:px-8 rounded-full shadow-lg shadow-green-500/25 hover:shadow-xl hover:shadow-green-500/30 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 text-sm sm:text-base">
         <svg class="w-5 h-5 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24"><path d="M24 10.304c0-5.369-5.383-9.738-12-9.738-6.616 0-12 4.369-12 9.738 0 4.814 4.269 8.846 10.036 9.608.391.084.922.258 1.057.592.122.303.079.778.039 1.085l-.171 1.027c-.053.303-.242 1.186 1.039.647 1.281-.54 6.911-4.069 9.428-6.967 1.739-1.907 2.572-4.103 2.572-6.002z"/></svg>
         <span>แอดไลน์ ส่งพิกัดด่วน</span>
       </a>
@@ -138,7 +138,7 @@ const postData = {
   coverImage: "/images/blog/pig-swollen-battery-cover.svg",
   category: "ความรู้แบตเตอรี่",
   published: true,
-  seoTitle: "แบตเตอรี่บวม อันตรายไหม เกิดจากอะไร? วิธีแก้ | Firstcar",
+  seoTitle: "แบตเตอรี่บวม อันตรายไหม เกิดจากอะไร? วิธีแก้ | PORNPISIT BATTERY",
   seoDescription: "สังเกตอาการแบตเตอรี่บวม สตาร์ทไม่ติด ห้ามพ่วงแบต! เช็กสาเหตุจากไดชาร์จโอเวอร์ชาร์จ พร้อมเรียกช่างเปลี่ยนแบตเตอรี่ด่วน ศรีนครินทร์ บางนา สมุทรปราการ 24 ชม.",
   seoKeywords: "แบตเตอรี่บวม,แบตเตอรี่รถยนต์บวม,แบตบวมอันตรายไหม,แบตบวมระเบิด,สาเหตุแบตบวม,ไดชาร์จชาร์จไฟเกิน,เปลี่ยนแบตเตอรี่รถยนต์,ศรีนครินทร์,บางนา,แบริ่ง,ลาซาล,เทพารักษ์,แพรกษา,สมุทรปราการ",
   ogTitle: "แบตเตอรี่บวม อันตรายแค่ไหน? สาเหตุและวิธีรับมือด่วน",

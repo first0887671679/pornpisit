@@ -7,8 +7,8 @@ async function main() {
     select: { content: true }
   });
 
-  // Find any div that contains tel:0887671679
-  const idx = post.content.indexOf('tel:0887671679');
+  // Find any div that contains tel:0996731296
+  const idx = post.content.indexOf('tel:0996731296');
   if (idx > -1) {
     // Go back to find the parent div
     const start = Math.max(0, idx - 800);

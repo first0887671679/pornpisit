@@ -1,7 +1,7 @@
 import { AdminLayoutClient } from "./AdminLayoutClient";
 
 export const metadata = {
-  title: "Admin Dashboard | Firstcar",
+  title: "Admin Dashboard | PORNPISIT BATTERY",
   description: "ระบบจัดการหลังบ้าน",
 };
 

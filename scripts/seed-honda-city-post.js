@@ -1,4 +1,4 @@
-const Database = require('better-sqlite3');
+﻿const Database = require('better-sqlite3');
 const db = new Database('prisma/dev.db');
 
 const post = {
@@ -6,7 +6,7 @@ const post = {
   slug: "honda-city-battery-replacement-guide",
   excerpt: "รถ Honda City สตาร์ทไม่ติด แบตเสื่อม? ดูเคสรีวิวเปลี่ยนแบตเตอรี่ Honda City 1.0 Turbo แบบถึงที่ โซนศรีนครินทร์ บางนา แบริ่ง พร้อมวิธีเลือกแบตเตอรี่ที่คุ้มที่สุด",
   content: `
-<p class="lead"><strong>แบตเตอรี่ Honda City</strong> สตาร์ทไม่ติดเป็นปัญหาที่เจ้าของรถรุ่นนี้เจอบ่อยมาก โดยเฉพาะใครที่ใช้รุ่น 1.0 Turbo ที่ระบบไฟและระบบ Auto Start-Stop ทำงานค่อนข้างหนัก วันนี้ <strong>FirstCarCenter</strong> จะมาเล่าเคสรีวิวการออกไปช่วยเหลือลูกค้าที่รถสตาร์ทไม่ติดในพื้นที่ <strong>ศรีนครินทร์ บางนา แบริ่ง ลาซาล</strong> และแนะนำเคล็ดลับในการเลือกแบตเตอรี่ Honda City ให้ใช้ได้ทนทานและคุ้มค่าที่สุดครับ</p>
+<p class="lead"><strong>แบตเตอรี่ Honda City</strong> สตาร์ทไม่ติดเป็นปัญหาที่เจ้าของรถรุ่นนี้เจอบ่อยมาก โดยเฉพาะใครที่ใช้รุ่น 1.0 Turbo ที่ระบบไฟและระบบ Auto Start-Stop ทำงานค่อนข้างหนัก วันนี้ <strong>PORNPISIT BATTERY</strong> จะมาเล่าเคสรีวิวการออกไปช่วยเหลือลูกค้าที่รถสตาร์ทไม่ติดในพื้นที่ <strong>ศรีนครินทร์ บางนา แบริ่ง ลาซาล</strong> และแนะนำเคล็ดลับในการเลือกแบตเตอรี่ Honda City ให้ใช้ได้ทนทานและคุ้มค่าที่สุดครับ</p>
 
 <h2>สัญญาณเตือน แบตเตอรี่ Honda City ใกล้หมด</h2>
 <p>ก่อนที่รถจะดับหรือสตาร์ทไม่ติดกลางทาง ส่วนใหญ่รถจะมีอาการเตือนล่วงหน้าให้เราสังเกตได้ หากเจออาการเหล่านี้ควรรีบหาร้าน<a href="/battery-replacement" class="text-orange-600 font-bold hover:underline">เปลี่ยนแบตเตอรี่รถยนต์</a>ทันทีครับ:</p>
@@ -24,7 +24,7 @@ const post = {
 <h2>Case Study: ช่วยเหลือฉุกเฉิน แบตเตอรี่ Honda City แถวแยกเทพารักษ์ - ตลาดหนามแดง</h2>
 <p>เมื่อสัปดาห์ก่อน เราได้รับสายด่วนจากลูกค้าท่านหนึ่ง แจ้งว่าจอดรถแวะซื้อของหน้า <strong>ตลาดหนามแดง เทพารักษ์</strong> พอกลับมาที่รถ ปรากฏว่า <strong>Honda City 1.0 Turbo สตาร์ทไม่ติด</strong> มีแต่เสียง "แชะๆๆ" แล้วก็เงียบไป</p>
 
-<p>ทีมช่าง FirstCarCenter รีบจัดเตรียมแบตเตอรี่ที่ตรงรุ่นและเครื่องมือช่าง ขี่มอเตอร์ไซค์บริการด่วนฝ่ารถติดไปถึงจุดเกิดเหตุภายใน 20 นาที เมื่อถึงหน้างาน ช่างได้ทำการใช้เครื่องมือวัดค่า CCA และแรงดันไฟ (Voltage) ปรากฏว่าค่า CCA ตกไปอยู่ต่ำกว่า 150 (เกณฑ์ปกติควรมากกว่า 300) ซึ่งยืนยันชัดเจนว่าแบตเตอรี่เสื่อมสภาพจนเก็บไฟไม่อยู่แล้ว</p>
+<p>ทีมช่าง PORNPISIT BATTERY รีบจัดเตรียมแบตเตอรี่ที่ตรงรุ่นและเครื่องมือช่าง ขี่มอเตอร์ไซค์บริการด่วนฝ่ารถติดไปถึงจุดเกิดเหตุภายใน 20 นาที เมื่อถึงหน้างาน ช่างได้ทำการใช้เครื่องมือวัดค่า CCA และแรงดันไฟ (Voltage) ปรากฏว่าค่า CCA ตกไปอยู่ต่ำกว่า 150 (เกณฑ์ปกติควรมากกว่า 300) ซึ่งยืนยันชัดเจนว่าแบตเตอรี่เสื่อมสภาพจนเก็บไฟไม่อยู่แล้ว</p>
 
 <h3>ขั้นตอนการเปลี่ยนแบตเตอรี่ที่ปลอดภัย</h3>
 <ol>
@@ -53,7 +53,7 @@ const post = {
 <p>สำหรับรุ่นเทอร์โบ เครื่องยนต์จะต้องการกระแสไฟที่แรงและเสถียรมากขึ้น อีกทั้งยังมีระบบ Auto Start-Stop เข้ามาเกี่ยวข้อง ดังนั้น <strong>ห้ามใส่แบตเตอรี่รุ่นธรรมดาเด็ดขาด</strong> ต้องใช้แบตเตอรี่ชนิด <strong>EFB (Enhanced Flooded Battery)</strong> เท่านั้น (ไซส์ N55 หรือ Q85) เพื่อรองรับการกระชากไฟบ่อยๆ หากฝืนใส่แบตธรรมดา อายุการใช้งานจะสั้นมาก อาจพังภายใน 6-8 เดือนเลยครับ</p>
 
 <h2>รถสตาร์ทไม่ติด แถวบางนา สุขุมวิท เรียกเราได้เลย</h2>
-<p>ไม่ว่าคุณจะจอดรถเสียอยู่ที่ <strong>สุขุมวิท 107 (แบริ่ง), ลาซาล, เซ็นทรัลบางนา</strong> หรือโซนลึกๆ อย่าง <strong>แพรกษา สมุทรปราการ</strong> ทีมงาน FirstCarCenter มีเครือข่ายช่างพร้อมสแตนด์บายตลอด 24 ชั่วโมง เรามีแบตเตอรี่ทุกขนาด ทุกยี่ห้อ พร้อมวิ่งไปเปลี่ยนให้ถึงหน้าบ้าน คอนโด หรือริมถนน โดยไม่ต้องเสียค่าลากรถให้เปลืองเงิน</p>
+<p>ไม่ว่าคุณจะจอดรถเสียอยู่ที่ <strong>สุขุมวิท 107 (แบริ่ง), ลาซาล, เซ็นทรัลบางนา</strong> หรือโซนลึกๆ อย่าง <strong>แพรกษา สมุทรปราการ</strong> ทีมงาน PORNPISIT BATTERY มีเครือข่ายช่างพร้อมสแตนด์บายตลอด 24 ชั่วโมง เรามีแบตเตอรี่ทุกขนาด ทุกยี่ห้อ พร้อมวิ่งไปเปลี่ยนให้ถึงหน้าบ้าน คอนโด หรือริมถนน โดยไม่ต้องเสียค่าลากรถให้เปลืองเงิน</p>
 
 <div style="background: linear-gradient(135deg, #fff7ed 0%, #fff 40%, #f0fdfa 100%); border: 1px solid #fed7aa; border-radius: 2rem; padding: 2.5rem 1.5rem; margin: 2.5rem 0; text-align: center; position: relative; overflow: hidden; box-shadow: 0 25px 60px -20px rgba(0,0,0,0.08);">
   <div style="position:absolute;top:-40px;right:-20px;width:160px;height:160px;background:rgba(251,146,60,0.15);border-radius:50%;filter:blur(40px);pointer-events:none;"></div>
@@ -63,8 +63,8 @@ const post = {
     <h3 style="margin:1.5rem auto 0;max-width:600px;font-size:1.75rem;font-weight:900;line-height:1.3;color:#1e293b;">แบตหมด สตาร์ทไม่ติด? เรียกช่างเปลี่ยนถึงที่!</h3>
     <p style="margin:1rem auto 0;max-width:520px;font-size:1rem;line-height:1.7;color:#64748b;">ช่างพร้อมนำแบตเตอรี่แท้ไปเปลี่ยนให้ถึงที่ภายใน 30 นาที รับประกัน 1-2 ปี เช็กระบบไฟฟรี และเลือกขนาดให้ตรงรุ่นรถ Honda City ทุกรุ่น</p>
     <div style="margin-top:2rem;display:flex;flex-wrap:wrap;justify-content:center;gap:1rem;">
-      <a href="tel:0887671679" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:linear-gradient(to right,#f97316,#ef4444);color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(249,115,22,0.7);">📞 โทรเรียกช่าง 088-767-1679</a>
-      <a href="https://lin.ee/xxqKaZn" target="_blank" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:#06C755;color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(6,199,85,0.7);">💬 แอดไลน์ ส่งรูปประเมินฟรี</a>
+      <a href="tel:0996731296" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:linear-gradient(to right,#f97316,#ef4444);color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(249,115,22,0.7);">📞 โทรเรียกช่าง 099-673-1296</a>
+      <a href="https://lin.ee/OBB86S4" target="_blank" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:#06C755;color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(6,199,85,0.7);">💬 แอดไลน์ ส่งรูปประเมินฟรี</a>
     </div>
     <p style="margin-top:1.5rem;"><a href="/battery-replacement" style="color:#ea580c;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:1rem;">ดูบริการเปลี่ยนแบตเตอรี่รถยนต์ →</a></p>
   </div>
@@ -100,9 +100,9 @@ const post = {
   category: "ซ่อมบำรุง",
   tags: "แบตเตอรี่รถยนต์,แบตเตอรี่ Honda City,เปลี่ยนแบตนอกสถานที่,สตาร์ทไม่ติด,แบต EFB,สมุทรปราการ,บางนา",
   published: 1, // boolean stored as integer in SQLite
-  author: "FIRSTCARCENTER",
+  author: "PORNPISIT BATTERY",
   seoTitle: "แบตเตอรี่ Honda City ราคาเท่าไหร่? สตาร์ทไม่ติด ทำไงดี? รีวิวช่างบางนา",
-  seoDescription: "รีวิวเคสเปลี่ยน แบตเตอรี่ Honda City 1.0 Turbo และรุ่นทั่วไป นอกสถานที่ 24 ชม. โซนบางนา ศรีนครินทร์ แบริ่ง เทพารักษ์ แนะนำวิธีเลือกแบตเตอรี่ให้อยู่ยาว",
+  seoDescription: "รีวิวเคสเปลี่ยน แบตเตอรี่ Honda City 1.0 Turbo และรุ่นทั่วไป นอกสถานที่ 24 ชม. โซนห้วยขวาง ดินแดง ลาดพร้าว แบริ่ง เทพารักษ์ แนะนำวิธีเลือกแบตเตอรี่ให้อยู่ยาว",
   seoKeywords: "แบตเตอรี่ Honda City, เปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่, แบตเตอรี่รถยนต์ บางนา, แบตเตอรี่ EFB",
   ogTitle: "แบตเตอรี่ Honda City สตาร์ทไม่ติด ทำไงดี? รีวิวเปลี่ยนแบตด่วน โซนศรีนครินทร์",
   ogDescription: "เจาะลึกเคส Honda City สตาร์ทไม่ติด พร้อมวิธีเลือกแบตเตอรี่ให้ตรงรุ่น (รวม EFB 1.0 Turbo) เรียกช่างด่วน 24 ชม.",

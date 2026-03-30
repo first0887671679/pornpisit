@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Unpublish (hide) specific posts on production via the sync API
  * This sets published=false so they won't appear anywhere
  */
@@ -19,7 +19,7 @@ if (fs.existsSync(envPath)) {
   });
 }
 
-const PROD_URL = process.env.PROD_URL || 'https://firstcarcenterthailand.com';
+const PROD_URL = process.env.PROD_URL || 'https://PORNPISIT BATTERYthailand.com';
 const SYNC_SECRET = process.env.SYNC_SECRET || '';
 
 async function main() {

@@ -121,7 +121,7 @@ export default function SeoAdminPage() {
             <Input
               value={activePage.title}
               onChange={(e) => updateField("title", e.target.value)}
-              placeholder="เช่น เปลี่ยนแบตเตอรี่นอกสถานที่ 24 ชม. | Firstcar"
+              placeholder="เช่น เปลี่ยนแบตเตอรี่นอกสถานที่ 24 ชม. | PORNPISIT BATTERY"
             />
             <p className="text-xs text-slate-400">{activePage.title.length}/60 ตัวอักษร (แนะนำไม่เกิน 60)</p>
           </div>

@@ -1,11 +1,11 @@
-import { PrismaClient } from "@prisma/client";
+﻿import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
 
 const htmlContent = `<h1>ผู้หญิงรถยางแตก ทำยังไงดี? เปลี่ยนยางไม่เป็น ไม่ใช่ปัญหา</h1>
 <p>เหตุการณ์สุดวิสัยที่สาวๆ หลายคนกลัวที่สุดเวลาขับรถคนเดียวคือ <strong>"ผู้หญิงรถยางแตก"</strong> หรือยางรั่วกลางทาง ยิ่งถ้าเกิดขึ้นในตอนกลางคืน แถวเส้น <strong>ศรีนครินทร์ บางนา หรือเทพารักษ์</strong> ที่รถวิ่งกันเร็วๆ ยิ่งน่าตกใจใช่ไหมครับ? หลายคนเปลี่ยนยางอะไหล่ไม่เป็น ไม่มีแรงขันน็อตล้อ หรือกลัวอันตรายถ้าต้องลงไปยืนข้างถนน</p>
 
-<p>บทความนี้ FIRSTCARCENTER จะมาแนะนำ 4 ขั้นตอนการเอาตัวรอดอย่างปลอดภัยเมื่อเกิดเหตุการณ์รถยางแตกสำหรับคุณผู้หญิง พร้อมแชร์เคสที่เราไปช่วยเหลือลูกค้าสาวกลางดึก แถวแพรกษา ให้คุณเห็นว่าปัญหาแบบนี้จัดการได้ง่ายๆ แค่มีตัวช่วยที่ไว้ใจได้ครับ</p>
+<p>บทความนี้ PORNPISIT BATTERY จะมาแนะนำ 4 ขั้นตอนการเอาตัวรอดอย่างปลอดภัยเมื่อเกิดเหตุการณ์รถยางแตกสำหรับคุณผู้หญิง พร้อมแชร์เคสที่เราไปช่วยเหลือลูกค้าสาวกลางดึก แถวแพรกษา ให้คุณเห็นว่าปัญหาแบบนี้จัดการได้ง่ายๆ แค่มีตัวช่วยที่ไว้ใจได้ครับ</p>
 
 <img src="/images/blog/pig-woman-flat-tire-cover.svg" alt="ผู้หญิงรถยางแตก เปลี่ยนยางอะไหล่ ยางรั่วกลางคืน ศรีนครินทร์ บางนา" class="rounded-xl my-6 w-full object-cover shadow-sm" />
 <p class="text-sm text-center text-slate-500 mt-2"><em>ภาพ: รถยางแตกกลางทาง ไม่ต้องตกใจ ค่อยๆ ประคองรถเข้าข้างทางแล้วโทรเรียกช่าง</em></p>
@@ -28,7 +28,7 @@ const htmlContent = `<h1>ผู้หญิงรถยางแตก ทำย
 <h2>Case Study: ช่วยเหลือลูกค้าสาว ยางแตกกลางดึก หน้าตลาดหนามแดง</h2>
 <p>เมื่อสัปดาห์ก่อน เวลาประมาณ 4 ทุ่ม เราได้รับสายจากลูกค้าผู้หญิงที่กำลังขับรถกลับบ้าน รถไปตกหลุมใหญ่แถว <strong>หน้าตลาดหนามแดง ถนนเทพารักษ์</strong> จนยางหน้าซ้ายแตก ลูกค้าตกใจมาก เพราะเปลี่ยนยางไม่เป็นและไม่กล้าลงจากรถ</p>
 
-<p>ทีมช่างของ FIRSTCARCENTER ได้แนะนำให้ลูกค้าล็อครถและรออยู่ด้านใน เปิดไฟฉุกเฉินทิ้งไว้ จากนั้นเราส่งช่างพร้อมอุปกรณ์ครบชุด ทั้งแม่แรง ตะเข้ และบล็อกถอดล้อไฟฟ้า ไปถึงหน้างานภายใน 20 นาที</p>
+<p>ทีมช่างของ PORNPISIT BATTERY ได้แนะนำให้ลูกค้าล็อครถและรออยู่ด้านใน เปิดไฟฉุกเฉินทิ้งไว้ จากนั้นเราส่งช่างพร้อมอุปกรณ์ครบชุด ทั้งแม่แรง ตะเข้ และบล็อกถอดล้อไฟฟ้า ไปถึงหน้างานภายใน 20 นาที</p>
 
 <p>ช่างของเราทำการถอดล้อที่ยางแตกออก และนำ "ยางอะไหล่" ที่อยู่ท้ายรถลูกค้ามาเปลี่ยนใส่ให้ พร้อมเติมลมยางอะไหล่ให้อยู่ในระดับมาตรฐาน (ปกติยางอะไหล่มักจะลมซึมออกหมดเพราะไม่ได้ใช้นาน) และขันน็อตล้อให้แน่นด้วยประแจปอนด์ ใช้เวลาเพียง 15 นาที ลูกค้าก็สามารถขับรถกลับบ้านได้อย่างปลอดภัย โดยไม่ต้องเลอะมือหรือเสี่ยงอันตรายริมถนนเลยครับ</p>
 
@@ -60,13 +60,13 @@ const htmlContent = `<h1>ผู้หญิงรถยางแตก ทำย
       <span>บริการช่วยเหลือฉุกเฉิน ปลอดภัย ไว้ใจได้</span>
     </div>
     <h3 class="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-800 dark:text-white mb-3 leading-tight">ยางแตก? เปลี่ยนไม่เป็น? โทรเรียกช่างด่วน!</h3>
-    <p class="text-slate-600 dark:text-slate-300 mb-6 sm:mb-8 text-sm sm:text-base md:text-lg leading-relaxed">FIRSTCARCENTER มีบริการช่างเปลี่ยนยางอะไหล่นอกสถานที่ รวดเร็ว ปลอดภัย ครอบคลุมพื้นที่ ศรีนครินทร์ บางนา แบริ่ง ลาซาล เทพารักษ์ แพรกษา สมุทรปราการ</p>
+    <p class="text-slate-600 dark:text-slate-300 mb-6 sm:mb-8 text-sm sm:text-base md:text-lg leading-relaxed">PORNPISIT BATTERY มีบริการช่างเปลี่ยนยางอะไหล่นอกสถานที่ รวดเร็ว ปลอดภัย ครอบคลุมพื้นที่ ศรีนครินทร์ บางนา แบริ่ง ลาซาล เทพารักษ์ แพรกษา สมุทรปราการ</p>
     <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center">
-      <a href="tel:0887671679" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-pink-500 to-rose-600 hover:from-pink-600 hover:to-rose-700 text-white font-bold py-3 sm:py-3.5 px-6 sm:px-8 rounded-full shadow-lg shadow-pink-500/25 hover:shadow-xl hover:shadow-pink-500/30 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 text-sm sm:text-base">
+      <a href="tel:0996731296" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-pink-500 to-rose-600 hover:from-pink-600 hover:to-rose-700 text-white font-bold py-3 sm:py-3.5 px-6 sm:px-8 rounded-full shadow-lg shadow-pink-500/25 hover:shadow-xl hover:shadow-pink-500/30 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 text-sm sm:text-base">
         <svg class="w-5 h-5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
-        <span>โทรเรียกช่าง 088-767-1679</span>
+        <span>โทรเรียกช่าง 099-673-1296</span>
       </a>
-      <a href="https://lin.ee/xxqKaZn" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold py-3 sm:py-3.5 px-6 sm:px-8 rounded-full shadow-lg shadow-green-500/25 hover:shadow-xl hover:shadow-green-500/30 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 text-sm sm:text-base">
+      <a href="https://lin.ee/OBB86S4" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold py-3 sm:py-3.5 px-6 sm:px-8 rounded-full shadow-lg shadow-green-500/25 hover:shadow-xl hover:shadow-green-500/30 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 text-sm sm:text-base">
         <svg class="w-5 h-5 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24"><path d="M24 10.304c0-5.369-5.383-9.738-12-9.738-6.616 0-12 4.369-12 9.738 0 4.814 4.269 8.846 10.036 9.608.391.084.922.258 1.057.592.122.303.079.778.039 1.085l-.171 1.027c-.053.303-.242 1.186 1.039.647 1.281-.54 6.911-4.069 9.428-6.967 1.739-1.907 2.572-4.103 2.572-6.002z"/></svg>
         <span>แอดไลน์ ส่งโลเคชั่น</span>
       </a>
@@ -82,7 +82,7 @@ const htmlContent = `<h1>ผู้หญิงรถยางแตก ทำย
   </div>
   <div>
     <h3 class="text-lg font-bold text-slate-800 dark:text-white m-0">Q: เปลี่ยนยางอะไหล่เองไม่เป็น มีบริการเรียกช่างไหม?</h3>
-    <p class="text-slate-600 dark:text-slate-300 mt-2"><strong>A:</strong> มีครับ! FIRSTCARCENTER มีบริการช่างวิ่งไปเปลี่ยนยางอะไหล่ให้ถึงที่หน้างาน ปลอดภัย สะดวก เหมาะสำหรับสาวๆ ที่ไม่อยากเลอะมือหรือไม่มีแรงขันน็อตครับ</p>
+    <p class="text-slate-600 dark:text-slate-300 mt-2"><strong>A:</strong> มีครับ! PORNPISIT BATTERY มีบริการช่างวิ่งไปเปลี่ยนยางอะไหล่ให้ถึงที่หน้างาน ปลอดภัย สะดวก เหมาะสำหรับสาวๆ ที่ไม่อยากเลอะมือหรือไม่มีแรงขันน็อตครับ</p>
   </div>
   <div>
     <h3 class="text-lg font-bold text-slate-800 dark:text-white m-0">Q: ถ้ารถไม่มียางอะไหล่ (มีแต่ชุดปะยางฉุกเฉิน) ต้องทำยังไง?</h3>
@@ -108,7 +108,7 @@ const htmlContent = `<h1>ผู้หญิงรถยางแตก ทำย
       "name": "เปลี่ยนยางอะไหล่เองไม่เป็น มีบริการเรียกช่างไหม?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "มีครับ! FIRSTCARCENTER มีบริการช่างวิ่งไปเปลี่ยนยางอะไหล่ให้ถึงที่หน้างาน ปลอดภัย สะดวก เหมาะสำหรับสาวๆ ที่ไม่อยากเลอะมือหรือไม่มีแรงขันน็อตครับ"
+        "text": "มีครับ! PORNPISIT BATTERY มีบริการช่างวิ่งไปเปลี่ยนยางอะไหล่ให้ถึงที่หน้างาน ปลอดภัย สะดวก เหมาะสำหรับสาวๆ ที่ไม่อยากเลอะมือหรือไม่มีแรงขันน็อตครับ"
       }
     },
     {
@@ -132,8 +132,8 @@ const postData = {
   coverImage: "/images/blog/pig-woman-flat-tire-cover.svg",
   category: "ปะยาง เปลี่ยนยาง",
   published: true,
-  seoTitle: "ผู้หญิงรถยางแตก ทำยังไง? โทรเรียกช่างเปลี่ยนยาง | FIRSTCARCENTER",
-  seoDescription: "ผู้หญิงรถยางแตก เปลี่ยนยางไม่เป็น ไม่ใช่ปัญหา! อ่าน 4 ขั้นตอนเอาตัวรอดอย่างปลอดภัย พร้อมบริการเรียกช่างเปลี่ยนยางอะไหล่ถึงที่ บางนา ศรีนครินทร์ เทพารักษ์",
+  seoTitle: "ผู้หญิงรถยางแตก ทำยังไง? โทรเรียกช่างเปลี่ยนยาง | PORNPISIT BATTERY",
+  seoDescription: "ผู้หญิงรถยางแตก เปลี่ยนยางไม่เป็น ไม่ใช่ปัญหา! อ่าน 4 ขั้นตอนเอาตัวรอดอย่างปลอดภัย พร้อมบริการเรียกช่างเปลี่ยนยางอะไหล่ถึงที่ ห้วยขวาง ดินแดง ลาดพร้าว เทพารักษ์",
   seoKeywords: "ผู้หญิงรถยางแตก,เปลี่ยนยางอะไหล่,รถยางแตกทำไง,ยางรั่ว,ยางระเบิด,เรียกช่างเปลี่ยนยาง,ปะยางนอกสถานที่,ศรีนครินทร์,บางนา,แบริ่ง,ลาซาล,สุขุมวิท,เทพารักษ์,แพรกษา,สมุทรปราการ",
   ogTitle: "ผู้หญิงรถยางแตก! 4 วิธีเอาตัวรอดให้ปลอดภัย 100%",
   ogDescription: "ขับรถคนเดียวแล้วยางแตก เปลี่ยนยางไม่เป็น ไม่ต้องตกใจ! แชร์วิธีรับมือและบริการเรียกช่างถึงที่",

@@ -1,4 +1,4 @@
-const { PrismaClient } = require('@prisma/client');
+﻿const { PrismaClient } = require('@prisma/client');
 const p = new PrismaClient();
 
 function buildCTA(heading, description, serviceHref, serviceLabel) {
@@ -13,11 +13,11 @@ function buildCTA(heading, description, serviceHref, serviceLabel) {
     <h3 class="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-800 dark:text-white mb-3 leading-tight">${heading}</h3>
     <p class="text-slate-600 dark:text-slate-300 mb-6 sm:mb-8 text-sm sm:text-base md:text-lg leading-relaxed">${description}</p>
     <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center">
-      <a href="tel:0887671679" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-bold py-3 sm:py-3.5 px-6 sm:px-8 rounded-full shadow-lg shadow-orange-500/25 hover:shadow-xl hover:shadow-orange-500/30 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 text-sm sm:text-base">
+      <a href="tel:0996731296" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-bold py-3 sm:py-3.5 px-6 sm:px-8 rounded-full shadow-lg shadow-orange-500/25 hover:shadow-xl hover:shadow-orange-500/30 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 text-sm sm:text-base">
         <svg class="w-5 h-5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
-        <span>โทรเรียกช่าง 088-767-1679</span>
+        <span>โทรเรียกช่าง 099-673-1296</span>
       </a>
-      <a href="https://lin.ee/xxqKaZn" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold py-3 sm:py-3.5 px-6 sm:px-8 rounded-full shadow-lg shadow-green-500/25 hover:shadow-xl hover:shadow-green-500/30 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 text-sm sm:text-base">
+      <a href="https://lin.ee/OBB86S4" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold py-3 sm:py-3.5 px-6 sm:px-8 rounded-full shadow-lg shadow-green-500/25 hover:shadow-xl hover:shadow-green-500/30 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 text-sm sm:text-base">
         <svg class="w-5 h-5 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24"><path d="M24 10.304c0-5.369-5.383-9.738-12-9.738-6.616 0-12 4.369-12 9.738 0 4.814 4.269 8.846 10.036 9.608.391.084.922.258 1.057.592.122.303.079.778.039 1.085l-.171 1.027c-.053.303-.242 1.186 1.039.647 1.281-.54 6.911-4.069 9.428-6.967 1.739-1.907 2.572-4.103 2.572-6.002z"/></svg>
         <span>แอดไลน์ ส่งรูปประเมินฟรี</span>
       </a>
@@ -38,14 +38,14 @@ const FIXES = [
   {
     slug: 'car-wont-start-causes-and-fixes',
     heading: 'รถสตาร์ทไม่ติด? ให้ช่างวิเคราะห์อาการให้ฟรี!',
-    desc: 'ไม่แน่ใจว่าปัญหาอยู่ที่แบต ไดชาร์จ หรือไดสตาร์ท? โทรปรึกษาช่างผู้เชี่ยวชาญ FIRSTCARCENTER ฟรี',
+    desc: 'ไม่แน่ใจว่าปัญหาอยู่ที่แบต ไดชาร์จ หรือไดสตาร์ท? โทรปรึกษาช่างผู้เชี่ยวชาญ PORNPISIT BATTERY ฟรี',
     serviceHref: '/battery-replacement',
     serviceLabel: 'ดูบริการเปลี่ยนแบต',
   },
   {
     slug: 'what-to-do-when-car-battery-is-dead',
     heading: 'แบตหมดกลางทาง? อย่าตกใจ โทรเรียกช่างเลย!',
-    desc: 'FIRSTCARCENTER พร้อมออกบริการเปลี่ยนแบตเตอรี่ถึงที่ 24 ชม. ครอบคลุม บางนา ศรีนครินทร์ สมุทรปราการ',
+    desc: 'PORNPISIT BATTERY พร้อมออกบริการเปลี่ยนแบตเตอรี่ถึงที่ 24 ชม. ครอบคลุม ห้วยขวาง ดินแดง ลาดพร้าว บางกะปิ บางเขน จตุจักร ดุสิต บางซื่อ',
     serviceHref: '/battery-replacement',
     serviceLabel: 'ดูบริการเปลี่ยนแบต',
   },

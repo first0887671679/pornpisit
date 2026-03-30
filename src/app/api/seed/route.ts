@@ -11,13 +11,13 @@ export async function POST() {
     
     // Create admin user
     const admin = await prisma.adminUser.upsert({
-      where: { email: 'admin@firstcar.com' },
+      where: { email: 'admin@pornpisitbattery.com' },
       update: { 
         password: hashedPassword,
         name: 'Admin User'
       },
       create: {
-        email: 'admin@firstcar.com',
+        email: 'admin@pornpisitbattery.com',
         name: 'Admin User',
         password: hashedPassword,
       },

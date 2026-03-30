@@ -1,13 +1,13 @@
-import { PrismaClient } from "@prisma/client";
+﻿import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
 
 const htmlContent = `<h1>ไดสตาร์ทพัง อาการเป็นไง? บิดกุญแจแล้วเงียบกริบ แบตหมดหรือไดพังกันแน่? (อัปเดต 2026)</h1>
 <p>เคยเป็นไหมครับ? รีบตื่นไปทำงานตอนเช้า แวะจอดซื้อของแป๊บเดียวที่หน้า<strong>ตลาดหนามแดง</strong> พอกลับมาขึ้นรถ บิดกุญแจปุ๊บ... "เงียบกริบ" หรือมีแค่เสียง "แต๊กๆ" รัวๆ ทั้งที่ระบบไฟหน้าปัดก็ติดปกติ แอร์ก็เย็น อาการแบบนี้แหละครับที่มักจะทำให้คนใช้รถสับสนว่าตกลงแล้ว <strong>แบตเตอรี่เสื่อม</strong> หรือ <strong>ไดสตาร์ทพัง</strong> กันแน่?</p>
 
-<p>วันนี้ช่างจาก FIRSTCARCENTER จะมาแชร์วิธีเช็ก <strong>อาการไดสตาร์ทพัง</strong> แบบง่ายๆ สไตล์คนใช้รถทั่วไปก็ดูออกครับ เพื่อให้คุณประเมินสถานการณ์เบื้องต้นได้ทันที ก่อนตัดสินใจเรียกรถสไลด์ไปอู่แถว<strong>บางนา ศรีนครินทร์</strong> หรือเรียกช่างแบตเตอรี่มาดูครับ</p>
+<p>วันนี้ช่างจาก PORNPISIT BATTERY จะมาแชร์วิธีเช็ก <strong>อาการไดสตาร์ทพัง</strong> แบบง่ายๆ สไตล์คนใช้รถทั่วไปก็ดูออกครับ เพื่อให้คุณประเมินสถานการณ์เบื้องต้นได้ทันที ก่อนตัดสินใจเรียกรถสไลด์ไปอู่แถว<strong>ห้วยขวาง ดินแดง ลาดพร้าว</strong> หรือเรียกช่างแบตเตอรี่มาดูครับ</p>
 
-<img src="/images/blog/pig-starter-motor-seo-cover.svg" alt="ภาพการ์ตูนหมูช่าง FIRSTCARCENTER อธิบาย ไดสตาร์ทพัง อาการ ศรีนครินทร์ บางนา" class="rounded-xl my-6 w-full object-cover shadow-sm" />
+<img src="/images/blog/pig-starter-motor-seo-cover.svg" alt="ภาพการ์ตูนหมูช่าง PORNPISIT BATTERY อธิบาย ไดสตาร์ทพัง อาการ ศรีนครินทร์ บางนา" class="rounded-xl my-6 w-full object-cover shadow-sm" />
 
 <h2>ไดสตาร์ท (Starter Motor) คืออะไร?</h2>
 <p><strong>ไดสตาร์ท</strong> หรือ มอเตอร์สตาร์ท คือมอเตอร์ไฟฟ้าขนาดใหญ่ที่ทำหน้าที่ "ฉุดเฟืองไฟลวีล (Flywheel)" เพื่อหมุนเครื่องยนต์ให้เริ่มทำงาน (จุดระเบิด) พูดง่ายๆ คือมันทำงานแค่ตอนที่เรา "บิดกุญแจสตาร์ท" เท่านั้นครับ พอกลไกเครื่องยนต์ติดแล้ว ไดสตาร์ทก็จะหยุดทำงานทันที ไม่ได้มีหน้าที่ปั่นไฟเหมือนไดชาร์จนะครับ</p>
@@ -49,8 +49,8 @@ const htmlContent = `<h1>ไดสตาร์ทพัง อาการเป
   </li>
 </ul>
 
-<h2>รถสตาร์ทไม่ติดอยู่แถวบางนา ศรีนครินทร์ เรียกช่างได้ 24 ชม.</h2>
-<p>ถ้าคุณลองเช็กตามวิธีด้านบนแล้ว และฟันธงว่ารถเสียเพราะ <strong>แบตเตอรี่หมด</strong> ไม่ว่าจะจอดอยู่ริมถนน<strong>สุขุมวิท</strong> ทางเข้าหมู่บ้านแถว<strong>ลาซาล แบริ่ง</strong> หรือปั๊มน้ำมันย่าน<strong>แพรกษา เทพารักษ์</strong> FIRSTCARCENTER มีบริการ <a href="/battery-replacement" title="ร้านแบตเตอรี่รถยนต์นอกสถานที่ บางนา ศรีนครินทร์" class="text-orange-600 font-semibold hover:underline">เปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่</a> ส่งด่วนถึงที่หมายภายใน 30 นาทีครับ</p>
+<h2>รถสตาร์ทไม่ติดอยู่แถวห้วยขวาง ดินแดง ลาดพร้าว เรียกช่างได้ 24 ชม.</h2>
+<p>ถ้าคุณลองเช็กตามวิธีด้านบนแล้ว และฟันธงว่ารถเสียเพราะ <strong>แบตเตอรี่หมด</strong> ไม่ว่าจะจอดอยู่ริมถนน<strong>สุขุมวิท</strong> ทางเข้าหมู่บ้านแถว<strong>ลาซาล แบริ่ง</strong> หรือปั๊มน้ำมันย่าน<strong>แพรกษา เทพารักษ์</strong> PORNPISIT BATTERY มีบริการ <a href="/battery-replacement" title="ร้านแบตเตอรี่รถยนต์นอกสถานที่ ห้วยขวาง ดินแดง ลาดพร้าว" class="text-orange-600 font-semibold hover:underline">เปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่</a> ส่งด่วนถึงที่หมายภายใน 30 นาทีครับ</p>
 
 <p>แต่ถ้าอาการชี้ไปที่ <strong>ไดสตาร์ทพัง</strong> หรือ <strong>ไดชาร์จเสีย</strong> เราก็มีทีมช่างผู้เชี่ยวชาญพร้อมออกไปตรวจเช็ก หรือบริการรถสไลด์เพื่อนำรถมาซ่อมแซมเปลี่ยนอะไหล่ที่ร้านได้อย่างปลอดภัยครับ ไม่ปล่อยให้คุณต้องเคว้งคว้างกลางทางแน่นอน</p>
 
@@ -82,13 +82,13 @@ const htmlContent = `<h1>ไดสตาร์ทพัง อาการเป
   <div class="absolute bottom-0 left-0 -mb-4 -ml-4 w-24 h-24 bg-gradient-to-br from-[#00F2FE] to-[#4FACFE] rounded-full opacity-20 blur-2xl"></div>
   <div class="relative z-10">
     <h2 class="text-2xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-slate-800 to-slate-600 dark:from-white dark:to-slate-300 mb-4">รถสตาร์ทไม่ติด แบตหมด หรือ ไดพัง? โทรหาเราด่วน!</h2>
-    <p class="text-slate-600 dark:text-slate-400 mb-8 max-w-2xl mx-auto text-lg leading-relaxed">FIRSTCARCENTER บริการตรวจเช็กระบบไฟ พ่วงแบตเตอรี่ และเปลี่ยนแบตเตอรี่รถยนต์ ถึงที่ 24 ชม. ดูแลครอบคลุมพื้นที่ ศรีนครินทร์, บางนา, แบริ่ง, ลาซาล, เทพารักษ์, สมุทรปราการ ถึงไวภายใน 30 นาที</p>
+    <p class="text-slate-600 dark:text-slate-400 mb-8 max-w-2xl mx-auto text-lg leading-relaxed">PORNPISIT BATTERY บริการตรวจเช็กระบบไฟ พ่วงแบตเตอรี่ และเปลี่ยนแบตเตอรี่รถยนต์ ถึงที่ 24 ชม. ดูแลครอบคลุมพื้นที่ ศรีนครินทร์, บางนา, แบริ่ง, ลาซาล, เทพารักษ์, สมุทรปราการ ถึงไวภายใน 30 นาที</p>
     <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
-      <a href="tel:0887671679" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-gradient-to-r from-[#FF6B00] to-[#FF3E00] hover:from-[#E65A00] hover:to-[#E63500] text-white font-bold py-3.5 px-8 rounded-full shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300">
+      <a href="tel:0996731296" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-gradient-to-r from-[#FF6B00] to-[#FF3E00] hover:from-[#E65A00] hover:to-[#E63500] text-white font-bold py-3.5 px-8 rounded-full shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-        <span>โทรเรียกช่างด่วน 088-767-1679</span>
+        <span>โทรเรียกช่างด่วน 099-673-1296</span>
       </a>
-      <a href="https://lin.ee/xxqKaZn" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-gradient-to-r from-[#00c300] to-[#00a800] hover:from-[#00b300] hover:to-[#009900] text-white font-bold py-3.5 px-8 rounded-full shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300">
+      <a href="https://lin.ee/OBB86S4" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-gradient-to-r from-[#00c300] to-[#00a800] hover:from-[#00b300] hover:to-[#009900] text-white font-bold py-3.5 px-8 rounded-full shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path d="M24 10.304c0-5.369-5.383-9.738-12-9.738-6.616 0-12 4.369-12 9.738 0 4.814 4.269 8.846 10.036 9.608.391.084.922.258 1.057.592.122.303.079.778.039 1.085l-.171 1.027c-.053.303-.242 1.186 1.039.647 1.281-.54 6.911-4.069 9.428-6.967 1.739-1.907 2.572-4.103 2.572-6.002z"/></svg>
         <span>แอดไลน์ ปรึกษาอาการฟรี</span>
       </a>
@@ -97,7 +97,7 @@ const htmlContent = `<h1>ไดสตาร์ทพัง อาการเป
 </div>`;
 
 const postData = {
-  title: "ไดสตาร์ทพัง อาการเป็นไง? บิดกุญแจเงียบ แบตหมดหรือไดพัง (2026) | FIRSTCARCENTER",
+  title: "ไดสตาร์ทพัง อาการเป็นไง? บิดกุญแจเงียบ แบตหมดหรือไดพัง (2026) | PORNPISIT BATTERY",
   slug: "starter-motor-failure-symptoms",
   excerpt: "ไดสตาร์ทพัง หรือแบตเตอรี่เสื่อม? ดูวิธีแยกอาการรถสตาร์ทไม่ติด บิดกุญแจแล้วเงียบ พร้อมบริการช่างแบตด่วนนอกสถานที่ ศรีนครินทร์ บางนา สมุทรปราการ",
   content: htmlContent,
@@ -105,7 +105,7 @@ const postData = {
   category: "ซ่อมบำรุง",
   tags: "ไดสตาร์ทพัง,อาการไดสตาร์ทเสีย,รถสตาร์ทไม่ติด,บิดกุญแจแล้วเงียบ,แบตหมดหรือไดพัง,ศรีนครินทร์,บางนา,แบริ่ง,ลาซาล,เทพารักษ์,สมุทรปราการ",
   published: true,
-  author: "FIRSTCARCENTER",
+  author: "PORNPISIT BATTERY",
   seoTitle: "ไดสตาร์ทพัง อาการเป็นไง? วิธีแยกแบตเสื่อม vs ไดพัง (อัปเดต 2026)",
   seoDescription: "ไดสตาร์ทพัง หรือแบตเตอรี่เสื่อม? เช็ก 4 อาการรถสตาร์ทไม่ติด บิดกุญแจแล้วเงียบ พร้อมบริการช่างระบบไฟด่วนนอกสถานที่ ศรีนครินทร์ บางนา สมุทรปราการ",
   seoKeywords: "ไดสตาร์ทพัง,อาการไดสตาร์ทเสีย,รถสตาร์ทไม่ติดเงียบกริบ,บิดกุญแจแล้วเงียบ,แบตเสื่อมหรือไดสตาร์ทพัง,ซ่อมไดสตาร์ท,ศรีนครินทร์,บางนา,แบริ่ง,ลาซาล,สุขุมวิท,เทพารักษ์,แพรกษา,สมุทรปราการ",

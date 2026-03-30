@@ -106,7 +106,7 @@ export default function ContactSettingsPage() {
               id="address"
               value={address}
               onChange={(e) => setAddress(e.target.value)}
-              placeholder="กรุงเทพและปริมณฑล"
+              placeholder="ห้วยขวาง ดินแดง ลาดพร้าว บางกะปิ บางเขน จตุจักร ดุสิต บางซื่อ"
             />
           </div>
 

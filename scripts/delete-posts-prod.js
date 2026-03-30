@@ -1,4 +1,4 @@
-/**
+﻿/**
  * Delete specific posts from production DB via API
  */
 const fs = require('fs');
@@ -19,7 +19,7 @@ if (fs.existsSync(envPath)) {
   });
 }
 
-const PROD_URL = process.env.PROD_URL || 'https://firstcarcenterthailand.com';
+const PROD_URL = process.env.PROD_URL || 'https://PORNPISIT BATTERYthailand.com';
 const SYNC_SECRET = process.env.SYNC_SECRET || '';
 
 const slugsToDelete = [

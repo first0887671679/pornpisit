@@ -1,4 +1,4 @@
-const fs = require('fs');
+﻿const fs = require('fs');
 const path = require('path');
 const Database = require('better-sqlite3');
 
@@ -149,7 +149,7 @@ const coverSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630"
   <use href="#pig-mascot" x="900" y="340" transform="scale(1.4) translate(-250, -100)"/>
 
   <rect x="40" y="580" width="200" height="30" rx="4" fill="url(#primary-grad)"/>
-  <text x="140" y="602" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">FIRSTCARCENTER</text>
+  <text x="140" y="602" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">PORNPISIT BATTERY</text>
 </svg>`;
 
 const inline1Svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
@@ -194,19 +194,19 @@ console.log('SVGs created.');
 const post = {
   title: "หาร้านปะยางตอนตี 2 รถยางแตกขวางซอย! รีวิวเรียกช่างด่วน ศรีนครินทร์",
   slug: "find-tire-repair-shop-at-2am-guide",
-  excerpt: "ยางแตกกลางดึก หาร้านปะยางตอนตี 2 ที่ไหนดี? ดูรีวิวเคสจริงจาก FirstCarCenter ออกช่วยเหลือรถยางระเบิดขวางซอย โซนศรีนครินทร์ เทพารักษ์ บางนา ถึงไว ปลอดภัย ไม่ทิ้งงาน",
+  excerpt: "ยางแตกกลางดึก หาร้านปะยางตอนตี 2 ที่ไหนดี? ดูรีวิวเคสจริงจาก PORNPISIT BATTERY ออกช่วยเหลือรถยางระเบิดขวางซอย โซนศรีนครินทร์ เทพารักษ์ บางนา ถึงไว ปลอดภัย ไม่ทิ้งงาน",
   category: "ช่วยเหลือฉุกเฉิน",
   tags: "หาร้านปะยางตอนตี 2,ปะยาง 24 ชม,ปะยางนอกสถานที่,ยางแตกกลางดึก,ร้านปะยางใกล้ฉัน,สมุทรปราการ,บางนา",
   published: 1,
-  author: "FIRSTCARCENTER",
+  author: "PORNPISIT BATTERY",
   seoTitle: "หาร้านปะยางตอนตี 2 ยางแตกกลางดึก? เรียกช่างถึงที่ โซนบางนา",
   seoDescription: "หาร้านปะยางตอนตี 2 ใกล้ฉัน โซนศรีนครินทร์ บางนา เทพารักษ์ ยางแตกกลางดึก ไม่ต้องกลัว! รีวิวเรียกช่างปะยางนอกสถานที่ 24 ชม. ถึงหน้างานไวใน 20 นาที",
   seoKeywords: "หาร้านปะยางตอนตี 2, ปะยางนอกสถานที่ 24 ชม, ร้านปะยางใกล้ฉัน เปิดตอนนี้, ยางแตกกลางคืน, ปะยางรถยนต์ เทพารักษ์",
   ogTitle: "หาร้านปะยางตอนตี 2 ยางแตกดึกแค่ไหนก็มีคนช่วย!",
-  ogDescription: "แชร์เคสจริง ช่วยลูกค้ายางแตกตอนตี 2 โซนศรีนครินทร์-เทพารักษ์ ช่าง FirstCarCenter ถึงไว ปลอดภัย ไว้ใจได้",
+  ogDescription: "แชร์เคสจริง ช่วยลูกค้ายางแตกตอนตี 2 โซนศรีนครินทร์-เทพารักษ์ ช่าง PORNPISIT BATTERY ถึงไว ปลอดภัย ไว้ใจได้",
   coverImage: "/images/blog/pig-find-tire-repair-2am-cover.svg",
   content: `
-<p class="lead">ประสบการณ์ที่ไม่มีใครอยากเจอคือการขับรถกลับบ้านดึกๆ แล้วได้ยินเสียง "ปัง!" ตามด้วยพวงมาลัยสั่นงั่กๆ ยางแตกกลางดึก! ความคิดแรกที่แล่นเข้ามาในหัวคือ <strong>"จะ หาร้านปะยางตอนตี 2 จากที่ไหน?"</strong> เพราะมองไปทางไหนอู่ก็ปิดหมดแล้ว ยิ่งถ้าจอดเสียอยู่ในซอยเปลี่ยวๆ หรือขวางทางจราจร ยิ่งกดดัน วันนี้ <strong>FirstCarCenter</strong> จะมาแชร์เคสจริงที่เราออกไปช่วยเหลือลูกค้าในยามวิกาลย่าน <strong>ศรีนครินทร์ เทพารักษ์ บางนา สมุทรปราการ</strong> เพื่อให้คุณอุ่นใจว่า ดึกแค่ไหนเราก็พร้อมลุยครับ</p>
+<p class="lead">ประสบการณ์ที่ไม่มีใครอยากเจอคือการขับรถกลับบ้านดึกๆ แล้วได้ยินเสียง "ปัง!" ตามด้วยพวงมาลัยสั่นงั่กๆ ยางแตกกลางดึก! ความคิดแรกที่แล่นเข้ามาในหัวคือ <strong>"จะ หาร้านปะยางตอนตี 2 จากที่ไหน?"</strong> เพราะมองไปทางไหนอู่ก็ปิดหมดแล้ว ยิ่งถ้าจอดเสียอยู่ในซอยเปลี่ยวๆ หรือขวางทางจราจร ยิ่งกดดัน วันนี้ <strong>PORNPISIT BATTERY</strong> จะมาแชร์เคสจริงที่เราออกไปช่วยเหลือลูกค้าในยามวิกาลย่าน <strong>ศรีนครินทร์ เทพารักษ์ บางนา สมุทรปราการ</strong> เพื่อให้คุณอุ่นใจว่า ดึกแค่ไหนเราก็พร้อมลุยครับ</p>
 
 <h2>เมื่อต้อง หาร้านปะยางตอนตี 2 สิ่งที่คุณต้องระวัง</h2>
 <p>การเกิดเหตุรถเสียตอนกลางคืนมีความเสี่ยงสูงกว่าตอนกลางวันมาก ก่อนที่ช่างจะไปถึง คุณควรคำนึงถึงสิ่งเหล่านี้:</p>
@@ -236,8 +236,8 @@ const post = {
   <img src="/images/blog/find-tire-repair-2am-case2.svg" alt="ช่างมอเตอร์ไซค์ถึงจุดเกิดเหตุ หาร้านปะยางตอนตี 2 ถนนศรีนครินทร์" class="w-full h-auto object-cover m-0" />
 </div>
 
-<h2>ทำไมต้อง FirstCarCenter เมื่อคุณ หาร้านปะยางตอนตี 2 ?</h2>
-<p>ในพื้นที่ <strong>บางนา ศรีนครินทร์ ลาซาล แบริ่ง เทพารักษ์ แพรกษา</strong> เราคือตัวจริงเรื่องการช่วยเหลือฉุกเฉินยามวิกาลครับ:</p>
+<h2>ทำไมต้อง PORNPISIT BATTERY เมื่อคุณ หาร้านปะยางตอนตี 2 ?</h2>
+<p>ในพื้นที่ <strong>ห้วยขวาง ดินแดง ลาดพร้าว ลาซาล แบริ่ง เทพารักษ์ แพรกษา</strong> เราคือตัวจริงเรื่องการช่วยเหลือฉุกเฉินยามวิกาลครับ:</p>
 <ol>
   <li><strong>มอเตอร์ไซค์ฉุกเฉิน:</strong> เราใช้มอเตอร์ไซค์ในการออกบริการ ทำให้ไปถึงคุณได้เร็วกว่ารถกระบะ มุดซอยแคบอย่าง <strong>ซอยแบริ่ง (สุขุมวิท 107)</strong> หรือลานจอดรถใต้ดินคอนโดได้สบาย</li>
   <li><strong>ไม่ทิ้งงาน รับสายจริง:</strong> โทรมาตี 2 ตี 3 เรามีคนรับสายและช่างพร้อมออกทันที ไม่ต้องกลัวโทรไปแล้วไม่มีคนรับ</li>
@@ -255,13 +255,13 @@ const post = {
   <div style="position:relative;">
     <span style="display:inline-flex;align-items:center;gap:0.5rem;background:rgba(255,255,255,0.9);border:1px solid #fed7aa;border-radius:9999px;padding:0.5rem 1.25rem;font-size:0.875rem;font-weight:600;color:#ea580c;box-shadow:0 1px 3px rgba(0,0,0,0.06);">📞 บริการ 24 ชม. ถึงที่ทันที</span>
     <h3 style="margin:1.5rem auto 0;max-width:600px;font-size:1.75rem;font-weight:900;line-height:1.3;color:#1e293b;">ยางแตกกลางดึก? ไม่ต้องเครียด เราไปช่วยถึงที่!</h3>
-    <p style="margin:1rem auto 0;max-width:520px;font-size:1rem;line-height:1.7;color:#64748b;">ทีมช่างมอเตอร์ไซค์ 24 ชม. วิ่งไปปะยาง หรือเปลี่ยนยางอะไหล่ให้ถึงหน้างานภายใน 30 นาที โซนบางนา ศรีนครินทร์ เทพารักษ์</p>
+    <p style="margin:1rem auto 0;max-width:520px;font-size:1rem;line-height:1.7;color:#64748b;">ทีมช่างมอเตอร์ไซค์ 24 ชม. วิ่งไปปะยาง หรือเปลี่ยนยางอะไหล่ให้ถึงหน้างานภายใน 30 นาที โซนห้วยขวาง ดินแดง ลาดพร้าว เทพารักษ์</p>
     <div style="margin-top:2rem;display:flex;flex-wrap:wrap;justify-content:center;gap:1rem;">
-      <a href="tel:0887671679" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:linear-gradient(to right,#f97316,#ef4444);color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(249,115,22,0.7);">📞 โทรเรียกช่าง 088-767-1679</a>
-      <a href="https://lin.ee/xxqKaZn" target="_blank" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:#06C755;color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(6,199,85,0.7);">💬 แอดไลน์ ส่งพิกัดมาได้เลย</a>
+      <a href="tel:0996731296" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:linear-gradient(to right,#f97316,#ef4444);color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(249,115,22,0.7);">📞 โทรเรียกช่าง 099-673-1296</a>
+      <a href="https://lin.ee/OBB86S4" target="_blank" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:#06C755;color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(6,199,85,0.7);">💬 แอดไลน์ ส่งพิกัดมาได้เลย</a>
     </div>
     <p style="margin-top:1.5rem;"><a href="/mobile-tire-repair" style="color:#ea580c;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:1rem;">เรียกช่างปะยางนอกสถานที่ 24 ชม. ศรีนครินทร์ เทพารักษ์</a></p>
-    <p style="margin-top:0.75rem;"><a href="/battery-replacement" style="color:#0891b2;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:0.9rem;">เปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่ บางนา ศรีนครินทร์ →</a></p>
+    <p style="margin-top:0.75rem;"><a href="/battery-replacement" style="color:#0891b2;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:0.9rem;">เปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่ ห้วยขวาง ดินแดง ลาดพร้าว →</a></p>
     <p style="margin-top:0.5rem;"><a href="/contact-us" style="color:#64748b;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:0.9rem;">ดูเบอร์โทรและช่องทางติดต่อช่างทั้งหมด →</a></p>
   </div>
 </div>
@@ -272,7 +272,7 @@ const post = {
   <div class="border rounded-xl p-4" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
     <h3 class="text-lg font-bold mt-0" itemprop="name">Q: โทรเรียกตอนตี 2 ตี 3 ช่างรับสายจริงไหม?</h3>
     <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
-      <p class="mb-0 text-slate-600" itemprop="text"><strong>A:</strong> รับสายและไปจริงแน่นอนครับ! ทีม FirstCarCenter มีแอดมินและช่างสแตนด์บายตลอด 24 ชั่วโมง ไม่มีวันหยุด เพื่อรองรับเหตุฉุกเฉินยามวิกาลโดยเฉพาะครับ</p>
+      <p class="mb-0 text-slate-600" itemprop="text"><strong>A:</strong> รับสายและไปจริงแน่นอนครับ! ทีม PORNPISIT BATTERY มีแอดมินและช่างสแตนด์บายตลอด 24 ชั่วโมง ไม่มีวันหยุด เพื่อรองรับเหตุฉุกเฉินยามวิกาลโดยเฉพาะครับ</p>
     </div>
   </div>
 

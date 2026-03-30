@@ -1,4 +1,4 @@
-const fs = require('fs');
+﻿const fs = require('fs');
 const path = require('path');
 const Database = require('better-sqlite3');
 
@@ -149,7 +149,7 @@ const coverSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630"
   <use href="#pig-mascot" x="900" y="340" transform="scale(1.4) translate(-250, -100)"/>
 
   <rect x="40" y="580" width="200" height="30" rx="4" fill="url(#primary-grad)"/>
-  <text x="140" y="602" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">FIRSTCARCENTER</text>
+  <text x="140" y="602" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">PORNPISIT BATTERY</text>
 </svg>`;
 
 const inline1Svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
@@ -198,7 +198,7 @@ const post = {
   category: "ช่วยเหลือฉุกเฉิน",
   tags: "รถจอดนานช่วงหยุดยาว,แบตเตอรี่รถยนต์หมด,สตาร์ทไม่ติด,ถอดขั้วแบตเตอรี่,เปลี่ยนแบตเตอรี่นอกสถานที่,สมุทรปราการ,บางนา",
   published: 1,
-  author: "FIRSTCARCENTER",
+  author: "PORNPISIT BATTERY",
   seoTitle: "รถจอดนานช่วงหยุดยาว ระวังแบตพัง! วิธีป้องกัน + รีวิวเปลี่ยนแบต",
   seoDescription: "รถจอดนานช่วงหยุดยาว 7-10 วัน แบตหมด สตาร์ทไม่ติด ทำยังไง? ดูวิธีดูแลแบตเตอรี่และรีวิวเรียกช่างเปลี่ยนแบตเตอรี่นอกสถานที่ โซนศรีนครินทร์ บางนา เทพารักษ์ แพรกษา",
   seoKeywords: "รถจอดนานช่วงหยุดยาว, รถจอดนานสตาร์ทไม่ติด, ถอดขั้วแบตเตอรี่ รถจอดนาน, เปลี่ยนแบตเตอรี่นอกสถานที่ บางนา, แบตหมด",
@@ -206,7 +206,7 @@ const post = {
   ogDescription: "แชร์วิธีดูแลรถและแบตเตอรี่เมื่อต้องจอดทิ้งไว้หลายวัน พร้อมรีวิวช่วยลูกค้าแบตหมดหลังกลับจากเที่ยว",
   coverImage: "/images/blog/pig-long-park-holiday-battery-cover.svg",
   content: `
-<p class="lead">ในช่วงเทศกาลหยุดยาว หรือสำหรับคนที่ต้องบินไปต่างประเทศบ่อยๆ การปล่อย <strong>รถจอดนานช่วงหยุดยาว</strong> เป็นสิ่งหลีกเลี่ยงไม่ได้ครับ แต่รู้ไหมครับว่า "รถที่จอดทิ้งไว้เฉยๆ แบตเตอรี่จะพังเร็วกว่ารถที่ขับทุกวัน!" เพราะรถยนต์มีระบบไฟฟ้าที่ดึงไฟจากแบตเตอรี่ไปใช้ตลอดเวลา วันนี้ <strong>FirstCarCenter</strong> จะมาแนะวิธีป้องกันไม่ให้แบตพัง พร้อมเล่าเคสกู้ชีพรถจอดตายในโซน <strong>ศรีนครินทร์ บางนา แบริ่ง ลาซาล สมุทรปราการ</strong> ให้ฟังกันครับ</p>
+<p class="lead">ในช่วงเทศกาลหยุดยาว หรือสำหรับคนที่ต้องบินไปต่างประเทศบ่อยๆ การปล่อย <strong>รถจอดนานช่วงหยุดยาว</strong> เป็นสิ่งหลีกเลี่ยงไม่ได้ครับ แต่รู้ไหมครับว่า "รถที่จอดทิ้งไว้เฉยๆ แบตเตอรี่จะพังเร็วกว่ารถที่ขับทุกวัน!" เพราะรถยนต์มีระบบไฟฟ้าที่ดึงไฟจากแบตเตอรี่ไปใช้ตลอดเวลา วันนี้ <strong>PORNPISIT BATTERY</strong> จะมาแนะวิธีป้องกันไม่ให้แบตพัง พร้อมเล่าเคสกู้ชีพรถจอดตายในโซน <strong>ศรีนครินทร์ บางนา แบริ่ง ลาซาล สมุทรปราการ</strong> ให้ฟังกันครับ</p>
 
 <h2>ทำไม "รถจอดนาน" แบตเตอรี่ถึงหมดเกลี้ยง?</h2>
 <p>แม้คุณจะดับเครื่องและดึงกุญแจออกแล้ว แต่รถยนต์ยุคใหม่มี <strong>Parasitic Drain (กระแสไฟรั่วไหล)</strong> ที่ต้องใช้ไฟเลี้ยงระบบตลอดเวลา เช่น:</p>
@@ -225,7 +225,7 @@ const post = {
 <h2>Case Study 1: กลับจากต่างประเทศ รถจอดตายที่สนามบินสุวรรณภูมิ</h2>
 <p>ลูกค้าบินไปเที่ยวญี่ปุ่น 10 วัน และจอดรถ Honda Civic ไว้ที่ลานจอดรถระยะยาวของสนามบิน <strong>สุวรรณภูมิ (สมุทรปราการ)</strong> พอบินกลับมาถึงไทยตอนดึก ลากกระเป๋ามาที่รถ ปรากฏว่ากดรีโมทไม่ทำงาน ต้องไขกุญแจเข้าไป พอจะสตาร์ท... รถเงียบกริบ ไฟหน้าปัดไม่ติดเลยแม้แต่น้อย (ไฟเหลือ 0 โวลต์)</p>
 
-<p>ลูกค้าพยายามเรียกแท็กซี่มาพ่วงแบต แต่พอพ่วงติดและขับออกมาได้แป๊บเดียว รถก็มีอาการไฟตกและดับกลางทาง! ลูกค้าจึงโทรหา FirstCarCenter เราได้ส่งช่างไปเช็ก พบว่าแบตลูกนี้ใช้มาปีกว่าแล้ว พอปล่อยให้ไฟหมดเกลี้ยงสนิท แผ่นธาตุจึงช็อตและไม่เก็บไฟอีกต่อไป ช่างจึงทำการเปลี่ยนแบตเตอรี่ลูกใหม่ให้ตรงรุ่น ลูกค้าจึงสามารถขับรถกลับบ้านที่บางนาได้อย่างปลอดภัยครับ</p>
+<p>ลูกค้าพยายามเรียกแท็กซี่มาพ่วงแบต แต่พอพ่วงติดและขับออกมาได้แป๊บเดียว รถก็มีอาการไฟตกและดับกลางทาง! ลูกค้าจึงโทรหา PORNPISIT BATTERY เราได้ส่งช่างไปเช็ก พบว่าแบตลูกนี้ใช้มาปีกว่าแล้ว พอปล่อยให้ไฟหมดเกลี้ยงสนิท แผ่นธาตุจึงช็อตและไม่เก็บไฟอีกต่อไป ช่างจึงทำการเปลี่ยนแบตเตอรี่ลูกใหม่ให้ตรงรุ่น ลูกค้าจึงสามารถขับรถกลับบ้านที่บางนาได้อย่างปลอดภัยครับ</p>
 
 <div class="my-8 rounded-2xl overflow-hidden shadow-lg border border-slate-100">
   <img src="/images/blog/long-park-battery-case2.svg" alt="ช่างตรวจพบแบตเตอรี่เสื่อมสภาพ แผ่นธาตุช็อต หมู่บ้านแถวแพรกษา" class="w-full h-auto object-cover m-0" />
@@ -249,8 +249,8 @@ const post = {
   <li><strong>ถอดปลั๊กกล้องหน้ารถ:</strong> กล้องหน้ารถบางรุ่นดึงไฟตลอดเวลา ควรถอดสายออกเมื่อจอดรถที่บ้านครับ</li>
 </ol>
 
-<h2>จอดนานจนรถสตาร์ทไม่ติด? โทรเรียก FirstCarCenter สิครับ!</h2>
-<p>หากคุณกลับมาจากวันหยุดยาว แล้วพบว่า <strong>รถจอดนานสตาร์ทไม่ติด</strong> ไม่ต้องตกใจครับ! โทรเรียก <strong>FirstCarCenter</strong> เรามีบริการ <strong>เปลี่ยนแบตเตอรี่รถยนต์ นอกสถานที่</strong> ส่งด่วนถึงบ้าน คอนโด หรือที่ทำงาน ภายใน 30 นาที ครอบคลุมพื้นที่ <strong>บางนา ศรีนครินทร์ แบริ่ง ลาซาล เทพารักษ์ แพรกษา สมุทรปราการ</strong> แบตเตอรี่ใหม่แกะกล่อง ราคามาตรฐาน พร้อมรับประกัน 1 ปีเต็มครับ!</p>
+<h2>จอดนานจนรถสตาร์ทไม่ติด? โทรเรียก PORNPISIT BATTERY สิครับ!</h2>
+<p>หากคุณกลับมาจากวันหยุดยาว แล้วพบว่า <strong>รถจอดนานสตาร์ทไม่ติด</strong> ไม่ต้องตกใจครับ! โทรเรียก <strong>PORNPISIT BATTERY</strong> เรามีบริการ <strong>เปลี่ยนแบตเตอรี่รถยนต์ นอกสถานที่</strong> ส่งด่วนถึงบ้าน คอนโด หรือที่ทำงาน ภายใน 30 นาที ครอบคลุมพื้นที่ <strong>ห้วยขวาง ดินแดง ลาดพร้าว แบริ่ง ลาซาล เทพารักษ์ แพรกษา สมุทรปราการ</strong> แบตเตอรี่ใหม่แกะกล่อง ราคามาตรฐาน พร้อมรับประกัน 1 ปีเต็มครับ!</p>
 
 <div style="background: linear-gradient(135deg, #fff7ed 0%, #fff 40%, #f0fdfa 100%); border: 1px solid #fed7aa; border-radius: 2rem; padding: 2.5rem 1.5rem; margin: 2.5rem 0; text-align: center; position: relative; overflow: hidden; box-shadow: 0 25px 60px -20px rgba(0,0,0,0.08);">
   <div style="position:absolute;top:-40px;right:-20px;width:160px;height:160px;background:rgba(251,146,60,0.15);border-radius:50%;filter:blur(40px);pointer-events:none;"></div>
@@ -258,10 +258,10 @@ const post = {
   <div style="position:relative;">
     <span style="display:inline-flex;align-items:center;gap:0.5rem;background:rgba(255,255,255,0.9);border:1px solid #fed7aa;border-radius:9999px;padding:0.5rem 1.25rem;font-size:0.875rem;font-weight:600;color:#ea580c;box-shadow:0 1px 3px rgba(0,0,0,0.06);">🔋 เปลี่ยนแบตเตอรี่ด่วน นอกสถานที่</span>
     <h3 style="margin:1.5rem auto 0;max-width:600px;font-size:1.75rem;font-weight:900;line-height:1.3;color:#1e293b;">กลับจากเที่ยว รถสตาร์ทไม่ติด? เราเปลี่ยนแบตให้ถึงที่!</h3>
-    <p style="margin:1rem auto 0;max-width:520px;font-size:1rem;line-height:1.7;color:#64748b;">บริการเช็กค่า CCA และเปลี่ยนแบตเตอรี่รถยนต์หน้าบ้าน ภายใน 30 นาที โซนบางนา ศรีนครินทร์ เทพารักษ์</p>
+    <p style="margin:1rem auto 0;max-width:520px;font-size:1rem;line-height:1.7;color:#64748b;">บริการเช็กค่า CCA และเปลี่ยนแบตเตอรี่รถยนต์หน้าบ้าน ภายใน 30 นาที โซนห้วยขวาง ดินแดง ลาดพร้าว เทพารักษ์</p>
     <div style="margin-top:2rem;display:flex;flex-wrap:wrap;justify-content:center;gap:1rem;">
-      <a href="tel:0887671679" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:linear-gradient(to right,#f97316,#ef4444);color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(249,115,22,0.7);">📞 สั่งแบตเตอรี่ด่วน 088-767-1679</a>
-      <a href="https://lin.ee/xxqKaZn" target="_blank" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:#06C755;color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(6,199,85,0.7);">💬 แอดไลน์ ส่งรุ่นรถมาเช็กราคา</a>
+      <a href="tel:0996731296" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:linear-gradient(to right,#f97316,#ef4444);color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(249,115,22,0.7);">📞 สั่งแบตเตอรี่ด่วน 099-673-1296</a>
+      <a href="https://lin.ee/OBB86S4" target="_blank" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:#06C755;color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(6,199,85,0.7);">💬 แอดไลน์ ส่งรุ่นรถมาเช็กราคา</a>
     </div>
     <p style="margin:1.5rem 0 0;"><a href="/battery-replacement" style="color:#ea580c;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:1rem;">เปลี่ยนแบตเตอรี่รถยนต์ นอกสถานที่ แบริ่ง บางนา</a></p>
     <p style="margin-top:0.75rem;"><a href="/mobile-tire-repair" style="color:#0891b2;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:0.9rem;">บริการปะยางนอกสถานที่ 24 ชม. แบริ่ง ลาซาล เทพารักษ์ →</a></p>

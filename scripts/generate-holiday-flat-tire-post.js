@@ -1,4 +1,4 @@
-const fs = require('fs');
+﻿const fs = require('fs');
 const path = require('path');
 const Database = require('better-sqlite3');
 
@@ -151,7 +151,7 @@ const coverSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630"
   <use href="#pig-mascot" x="900" y="340" transform="scale(1.4) translate(-250, -100)"/>
 
   <rect x="40" y="580" width="200" height="30" rx="4" fill="url(#primary-grad)"/>
-  <text x="140" y="602" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">FIRSTCARCENTER</text>
+  <text x="140" y="602" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">PORNPISIT BATTERY</text>
 </svg>`;
 
 const inline1Svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
@@ -200,15 +200,15 @@ const post = {
   category: "ช่วยเหลือฉุกเฉิน",
   tags: "ยางแตกช่วงเทศกาล,ร้านปะยางเปิดสงกรานต์,เปลี่ยนยางอะไหล่,ปะยางนอกสถานที่,ยางแตกกลางทาง,สมุทรปราการ,บางนา",
   published: 1,
-  author: "FIRSTCARCENTER",
+  author: "PORNPISIT BATTERY",
   seoTitle: "ยางแตกช่วงเทศกาล หาร้านไม่ได้ ทำไงดี? รีวิว โซนบางนา",
   seoDescription: "ยางแตกช่วงเทศกาล วันหยุดยาว หาร้านปะยางยาก? อ่านวิธีรับมือและรีวิวเรียกช่างปะยางนอกสถานที่ 24 ชม. โซนศรีนครินทร์ บางนา เทพารักษ์ แพรกษา ถึงไว 30 นาที",
   seoKeywords: "ยางแตกช่วงเทศกาล, ร้านปะยางเปิดสงกรานต์, ปะยางนอกสถานที่, เปลี่ยนยางอะไหล่, ยางรั่วกลางทาง, ร้านปะยางใกล้ฉัน",
   ogTitle: "ยางแตกช่วงเทศกาล วันหยุดยาว เราไปช่วยปะให้!",
-  ogDescription: "แชร์วิธีเอาตัวรอดเมื่อยางแตกกลางทางช่วงเทศกาล พร้อมรีวิวช่าง FirstCarCenter ออกช่วยเหลือฉุกเฉิน โซนบางนา-ศรีนครินทร์",
+  ogDescription: "แชร์วิธีเอาตัวรอดเมื่อยางแตกกลางทางช่วงเทศกาล พร้อมรีวิวช่าง PORNPISIT BATTERY ออกช่วยเหลือฉุกเฉิน โซนบางนา-ศรีนครินทร์",
   coverImage: "/images/blog/pig-holiday-flat-tire-cover.svg",
   content: `
-<p class="lead">การขับรถทางไกลในช่วงวันหยุดยาว ถือเป็นช่วงเวลาที่สนุกสนาน แต่ถ้าเกิดอุบัติเหตุ <strong>"ยางแตกช่วงเทศกาล"</strong> ขึ้นมา ความสนุกอาจเปลี่ยนเป็นความเครียดได้ทันทีครับ! เพราะช่วงนี้ร้านปะยางและศูนย์บริการส่วนใหญ่จะปิดทำการ ทำให้คุณอาจต้องจอดรถรอความช่วยเหลืออยู่ข้างถนน วันนี้ <strong>FirstCarCenter</strong> จะมาแนะนำวิธีเอาตัวรอดเมื่อยางแตกช่วงวันหยุด และแชร์เคสรีวิวการออกช่วยเหลือฉุกเฉินในเขต <strong>บางนา ศรีนครินทร์ แบริ่ง เทพารักษ์ แพรกษา สมุทรปราการ</strong> ครับ</p>
+<p class="lead">การขับรถทางไกลในช่วงวันหยุดยาว ถือเป็นช่วงเวลาที่สนุกสนาน แต่ถ้าเกิดอุบัติเหตุ <strong>"ยางแตกช่วงเทศกาล"</strong> ขึ้นมา ความสนุกอาจเปลี่ยนเป็นความเครียดได้ทันทีครับ! เพราะช่วงนี้ร้านปะยางและศูนย์บริการส่วนใหญ่จะปิดทำการ ทำให้คุณอาจต้องจอดรถรอความช่วยเหลืออยู่ข้างถนน วันนี้ <strong>PORNPISIT BATTERY</strong> จะมาแนะนำวิธีเอาตัวรอดเมื่อยางแตกช่วงวันหยุด และแชร์เคสรีวิวการออกช่วยเหลือฉุกเฉินในเขต <strong>ห้วยขวาง ดินแดง ลาดพร้าว แบริ่ง เทพารักษ์ แพรกษา สมุทรปราการ</strong> ครับ</p>
 
 <h2>ยางแตกกลางทางช่วงวันหยุด ต้องทำยังไง?</h2>
 <p>ถ้าคุณได้ยินเสียงระเบิด หรือรู้สึกว่ารถดึงไปข้างใดข้างหนึ่งอย่างแรง <strong>อย่าตกใจและอย่าเหยียบเบรกกะทันหัน!</strong> ให้ทำตามนี้:</p>
@@ -237,14 +237,14 @@ const post = {
 <h2>Case Study 2: เหยียบเหล็กแหลม ยางแบนหน้าปั๊มน้ำมัน แพรกษา</h2>
 <p>เคสนี้ลูกค้ากำลังจะขับรถกลับต่างจังหวัดช่วงปีใหม่ แวะเติมน้ำมันที่ปั๊มย่าน <strong>แพรกษา สมุทรปราการ</strong> ตอนตี 5 พอเติมเสร็จขับออกมาได้นิดเดียว รู้สึกรถส่ายๆ ลงไปดูพบว่ายางหลังขวาแบนติดพื้น สาเหตุคือไปเหยียบเศษเหล็กแหลมชิ้นใหญ่มา</p>
 
-<p>เวลาตี 5 วันหยุดปีใหม่ ร้านที่ไหนจะเปิด? ลูกค้าโทรหา <strong>FirstCarCenter</strong> (เราเปิด 24 ชม.) ช่างไปถึงปั๊มน้ำมัน ดึงเศษเหล็กออก และทำการ <strong>ปะยางแบบแทงใยไหม (Tire Plug)</strong> ซึ่งอยู่ทนและปลอดภัย ขับทางไกลได้สบาย ใช้เวลาทำแค่ 10 นาที ลูกค้าก็ออกเดินทางกลับบ้านเกิดได้ทันทีครับ</p>
+<p>เวลาตี 5 วันหยุดปีใหม่ ร้านที่ไหนจะเปิด? ลูกค้าโทรหา <strong>PORNPISIT BATTERY</strong> (เราเปิด 24 ชม.) ช่างไปถึงปั๊มน้ำมัน ดึงเศษเหล็กออก และทำการ <strong>ปะยางแบบแทงใยไหม (Tire Plug)</strong> ซึ่งอยู่ทนและปลอดภัย ขับทางไกลได้สบาย ใช้เวลาทำแค่ 10 นาที ลูกค้าก็ออกเดินทางกลับบ้านเกิดได้ทันทีครับ</p>
 
 <div class="my-8 rounded-2xl overflow-hidden shadow-lg border border-slate-100">
   <img src="/images/blog/holiday-flat-tire-case3.svg" alt="ถอดล้อพัง ใส่ยางอะไหล่ ลูกค้าขับไปเที่ยวต่อได้ ปั๊มน้ำมัน แพรกษา" class="w-full h-auto object-cover m-0" />
 </div>
 
-<h2>ยางแตกช่วงเทศกาล ไม่มีร้านซ่อม โทรหา FirstCarCenter!</h2>
-<p>อย่าให้เรื่อง <strong>ยางแตกช่วงเทศกาล</strong> มาทำลายบรรยากาศวันหยุดของคุณครับ หากคุณเกิดเหตุในพื้นที่ <strong>บางนา ศรีนครินทร์ แบริ่ง ลาซาล เทพารักษ์ แพรกษา หรือสมุทรปราการ</strong> โทรเรียก <strong>FirstCarCenter</strong> ได้เลย! เรามีทีมช่างมอเตอร์ไซค์สแตนด์บาย 24 ชั่วโมง ไม่มีวันหยุดเทศกาล พร้อมวิ่งไปปะยางแบบแทงใยไหม หรือบริการถอดเปลี่ยนยางอะไหล่ให้ถึงหน้างาน รวดเร็ว ปลอดภัย ราคามาตรฐานครับ!</p>
+<h2>ยางแตกช่วงเทศกาล ไม่มีร้านซ่อม โทรหา PORNPISIT BATTERY!</h2>
+<p>อย่าให้เรื่อง <strong>ยางแตกช่วงเทศกาล</strong> มาทำลายบรรยากาศวันหยุดของคุณครับ หากคุณเกิดเหตุในพื้นที่ <strong>ห้วยขวาง ดินแดง ลาดพร้าว แบริ่ง ลาซาล เทพารักษ์ แพรกษา หรือสมุทรปราการ</strong> โทรเรียก <strong>PORNPISIT BATTERY</strong> ได้เลย! เรามีทีมช่างมอเตอร์ไซค์สแตนด์บาย 24 ชั่วโมง ไม่มีวันหยุดเทศกาล พร้อมวิ่งไปปะยางแบบแทงใยไหม หรือบริการถอดเปลี่ยนยางอะไหล่ให้ถึงหน้างาน รวดเร็ว ปลอดภัย ราคามาตรฐานครับ!</p>
 
 <div style="background: linear-gradient(135deg, #fff7ed 0%, #fff 40%, #f0fdfa 100%); border: 1px solid #fed7aa; border-radius: 2rem; padding: 2.5rem 1.5rem; margin: 2.5rem 0; text-align: center; position: relative; overflow: hidden; box-shadow: 0 25px 60px -20px rgba(0,0,0,0.08);">
   <div style="position:absolute;top:-40px;right:-20px;width:160px;height:160px;background:rgba(251,146,60,0.15);border-radius:50%;filter:blur(40px);pointer-events:none;"></div>
@@ -252,12 +252,12 @@ const post = {
   <div style="position:relative;">
     <span style="display:inline-flex;align-items:center;gap:0.5rem;background:rgba(255,255,255,0.9);border:1px solid #fed7aa;border-radius:9999px;padding:0.5rem 1.25rem;font-size:0.875rem;font-weight:600;color:#ea580c;box-shadow:0 1px 3px rgba(0,0,0,0.06);">🚨 บริการปะยางฉุกเฉิน 24 ชม.</span>
     <h3 style="margin:1.5rem auto 0;max-width:600px;font-size:1.75rem;font-weight:900;line-height:1.3;color:#1e293b;">ยางแตก ร้านปิดหมด? เราวิ่งไปเปลี่ยนให้ถึงที่!</h3>
-    <p style="margin:1rem auto 0;max-width:520px;font-size:1rem;line-height:1.7;color:#64748b;">บริการปะยางแทงใยไหม และเปลี่ยนล้ออะไหล่นอกสถานที่ ด่วนใน 30 นาที โซนบางนา ศรีนครินทร์ เปิดทุกเทศกาล</p>
+    <p style="margin:1rem auto 0;max-width:520px;font-size:1rem;line-height:1.7;color:#64748b;">บริการปะยางแทงใยไหม และเปลี่ยนล้ออะไหล่นอกสถานที่ ด่วนใน 30 นาที โซนห้วยขวาง ดินแดง ลาดพร้าว เปิดทุกเทศกาล</p>
     <div style="margin-top:2rem;display:flex;flex-wrap:wrap;justify-content:center;gap:1rem;">
-      <a href="tel:0887671679" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:linear-gradient(to right,#f97316,#ef4444);color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(249,115,22,0.7);">📞 โทรเรียกช่างปะยาง 088-767-1679</a>
-      <a href="https://lin.ee/xxqKaZn" target="_blank" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:#06C755;color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(6,199,85,0.7);">💬 แอดไลน์ ส่งพิกัดมาได้เลย</a>
+      <a href="tel:0996731296" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:linear-gradient(to right,#f97316,#ef4444);color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(249,115,22,0.7);">📞 โทรเรียกช่างปะยาง 099-673-1296</a>
+      <a href="https://lin.ee/OBB86S4" target="_blank" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:#06C755;color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(6,199,85,0.7);">💬 แอดไลน์ ส่งพิกัดมาได้เลย</a>
     </div>
-    <p style="margin:1.5rem 0 0;"><a href="/mobile-tire-repair" style="color:#ea580c;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:1rem;">เรียกช่างปะยางนอกสถานที่ 24 ชม. บางนา ศรีนครินทร์</a></p>
+    <p style="margin:1.5rem 0 0;"><a href="/mobile-tire-repair" style="color:#ea580c;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:1rem;">เรียกช่างปะยางนอกสถานที่ 24 ชม. ห้วยขวาง ดินแดง ลาดพร้าว</a></p>
     <p style="margin-top:0.75rem;"><a href="/battery-replacement" style="color:#0891b2;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:0.9rem;">เปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่ แบริ่ง ลาซาล บางนา →</a></p>
     <p style="margin-top:0.5rem;"><a href="/contact-us" style="color:#64748b;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:0.9rem;">ดูเบอร์โทรและช่องทางติดต่อช่างทั้งหมด →</a></p>
   </div>
@@ -274,7 +274,7 @@ const post = {
   </div>
 
   <div class="border rounded-xl p-4" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
-    <h3 class="text-lg font-bold mt-0" itemprop="name">Q: ช่าง FirstCarCenter มีบริการขายยางเส้นใหม่หน้างานไหม?</h3>
+    <h3 class="text-lg font-bold mt-0" itemprop="name">Q: ช่าง PORNPISIT BATTERY มีบริการขายยางเส้นใหม่หน้างานไหม?</h3>
     <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
       <p class="mb-0 text-slate-600" itemprop="text"><strong>A:</strong> เราให้บริการซ่อมฉุกเฉิน (First Aid) คือ ปะยางแบบแทงใยไหม และ <strong>ถอดเปลี่ยนยางอะไหล่ของรถลูกค้า</strong> ให้ครับ เราไม่ได้ขายยางเส้นใหม่ไปเปลี่ยนหน้างานครับ เนื่องจากยางมีสเปกและไซส์ที่หลากหลายมาก</p>
     </div>
@@ -283,7 +283,7 @@ const post = {
   <div class="border rounded-xl p-4" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
     <h3 class="text-lg font-bold mt-0" itemprop="name">Q: เรียกดึกๆ คืนวันสิ้นปี หรือสงกรานต์ ราคาแพงกว่าปกติไหม?</h3>
     <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
-      <p class="mb-0 text-slate-600" itemprop="text"><strong>A:</strong> ที่ FirstCarCenter เรา <strong>ไม่มีนโยบายบวกราคาเพิ่มช่วงเทศกาล</strong> ครับ! เราคิดค่าบริการนอกสถานที่ตามระยะทางจริงในราคามาตรฐาน และแอดมินจะแจ้งราคาสุทธิให้คุณทราบก่อนเสมอครับ</p>
+      <p class="mb-0 text-slate-600" itemprop="text"><strong>A:</strong> ที่ PORNPISIT BATTERY เรา <strong>ไม่มีนโยบายบวกราคาเพิ่มช่วงเทศกาล</strong> ครับ! เราคิดค่าบริการนอกสถานที่ตามระยะทางจริงในราคามาตรฐาน และแอดมินจะแจ้งราคาสุทธิให้คุณทราบก่อนเสมอครับ</p>
     </div>
   </div>
 

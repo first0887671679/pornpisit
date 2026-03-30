@@ -33,7 +33,7 @@ const defaultImages = [
   {
     src: "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?q=80&w=1600&auto=format&fit=crop",
     alt: "บริการถึงที่",
-    caption: "พร้อมออกให้บริการทุกพื้นที่ในกรุงเทพและปริมณฑล"
+    caption: "พร้อมออกให้บริการทุกพื้นที่ในห้วยขวาง ดินแดง ลาดพร้าว บางกะปิ บางเขน จตุจักร ดุสิต บางซื่อ"
   },
 ];
 
@@ -125,7 +125,7 @@ export default function Showcase({ images }: ShowcaseProps) {
 
         {/* Bottom CTA */}
         <div className="text-center mt-8 md:mt-12">
-          <p className="text-slate-400 text-xs sm:text-sm">ผลงานกว่า <span className="text-red-600 font-bold">1,000+</span> งานทั่วกรุงเทพและปริมณฑล</p>
+          <p className="text-slate-400 text-xs sm:text-sm">ผลงานกว่า <span className="text-red-600 font-bold">1,000+</span> งานทั่วห้วยขวาง ดินแดง ลาดพร้าว บางกะปิ บางเขน จตุจักร ดุสิต บางซื่อ</p>
         </div>
       </div>
     </section>

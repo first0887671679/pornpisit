@@ -1,11 +1,11 @@
-import { PrismaClient } from "@prisma/client";
+﻿import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
 
 const htmlContent = `<h1>ขัดสีรถราคา เท่าไหร่? ขัดลบรอยแบบไหนคุ้มสุด อัปเดตเรทราคา 2026</h1>
 <p>รถคันโปรดที่เคยเงางาม ขับไปขับมาแถว <strong>สุขุมวิท</strong> หรือ <strong>ศรีนครินทร์</strong> กลับเต็มไปด้วยรอยขนแมว รอยขูดขีดข่วน หรือรอยด่างจากคราบขี้นก (อ่านเพิ่มเติม: <a href="/blog/bird-poop-stain-removal-guide" class="text-orange-600 hover:underline">รอยขี้นกกัดสีรถ ล้างไม่ออก ทำไงดี?</a>) พอคิดจะเอารถไปเข้าคาร์แคร์เพื่อขัดสีฟื้นฟูสภาพ หลายคนก็เกิดคำถามยอดฮิตในใจว่า <strong>"ขัดสีรถราคาเท่าไหร่?"</strong> และ <strong>"ขัดแบบไหนถึงจะคุ้มค่าเงินที่สุด?"</strong></p>
 
-<p>วันนี้ช่างจาก FIRSTCARCENTER จะมาเปิดเรทราคาค่าบริการขัดสีรถแบบหมดเปลือก พร้อมอธิบายให้เข้าใจง่ายๆ ว่าการขัดสีรถแต่ละระดับแตกต่างกันอย่างไร เพื่อให้คุณเลือกบริการได้ตอบโจทย์สภาพรถและงบประมาณในกระเป๋าครับ</p>
+<p>วันนี้ช่างจาก PORNPISIT BATTERY จะมาเปิดเรทราคาค่าบริการขัดสีรถแบบหมดเปลือก พร้อมอธิบายให้เข้าใจง่ายๆ ว่าการขัดสีรถแต่ละระดับแตกต่างกันอย่างไร เพื่อให้คุณเลือกบริการได้ตอบโจทย์สภาพรถและงบประมาณในกระเป๋าครับ</p>
 
 <img src="/images/blog/pig-car-polishing-cost-cover.svg" alt="ขัดสีรถราคา เท่าไหร่ ขัดลบรอย ศรีนครินทร์ บางนา แบริ่ง" class="rounded-xl my-6 w-full object-cover shadow-sm" />
 <p class="text-sm text-center text-slate-500 mt-2"><em>ภาพ: การขัดสีรถเต็มระบบด้วยเครื่อง Dual Action เพื่อลบรอยขนแมวและดึงความเงางามของสีรถกลับคืนมา</em></p>
@@ -48,7 +48,7 @@ const htmlContent = `<h1>ขัดสีรถราคา เท่าไหร
   <div itemprop="mainEntity" itemscope itemtype="https://schema.org/Question" class="bg-white p-4 rounded-lg border border-slate-200 shadow-sm hover:shadow-md transition-shadow">
     <h3 itemprop="name" class="text-lg font-bold text-slate-800 m-0">มีบริการขัดสีรถถึงบ้าน (นอกสถานที่) ไหม?</h3>
     <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer" class="mt-2 text-slate-600">
-      <p itemprop="text" class="m-0">FIRSTCARCENTER มีบริการขัดสีรถลบรอยเฉพาะจุด และขัดล้างไฟหน้า นอกสถานที่ครับ หากรถคุณโดนเฉี่ยวชนเบาๆ หรือไฟหน้าเหลือง สามารถเรียกช่างไปจัดการให้ที่บ้านได้เลย ประหยัดเวลา ไม่ต้องขับรถมาทิ้งไว้ที่อู่ครับ</p>
+      <p itemprop="text" class="m-0">PORNPISIT BATTERY มีบริการขัดสีรถลบรอยเฉพาะจุด และขัดล้างไฟหน้า นอกสถานที่ครับ หากรถคุณโดนเฉี่ยวชนเบาๆ หรือไฟหน้าเหลือง สามารถเรียกช่างไปจัดการให้ที่บ้านได้เลย ประหยัดเวลา ไม่ต้องขับรถมาทิ้งไว้ที่อู่ครับ</p>
     </div>
   </div>
 </div>
@@ -57,14 +57,14 @@ const htmlContent = `<h1>ขัดสีรถราคา เท่าไหร
   <div class="absolute top-0 right-0 -mt-4 -mr-4 w-24 h-24 bg-gradient-to-br from-[#FF6B00] to-[#FF3E00] rounded-full opacity-20 blur-2xl"></div>
   <div class="absolute bottom-0 left-0 -mb-4 -ml-4 w-24 h-24 bg-gradient-to-br from-[#00F2FE] to-[#4FACFE] rounded-full opacity-20 blur-2xl"></div>
   <div class="relative z-10">
-    <h2 class="text-2xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-slate-800 to-slate-600 dark:from-white dark:to-slate-300 mb-4">รถมีรอยขนแมว รอยขูดขีด? ปรึกษาช่าง FIRSTCARCENTER ฟรี!</h2>
+    <h2 class="text-2xl md:text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-slate-800 to-slate-600 dark:from-white dark:to-slate-300 mb-4">รถมีรอยขนแมว รอยขูดขีด? ปรึกษาช่าง PORNPISIT BATTERY ฟรี!</h2>
     <p class="text-slate-600 dark:text-slate-400 mb-8 max-w-2xl mx-auto text-lg leading-relaxed">หากรถของคุณมีรอยขีดข่วนแล้วไม่แน่ใจว่าต้องขัดสีแบบไหน หรืออยากเช็ก <strong>ขัดสีรถราคา</strong> แบบชัดเจนไม่บานปลาย ส่งรูปมาให้ช่างประเมินได้เลยครับ! เรามีบริการ <a href="/car-polishing" class="text-orange-600 hover:underline">ขัดสีลบรอยและฟื้นฟูสภาพสีรถ</a> ด้วยน้ำยาขัดสีพรีเมียมจากอเมริกา บริการทั้งในศูนย์และนอกสถานที่ ครอบคลุมลูกค้าโซน ศรีนครินทร์, บางนา, แบริ่ง, ลาซาล, สุขุมวิท, เทพารักษ์, ซอยวัดหนามแดง, แพรกษา และ สมุทรปราการ</p>
     <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
-      <a href="tel:0887671679" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-gradient-to-r from-[#FF6B00] to-[#FF3E00] hover:from-[#E65A00] hover:to-[#E63500] text-white font-bold py-3.5 px-8 rounded-full shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300">
+      <a href="tel:0996731296" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-gradient-to-r from-[#FF6B00] to-[#FF3E00] hover:from-[#E65A00] hover:to-[#E63500] text-white font-bold py-3.5 px-8 rounded-full shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-        <span>โทรปรึกษาช่าง 088-767-1679</span>
+        <span>โทรปรึกษาช่าง 099-673-1296</span>
       </a>
-      <a href="https://lin.ee/xxqKaZn" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-gradient-to-r from-[#00c300] to-[#00a800] hover:from-[#00b300] hover:to-[#009900] text-white font-bold py-3.5 px-8 rounded-full shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300">
+      <a href="https://lin.ee/OBB86S4" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center gap-3 bg-gradient-to-r from-[#00c300] to-[#00a800] hover:from-[#00b300] hover:to-[#009900] text-white font-bold py-3.5 px-8 rounded-full shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path d="M24 10.304c0-5.369-5.383-9.738-12-9.738-6.616 0-12 4.369-12 9.738 0 4.814 4.269 8.846 10.036 9.608.391.084.922.258 1.057.592.122.303.079.778.039 1.085l-.171 1.027c-.053.303-.242 1.186 1.039.647 1.281-.54 6.911-4.069 9.428-6.967 1.739-1.907 2.572-4.103 2.572-6.002z"/></svg>
         <span>แอดไลน์ ส่งรูปรอยรถมาตีราคาฟรี</span>
       </a>
@@ -81,7 +81,7 @@ const postData = {
   category: "เคล็ดลับดูแลรถยนต์",
   tags: "ขัดสีรถราคา,ขัดสีรถยนต์,ขัดลบรอยขีดข่วน,ขัดลบรอยขนแมว,ร้านขัดสีรถ,ขัดสีรถเต็มระบบ,ขัดเคลือบเงา,ศรีนครินทร์,บางนา,แบริ่ง,ลาซาล,สมุทรปราการ",
   published: true,
-  author: "FIRSTCARCENTER",
+  author: "PORNPISIT BATTERY",
   seoTitle: "ขัดสีรถราคา เท่าไหร่? เช็กเรทขัดลบรอยขนแมว อัปเดต 2026",
   seoDescription: "อยากลบรอยขีดข่วน เช็กเลย! ขัดสีรถราคา เท่าไหร่? เทียบราคาขัดเคลือบเงา ขัดเฉพาะจุด และขัดเต็มระบบ แบบไหนคุ้มสุด พร้อมบริการขัดสีรถ ศรีนครินทร์ บางนา แบริ่ง",
   seoKeywords: "ขัดสีรถราคา,ขัดลบรอยรถยนต์ ราคา,ขัดลบรอยขนแมว,ร้านขัดสีรถใกล้ฉัน,ขัดสีรถเต็มระบบ ราคา,รับขัดสีรถนอกสถานที่,เคลือบแก้วราคา,ศรีนครินทร์,บางนา,แบริ่ง,ลาซาล,สุขุมวิท,เทพารักษ์,แพรกษา,สมุทรปราการ",

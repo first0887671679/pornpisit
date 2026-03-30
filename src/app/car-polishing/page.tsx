@@ -7,7 +7,7 @@ export const revalidate = 60;
 
 const SLUG = "car-polishing";
 const FALLBACK_TITLE = "รับขัดสีรถยนต์ ขัดไฟหน้านอกสถานที่ ถึงบ้านคุณ สุขุมวิท บางนา";
-const FALLBACK_DESC = "บริการขัดสีรถลบรอย ขัดไฟหน้าเหลืองให้ใสปิ๊ง นอกสถานที่ ไม่ต้องทิ้งรถไว้ที่ร้าน สะดวกสบาย บริการถึงบ้านย่านบางนา ศรีนครินทร์ แบริ่ง ลาซาล";
+const FALLBACK_DESC = "บริการขัดสีรถลบรอย ขัดไฟหน้าเหลืองให้ใสปิ๊ง นอกสถานที่ ไม่ต้องทิ้งรถไว้ที่ร้าน สะดวกสบาย บริการถึงบ้านย่านห้วยขวาง ดินแดง ลาดพร้าว แบริ่ง ลาซาล";
 
 export async function generateMetadata(): Promise<Metadata> {
   await ensureServicePages();

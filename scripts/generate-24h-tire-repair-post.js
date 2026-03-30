@@ -1,4 +1,4 @@
-const fs = require('fs');
+﻿const fs = require('fs');
 const path = require('path');
 const Database = require('better-sqlite3');
 
@@ -143,13 +143,13 @@ const coverSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630"
     <text x="0" y="95" font-size="52" font-weight="800" fill="#FFFFFF">ดึกแค่ไหนก็ไปถึง!</text>
 
     <rect x="0" y="140" width="8" height="30" rx="4" fill="url(#primary-grad)"/>
-    <text x="24" y="164" font-size="26" font-weight="600" fill="#94A3B8">รีวิวช่วยลูกค้าตี 2 โซนบางนา ศรีนครินทร์</text>
+    <text x="24" y="164" font-size="26" font-weight="600" fill="#94A3B8">รีวิวช่วยลูกค้าตี 2 โซนห้วยขวาง ดินแดง ลาดพร้าว</text>
   </g>
 
   <use href="#pig-mascot" x="900" y="340" transform="scale(1.4) translate(-250, -100)"/>
 
   <rect x="40" y="580" width="200" height="30" rx="4" fill="url(#primary-grad)"/>
-  <text x="140" y="602" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">FIRSTCARCENTER</text>
+  <text x="140" y="602" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">PORNPISIT BATTERY</text>
 </svg>`;
 
 const inline1Svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
@@ -198,7 +198,7 @@ const post = {
   category: "ช่วยเหลือฉุกเฉิน",
   tags: "ร้านปะยาง 24 ชม,ปะยางนอกสถานที่,ยางแตกกลางดึก,เปลี่ยนยางอะไหล่,ร้านปะยางใกล้ฉัน,สมุทรปราการ,บางนา",
   published: 1,
-  author: "FIRSTCARCENTER",
+  author: "PORNPISIT BATTERY",
   seoTitle: "ร้านปะยาง 24 ชม. ปะยางนอกสถานที่ ถึงไว 30 นาที โซนบางนา",
   seoDescription: "ยางแตกกลางดึก หา ร้านปะยาง 24 ชม. ใกล้ฉัน? อ่านเคสรีวิวช่างปะยางนอกสถานที่ โซนศรีนครินทร์ บางนา แบริ่ง เทพารักษ์ ถึงหน้างานไวใน 30 นาที",
   seoKeywords: "ร้านปะยาง 24 ชม, ปะยางนอกสถานที่ 24 ชม, ยางแตกกลางคืน, ปะยางรถยนต์ บางนา, เปลี่ยนยางอะไหล่",
@@ -206,7 +206,7 @@ const post = {
   ogDescription: "รีวิวเคสจริง ช่างออกปะยางนอกสถานที่กลางดึก โซนศรีนครินทร์-บางนา ถึงไว ไม่ทิ้งให้ลูกค้ารอเก้อ",
   coverImage: "/images/blog/pig-24h-tire-repair-cover.svg",
   content: `
-<p class="lead">การที่ยางรถยนต์มารั่วหรือแตกตอนกลางวันว่าแย่แล้ว แต่ถ้ามาเกิดเหตุตอนกลางคืน ดึกๆ ดื่นๆ ยิ่งชวนให้ใจเสียครับ หลายคนไม่รู้จะพึ่งใคร เพราะอู่และศูนย์บริการก็ปิดหมดแล้ว การหา <strong>ร้านปะยาง 24 ชม.</strong> ที่ไว้ใจได้และมาจริง จึงสำคัญมาก วันนี้ <strong>FirstCarCenter</strong> จะมาแชร์ประสบการณ์ตรงจากการออกช่วยเหลือลูกค้ายางแตกยามวิกาล ในย่าน <strong>บางนา ศรีนครินทร์ เทพารักษ์ แบริ่ง ลาซาล สมุทรปราการ</strong> เพื่อให้คุณรู้ว่า ดึกแค่ไหน เราก็ไม่ทิ้งคุณครับ</p>
+<p class="lead">การที่ยางรถยนต์มารั่วหรือแตกตอนกลางวันว่าแย่แล้ว แต่ถ้ามาเกิดเหตุตอนกลางคืน ดึกๆ ดื่นๆ ยิ่งชวนให้ใจเสียครับ หลายคนไม่รู้จะพึ่งใคร เพราะอู่และศูนย์บริการก็ปิดหมดแล้ว การหา <strong>ร้านปะยาง 24 ชม.</strong> ที่ไว้ใจได้และมาจริง จึงสำคัญมาก วันนี้ <strong>PORNPISIT BATTERY</strong> จะมาแชร์ประสบการณ์ตรงจากการออกช่วยเหลือลูกค้ายางแตกยามวิกาล ในย่าน <strong>ห้วยขวาง ดินแดง ลาดพร้าว เทพารักษ์ แบริ่ง ลาซาล สมุทรปราการ</strong> เพื่อให้คุณรู้ว่า ดึกแค่ไหน เราก็ไม่ทิ้งคุณครับ</p>
 
 <h2>ยางแตกกลางดึก ทำอย่างไรก่อนที่ช่างจะมา?</h2>
 <p>ก่อนที่ทีมงาน <strong>ร้านปะยาง 24 ชม.</strong> จะไปถึง สิ่งสำคัญที่สุดคือ "ความปลอดภัย" ของตัวคุณเองครับ ถ้าเกิดเหตุยางแตกกลางคืน ให้ทำตามขั้นตอนนี้ทันที:</p>
@@ -214,7 +214,7 @@ const post = {
   <li><strong>ประคองรถเข้าข้างทาง:</strong> เปิดไฟเลี้ยวซ้าย ค่อยๆ เหยียบเบรกประคองรถเข้าจอดไหล่ทาง <strong>อย่าเบรกกะทันหัน</strong> เพราะรถอาจเสียการทรงตัว</li>
   <li><strong>เปิดไฟฉุกเฉิน:</strong> ทันทีที่รถจอดสนิท เพื่อให้รถคันหลังสังเกตเห็นแต่ไกล</li>
   <li><strong>อย่ายืนท้ายรถ:</strong> ให้อยู่ในรถ ล็อคประตู หรือถ้าจะลงมายืน ให้ยืนหลบอยู่บนฟุตบาทหรือหลังแบริเออร์</li>
-  <li><strong>ตั้งสติแล้วโทรเรียกช่าง:</strong> โทรหา FirstCarCenter แจ้งพิกัดที่ชัดเจน (เช่น หน้าปั๊ม ปากซอย หรือส่ง Location ทาง Line)</li>
+  <li><strong>ตั้งสติแล้วโทรเรียกช่าง:</strong> โทรหา PORNPISIT BATTERY แจ้งพิกัดที่ชัดเจน (เช่น หน้าปั๊ม ปากซอย หรือส่ง Location ทาง Line)</li>
 </ol>
 
 <div class="my-8 rounded-2xl overflow-hidden shadow-lg border border-slate-100">
@@ -246,7 +246,7 @@ const post = {
   <img src="/images/blog/24h-tire-repair-case3.svg" alt="ช่างปะยางนอกสถานที่แบบแทงใยไหม ยางรถยุโรป คอนโดซอยแบริ่ง" class="w-full h-auto object-cover m-0" />
 </div>
 
-<h2>ทำไมลูกค้าถึงเลือก ร้านปะยาง 24 ชม. FirstCarCenter?</h2>
+<h2>ทำไมลูกค้าถึงเลือก ร้านปะยาง 24 ชม. PORNPISIT BATTERY?</h2>
 <ul>
   <li><strong>มอเตอร์ไซค์เคลื่อนที่เร็ว:</strong> รถติด หรือซอยแคบอย่าง <strong>ซอยวัดหนามแดง หรือ แพรกษา</strong> เราก็มุดไปถึงได้ไวกว่ารถกระบะ</li>
   <li><strong>เปิด 24 ชั่วโมงจริงๆ:</strong> โทรมาตอนไหนก็มีคนรับสาย มีช่างสแตนด์บายออกวิ่งทันที</li>
@@ -260,13 +260,13 @@ const post = {
   <div style="position:relative;">
     <span style="display:inline-flex;align-items:center;gap:0.5rem;background:rgba(255,255,255,0.9);border:1px solid #fed7aa;border-radius:9999px;padding:0.5rem 1.25rem;font-size:0.875rem;font-weight:600;color:#ea580c;box-shadow:0 1px 3px rgba(0,0,0,0.06);">📞 บริการ 24 ชม. ถึงที่ทันที</span>
     <h3 style="margin:1.5rem auto 0;max-width:600px;font-size:1.75rem;font-weight:900;line-height:1.3;color:#1e293b;">ยางแตก ยางรั่ว กลางดึก? เรียกช่างปะยางด่วน!</h3>
-    <p style="margin:1rem auto 0;max-width:520px;font-size:1rem;line-height:1.7;color:#64748b;">ทีมช่างมอเตอร์ไซค์พร้อมชุดปะยาง วิ่งไปช่วยเหลือถึงหน้างานภายใน 30 นาที โซนบางนา ศรีนครินทร์ เทพารักษ์ สมุทรปราการ</p>
+    <p style="margin:1rem auto 0;max-width:520px;font-size:1rem;line-height:1.7;color:#64748b;">ทีมช่างมอเตอร์ไซค์พร้อมชุดปะยาง วิ่งไปช่วยเหลือถึงหน้างานภายใน 30 นาที โซนห้วยขวาง ดินแดง ลาดพร้าว เทพารักษ์ สมุทรปราการ</p>
     <div style="margin-top:2rem;display:flex;flex-wrap:wrap;justify-content:center;gap:1rem;">
-      <a href="tel:0887671679" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:linear-gradient(to right,#f97316,#ef4444);color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(249,115,22,0.7);">📞 โทรเรียกช่าง 088-767-1679</a>
-      <a href="https://lin.ee/xxqKaZn" target="_blank" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:#06C755;color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(6,199,85,0.7);">💬 แอดไลน์ ส่ง Location ด่วน</a>
+      <a href="tel:0996731296" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:linear-gradient(to right,#f97316,#ef4444);color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(249,115,22,0.7);">📞 โทรเรียกช่าง 099-673-1296</a>
+      <a href="https://lin.ee/OBB86S4" target="_blank" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:#06C755;color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(6,199,85,0.7);">💬 แอดไลน์ ส่ง Location ด่วน</a>
     </div>
-    <p style="margin-top:1.5rem;"><a href="/mobile-tire-repair" style="color:#ea580c;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:1rem;">บริการปะยางด่วน 24 ชม. เทพารักษ์ บางนา ศรีนครินทร์</a></p>
-    <p style="margin-top:0.75rem;"><a href="/battery-replacement" style="color:#0891b2;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:0.9rem;">เปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่ บางนา ศรีนครินทร์ →</a></p>
+    <p style="margin-top:1.5rem;"><a href="/mobile-tire-repair" style="color:#ea580c;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:1rem;">บริการปะยางด่วน 24 ชม. เทพารักษ์ ห้วยขวาง ดินแดง ลาดพร้าว</a></p>
+    <p style="margin-top:0.75rem;"><a href="/battery-replacement" style="color:#0891b2;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:0.9rem;">เปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่ ห้วยขวาง ดินแดง ลาดพร้าว →</a></p>
     <p style="margin-top:0.5rem;"><a href="/contact-us" style="color:#64748b;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:0.9rem;">ดูเบอร์โทรและช่องทางติดต่อช่างทั้งหมด →</a></p>
   </div>
 </div>

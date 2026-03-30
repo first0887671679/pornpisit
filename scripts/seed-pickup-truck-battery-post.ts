@@ -1,11 +1,11 @@
-import { PrismaClient } from "@prisma/client";
+﻿import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
 
 const htmlContent = `<h1>แบตเตอรี่รถกระบะ เลือกกี่แอมป์ ยี่ห้อไหนดี? รีวิวเปลี่ยนแบตหน้างานจริง</h1>
 <p>ถ้าพูดถึงรถที่ใช้งานหนักที่สุดในไทย คงหนีไม่พ้น "รถกระบะ" ไม่ว่าจะเป็นการบรรทุกของหนัก วิ่งงานส่งของ หรือใช้เป็นรถครอบครัวเดินทางไกล สิ่งที่รับภาระหนักไม่แพ้เครื่องยนต์ก็คือ <strong>แบตเตอรี่รถกระบะ</strong> นั่นเองครับ หลายคนที่ใช้รถกระบะแถว <strong>ศรีนครินทร์ บางนา แบริ่ง ลาซาล หรือเทพารักษ์</strong> มักจะมีคำถามว่า "รถกระบะควรใช้แบตกี่แอมป์?" หรือ "เปลี่ยนแบตยี่ห้อไหนถึงจะทนและคุ้มที่สุด?"</p>
 
-<p>วันนี้ช่างจาก FIRSTCARCENTER จะมาแชร์ <strong>Case Study จากงานเปลี่ยนแบตหน้างานจริง</strong> เพื่อให้เป็นข้อมูลประกอบการตัดสินใจ เลือกลูกใหม่ให้เหมาะกับการใช้งาน ไม่ต้องเสียเงินเปลี่ยนบ่อยๆ และไม่ต้องปวดหัวกับปัญหารถสตาร์ทไม่ติดกลางทางครับ</p>
+<p>วันนี้ช่างจาก PORNPISIT BATTERY จะมาแชร์ <strong>Case Study จากงานเปลี่ยนแบตหน้างานจริง</strong> เพื่อให้เป็นข้อมูลประกอบการตัดสินใจ เลือกลูกใหม่ให้เหมาะกับการใช้งาน ไม่ต้องเสียเงินเปลี่ยนบ่อยๆ และไม่ต้องปวดหัวกับปัญหารถสตาร์ทไม่ติดกลางทางครับ</p>
 
 <img src="/images/blog/pig-pickup-battery-cover.svg" alt="แบตเตอรี่รถกระบะ เปลี่ยนแบตเตอรี่ ศรีนครินทร์ บางนา แบริ่ง ลาซาล" class="rounded-xl my-6 w-full object-cover shadow-sm" />
 <p class="text-sm text-center text-slate-500 mt-2"><em>ภาพ: รถกระบะต้องการกำลังสตาร์ทสูง การเลือกแบตเตอรี่ให้ตรงสเปกจึงสำคัญมาก</em></p>
@@ -54,13 +54,13 @@ const htmlContent = `<h1>แบตเตอรี่รถกระบะ เล
       <span>ส่งฟรี เปลี่ยนฟรี เช็กระบบไฟฟรี</span>
     </div>
     <h3 class="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-800 dark:text-white mb-3 leading-tight">แบตกระบะหมด? สตาร์ทไม่ติด? โทรหาเราด่วน</h3>
-    <p class="text-slate-600 dark:text-slate-300 mb-6 sm:mb-8 text-sm sm:text-base md:text-lg leading-relaxed">FIRSTCARCENTER มีแบตเตอรี่รถกระบะทุกรุ่น รองรับการใช้งานหนัก บริการเปลี่ยนถึงที่ ศรีนครินทร์ บางนา แบริ่ง ลาซาล เทพารักษ์ แพรกษา สมุทรปราการ</p>
+    <p class="text-slate-600 dark:text-slate-300 mb-6 sm:mb-8 text-sm sm:text-base md:text-lg leading-relaxed">PORNPISIT BATTERY มีแบตเตอรี่รถกระบะทุกรุ่น รองรับการใช้งานหนัก บริการเปลี่ยนถึงที่ ศรีนครินทร์ บางนา แบริ่ง ลาซาล เทพารักษ์ แพรกษา สมุทรปราการ</p>
     <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center">
-      <a href="tel:0887671679" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 text-white font-bold py-3 sm:py-3.5 px-6 sm:px-8 rounded-full shadow-lg shadow-amber-500/25 hover:shadow-xl hover:shadow-amber-500/30 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 text-sm sm:text-base">
+      <a href="tel:0996731296" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 text-white font-bold py-3 sm:py-3.5 px-6 sm:px-8 rounded-full shadow-lg shadow-amber-500/25 hover:shadow-xl hover:shadow-amber-500/30 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 text-sm sm:text-base">
         <svg class="w-5 h-5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
-        <span>โทรเช็กราคาแบต 088-767-1679</span>
+        <span>โทรเช็กราคาแบต 099-673-1296</span>
       </a>
-      <a href="https://lin.ee/xxqKaZn" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold py-3 sm:py-3.5 px-6 sm:px-8 rounded-full shadow-lg shadow-green-500/25 hover:shadow-xl hover:shadow-green-500/30 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 text-sm sm:text-base">
+      <a href="https://lin.ee/OBB86S4" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold py-3 sm:py-3.5 px-6 sm:px-8 rounded-full shadow-lg shadow-green-500/25 hover:shadow-xl hover:shadow-green-500/30 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 text-sm sm:text-base">
         <svg class="w-5 h-5 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24"><path d="M24 10.304c0-5.369-5.383-9.738-12-9.738-6.616 0-12 4.369-12 9.738 0 4.814 4.269 8.846 10.036 9.608.391.084.922.258 1.057.592.122.303.079.778.039 1.085l-.171 1.027c-.053.303-.242 1.186 1.039.647 1.281-.54 6.911-4.069 9.428-6.967 1.739-1.907 2.572-4.103 2.572-6.002z"/></svg>
         <span>ส่งรูปรถประเมินราคาทาง Line</span>
       </a>
@@ -81,7 +81,7 @@ const htmlContent = `<h1>แบตเตอรี่รถกระบะ เล
   </div>
   <div>
     <h3 class="text-lg font-bold text-slate-800 dark:text-white m-0">Q: รถกระบะแบตหมด เปลี่ยนแบตนอกสถานที่แถวสมุทรปราการ คิดค่าบริการไหม?</h3>
-    <p class="text-slate-600 dark:text-slate-300 mt-2"><strong>A:</strong> FIRSTCARCENTER ให้บริการจัดส่งและเปลี่ยนฟรีในพื้นที่ ศรีนครินทร์ บางนา แบริ่ง ลาซาล เทพารักษ์ แพรกษา และสมุทรปราการ พร้อมเช็กไดชาร์จให้ฟรีครับ</p>
+    <p class="text-slate-600 dark:text-slate-300 mt-2"><strong>A:</strong> PORNPISIT BATTERY ให้บริการจัดส่งและเปลี่ยนฟรีในพื้นที่ ศรีนครินทร์ บางนา แบริ่ง ลาซาล เทพารักษ์ แพรกษา และสมุทรปราการ พร้อมเช็กไดชาร์จให้ฟรีครับ</p>
   </div>
 </div>
 
@@ -111,7 +111,7 @@ const htmlContent = `<h1>แบตเตอรี่รถกระบะ เล
       "name": "รถกระบะแบตหมด เปลี่ยนแบตนอกสถานที่แถวสมุทรปราการ คิดค่าบริการไหม?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "FIRSTCARCENTER ให้บริการจัดส่งและเปลี่ยนฟรีในพื้นที่ ศรีนครินทร์ บางนา แบริ่ง ลาซาล เทพารักษ์ แพรกษา และสมุทรปราการ พร้อมเช็กไดชาร์จให้ฟรีครับ"
+        "text": "PORNPISIT BATTERY ให้บริการจัดส่งและเปลี่ยนฟรีในพื้นที่ ศรีนครินทร์ บางนา แบริ่ง ลาซาล เทพารักษ์ แพรกษา และสมุทรปราการ พร้อมเช็กไดชาร์จให้ฟรีครับ"
       }
     }
   ]
@@ -127,7 +127,7 @@ const postData = {
   coverImage: "/images/blog/pig-pickup-battery-cover.svg",
   category: "แบตเตอรี่รถยนต์",
   published: true,
-  seoTitle: "แบตเตอรี่รถกระบะ เลือกกี่แอมป์ ยี่ห้อไหนดี ทนทานสุด | FIRSTCARCENTER",
+  seoTitle: "แบตเตอรี่รถกระบะ เลือกกี่แอมป์ ยี่ห้อไหนดี ทนทานสุด | PORNPISIT BATTERY",
   seoDescription: "แบตเตอรี่รถกระบะกี่แอมป์ ยี่ห้อไหนดี? รีวิวเปลี่ยนแบตกระบะใช้งานหนัก พร้อมบริการเปลี่ยนนอกสถานที่ ศรีนครินทร์ บางนา แบริ่ง ลาซาล เทพารักษ์ สมุทรปราการ",
   seoKeywords: "แบตเตอรี่รถกระบะ,แบตเตอรี่รถกระบะกี่แอมป์,ราคาเปลี่ยนแบตเตอรี่รถยนต์,แบตเตอรี่กึ่งแห้ง,แบตเตอรี่รถกระบะยี่ห้อไหนดี,เปลี่ยนแบตเตอรี่นอกสถานที่,ศรีนครินทร์,บางนา,แบริ่ง,ลาซาล,สุขุมวิท,เทพารักษ์,แพรกษา,สมุทรปราการ",
   ogTitle: "แบตเตอรี่รถกระบะ เลือกแบบไหนให้ทนทาน ลุยงานหนักได้",

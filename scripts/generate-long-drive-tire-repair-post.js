@@ -1,4 +1,4 @@
-const fs = require('fs');
+﻿const fs = require('fs');
 const path = require('path');
 const Database = require('better-sqlite3');
 
@@ -151,7 +151,7 @@ const coverSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630"
   <use href="#pig-mascot" x="900" y="340" transform="scale(1.4) translate(-250, -100)"/>
 
   <rect x="40" y="580" width="200" height="30" rx="4" fill="url(#primary-grad)"/>
-  <text x="140" y="602" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">FIRSTCARCENTER</text>
+  <text x="140" y="602" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">PORNPISIT BATTERY</text>
 </svg>`;
 
 const inline1Svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
@@ -200,15 +200,15 @@ const post = {
   category: "ช่วยเหลือฉุกเฉิน",
   tags: "ปะยางฉุกเฉินเดินทางไกล,ปะยางนอกสถานที่,เปลี่ยนยางอะไหล่,ยางแตกกลางคืน,ร้านปะยาง 24 ชม,สมุทรปราการ,บางนา",
   published: 1,
-  author: "FIRSTCARCENTER",
+  author: "PORNPISIT BATTERY",
   seoTitle: "ปะยางฉุกเฉินเดินทางไกล ยางแตกกลางดึก เรียกช่าง โซนบางนา",
   seoDescription: "ปะยางฉุกเฉินเดินทางไกล ยางแตก ยางรั่ว กลางคืน หาร้านซ่อมไม่ได้ โทรหาเรา! รีวิวช่างปะยางนอกสถานที่และเปลี่ยนยางอะไหล่ 24 ชม. โซนศรีนครินทร์ บางนา เทพารักษ์",
   seoKeywords: "ปะยางฉุกเฉินเดินทางไกล, ร้านปะยาง 24 ชม, ปะยางนอกสถานที่, เปลี่ยนยางอะไหล่กลางคืน, ยางแตกระหว่างเดินทาง",
   ogTitle: "ปะยางฉุกเฉินเดินทางไกล ยางแตกดึกแค่ไหนก็ไปช่วย!",
-  ogDescription: "แชร์ประสบการณ์ตรง ยางแตกกลางทางตอนดึก หาร้านปะยางไม่ได้ เรียกช่าง FirstCarCenter ไปช่วยถึงที่",
+  ogDescription: "แชร์ประสบการณ์ตรง ยางแตกกลางทางตอนดึก หาร้านปะยางไม่ได้ เรียกช่าง PORNPISIT BATTERY ไปช่วยถึงที่",
   coverImage: "/images/blog/pig-long-drive-tire-repair-cover.svg",
   content: `
-<p class="lead">การขับรถเดินทางไกลในตอนกลางคืน เป็นสิ่งที่หลายคนชอบเพราะรถไม่ติดและอากาศไม่ร้อน แต่ความเสี่ยงที่ตามมาคือ ถ้าเกิดอุบัติเหตุ <strong>ยางแตกหรือยางรั่ว</strong> ขึ้นมา การหาอู่หรือร้านปะยางแทบจะเป็นไปไม่ได้เลยครับ! การมองหาบริการ <strong>ปะยางฉุกเฉินเดินทางไกล</strong> จึงเป็นทางรอดเดียว วันนี้ <strong>FirstCarCenter</strong> จะมาแชร์วิธีเอาตัวรอดเมื่อยางแตกตอนดึก และเล่าเคสรีวิวที่เราออกไปช่วยเหลือลูกค้ากลางทางในโซน <strong>บางนา ศรีนครินทร์ เทพารักษ์ สมุทรปราการ</strong> ครับ</p>
+<p class="lead">การขับรถเดินทางไกลในตอนกลางคืน เป็นสิ่งที่หลายคนชอบเพราะรถไม่ติดและอากาศไม่ร้อน แต่ความเสี่ยงที่ตามมาคือ ถ้าเกิดอุบัติเหตุ <strong>ยางแตกหรือยางรั่ว</strong> ขึ้นมา การหาอู่หรือร้านปะยางแทบจะเป็นไปไม่ได้เลยครับ! การมองหาบริการ <strong>ปะยางฉุกเฉินเดินทางไกล</strong> จึงเป็นทางรอดเดียว วันนี้ <strong>PORNPISIT BATTERY</strong> จะมาแชร์วิธีเอาตัวรอดเมื่อยางแตกตอนดึก และเล่าเคสรีวิวที่เราออกไปช่วยเหลือลูกค้ากลางทางในโซน <strong>ห้วยขวาง ดินแดง ลาดพร้าว เทพารักษ์ สมุทรปราการ</strong> ครับ</p>
 
 <h2>เดินทางไกลตอนกลางคืน ยางแตก! ต้องทำยังไงให้ปลอดภัย?</h2>
 <p>ถ้าคุณกำลังขับรถอยู่ดีๆ แล้วยางเกิดระเบิดหรือรั่วจนพวงมาลัยส่าย <strong>นี่คือกฎเหล็กเพื่อความปลอดภัย:</strong></p>
@@ -226,7 +226,7 @@ const post = {
 <h2>Case Study 1: โดนน็อตตำ ยางรั่วลมออกหมด ถนนศรีนครินทร์ (ตี 2)</h2>
 <p>ลูกค้ากำลังขับรถมุ่งหน้าไปชลบุรี ใช้เส้นทาง <strong>ถนนศรีนครินทร์</strong> ตอนตี 2 กว่าๆ รู้สึกว่ารถมีเสียงดังกึกๆๆ ที่ล้อหลังซ้าย พอจอดรถดูพบว่ายางแบนติดพื้น มีหัวน็อตตัวใหญ่ปักอยู่ที่หน้ายาง</p>
 
-<p>ลูกค้าเสิร์ชหา <strong>ปะยาง 24 ชม</strong> และโทรหาเรา ช่างมอเตอร์ไซค์ของ FirstCarCenter รีบวิ่งไปถึงจุดเกิดเหตุภายใน 15 นาที พร้อมไฟฉายแรงสูงและอุปกรณ์ปะยาง</p>
+<p>ลูกค้าเสิร์ชหา <strong>ปะยาง 24 ชม</strong> และโทรหาเรา ช่างมอเตอร์ไซค์ของ PORNPISIT BATTERY รีบวิ่งไปถึงจุดเกิดเหตุภายใน 15 นาที พร้อมไฟฉายแรงสูงและอุปกรณ์ปะยาง</p>
 
 <p>ช่างประเมินแล้วว่าแผลอยู่ที่หน้ายาง (ดอกยาง) สามารถ <strong>ปะแบบแทงใยไหม</strong> ได้ ช่างทำการดึงน็อตออก แทงไหมอุดรอยรั่ว ตัดแต่งไหมให้เรียบ และใช้ปั๊มลมพกพาเติมลมกลับเข้าไปเช็กจุดรั่วซึม ใช้เวลาเพียง 15 นาที ลูกค้าก็สามารถขับรถเดินทางไกลไปชลบุรีต่อได้อย่างปลอดภัยครับ</p>
 
@@ -245,8 +245,8 @@ const post = {
   <img src="/images/blog/long-drive-tire-case3.svg" alt="เปลี่ยนยางอะไหล่ ลูกค้าเดินทางต่อได้อย่างปลอดภัย ปั๊มน้ำมันใกล้แยกเทพารักษ์" class="w-full h-auto object-cover m-0" />
 </div>
 
-<h2>ต้องการ ปะยางฉุกเฉินเดินทางไกล โทรหา FirstCarCenter!</h2>
-<p>อุบัติเหตุเกิดขึ้นได้เสมอ โดยเฉพาะการเดินทางไกลตอนกลางคืน หากคุณรถยางแตก ยางรั่ว หาร้านซ่อมไม่ได้ ในเขต <strong>บางนา ศรีนครินทร์ แบริ่ง ลาซาล เทพารักษ์ แพรกษา สมุทรปราการ</strong> อย่าลังเลที่จะโทรหา <strong>FirstCarCenter</strong> ครับ! เราเปิดบริการ 24 ชั่วโมง มีทีมช่างมอเตอร์ไซค์พร้อมเครื่องมือครบครัน วิ่งไปปะยางแทงใยไหม หรือถอดเปลี่ยนยางอะไหล่ให้ถึงจุดเกิดเหตุ ช่วยให้คุณเดินทางต่อได้อย่างปลอดภัยและอุ่นใจที่สุดครับ</p>
+<h2>ต้องการ ปะยางฉุกเฉินเดินทางไกล โทรหา PORNPISIT BATTERY!</h2>
+<p>อุบัติเหตุเกิดขึ้นได้เสมอ โดยเฉพาะการเดินทางไกลตอนกลางคืน หากคุณรถยางแตก ยางรั่ว หาร้านซ่อมไม่ได้ ในเขต <strong>ห้วยขวาง ดินแดง ลาดพร้าว แบริ่ง ลาซาล เทพารักษ์ แพรกษา สมุทรปราการ</strong> อย่าลังเลที่จะโทรหา <strong>PORNPISIT BATTERY</strong> ครับ! เราเปิดบริการ 24 ชั่วโมง มีทีมช่างมอเตอร์ไซค์พร้อมเครื่องมือครบครัน วิ่งไปปะยางแทงใยไหม หรือถอดเปลี่ยนยางอะไหล่ให้ถึงจุดเกิดเหตุ ช่วยให้คุณเดินทางต่อได้อย่างปลอดภัยและอุ่นใจที่สุดครับ</p>
 
 <div style="background: linear-gradient(135deg, #fff7ed 0%, #fff 40%, #f0fdfa 100%); border: 1px solid #fed7aa; border-radius: 2rem; padding: 2.5rem 1.5rem; margin: 2.5rem 0; text-align: center; position: relative; overflow: hidden; box-shadow: 0 25px 60px -20px rgba(0,0,0,0.08);">
   <div style="position:absolute;top:-40px;right:-20px;width:160px;height:160px;background:rgba(251,146,60,0.15);border-radius:50%;filter:blur(40px);pointer-events:none;"></div>
@@ -254,10 +254,10 @@ const post = {
   <div style="position:relative;">
     <span style="display:inline-flex;align-items:center;gap:0.5rem;background:rgba(255,255,255,0.9);border:1px solid #fed7aa;border-radius:9999px;padding:0.5rem 1.25rem;font-size:0.875rem;font-weight:600;color:#ea580c;box-shadow:0 1px 3px rgba(0,0,0,0.06);">🚨 บริการปะยาง 24 ชม.</span>
     <h3 style="margin:1.5rem auto 0;max-width:600px;font-size:1.75rem;font-weight:900;line-height:1.3;color:#1e293b;">ยางแตกกลางดึก? ช่างพร้อมลุย วิ่งไปปะให้ถึงที่!</h3>
-    <p style="margin:1rem auto 0;max-width:520px;font-size:1rem;line-height:1.7;color:#64748b;">บริการปะยางแบบแทงใยไหม และเปลี่ยนยางอะไหล่นอกสถานที่ ด่วน 24 ชม. โซนบางนา ศรีนครินทร์ เทพารักษ์</p>
+    <p style="margin:1rem auto 0;max-width:520px;font-size:1rem;line-height:1.7;color:#64748b;">บริการปะยางแบบแทงใยไหม และเปลี่ยนยางอะไหล่นอกสถานที่ ด่วน 24 ชม. โซนห้วยขวาง ดินแดง ลาดพร้าว เทพารักษ์</p>
     <div style="margin-top:2rem;display:flex;flex-wrap:wrap;justify-content:center;gap:1rem;">
-      <a href="tel:0887671679" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:linear-gradient(to right,#f97316,#ef4444);color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(249,115,22,0.7);">📞 โทรเรียกช่างปะยาง 088-767-1679</a>
-      <a href="https://lin.ee/xxqKaZn" target="_blank" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:#06C755;color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(6,199,85,0.7);">💬 แอดไลน์ ส่งพิกัดมาด่วน</a>
+      <a href="tel:0996731296" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:linear-gradient(to right,#f97316,#ef4444);color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(249,115,22,0.7);">📞 โทรเรียกช่างปะยาง 099-673-1296</a>
+      <a href="https://lin.ee/OBB86S4" target="_blank" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:#06C755;color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(6,199,85,0.7);">💬 แอดไลน์ ส่งพิกัดมาด่วน</a>
     </div>
     <p style="margin:1.5rem 0 0;"><a href="/mobile-tire-repair" style="color:#ea580c;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:1rem;">เรียกช่างปะยางนอกสถานที่ 24 ชม. แบริ่ง ลาซาล บางนา</a></p>
     <p style="margin-top:0.75rem;"><a href="/battery-replacement" style="color:#0891b2;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:0.9rem;">เปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่ เทพารักษ์ แพรกษา →</a></p>

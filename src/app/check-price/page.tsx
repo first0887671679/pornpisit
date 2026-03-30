@@ -4,9 +4,9 @@ import BatteryChecker from "@/components/BatteryChecker";
 import Link from "next/link";
 import { PhoneCall, MessageCircle, Clock, Shield, Zap, Award, Search } from "lucide-react";
 
-const PAGE_TITLE = "เช็ครุ่นแบตเตอรี่รถยนต์ ค้นหาแบตเตอรี่ที่เหมาะสมตามรุ่นรถ | Firstcar";
+const PAGE_TITLE = "เช็ครุ่นแบตเตอรี่รถยนต์ ค้นหาแบตเตอรี่ที่เหมาะสมตามรุ่นรถ | PORNPISIT BATTERY";
 const PAGE_DESC =
-  "เช็ครุ่นแบตเตอรี่รถยนต์ที่เหมาะสมสำหรับรถคุณ ทุกยี่ห้อ Toyota Honda Mazda Nissan พร้อมสเปก แอมป์ CCA และขั้วแบตเตอรี่ บริการเปลี่ยนถึงที่ 24 ชม. กรุงเทพและปริมณฑล";
+  "เช็ครุ่นแบตเตอรี่รถยนต์ที่เหมาะสมสำหรับรถคุณ ทุกยี่ห้อ Toyota Honda Mazda Nissan พร้อมสเปก แอมป์ CCA และขั้วแบตเตอรี่ บริการเปลี่ยนถึงที่ 24 ชม. ห้วยขวาง ดินแดง ลาดพร้าว บางกะปิ บางเขน จตุจักร ดุสิต บางซื่อ";
 
 export const metadata: Metadata = {
   title: PAGE_TITLE,
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
         url: SITE_CONFIG.ogImage,
         width: 1200,
         height: 630,
-        alt: "เช็ครุ่นแบตเตอรี่รถยนต์ - Firstcar",
+        alt: "เช็ครุ่นแบตเตอรี่รถยนต์ - PORNPISIT BATTERY",
       },
     ],
   },
@@ -128,7 +128,7 @@ export default function CheckPricePage() {
             </h1>
             <p className="text-slate-400 max-w-2xl mx-auto text-sm md:text-base leading-relaxed px-2 mb-6 md:mb-8">
               เลือกรถยนต์ของคุณ เพื่อดูแบตเตอรี่ขนาดที่เหมาะสม พร้อมสเปก CCA และแอมป์
-              เรามีบริการเปลี่ยนถึงที่ ฟรีค่าแรง ทั่วกรุงเทพและปริมณฑล
+              เรามีบริการเปลี่ยนถึงที่ ฟรีค่าแรง ทั่วห้วยขวาง ดินแดง ลาดพร้าว บางกะปิ บางเขน จตุจักร ดุสิต บางซื่อ
             </p>
 
             {/* Trust Badges */}

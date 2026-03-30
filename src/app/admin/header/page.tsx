@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
@@ -28,7 +28,7 @@ export default function HeaderEditor() {
   const [sectionId, setSectionId] = useState("");
 
   // Header data
-  const [brandName, setBrandName] = useState("FIRSTCARCENTER");
+  const [brandName, setBrandName] = useState("PORNPISIT BATTERY");
   const [brandSub, setBrandSub] = useState("");
   const [logoUrl, setLogoUrl] = useState("");
   const [logoRatio, setLogoRatio] = useState("free");
@@ -245,7 +245,7 @@ export default function HeaderEditor() {
           <div className="grid grid-cols-2 gap-3">
             <div>
               <Label className="text-sm">ชื่อแบรนด์</Label>
-              <Input className="mt-1" value={brandName} onChange={(e) => setBrandName(e.target.value)} placeholder="FIRSTCARCENTER" />
+              <Input className="mt-1" value={brandName} onChange={(e) => setBrandName(e.target.value)} placeholder="PORNPISIT BATTERY" />
             </div>
             <div>
               <Label className="text-sm">คำอธิบายใต้โลโก้</Label>
@@ -445,7 +445,7 @@ export default function HeaderEditor() {
           <div className="grid grid-cols-2 gap-3">
             <div>
               <Label className="text-sm">เบอร์โทร</Label>
-              <Input className="mt-1" value={phone} onChange={(e) => setPhone(e.target.value)} placeholder="0887671679" />
+              <Input className="mt-1" value={phone} onChange={(e) => setPhone(e.target.value)} placeholder="0996731296" />
             </div>
             <div>
               <Label className="text-sm">ข้อความปุ่มโทร</Label>
@@ -456,7 +456,7 @@ export default function HeaderEditor() {
           <div className="grid grid-cols-2 gap-3">
             <div>
               <Label className="text-sm">Line URL</Label>
-              <Input className="mt-1" value={lineUrl} onChange={(e) => setLineUrl(e.target.value)} placeholder="https://lin.ee/xxqKaZn" />
+              <Input className="mt-1" value={lineUrl} onChange={(e) => setLineUrl(e.target.value)} placeholder="https://lin.ee/OBB86S4" />
             </div>
             <div>
               <Label className="text-sm">ข้อความปุ่ม Line</Label>

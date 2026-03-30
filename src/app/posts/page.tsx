@@ -1,4 +1,4 @@
-import { Metadata } from "next";
+﻿import { Metadata } from "next";
 import { prisma } from "@/lib/prisma";
 import { SITE_CONFIG } from "@/lib/seo";
 import { sanitizeHtml } from "@/lib/sanitize";
@@ -23,7 +23,7 @@ export const revalidate = 60;
 export async function generateMetadata(): Promise<Metadata> {
   const postsPage = await (prisma as any).page.findUnique({ where: { slug: "posts" } });
   const seoTitle = postsPage?.seoTitle || postsPage?.title || "บทความ / ข่าวสาร";
-  const seoDesc = postsPage?.seoDescription || "บทความ ข่าวสาร ความรู้เกี่ยวกับการดูแลรักษารถยนต์ จาก FIRSTCARCENTER";
+  const seoDesc = postsPage?.seoDescription || "บทความ ข่าวสาร ความรู้เกี่ยวกับการดูแลรักษารถยนต์ จาก PORNPISIT BATTERY";
   return {
     title: seoTitle,
     description: seoDesc,
@@ -33,7 +33,7 @@ export async function generateMetadata(): Promise<Metadata> {
       description: postsPage?.ogDescription || seoDesc,
       url: `${SITE_CONFIG.url}/posts`,
       type: "website",
-      images: [{ url: SITE_CONFIG.ogImage, width: 1200, height: 630, alt: "FIRSTCARCENTER บทความ" }],
+      images: [{ url: SITE_CONFIG.ogImage, width: 1200, height: 630, alt: "PORNPISIT BATTERY บทความ" }],
     },
     twitter: {
       card: "summary_large_image",
@@ -137,12 +137,12 @@ function renderSection(section: any) {
     return (
       <DynamicNavbar
         key={section.id}
-        brandName={data.brandName || "FIRSTCARCENTER"}
+        brandName={data.brandName || "PORNPISIT BATTERY"}
         brandSub={data.brandSub || ""}
         logoUrl={section.imageUrl || ""}
-        phone={data.phone || "0887671679"}
+        phone={data.phone || "0996731296"}
         phoneLabel={data.phoneLabel || "โทรด่วน"}
-        lineUrl={data.lineUrl || "https://lin.ee/xxqKaZn"}
+        lineUrl={data.lineUrl || "https://lin.ee/OBB86S4"}
         lineLabel={data.lineLabel || "Line"}
         links={Array.isArray(data.links) ? data.links : []}
       />
@@ -278,7 +278,7 @@ function renderSection(section: any) {
               <Button size="lg" className="bg-white/20 hover:bg-white/30 border-2 border-white text-white font-bold text-sm md:text-base h-12 md:h-14 px-6 md:px-8" asChild>
                 <Link href={data.lineUrl} target="_blank">
                   <MessageCircle className="mr-2 w-4 h-4 md:w-5 md:h-5" />
-                  Line: {data.lineId || "@730ohrmd"}
+                  Line: {data.lineId || "@398kyxfq"}
                 </Link>
               </Button>
             )}
@@ -370,7 +370,7 @@ function renderSection(section: any) {
         <div className="max-w-7xl mx-auto px-4 py-12">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
             <div>
-              <h3 className="text-2xl font-extrabold text-red-600 mb-4">{data.brandName || "FIRSTCARCENTER"}</h3>
+              <h3 className="text-2xl font-extrabold text-red-600 mb-4">{data.brandName || "PORNPISIT BATTERY"}</h3>
               <p className="text-slate-300 text-sm leading-relaxed">{data.description || ""}</p>
             </div>
             {svcLinks.length > 0 && (
@@ -395,14 +395,14 @@ function renderSection(section: any) {
                 {data.lineUrl && (
                   <Link href={data.lineUrl} target="_blank" className="flex items-center gap-3 text-slate-300 hover:text-red-400 transition-colors">
                     <MessageCircle className="w-5 h-5 text-[#00B900]" />
-                    <span>{data.lineId || "@730ohrmd"}</span>
+                    <span>{data.lineId || "@398kyxfq"}</span>
                   </Link>
                 )}
               </div>
             </div>
           </div>
           <div className="border-t border-slate-800 mt-10 pt-6 text-center text-slate-500 text-sm">
-            &copy; {new Date().getFullYear()} {data.copyright || "FIRSTCARCENTER. All rights reserved."}
+            &copy; {new Date().getFullYear()} {data.copyright || "PORNPISIT BATTERY. All rights reserved."}
           </div>
         </div>
       </footer>

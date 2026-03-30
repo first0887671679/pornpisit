@@ -1,7 +1,7 @@
-/**
+﻿/**
  * One-shot script: Fix ALL SEO + internal link + OG issues in every post.
  *   1. Replace /services links → correct service page routes
- *   2. Normalize Line URL to https://lin.ee/xxqKaZn
+ *   2. Normalize Line URL to https://lin.ee/OBB86S4
  *   3. Fill missing seoTitle / seoDescription / seoKeywords / ogTitle / ogDescription
  *   4. Fix the 2 legacy posts that have zero SEO data
  */
@@ -33,23 +33,23 @@ function pickServiceRoute(slug, content) {
   return "/mobile-tire-repair"; // safe default
 }
 
-const CANONICAL_LINE = "https://lin.ee/xxqKaZn";
+const CANONICAL_LINE = "https://lin.ee/OBB86S4";
 
 // ── SEO defaults for legacy posts with zero SEO ────────────────
 const LEGACY_SEO = {
   "battery-care-tips": {
-    seoTitle: "วิธีดูแลแบตเตอรี่รถยนต์ให้อายุยืน | FIRSTCARCENTER",
+    seoTitle: "วิธีดูแลแบตเตอรี่รถยนต์ให้อายุยืน | PORNPISIT BATTERY",
     seoDescription: "รวมเคล็ดลับดูแลแบตเตอรี่รถยนต์ให้ใช้งานได้นาน หมดปัญหาสตาร์ทไม่ติด พร้อมบริการเปลี่ยนแบตถึงที่ 24 ชม.",
     seoKeywords: "ดูแลแบตเตอรี่,แบตเตอรี่รถยนต์,เปลี่ยนแบตเตอรี่,แบตหมด,สตาร์ทไม่ติด",
     ogTitle: "วิธีดูแลแบตเตอรี่รถยนต์ให้อายุยืน",
     ogDescription: "เคล็ดลับดูแลแบตเตอรี่รถยนต์ให้ใช้งานได้นาน หมดปัญหาสตาร์ทไม่ติด",
   },
   "บริการรถยนต์-24-ชม": {
-    seoTitle: "บริการรถยนต์ 24 ชม. ซ่อมรถนอกสถานที่ | FIRSTCARCENTER",
-    seoDescription: "บริการซ่อมรถยนต์นอกสถานที่ 24 ชั่วโมง ปะยาง เปลี่ยนแบตเตอรี่ ซ่อมไดชาร์จ ไดสตาร์ท โซนบางนา ศรีนครินทร์ สมุทรปราการ",
+    seoTitle: "บริการรถยนต์ 24 ชม. ซ่อมรถนอกสถานที่ | PORNPISIT BATTERY",
+    seoDescription: "บริการซ่อมรถยนต์นอกสถานที่ 24 ชั่วโมง ปะยาง เปลี่ยนแบตเตอรี่ ซ่อมไดชาร์จ ไดสตาร์ท โซนห้วยขวาง ดินแดง ลาดพร้าว บางกะปิ บางเขน จตุจักร ดุสิต บางซื่อ",
     seoKeywords: "บริการรถยนต์ 24 ชม,ซ่อมรถนอกสถานที่,ปะยาง,เปลี่ยนแบตเตอรี่,ไดชาร์จ,บางนา,ศรีนครินทร์",
     ogTitle: "บริการรถยนต์ 24 ชม. ซ่อมรถนอกสถานที่ ถึงไวใน 30 นาที",
-    ogDescription: "FIRSTCARCENTER บริการซ่อมรถนอกสถานที่ 24 ชม. ปะยาง เปลี่ยนแบต ซ่อมไดชาร์จ โซนบางนา ศรีนครินทร์",
+    ogDescription: "PORNPISIT BATTERY บริการซ่อมรถนอกสถานที่ 24 ชม. ปะยาง เปลี่ยนแบต ซ่อมไดชาร์จ โซนห้วยขวาง ดินแดง ลาดพร้าว",
   },
 };
 

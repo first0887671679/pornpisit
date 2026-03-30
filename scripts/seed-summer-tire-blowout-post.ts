@@ -1,11 +1,11 @@
-import { PrismaClient } from "@prisma/client";
+﻿import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
 
 const htmlContent = `<h1>ยางระเบิดหน้าร้อน เกิดจากอะไร? วิธีรับมือด่วนเมื่อรถเสียกลางดึก (อัปเดต 2026)</h1>
 <p>ประเทศไทยขึ้นชื่อเรื่องอากาศร้อนทะลุปรอท แต่คุณรู้ไหมครับว่าความร้อนนี้ไม่ได้ทำร้ายแค่คนเท่านั้น แต่ยังเป็น "นักฆ่าเงียบ" สำหรับยางรถยนต์ด้วย! สถิติอุบัติเหตุบนถนน <strong>บางนา-ตราด หรือ มอเตอร์เวย์</strong> ในช่วงหน้าร้อน มักมีสาเหตุหลักมาจาก <strong>"ยางระเบิด"</strong> ขณะขับขี่ด้วยความเร็วสูง</p>
 
-<p>ลองจินตนาการดูสิครับว่า ถ้าคุณกำลังขับรถกลับบ้านตอนดึกๆ แถว <strong>ศรีนครินทร์ หรือ เทพารักษ์</strong> แล้วจู่ๆ ได้ยินเสียง <em>"ตูมมม!"</em> ดังลั่น รถแฉลบเสียการทรงตัว... อาการแบบนี้อันตรายถึงชีวิตครับ วันนี้ช่างจาก FIRSTCARCENTER จะมาไขข้อข้องใจว่า <strong>ยางระเบิดหน้าร้อน</strong> เกิดจากอะไรกันแน่ และถ้าคุณแจ็คพอตแตกยางระเบิดตอนดึก จะมีวิธีเอาตัวรอดอย่างไรครับ</p>
+<p>ลองจินตนาการดูสิครับว่า ถ้าคุณกำลังขับรถกลับบ้านตอนดึกๆ แถว <strong>ศรีนครินทร์ หรือ เทพารักษ์</strong> แล้วจู่ๆ ได้ยินเสียง <em>"ตูมมม!"</em> ดังลั่น รถแฉลบเสียการทรงตัว... อาการแบบนี้อันตรายถึงชีวิตครับ วันนี้ช่างจาก PORNPISIT BATTERY จะมาไขข้อข้องใจว่า <strong>ยางระเบิดหน้าร้อน</strong> เกิดจากอะไรกันแน่ และถ้าคุณแจ็คพอตแตกยางระเบิดตอนดึก จะมีวิธีเอาตัวรอดอย่างไรครับ</p>
 
 <img src="/images/blog/pig-summer-tire-blowout-cover.svg" alt="ยางระเบิดหน้าร้อน สาเหตุยางระเบิด ปะยางด่วน ศรีนครินทร์ บางนา" class="rounded-xl my-6 w-full object-cover shadow-sm" />
 <p class="text-sm text-center text-slate-500 mt-2"><em>ภาพ: อุบัติเหตุยางระเบิดมักเกิดในช่วงหน้าร้อนที่พื้นถนนมีอุณหภูมิสูงจัด ควรตรวจเช็กลมยางก่อนเดินทางไกลเสมอ</em></p>
@@ -37,7 +37,7 @@ const htmlContent = `<h1>ยางระเบิดหน้าร้อน เ
     <svg class="w-12 h-12 text-slate-400 mb-4" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/></svg>
     <p class="text-slate-500 font-medium text-center">ภาพผลงานจริง: ช่วยเหลือลูกค้าเปลี่ยนยางอะไหล่หลังยางระเบิดตอนดึก<br/>(พื้นที่สำหรับแทรกรูปภาพผลงานจริงจากร้าน)</p>
   </div>
-  <p class="text-sm text-center text-slate-500 mt-2"><em>เคสจริง: ลูกค้ายางระเบิดตกหลุมแถวถนนบางนา-ตราด ช่วงตี 2 ช่าง FIRSTCARCENTER วิ่งไปเปลี่ยนยางอะไหล่ให้ถึงที่ ทำให้ลูกค้าขับกลับบ้านได้อย่างปลอดภัย</em></p>
+  <p class="text-sm text-center text-slate-500 mt-2"><em>เคสจริง: ลูกค้ายางระเบิดตกหลุมแถวถนนบางนา-ตราด ช่วงตี 2 ช่าง PORNPISIT BATTERY วิ่งไปเปลี่ยนยางอะไหล่ให้ถึงที่ ทำให้ลูกค้าขับกลับบ้านได้อย่างปลอดภัย</em></p>
 </div>
 
 <h2>ยางระเบิดตอนดึก ลากรถไม่ได้ ปะยางได้ไหม?</h2>
@@ -55,13 +55,13 @@ const htmlContent = `<h1>ยางระเบิดหน้าร้อน เ
       <span>บริการปะยาง/เปลี่ยนยางอะไหล่ 24 ชม.</span>
     </div>
     <h3 class="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-800 dark:text-white mb-3 leading-tight">ยางแตก ยางระเบิดกลางดึก? ทำเองไม่เป็น โทรหาเราด่วน!</h3>
-    <p class="text-slate-600 dark:text-slate-300 mb-6 sm:mb-8 text-sm sm:text-base md:text-lg leading-relaxed">จอดเสียในที่มืดอันตราย! FIRSTCARCENTER พร้อมส่งช่างมืออาชีพไป <strong>เปลี่ยนยางอะไหล่ให้คุณถึงที่</strong> โซนศรีนครินทร์ บางนา แบริ่ง ลาซาล เทพารักษ์ สมุทรปราการ ถึงไวใน 30 นาที</p>
+    <p class="text-slate-600 dark:text-slate-300 mb-6 sm:mb-8 text-sm sm:text-base md:text-lg leading-relaxed">จอดเสียในที่มืดอันตราย! PORNPISIT BATTERY พร้อมส่งช่างมืออาชีพไป <strong>เปลี่ยนยางอะไหล่ให้คุณถึงที่</strong> โซนศรีนครินทร์ บางนา แบริ่ง ลาซาล เทพารักษ์ สมุทรปราการ ถึงไวใน 30 นาที</p>
     <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center">
-      <a href="tel:0887671679" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-bold py-3 sm:py-3.5 px-6 sm:px-8 rounded-full shadow-lg shadow-orange-500/25 hover:shadow-xl hover:shadow-orange-500/30 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 text-sm sm:text-base">
+      <a href="tel:0996731296" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-bold py-3 sm:py-3.5 px-6 sm:px-8 rounded-full shadow-lg shadow-orange-500/25 hover:shadow-xl hover:shadow-orange-500/30 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 text-sm sm:text-base">
         <svg class="w-5 h-5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
-        <span>โทรเรียกช่างด่วน 088-767-1679</span>
+        <span>โทรเรียกช่างด่วน 099-673-1296</span>
       </a>
-      <a href="https://lin.ee/xxqKaZn" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold py-3 sm:py-3.5 px-6 sm:px-8 rounded-full shadow-lg shadow-green-500/25 hover:shadow-xl hover:shadow-green-500/30 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 text-sm sm:text-base">
+      <a href="https://lin.ee/OBB86S4" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold py-3 sm:py-3.5 px-6 sm:px-8 rounded-full shadow-lg shadow-green-500/25 hover:shadow-xl hover:shadow-green-500/30 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 text-sm sm:text-base">
         <svg class="w-5 h-5 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24"><path d="M24 10.304c0-5.369-5.383-9.738-12-9.738-6.616 0-12 4.369-12 9.738 0 4.814 4.269 8.846 10.036 9.608.391.084.922.258 1.057.592.122.303.079.778.039 1.085l-.171 1.027c-.053.303-.242 1.186 1.039.647 1.281-.54 6.911-4.069 9.428-6.967 1.739-1.907 2.572-4.103 2.572-6.002z"/></svg>
         <span>แอดไลน์ ส่งพิกัดGPS</span>
       </a>
@@ -129,7 +129,7 @@ const postData = {
   coverImage: "/images/blog/pig-summer-tire-blowout-cover.svg",
   category: "ความรู้เรื่องยาง",
   published: true,
-  seoTitle: "ยางระเบิดหน้าร้อน เกิดจากอะไร วิธีรับมือด่วน | Firstcar",
+  seoTitle: "ยางระเบิดหน้าร้อน เกิดจากอะไร วิธีรับมือด่วน | PORNPISIT BATTERY",
   seoDescription: "สาเหตุยางระเบิดบนถนนหน้าร้อน มักเกิดจากลมยางอ่อน วิธีเอาตัวรอดห้ามเหยียบเบรกมิด บริการเปลี่ยนยางอะไหล่นอกสถานที่ด่วน ศรีนครินทร์ บางนา สมุทรปราการ",
   seoKeywords: "ยางระเบิดหน้าร้อน,สาเหตุยางระเบิด,ยางแตกตอนกลางคืน,รถยางระเบิด ทำไงดี,เปลี่ยนยางอะไหล่ฉุกเฉิน,ลมยางอ่อน ยางระเบิด,ศรีนครินทร์,บางนา,แบริ่ง,ลาซาล,สุขุมวิท,เทพารักษ์,แพรกษา,สมุทรปราการ",
   ogTitle: "แจ็คพอตแตก! 'ยางระเบิดกลางดึก' เอาตัวรอดอย่างไร?",

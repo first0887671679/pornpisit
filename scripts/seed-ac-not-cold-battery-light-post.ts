@@ -1,11 +1,11 @@
-import { PrismaClient } from "@prisma/client";
+﻿import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
 
 const htmlContent = `<h1>แอร์ไม่เย็น ไฟแบตโชว์ ขับต่อได้ไหม? อาการนี้ "ไดชาร์จพัง" หรือเปล่า (อัปเดต 2026)</h1>
 <p>อากาศร้อนๆ รถติดแหง็กอยู่บนถนน <strong>ศรีนครินทร์ หรือ สุขุมวิท</strong> จู่ๆ แอร์ในรถที่เคยเย็นฉ่ำก็เริ่มมีแต่แต่ลมร้อนออกมา พร้อมกับมี <strong>"ไฟรูปแบตเตอรี่สีแดงโชว์หราบนหน้าปัด"</strong>... เชื่อว่าใครเจอสถานการณ์แบบนี้ก็ต้องใจคอไม่ดี คิดว่าแบตเตอรี่หมดกลางอากาศแน่ๆ</p>
 
-<p>แต่รู้หรือไม่ครับว่า อาการ <strong>แอร์ไม่เย็น ไฟแบตโชว์</strong> ส่วนใหญ่แล้ว "ไม่ได้เกิดจากแบตเตอรี่พัง" ครับ! วันนี้ช่างจาก FIRSTCARCENTER จะมาเฉลยให้ฟังว่าความจริงแล้วมันเกิดจากอะไร รถยังขับต่อได้ไหม หรือต้องจอดทันที ก่อนที่เครื่องยนต์จะดับกลางทางแถว <strong>บางนา หรือ ลาซาล</strong> ครับ</p>
+<p>แต่รู้หรือไม่ครับว่า อาการ <strong>แอร์ไม่เย็น ไฟแบตโชว์</strong> ส่วนใหญ่แล้ว "ไม่ได้เกิดจากแบตเตอรี่พัง" ครับ! วันนี้ช่างจาก PORNPISIT BATTERY จะมาเฉลยให้ฟังว่าความจริงแล้วมันเกิดจากอะไร รถยังขับต่อได้ไหม หรือต้องจอดทันที ก่อนที่เครื่องยนต์จะดับกลางทางแถว <strong>บางนา หรือ ลาซาล</strong> ครับ</p>
 
 <img src="/images/blog/pig-ac-not-cold-battery-light-cover.svg" alt="แอร์ไม่เย็น ไฟแบตโชว์ ไดชาร์จเสีย ขับต่อได้ไหม ศรีนครินทร์ บางนา" class="rounded-xl my-6 w-full object-cover shadow-sm" />
 <p class="text-sm text-center text-slate-500 mt-2"><em>ภาพ: เมื่อไฟแบตเตอรี่โชว์พร้อมกับแอร์ไม่เย็น เป็นสัญญาณเตือนว่าระบบไฟในรถกำลังมีปัญหาขั้นวิกฤต</em></p>
@@ -58,13 +58,13 @@ const htmlContent = `<h1>แอร์ไม่เย็น ไฟแบตโช
       <span>บริการตรวจเช็กถึงที่ 24 ชม.</span>
     </div>
     <h3 class="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-800 dark:text-white mb-3 leading-tight">สงสัยไดชาร์จพัง? อย่าฝืนขับจนรถดับ โทรปรึกษาเราด่วน!</h3>
-    <p class="text-slate-600 dark:text-slate-300 mb-6 sm:mb-8 text-sm sm:text-base md:text-lg leading-relaxed">FIRSTCARCENTER ให้บริการซ่อมและเปลี่ยนไดชาร์จ ไดสตาร์ท แบตเตอรี่ นอกสถานที่ โซนศรีนครินทร์ บางนา แบริ่ง ลาซาล เทพารักษ์ ถึงไว ประเมินอาการให้ฟรี!</p>
+    <p class="text-slate-600 dark:text-slate-300 mb-6 sm:mb-8 text-sm sm:text-base md:text-lg leading-relaxed">PORNPISIT BATTERY ให้บริการซ่อมและเปลี่ยนไดชาร์จ ไดสตาร์ท แบตเตอรี่ นอกสถานที่ โซนศรีนครินทร์ บางนา แบริ่ง ลาซาล เทพารักษ์ ถึงไว ประเมินอาการให้ฟรี!</p>
     <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center">
-      <a href="tel:0887671679" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-bold py-3 sm:py-3.5 px-6 sm:px-8 rounded-full shadow-lg shadow-orange-500/25 hover:shadow-xl hover:shadow-orange-500/30 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 text-sm sm:text-base">
+      <a href="tel:0996731296" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white font-bold py-3 sm:py-3.5 px-6 sm:px-8 rounded-full shadow-lg shadow-orange-500/25 hover:shadow-xl hover:shadow-orange-500/30 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 text-sm sm:text-base">
         <svg class="w-5 h-5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
-        <span>โทรเรียกช่าง 088-767-1679</span>
+        <span>โทรเรียกช่าง 099-673-1296</span>
       </a>
-      <a href="https://lin.ee/xxqKaZn" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold py-3 sm:py-3.5 px-6 sm:px-8 rounded-full shadow-lg shadow-green-500/25 hover:shadow-xl hover:shadow-green-500/30 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 text-sm sm:text-base">
+      <a href="https://lin.ee/OBB86S4" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold py-3 sm:py-3.5 px-6 sm:px-8 rounded-full shadow-lg shadow-green-500/25 hover:shadow-xl hover:shadow-green-500/30 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 text-sm sm:text-base">
         <svg class="w-5 h-5 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24"><path d="M24 10.304c0-5.369-5.383-9.738-12-9.738-6.616 0-12 4.369-12 9.738 0 4.814 4.269 8.846 10.036 9.608.391.084.922.258 1.057.592.122.303.079.778.039 1.085l-.171 1.027c-.053.303-.242 1.186 1.039.647 1.281-.54 6.911-4.069 9.428-6.967 1.739-1.907 2.572-4.103 2.572-6.002z"/></svg>
         <span>แอดไลน์ ส่งรูปหน้าปัดให้ช่างดู</span>
       </a>
@@ -132,7 +132,7 @@ const postData = {
   coverImage: "/images/blog/pig-ac-not-cold-battery-light-cover.svg",
   category: "ความรู้ระบบไฟฟ้ารถยนต์",
   published: true,
-  seoTitle: "แอร์ไม่เย็น ไฟแบตโชว์ ขับต่อได้ไหม ไดชาร์จเสีย? | Firstcar",
+  seoTitle: "แอร์ไม่เย็น ไฟแบตโชว์ ขับต่อได้ไหม ไดชาร์จเสีย? | PORNPISIT BATTERY",
   seoDescription: "แอร์ไม่เย็น มีไฟรูปแบตเตอรี่โชว์สีแดงเตือนบนหน้าปัด สัญญาณเตือนไดชาร์จพัง! แนะนำวิธีเอาตัวรอดก่อนรถดับ บริการซ่อมไดชาร์จนอกสถานที่ ศรีนครินทร์ บางนา",
   seoKeywords: "แอร์ไม่เย็นไฟแบตโชว์,ไฟแบตโชว์ แอร์ไม่เย็น,ไฟรูปแบตเตอรี่โชว์ ขับต่อได้ไหม,ไดชาร์จเสีย แอร์ไม่เย็น,ซ่อมไดชาร์จ,ไฟแบตโชว์หน้าปัด,ศรีนครินทร์,บางนา,แบริ่ง,ลาซาล,เทพารักษ์,แพรกษา,สมุทรปราการ",
   ogTitle: "แอร์ไม่เย็น + ไฟแบตโชว์ = ไดชาร์จพัง! ขับต่อได้ไหม?",

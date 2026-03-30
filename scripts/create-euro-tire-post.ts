@@ -1,9 +1,9 @@
-import { PrismaClient } from "@prisma/client";
+﻿import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
 
 const htmlContent = `
-<p class="lead"><strong>ปะยางรถยุโรป</strong> อาจฟังดูเป็นเรื่องใหญ่ โดยเฉพาะสำหรับผู้หญิงที่ขับรถยุโรป (เช่น BMW, Mercedes-Benz, MINI) ซึ่งมักมาพร้อมกับยางรันแฟลต (Runflat Tires) เมื่อเกิดเหตุฉุกเฉินยางแตกหรือยางรั่ว หลายคนอาจทำตัวไม่ถูก ไม่กล้าบดต่อ หรือไม่รู้ว่าอู่ทั่วไปปะได้หรือไม่ วันนี้ FirstCarCenter จะมารีวิวเคสจริง และแนะนำวิธีรับมือเมื่อรถยุโรปยางแตกในเขต<strong>ศรีนครินทร์ บางนา แบริ่ง ลาซาล</strong> และพื้นที่ใกล้เคียง</p>
+<p class="lead"><strong>ปะยางรถยุโรป</strong> อาจฟังดูเป็นเรื่องใหญ่ โดยเฉพาะสำหรับผู้หญิงที่ขับรถยุโรป (เช่น BMW, Mercedes-Benz, MINI) ซึ่งมักมาพร้อมกับยางรันแฟลต (Runflat Tires) เมื่อเกิดเหตุฉุกเฉินยางแตกหรือยางรั่ว หลายคนอาจทำตัวไม่ถูก ไม่กล้าบดต่อ หรือไม่รู้ว่าอู่ทั่วไปปะได้หรือไม่ วันนี้ PORNPISIT BATTERY จะมารีวิวเคสจริง และแนะนำวิธีรับมือเมื่อรถยุโรปยางแตกในเขต<strong>ศรีนครินทร์ บางนา แบริ่ง ลาซาล</strong> และพื้นที่ใกล้เคียง</p>
 
 <h2>ยางรันแฟลต (Runflat) คืออะไร ทำไมรถยุโรปถึงนิยมใช้?</h2>
 <p>ก่อนอื่นเราต้องทำความเข้าใจก่อนว่า ทำไมรถยุโรปส่วนใหญ่จึงไม่มียางอะไหล่มาให้? เหตุผลเพราะเขาใส่ <strong>"ยางรันแฟลต" (Runflat Tires)</strong> มาให้จากโรงงาน ยางประเภทนี้มีโครงสร้างแก้มยางที่หนาและแข็งแรงเป็นพิเศษ เมื่อโดนตะปูตำจนลมยางหมด แก้มยางจะยังคงช่วยพยุงน้ำหนักรถไว้ได้</p>
@@ -19,7 +19,7 @@ const htmlContent = `
 </div>
 
 <h2>รีวิวเคสจริง: ช่วยเหลือคุณผู้หญิง BMW ยางแตก ซอยวัดหนามแดง</h2>
-<p>เมื่อคืนที่ผ่านมา ทีมงาน FirstCarCenter ได้รับสายด่วนจากลูกค้าย่าน<strong>เทพารักษ์ ซอยวัดหนามแดง</strong> ลูกค้าแจ้งว่าขับรถ BMW X1 แล้วแจ้งเตือนความดันลมยาง (RDC) โชว์ที่หน้าปัด รถมีอาการส่ายเล็กน้อย ลูกค้าเป็นผู้หญิงขับมาคนเดียวตอนดึก จึงจอดแอบเข้าข้างทางตรงหน้าตลาดหนามแดง</p>
+<p>เมื่อคืนที่ผ่านมา ทีมงาน PORNPISIT BATTERY ได้รับสายด่วนจากลูกค้าย่าน<strong>เทพารักษ์ ซอยวัดหนามแดง</strong> ลูกค้าแจ้งว่าขับรถ BMW X1 แล้วแจ้งเตือนความดันลมยาง (RDC) โชว์ที่หน้าปัด รถมีอาการส่ายเล็กน้อย ลูกค้าเป็นผู้หญิงขับมาคนเดียวตอนดึก จึงจอดแอบเข้าข้างทางตรงหน้าตลาดหนามแดง</p>
 
 <figure class="my-8">
   <img src="/images/blog/pig-european-tire-repair-info.svg" alt="3 ข้อควรรู้เมื่อรถยุโรปยางแตก ปะยางรันแฟลต ศรีนครินทร์ บางนา สมุทรปราการ" class="rounded-xl shadow-lg w-full" />
@@ -35,7 +35,7 @@ const htmlContent = `
   <li>ประกอบล้อ เติมลม ถ่วงล้อ ลบโค้ดแจ้งเตือน ลูกค้าสามารถขับกลับบ้านย่าน<strong>แพรกษา</strong>ได้อย่างปลอดภัย</li>
 </ol>
 
-<h2>ทำไมต้องเลือก FirstCarCenter ปะยางรถยุโรป?</h2>
+<h2>ทำไมต้องเลือก PORNPISIT BATTERY ปะยางรถยุโรป?</h2>
 <p>หากคุณใช้รถในโซน <strong>ศรีนครินทร์, บางนา, แบริ่ง, ลาซาล, สุขุมวิท, เทพารักษ์ หรือ สมุทรปราการ</strong> เราคือผู้เชี่ยวชาญด้านระบบไฟและยางรถยนต์ที่ให้บริการถึงที่ 24 ชั่วโมง</p>
 <ul>
   <li><strong>เครื่องมือเฉพาะทาง:</strong> เรามีเครื่องถอดยางและตัวรัดแก้มยางสำหรับ Runflat โดยเฉพาะ แม็กซ์ไม่เป็นรอย 100%</li>
@@ -48,8 +48,8 @@ const htmlContent = `
   <h3 class="text-white mt-0 text-2xl">รถยุโรปยางแตก แบตหมด โทรหาเราด่วน!</h3>
   <p class="text-slate-300 mb-6">บริการช่วยเหลือฉุกเฉิน 24 ชั่วโมง พื้นที่ศรีนครินทร์ บางนา สมุทรปราการ ช่างชำนาญงาน ถึงไว ปลอดภัยแน่นอน</p>
   <div class="flex flex-col sm:flex-row justify-center gap-4">
-    <a href="tel:0887671679" class="inline-flex justify-center items-center px-6 py-3 bg-orange-600 hover:bg-orange-700 text-white font-bold rounded-full transition-colors">
-      📞 โทรด่วน 088-767-1679
+    <a href="tel:0996731296" class="inline-flex justify-center items-center px-6 py-3 bg-orange-600 hover:bg-orange-700 text-white font-bold rounded-full transition-colors">
+      📞 โทรด่วน 099-673-1296
     </a>
     <a href="https://lin.ee/h4G5aQ0" target="_blank" class="inline-flex justify-center items-center px-6 py-3 bg-[#00B900] hover:bg-[#009900] text-white font-bold rounded-full transition-colors">
       💬 ทักไลน์ ปรึกษาฟรี
@@ -77,7 +77,7 @@ const htmlContent = `
   <div class="border rounded-xl p-4" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
     <h3 class="text-lg font-bold mt-0" itemprop="name">Q: ให้บริการพื้นที่ไหนบ้าง ใช้เวลารอนานไหม?</h3>
     <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
-      <p class="mb-0 text-slate-600" itemprop="text"><strong>A:</strong> FirstCarCenter ให้บริการครอบคลุมพื้นที่ ศรีนครินทร์, บางนา, แบริ่ง, ลาซาล, สุขุมวิทตอนปลาย, เทพารักษ์, แพรกษา และสมุทรปราการ ทีมช่างฉุกเฉินของเราจะเดินทางไปถึงหน้างานภายใน 20-40 นาที (ขึ้นอยู่กับสภาพการจราจร) ให้บริการตลอด 24 ชั่วโมงครับ</p>
+      <p class="mb-0 text-slate-600" itemprop="text"><strong>A:</strong> PORNPISIT BATTERY ให้บริการครอบคลุมพื้นที่ ศรีนครินทร์, บางนา, แบริ่ง, ลาซาล, สุขุมวิทตอนปลาย, เทพารักษ์, แพรกษา และสมุทรปราการ ทีมช่างฉุกเฉินของเราจะเดินทางไปถึงหน้างานภายใน 20-40 นาที (ขึ้นอยู่กับสภาพการจราจร) ให้บริการตลอด 24 ชั่วโมงครับ</p>
     </div>
   </div>
 

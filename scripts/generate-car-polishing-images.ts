@@ -1,4 +1,4 @@
-import fs from 'fs';
+﻿import fs from 'fs';
 import path from 'path';
 
 const outDir = path.join(process.cwd(), 'public/images/blog');
@@ -111,7 +111,7 @@ ${DEFS}
   </g>
   <use href="#pig-mascot" x="900" y="340" transform="scale(1.4) translate(-250, -100)"/>
   <rect x="40" y="580" width="200" height="30" rx="4" fill="url(#primary-grad)"/>
-  <text x="140" y="602" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">FIRSTCARCENTER</text>
+  <text x="140" y="602" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">PORNPISIT BATTERY</text>
 </svg>`;
 }
 
@@ -143,12 +143,12 @@ ${DEFS}
   <circle cx="0" cy="800" r="600" fill="url(#glow-blue)" opacity="0.6"/>
   <g transform="translate(600, 100)" text-anchor="middle">
     <rect x="-120" y="-50" width="240" height="36" rx="18" fill="url(#glass-grad)" stroke="#FF6B00" stroke-width="1.5"/>
-    <text x="0" y="-26" font-size="15" font-weight="800" fill="#FF6B00" letter-spacing="2">FIRSTCARCENTER</text>
+    <text x="0" y="-26" font-size="15" font-weight="800" fill="#FF6B00" letter-spacing="2">PORNPISIT BATTERY</text>
     <text x="0" y="30" font-size="48" font-weight="800" fill="#FFFFFF">${data.title}</text>
   </g>
 ${cards}
   <rect x="500" y="740" width="200" height="30" rx="4" fill="url(#primary-grad)"/>
-  <text x="600" y="762" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">FIRSTCARCENTER</text>
+  <text x="600" y="762" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">PORNPISIT BATTERY</text>
 </svg>`;
 }
 

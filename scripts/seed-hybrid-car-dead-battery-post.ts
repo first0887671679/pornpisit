@@ -1,4 +1,4 @@
-import { PrismaClient } from "@prisma/client";
+﻿import { PrismaClient } from "@prisma/client";
 
 const prisma = new PrismaClient();
 
@@ -7,7 +7,7 @@ const htmlContent = `<h1>รถไฮบริดแบตหมด สตาร
 
 <p>บทความนี้เราจะมาเจาะลึกเคสจริงจากงานบริการนอกสถานที่ โซน <strong>ศรีนครินทร์ บางนา แบริ่ง ลาซาล และเทพารักษ์</strong> ว่าถ้ารถไฮบริดแบตหมด จั๊มแบตเองได้ไหม ราคาเปลี่ยนแบตเตอรี่ 12V เท่าไหร่ และทำไมถึงห้ามเปลี่ยนร้านทั่วไปที่ไม่มีความชำนาญระบบไฮบริด</p>
 
-<img src="/images/blog/pig-hybrid-battery-dead-cover.svg" alt="รถไฮบริดแบตหมด สตาร์ทไม่ติด เปลี่ยนแบตเตอรี่ไฮบริด บางนา ศรีนครินทร์ แบริ่ง" class="rounded-xl my-6 w-full object-cover shadow-sm" />
+<img src="/images/blog/pig-hybrid-battery-dead-cover.svg" alt="รถไฮบริดแบตหมด สตาร์ทไม่ติด เปลี่ยนแบตเตอรี่ไฮบริด ห้วยขวาง ดินแดง ลาดพร้าว แบริ่ง" class="rounded-xl my-6 w-full object-cover shadow-sm" />
 <p class="text-sm text-center text-slate-500 mt-2"><em>ภาพ: รถไฮบริดสตาร์ทไม่ติด ส่วนใหญ่เกิดจากแบตเตอรี่ 12V เสื่อมสภาพ ไม่ใช่แบตลูกใหญ่</em></p>
 
 <h2>รถไฮบริดแบตหมด จั๊มแบตได้ไหม? มีข้อควรระวังอะไรบ้าง</h2>
@@ -19,7 +19,7 @@ const htmlContent = `<h1>รถไฮบริดแบตหมด สตาร
 </ul>
 
 <h3>Case Study: ลูกค้า Toyota Cross Hybrid รถเสียหน้าตลาดหนามแดง</h3>
-<p>เมื่อสัปดาห์ก่อน มีลูกค้าติดต่อมาจากแถว <strong>แยกเทพารักษ์ หน้าตลาดหนามแดง</strong> แจ้งว่า <strong>รถไฮบริดแบตหมด</strong> หน้าปัดรวน สตาร์ทไม่ติด ลูกค้าพยายามหาตำแหน่งแบตเตอรี่เพื่อจะให้แท็กซี่ช่วยจั๊ม แต่หาไม่เจอ โชคดีที่ลูกค้าตัดสินใจโทรหาทีมช่าง FIRSTCARCENTER ก่อน</p>
+<p>เมื่อสัปดาห์ก่อน มีลูกค้าติดต่อมาจากแถว <strong>แยกเทพารักษ์ หน้าตลาดหนามแดง</strong> แจ้งว่า <strong>รถไฮบริดแบตหมด</strong> หน้าปัดรวน สตาร์ทไม่ติด ลูกค้าพยายามหาตำแหน่งแบตเตอรี่เพื่อจะให้แท็กซี่ช่วยจั๊ม แต่หาไม่เจอ โชคดีที่ลูกค้าตัดสินใจโทรหาทีมช่าง PORNPISIT BATTERY ก่อน</p>
 <p>เมื่อช่างไปถึง พบว่าแบตเตอรี่ 12V (ซึ่งซ่อนอยู่ด้านหลังรถ) มีค่า CCA ตกต่ำกว่ามาตรฐานมาก และแรงดันไฟเหลือเพียง 9V ช่างจึงใช้เครื่อง Jump Starter พ่วงที่จุดรับไฟในห้องเครื่องด้านหน้าอย่างถูกวิธี พอสตาร์ทติด ช่างได้ทำการวัดค่าการชาร์จจากอินเวอร์เตอร์ พบว่าระบบชาร์จปกติ จึงสรุปได้ว่าถึงเวลา <strong>เปลี่ยนแบตเตอรี่ 12V ลูกใหม่</strong></p>
 
 <div class="my-8">
@@ -57,13 +57,13 @@ const htmlContent = `<h1>รถไฮบริดแบตหมด สตาร
       <span>ช่างชำนาญระบบรถไฮบริดโดยเฉพาะ</span>
     </div>
     <h3 class="text-xl sm:text-2xl md:text-3xl font-extrabold text-slate-800 dark:text-white mb-3 leading-tight">รถไฮบริดสตาร์ทไม่ติด? โทรหาเราด่วน พร้อมเข้าช่วยเหลือ 24 ชม.</h3>
-    <p class="text-slate-600 dark:text-slate-300 mb-6 sm:mb-8 text-sm sm:text-base md:text-lg leading-relaxed">FIRSTCARCENTER ให้บริการพ่วงแบต เปลี่ยนแบต 12V สำหรับรถไฮบริด พร้อมสำรองระบบไฟก่อนเปลี่ยน ครอบคลุมพื้นที่ ศรีนครินทร์ บางนา แบริ่ง ลาซาล เทพารักษ์ แพรกษา สมุทรปราการ</p>
+    <p class="text-slate-600 dark:text-slate-300 mb-6 sm:mb-8 text-sm sm:text-base md:text-lg leading-relaxed">PORNPISIT BATTERY ให้บริการพ่วงแบต เปลี่ยนแบต 12V สำหรับรถไฮบริด พร้อมสำรองระบบไฟก่อนเปลี่ยน ครอบคลุมพื้นที่ ศรีนครินทร์ บางนา แบริ่ง ลาซาล เทพารักษ์ แพรกษา สมุทรปราการ</p>
     <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center items-center">
-      <a href="tel:0887671679" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-bold py-3 sm:py-3.5 px-6 sm:px-8 rounded-full shadow-lg shadow-blue-500/25 hover:shadow-xl hover:shadow-blue-500/30 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 text-sm sm:text-base">
+      <a href="tel:0996731296" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white font-bold py-3 sm:py-3.5 px-6 sm:px-8 rounded-full shadow-lg shadow-blue-500/25 hover:shadow-xl hover:shadow-blue-500/30 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 text-sm sm:text-base">
         <svg class="w-5 h-5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
-        <span>โทรเรียกช่าง 088-767-1679</span>
+        <span>โทรเรียกช่าง 099-673-1296</span>
       </a>
-      <a href="https://lin.ee/xxqKaZn" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold py-3 sm:py-3.5 px-6 sm:px-8 rounded-full shadow-lg shadow-green-500/25 hover:shadow-xl hover:shadow-green-500/30 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 text-sm sm:text-base">
+      <a href="https://lin.ee/OBB86S4" target="_blank" rel="noopener noreferrer" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white font-bold py-3 sm:py-3.5 px-6 sm:px-8 rounded-full shadow-lg shadow-green-500/25 hover:shadow-xl hover:shadow-green-500/30 hover:-translate-y-0.5 active:translate-y-0 transition-all duration-200 text-sm sm:text-base">
         <svg class="w-5 h-5 flex-shrink-0" fill="currentColor" viewBox="0 0 24 24"><path d="M24 10.304c0-5.369-5.383-9.738-12-9.738-6.616 0-12 4.369-12 9.738 0 4.814 4.269 8.846 10.036 9.608.391.084.922.258 1.057.592.122.303.079.778.039 1.085l-.171 1.027c-.053.303-.242 1.186 1.039.647 1.281-.54 6.911-4.069 9.428-6.967 1.739-1.907 2.572-4.103 2.572-6.002z"/></svg>
         <span>แอดไลน์ ปรึกษาช่างฟรี</span>
       </a>
@@ -83,7 +83,7 @@ const htmlContent = `<h1>รถไฮบริดแบตหมด สตาร
   </div>
   <div>
     <h3 class="text-lg font-bold text-slate-800 dark:text-white m-0">Q: อยู่แถวศรีนครินทร์-บางนา มีบริการเปลี่ยนแบตรถไฮบริดถึงที่ไหม?</h3>
-    <p class="text-slate-600 dark:text-slate-300 mt-2"><strong>A:</strong> มีครับ FIRSTCARCENTER ให้บริการเปลี่ยนแบตเตอรี่รถไฮบริดนอกสถานที่ ครอบคลุมพื้นที่ ศรีนครินทร์ บางนา แบริ่ง ลาซาล เทพารักษ์ แพรกษา และสมุทรปราการ พร้อมสำรองระบบไฟก่อนเปลี่ยนทุกครั้ง</p>
+    <p class="text-slate-600 dark:text-slate-300 mt-2"><strong>A:</strong> มีครับ PORNPISIT BATTERY ให้บริการเปลี่ยนแบตเตอรี่รถไฮบริดนอกสถานที่ ครอบคลุมพื้นที่ ศรีนครินทร์ บางนา แบริ่ง ลาซาล เทพารักษ์ แพรกษา และสมุทรปราการ พร้อมสำรองระบบไฟก่อนเปลี่ยนทุกครั้ง</p>
   </div>
 </div>
 
@@ -113,7 +113,7 @@ const htmlContent = `<h1>รถไฮบริดแบตหมด สตาร
       "name": "อยู่แถวศรีนครินทร์-บางนา มีบริการเปลี่ยนแบตรถไฮบริดถึงที่ไหม?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "มีครับ FIRSTCARCENTER ให้บริการเปลี่ยนแบตเตอรี่รถไฮบริดนอกสถานที่ ครอบคลุมพื้นที่ ศรีนครินทร์ บางนา แบริ่ง ลาซาล เทพารักษ์ แพรกษา และสมุทรปราการ พร้อมสำรองระบบไฟก่อนเปลี่ยนทุกครั้ง"
+        "text": "มีครับ PORNPISIT BATTERY ให้บริการเปลี่ยนแบตเตอรี่รถไฮบริดนอกสถานที่ ครอบคลุมพื้นที่ ศรีนครินทร์ บางนา แบริ่ง ลาซาล เทพารักษ์ แพรกษา และสมุทรปราการ พร้อมสำรองระบบไฟก่อนเปลี่ยนทุกครั้ง"
       }
     }
   ]
@@ -129,7 +129,7 @@ const postData = {
   coverImage: "/images/blog/pig-hybrid-battery-dead-cover.svg",
   category: "แบตเตอรี่รถยนต์",
   published: true,
-  seoTitle: "รถไฮบริดแบตหมด สตาร์ทไม่ติด จั๊มได้ไหม? | FIRSTCARCENTER",
+  seoTitle: "รถไฮบริดแบตหมด สตาร์ทไม่ติด จั๊มได้ไหม? | PORNPISIT BATTERY",
   seoDescription: "รถไฮบริดแบตหมด สตาร์ทไม่ติด จั๊มแบตได้ไหม? แก้ปัญหาด่วนพร้อมเปลี่ยนแบต 12V นอกสถานที่ ศรีนครินทร์ บางนา แบริ่ง ลาซาล เทพารักษ์ แพรกษา สมุทรปราการ",
   seoKeywords: "รถไฮบริดแบตหมด,จั๊มแบตรถไฮบริด,แบตเตอรี่ 12V รถไฮบริด,ราคาเปลี่ยนแบตเตอรี่รถยนต์,แบตเตอรี่แห้ง,แบตเตอรี่ AGM,ศรีนครินทร์,บางนา,แบริ่ง,ลาซาล,สุขุมวิท,เทพารักษ์,แพรกษา,สมุทรปราการ,เปลี่ยนแบตเตอรี่นอกสถานที่",
   ogTitle: "รถไฮบริดแบตหมด สตาร์ทไม่ติด จั๊มแบตยังไงให้ปลอดภัย?",

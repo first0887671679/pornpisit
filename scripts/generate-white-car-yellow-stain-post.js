@@ -1,4 +1,4 @@
-const fs = require('fs');
+﻿const fs = require('fs');
 const path = require('path');
 const Database = require('better-sqlite3');
 
@@ -143,13 +143,13 @@ const coverSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630"
     <text x="0" y="95" font-size="52" font-weight="800" fill="#FFFFFF">หมองหมอง ขัดยังไงให้ใส?</text>
 
     <rect x="0" y="140" width="8" height="30" rx="4" fill="url(#primary-grad)"/>
-    <text x="24" y="164" font-size="26" font-weight="600" fill="#94A3B8">รีวิวขัดสีล้างคราบเหลือง โซนบางนา ศรีนครินทร์</text>
+    <text x="24" y="164" font-size="26" font-weight="600" fill="#94A3B8">รีวิวขัดสีล้างคราบเหลือง โซนห้วยขวาง ดินแดง ลาดพร้าว</text>
   </g>
 
   <use href="#pig-mascot" x="900" y="340" transform="scale(1.4) translate(-250, -100)"/>
 
   <rect x="40" y="580" width="200" height="30" rx="4" fill="url(#primary-grad)"/>
-  <text x="140" y="602" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">FIRSTCARCENTER</text>
+  <text x="140" y="602" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">PORNPISIT BATTERY</text>
 </svg>`;
 
 const inline1Svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
@@ -198,7 +198,7 @@ const post = {
   category: "คาร์แคร์",
   tags: "รถสีขาวเหลือง,ขัดสีรถสีขาว,คราบไคลรถสีขาว,ขัดสีรถยนต์,ล้างรถสีขาว,สมุทรปราการ,บางนา",
   published: 1,
-  author: "FIRSTCARCENTER",
+  author: "PORNPISIT BATTERY",
   seoTitle: "รถสีขาวเหลือง หมอง แก้ยังไง? รีวิวขัดสีลอกคราบไคล โซนบางนา",
   seoDescription: "รถสีขาวเหลือง คราบไคลฝังลึก จอดตากแดดจนหมอง? อ่านสาเหตุและวิธีแก้ พร้อมเคสรีวิวขัดสีรถสีขาวให้กลับมาเงาใส โซนศรีนครินทร์ บางนา แบริ่ง เทพารักษ์",
   seoKeywords: "รถสีขาวเหลือง, ขัดสีรถสีขาว, ล้างคราบไคลรถสีขาว, ขัดสีรถยนต์ บางนา, เคลือบสีรถสีขาว",
@@ -206,7 +206,7 @@ const post = {
   ogDescription: "แชร์เคล็ดลับกู้ชีพรถสีขาวที่เหลืองหมอง ให้กลับมาขาวออร่าเหมือนออกศูนย์ พร้อมรีวิวเคสจริงย่านศรีนครินทร์",
   coverImage: "/images/blog/pig-white-car-yellow-stain-cover.svg",
   content: `
-<p class="lead">ใครขับรถสีขาวบ้างยกมือขึ้น! สีขาวยอดฮิตที่ดูสะอาดตา สวยหรูตอนป้ายแดง แต่พอใช้ไปสัก 2-3 ปี ปัญหาที่ทุกคนต้องเจอคือ <strong>"รถสีขาวเหลือง"</strong> หรือสีรถหมองลง ดูไม่สว่างเหมือนเดิม ยิ่งใครที่ต้องจอดรถตากแดดเป็นประจำแถว <strong>บางนา ศรีนครินทร์ เทพารักษ์ หรือแพรกษา</strong> จะเห็นคราบไคลฝังแน่นชัดเจนมาก วันนี้ <strong>FirstCarCenter</strong> จะมาเจาะลึกสาเหตุ และวิธีขัดสีลอกคราบเหลืองให้รถกลับมาขาวจั๊วะครับ</p>
+<p class="lead">ใครขับรถสีขาวบ้างยกมือขึ้น! สีขาวยอดฮิตที่ดูสะอาดตา สวยหรูตอนป้ายแดง แต่พอใช้ไปสัก 2-3 ปี ปัญหาที่ทุกคนต้องเจอคือ <strong>"รถสีขาวเหลือง"</strong> หรือสีรถหมองลง ดูไม่สว่างเหมือนเดิม ยิ่งใครที่ต้องจอดรถตากแดดเป็นประจำแถว <strong>ห้วยขวาง ดินแดง ลาดพร้าว เทพารักษ์ หรือแพรกษา</strong> จะเห็นคราบไคลฝังแน่นชัดเจนมาก วันนี้ <strong>PORNPISIT BATTERY</strong> จะมาเจาะลึกสาเหตุ และวิธีขัดสีลอกคราบเหลืองให้รถกลับมาขาวจั๊วะครับ</p>
 
 <h2>ทำไม "รถสีขาวเหลือง" ถึงเกิดขึ้นได้?</h2>
 <p>อาการรถสีขาวเปลี่ยนเป็นสีครีม หรือเหลืองหมองๆ ไม่ได้เกิดจากเนื้อสีเสื่อมสภาพเสมอไปครับ แต่เกิดจากชั้นแลคเกอร์ (Clear Coat) ที่เคลือบอยู่บนสุดถูกทำร้ายจาก:</p>
@@ -254,8 +254,8 @@ const post = {
   <li><strong>ใช้น้ำยาล้างคราบไคล (Cleaner Wax):</strong> ทุกๆ 6 เดือน เพื่อลอกชั้นคราบสกปรกบางๆ ที่การล้างปกติเอาไม่ออก</li>
 </ul>
 
-<h2>รถสีขาวเหลือง หมองคล้ำ? ให้ FirstCarCenter ช่วยขัดให้สิครับ</h2>
-<p>ถ้าคุณรู้สึกว่ารถสีขาวของคุณไม่สวยเหมือนวันแรก ล้างยังไงก็ดูหมองๆ เหลืองๆ ลองนำรถมาให้ทีมงาน <strong>FirstCarCenter</strong> ขัดเคลือบสีดูครับ เรามีหน้าร้านและบริการขัดสีรถยนต์ระดับพรีเมียม ครอบคลุมลูกค้าในย่าน <strong>บางนา ศรีนครินทร์ แบริ่ง ลาซาล เทพารักษ์ สมุทรปราการ</strong> ใช้ผลิตภัณฑ์นำเข้า ขัดอย่างระมัดระวัง ไม่ทำลายชั้นสี รับรองว่ารถของคุณจะกลับมาขาวสว่าง ออร่าพุ่งแน่นอน!</p>
+<h2>รถสีขาวเหลือง หมองคล้ำ? ให้ PORNPISIT BATTERY ช่วยขัดให้สิครับ</h2>
+<p>ถ้าคุณรู้สึกว่ารถสีขาวของคุณไม่สวยเหมือนวันแรก ล้างยังไงก็ดูหมองๆ เหลืองๆ ลองนำรถมาให้ทีมงาน <strong>PORNPISIT BATTERY</strong> ขัดเคลือบสีดูครับ เรามีหน้าร้านและบริการขัดสีรถยนต์ระดับพรีเมียม ครอบคลุมลูกค้าในย่าน <strong>ห้วยขวาง ดินแดง ลาดพร้าว แบริ่ง ลาซาล เทพารักษ์ สมุทรปราการ</strong> ใช้ผลิตภัณฑ์นำเข้า ขัดอย่างระมัดระวัง ไม่ทำลายชั้นสี รับรองว่ารถของคุณจะกลับมาขาวสว่าง ออร่าพุ่งแน่นอน!</p>
 
 <div style="background: linear-gradient(135deg, #fff7ed 0%, #fff 40%, #f0fdfa 100%); border: 1px solid #fed7aa; border-radius: 2rem; padding: 2.5rem 1.5rem; margin: 2.5rem 0; text-align: center; position: relative; overflow: hidden; box-shadow: 0 25px 60px -20px rgba(0,0,0,0.08);">
   <div style="position:absolute;top:-40px;right:-20px;width:160px;height:160px;background:rgba(251,146,60,0.15);border-radius:50%;filter:blur(40px);pointer-events:none;"></div>
@@ -263,10 +263,10 @@ const post = {
   <div style="position:relative;">
     <span style="display:inline-flex;align-items:center;gap:0.5rem;background:rgba(255,255,255,0.9);border:1px solid #fed7aa;border-radius:9999px;padding:0.5rem 1.25rem;font-size:0.875rem;font-weight:600;color:#ea580c;box-shadow:0 1px 3px rgba(0,0,0,0.06);">✨ บริการขัดเคลือบสี ฟื้นฟูสภาพรถ</span>
     <h3 style="margin:1.5rem auto 0;max-width:600px;font-size:1.75rem;font-weight:900;line-height:1.3;color:#1e293b;">รถสีขาวเหลือง หมองคล้ำ? เราขัดให้กลับมาขาวจั๊วะ!</h3>
-    <p style="margin:1rem auto 0;max-width:520px;font-size:1rem;line-height:1.7;color:#64748b;">บริการลูบดินน้ำมัน ขัดลอกคราบไคล ลบรอยขนแมว และเคลือบเงา จบปัญหาผิวรถสาก เหลืองหมอง ให้กลับมาลื่นใส โซนบางนา ศรีนครินทร์</p>
+    <p style="margin:1rem auto 0;max-width:520px;font-size:1rem;line-height:1.7;color:#64748b;">บริการลูบดินน้ำมัน ขัดลอกคราบไคล ลบรอยขนแมว และเคลือบเงา จบปัญหาผิวรถสาก เหลืองหมอง ให้กลับมาลื่นใส โซนห้วยขวาง ดินแดง ลาดพร้าว</p>
     <div style="margin-top:2rem;display:flex;flex-wrap:wrap;justify-content:center;gap:1rem;">
-      <a href="tel:0887671679" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:linear-gradient(to right,#f97316,#ef4444);color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(249,115,22,0.7);">📞 โทรจองคิวขัดสี 088-767-1679</a>
-      <a href="https://lin.ee/xxqKaZn" target="_blank" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:#06C755;color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(6,199,85,0.7);">💬 แอดไลน์ ประเมินสภาพสีรถฟรี</a>
+      <a href="tel:0996731296" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:linear-gradient(to right,#f97316,#ef4444);color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(249,115,22,0.7);">📞 โทรจองคิวขัดสี 099-673-1296</a>
+      <a href="https://lin.ee/OBB86S4" target="_blank" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:#06C755;color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(6,199,85,0.7);">💬 แอดไลน์ ประเมินสภาพสีรถฟรี</a>
     </div>
     <p style="margin-top:1.5rem;"><a href="/car-polishing" style="color:#ea580c;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:1rem;">บริการขัดสีรถถึงบ้าน บางนา แบริ่ง เทพารักษ์</a></p>
     <p style="margin-top:0.75rem;"><a href="/battery-replacement" style="color:#0891b2;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:0.9rem;">เปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่ แบริ่ง ลาซาล →</a></p>

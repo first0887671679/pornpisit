@@ -1,4 +1,4 @@
-import fs from 'fs';
+﻿import fs from 'fs';
 import path from 'path';
 
 const outDir = path.join(process.cwd(), 'public/images/blog');
@@ -8,13 +8,13 @@ const covers = [
     file: "pig-battery-symptoms-cover.svg",
     badge: "BATTERY KNOWLEDGE",
     title: ["อาการแบตเตอรี่เสื่อม", "ดูยังไง? สตาร์ทไม่ติดแก้ด่วน"],
-    subtitle: "อัปเดต 2026 • FIRSTCARCENTER"
+    subtitle: "อัปเดต 2026 • PORNPISIT BATTERY"
   },
   {
     file: "pig-car-wont-start-cover.svg",
     badge: "EMERGENCY GUIDE",
     title: ["รถสตาร์ทไม่ติด เงียบกริบ", "เช็กด่วน 5 จุด ก่อนเรียกรถยก"],
-    subtitle: "อัปเดต 2026 • FIRSTCARCENTER"
+    subtitle: "อัปเดต 2026 • PORNPISIT BATTERY"
   },
   {
     file: "pig-dead-battery-cover.svg",
@@ -317,7 +317,7 @@ const infographics = [
     items: [
       { num: "01", title: "อย่าฝืนสตาร์ทแช่", desc: ["จะทำให้ไดสตาร์ทพัง", "และระบบไฟรวน"] },
       { num: "02", title: "เตรียมข้อมูลรถ", desc: ["ยี่ห้อ รุ่นรถ และ", "พิกัดสถานที่ที่รถเสีย", "ให้ชัดเจน"] },
-      { num: "03", title: "โทรเรียกช่างด่วน", desc: ["โทร 088-767-1679", "ช่างถึงที่ใน 30 นาที", "พร้อมแบตลูกใหม่"] }
+      { num: "03", title: "โทรเรียกช่างด่วน", desc: ["โทร 099-673-1296", "ช่างถึงที่ใน 30 นาที", "พร้อมแบตลูกใหม่"] }
     ]
   }
 ];
@@ -494,7 +494,7 @@ function buildInfographic(data: any) {
   <!-- Header -->
   <g transform="translate(600, 120)" text-anchor="middle">
     <rect x="-100" y="-60" width="200" height="36" rx="18" fill="url(#glass-grad)" stroke="#00F2FE" stroke-width="1.5" />
-    <text x="0" y="-36" font-size="16" font-weight="800" fill="#00F2FE" letter-spacing="2">FIRSTCARCENTER</text>
+    <text x="0" y="-36" font-size="16" font-weight="800" fill="#00F2FE" letter-spacing="2">PORNPISIT BATTERY</text>
     <text x="0" y="20" font-size="56" font-weight="800" fill="#FFFFFF">${data.title}</text>
   </g>
   

@@ -1,4 +1,4 @@
-const fs = require('fs');
+﻿const fs = require('fs');
 const path = require('path');
 const Database = require('better-sqlite3');
 
@@ -149,7 +149,7 @@ const coverSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630"
   <use href="#pig-mascot" x="900" y="340" transform="scale(1.4) translate(-250, -100)"/>
 
   <rect x="40" y="580" width="200" height="30" rx="4" fill="url(#primary-grad)"/>
-  <text x="140" y="602" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">FIRSTCARCENTER</text>
+  <text x="140" y="602" font-size="16" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">PORNPISIT BATTERY</text>
 </svg>`;
 
 const inline1Svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450">
@@ -198,7 +198,7 @@ const post = {
   category: "ช่วยเหลือฉุกเฉิน",
   tags: "อู่ซ่อมรถเปิดสงกรานต์,รถติดความร้อนขึ้น,เครื่องฮีท,เปลี่ยนแบตช่วงเทศกาล,รถเสียกลางทาง,สมุทรปราการ,บางนา",
   published: 1,
-  author: "FIRSTCARCENTER",
+  author: "PORNPISIT BATTERY",
   seoTitle: "อู่ซ่อมรถเปิดสงกรานต์ เครื่องฮีท รถดับทำไง? รีวิว โซนบางนา",
   seoDescription: "หา อู่ซ่อมรถเปิดสงกรานต์ ปีใหม่ วันหยุดยาว? รถติดจนเครื่องฮีท รถดับกลางทาง โทรหาเรา! รีวิวช่างช่วยเหลือฉุกเฉิน โซนศรีนครินทร์ บางนา เทพารักษ์ ถึงไว 30 นาที",
   seoKeywords: "อู่ซ่อมรถเปิดสงกรานต์, ร้านซ่อมรถ เปิดวันหยุด, รถติดความร้อนขึ้น, เปลี่ยนแบตเตอรี่ช่วงเทศกาล, รถเสียกลางทาง",
@@ -206,7 +206,7 @@ const post = {
   ogDescription: "แชร์วิธีรับมือรถเสีย รถฮีท ช่วงเทศกาลสงกรานต์ อู่ปิดแต่เราเปิด พร้อมบริการช่วยเหลือฉุกเฉิน โซนศรีนครินทร์-บางนา",
   coverImage: "/images/blog/pig-open-songkran-garage-cover.svg",
   content: `
-<p class="lead">เทศกาลสงกรานต์ หรือวันหยุดยาว คือช่วงเวลาปราบเซียนสำหรับคนใช้รถครับ! เพราะถนนหลายสายรถติดหนึบสะสมเป็นชั่วโมงๆ และปัญหาคลาสสิกที่เจอบ่อยที่สุดคือ "รถติดความร้อนขึ้น เครื่องฮีท แอร์ไม่เย็น หรือรถดับกลางทาง" ครั้นจะหา <strong>อู่ซ่อมรถเปิดสงกรานต์</strong> ก็ยากเสียยิ่งกว่าถูกหวย เพราะช่างส่วนใหญ่กลับต่างจังหวัดกันหมด วันนี้ <strong>FirstCarCenter</strong> จะมาแชร์วิธีเอาตัวรอด และเคสรีวิวที่เราออกไปช่วยลูกค้าในช่วงวันหยุดยาว โซน <strong>บางนา ศรีนครินทร์ เทพารักษ์ สมุทรปราการ</strong> กันครับ</p>
+<p class="lead">เทศกาลสงกรานต์ หรือวันหยุดยาว คือช่วงเวลาปราบเซียนสำหรับคนใช้รถครับ! เพราะถนนหลายสายรถติดหนึบสะสมเป็นชั่วโมงๆ และปัญหาคลาสสิกที่เจอบ่อยที่สุดคือ "รถติดความร้อนขึ้น เครื่องฮีท แอร์ไม่เย็น หรือรถดับกลางทาง" ครั้นจะหา <strong>อู่ซ่อมรถเปิดสงกรานต์</strong> ก็ยากเสียยิ่งกว่าถูกหวย เพราะช่างส่วนใหญ่กลับต่างจังหวัดกันหมด วันนี้ <strong>PORNPISIT BATTERY</strong> จะมาแชร์วิธีเอาตัวรอด และเคสรีวิวที่เราออกไปช่วยลูกค้าในช่วงวันหยุดยาว โซน <strong>ห้วยขวาง ดินแดง ลาดพร้าว เทพารักษ์ สมุทรปราการ</strong> กันครับ</p>
 
 <h2>ทำไมรถชอบมา "พัง" ช่วงสงกรานต์?</h2>
 <p>อากาศเดือนเมษายนที่ร้อนระอุ ทะลุ 40 องศา บวกกับการขับรถลุยรถติดเป็นเวลานานๆ ทำให้ระบบระบายความร้อนของรถทำงานหนักจนเกินลิมิต ปัญหาที่มักจะ "แจ็คพอตแตก" ช่วงนี้คือ:</p>
@@ -223,7 +223,7 @@ const post = {
 <h2>Case Study 1: เครื่องฮีท หน้าห้างซีคอน ศรีนครินทร์ วันที่ 13 เมษา!</h2>
 <p>ลูกค้าขับรถพาครอบครัวไปเล่นน้ำที่ <strong>ถนนศรีนครินทร์</strong> ช่วงบ่ายวันที่ 13 เมษายน รถติดสลับหยุดนิ่ง จู่ๆ แอร์ในรถมีแต่ลมร้อน ลูกค้าเหลือบไปเห็นเข็มความร้อนชี้ไปที่ขีดแดง (ตัว H) มีควันขาวๆ ดันออกมาจากฝากระโปรงรถ! ลูกค้าจึงรีบหักรถเข้าจอดข้างทางทันที</p>
 
-<p>ลูกค้าพยายามเสิร์ชหา <strong>"อู่ซ่อมรถเปิดสงกรานต์"</strong> แต่โทรไปกี่ร้านก็ไม่รับสาย สุดท้ายโทรมาเจอเรา <strong>FirstCarCenter</strong> (เราเปิดทุกวันไม่เว้นวันหยุด!) ช่างของเราขี่มอเตอร์ไซค์ฝ่าด่านสาดน้ำไปถึงจุดเกิดเหตุใน 20 นาที</p>
+<p>ลูกค้าพยายามเสิร์ชหา <strong>"อู่ซ่อมรถเปิดสงกรานต์"</strong> แต่โทรไปกี่ร้านก็ไม่รับสาย สุดท้ายโทรมาเจอเรา <strong>PORNPISIT BATTERY</strong> (เราเปิดทุกวันไม่เว้นวันหยุด!) ช่างของเราขี่มอเตอร์ไซค์ฝ่าด่านสาดน้ำไปถึงจุดเกิดเหตุใน 20 นาที</p>
 
 <p>เมื่อเครื่องยนต์เย็นลง ช่างเปิดฝากระโปรงเช็กดู พบว่า <strong>พัดลมหม้อน้ำตายสนิท</strong> ช่างจึงบริการเติมน้ำหล่อเย็นกลับเข้าไปให้เต็มระบบ และแนะนำให้ลูกค้าปิดแอร์ ขับประคองรถ (โดยช่างขี่มอเตอร์ไซค์คุมท้ายให้) ไปจอดที่บ้านแถวบางนาได้อย่างปลอดภัย รออู่ประจำเปิดหลังสงกรานต์ค่อยไปเปลี่ยนมอเตอร์พัดลมครับ</p>
 
@@ -240,8 +240,8 @@ const post = {
   <img src="/images/blog/open-songkran-garage-case3.svg" alt="ช่วยแก้ปัญหาหน้างาน พร้อมเปลี่ยนแบตเตอรี่ใหม่ ลานจอดรถห้าง โซนแบริ่ง" class="w-full h-auto object-cover m-0" />
 </div>
 
-<h2>รถมีปัญหาช่วงสงกรานต์ ปีใหม่ โทรหา FirstCarCenter!</h2>
-<p>การหา <strong>อู่ซ่อมรถเปิดสงกรานต์</strong> เพื่อซ่อมใหญ่หรือยกเครื่องอาจจะหาแทบไม่ได้ครับ แต่ถ้าคุณต้องการ <strong>ความช่วยเหลือฉุกเฉินหน้างาน</strong> เช่น ตรวจเช็กอาการความร้อนขึ้น แบตเตอรี่หมด ไดชาร์จพัง หรือพ่วงจั๊มสตาร์ท ในโซน <strong>บางนา ศรีนครินทร์ แบริ่ง ลาซาล เทพารักษ์ แพรกษา สมุทรปราการ</strong> โทรเรียก <strong>FirstCarCenter</strong> ได้เลยครับ ทีมช่างของเราสแตนด์บาย 24 ชั่วโมง ไม่มีวันหยุดเทศกาล เพื่อช่วยให้คุณและรถกลับถึงบ้านอย่างปลอดภัยครับ!</p>
+<h2>รถมีปัญหาช่วงสงกรานต์ ปีใหม่ โทรหา PORNPISIT BATTERY!</h2>
+<p>การหา <strong>อู่ซ่อมรถเปิดสงกรานต์</strong> เพื่อซ่อมใหญ่หรือยกเครื่องอาจจะหาแทบไม่ได้ครับ แต่ถ้าคุณต้องการ <strong>ความช่วยเหลือฉุกเฉินหน้างาน</strong> เช่น ตรวจเช็กอาการความร้อนขึ้น แบตเตอรี่หมด ไดชาร์จพัง หรือพ่วงจั๊มสตาร์ท ในโซน <strong>ห้วยขวาง ดินแดง ลาดพร้าว แบริ่ง ลาซาล เทพารักษ์ แพรกษา สมุทรปราการ</strong> โทรเรียก <strong>PORNPISIT BATTERY</strong> ได้เลยครับ ทีมช่างของเราสแตนด์บาย 24 ชั่วโมง ไม่มีวันหยุดเทศกาล เพื่อช่วยให้คุณและรถกลับถึงบ้านอย่างปลอดภัยครับ!</p>
 
 <div style="background: linear-gradient(135deg, #fff7ed 0%, #fff 40%, #f0fdfa 100%); border: 1px solid #fed7aa; border-radius: 2rem; padding: 2.5rem 1.5rem; margin: 2.5rem 0; text-align: center; position: relative; overflow: hidden; box-shadow: 0 25px 60px -20px rgba(0,0,0,0.08);">
   <div style="position:absolute;top:-40px;right:-20px;width:160px;height:160px;background:rgba(251,146,60,0.15);border-radius:50%;filter:blur(40px);pointer-events:none;"></div>
@@ -249,10 +249,10 @@ const post = {
   <div style="position:relative;">
     <span style="display:inline-flex;align-items:center;gap:0.5rem;background:rgba(255,255,255,0.9);border:1px solid #fed7aa;border-radius:9999px;padding:0.5rem 1.25rem;font-size:0.875rem;font-weight:600;color:#ea580c;box-shadow:0 1px 3px rgba(0,0,0,0.06);">🚨 บริการช่วยเหลือฉุกเฉิน เปิดทุกเทศกาล</span>
     <h3 style="margin:1.5rem auto 0;max-width:600px;font-size:1.75rem;font-weight:900;line-height:1.3;color:#1e293b;">อู่ปิดหมด แต่เราไม่ปิด! รถเสียช่วงสงกรานต์เรียกเราได้</h3>
-    <p style="margin:1rem auto 0;max-width:520px;font-size:1rem;line-height:1.7;color:#64748b;">บริการตรวจเช็กอาการรถเสียฉุกเฉิน จั๊มสตาร์ท และเปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่ ด่วนใน 30 นาที โซนบางนา ศรีนครินทร์</p>
+    <p style="margin:1rem auto 0;max-width:520px;font-size:1rem;line-height:1.7;color:#64748b;">บริการตรวจเช็กอาการรถเสียฉุกเฉิน จั๊มสตาร์ท และเปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่ ด่วนใน 30 นาที โซนห้วยขวาง ดินแดง ลาดพร้าว</p>
     <div style="margin-top:2rem;display:flex;flex-wrap:wrap;justify-content:center;gap:1rem;">
-      <a href="tel:0887671679" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:linear-gradient(to right,#f97316,#ef4444);color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(249,115,22,0.7);">📞 โทรเรียกช่างฉุกเฉิน 088-767-1679</a>
-      <a href="https://lin.ee/xxqKaZn" target="_blank" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:#06C755;color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(6,199,85,0.7);">💬 แอดไลน์ ส่งพิกัดรถเสียด่วน</a>
+      <a href="tel:0996731296" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:linear-gradient(to right,#f97316,#ef4444);color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(249,115,22,0.7);">📞 โทรเรียกช่างฉุกเฉิน 099-673-1296</a>
+      <a href="https://lin.ee/OBB86S4" target="_blank" style="display:inline-flex;align-items:center;justify-content:center;gap:0.5rem;min-width:260px;height:3.25rem;padding:0 1.75rem;background:#06C755;color:#fff;font-weight:700;font-size:1rem;border-radius:9999px;text-decoration:none;box-shadow:0 12px 30px -10px rgba(6,199,85,0.7);">💬 แอดไลน์ ส่งพิกัดรถเสียด่วน</a>
     </div>
     <p style="margin:1.5rem 0 0;"><a href="/battery-replacement" style="color:#ea580c;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:1rem;">เปลี่ยนแบตเตอรี่รถยนต์ นอกสถานที่ บางนา เทพารักษ์</a></p>
     <p style="margin-top:0.75rem;"><a href="/mobile-tire-repair" style="color:#0891b2;font-weight:500;text-decoration:underline;text-underline-offset:4px;font-size:0.9rem;">บริการปะยางนอกสถานที่ 24 ชม. ศรีนครินทร์ สมุทรปราการ →</a></p>
@@ -264,7 +264,7 @@ const post = {
 <div class="space-y-4 my-8" itemscope itemtype="https://schema.org/FAQPage">
 
   <div class="border rounded-xl p-4" itemprop="mainEntity" itemscope itemtype="https://schema.org/Question">
-    <h3 class="text-lg font-bold mt-0" itemprop="name">Q: FirstCarCenter รับเปลี่ยนมอเตอร์พัดลม หรือหม้อน้ำ ไหม?</h3>
+    <h3 class="text-lg font-bold mt-0" itemprop="name">Q: PORNPISIT BATTERY รับเปลี่ยนมอเตอร์พัดลม หรือหม้อน้ำ ไหม?</h3>
     <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
       <p class="mb-0 text-slate-600" itemprop="text"><strong>A:</strong> เราเน้นให้บริการแก้ปัญหาเฉพาะหน้าฉุกเฉิน (First Aid) เช่น เปลี่ยนแบตเตอรี่ จั๊มสตาร์ท และตรวจเช็กอาการเบื้องต้นครับ งานซ่อมใหญ่ที่ต้องใช้อะไหล่และเวลา เราจะช่วยประเมินอาการและแนะนำวิธีให้ลูกค้าประคองรถกลับบ้านอย่างปลอดภัย เพื่อรอเข้าอู่ประจำหลังเทศกาลครับ</p>
     </div>
