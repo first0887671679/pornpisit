@@ -21,7 +21,12 @@ import Testimonials from "@/components/Testimonials";
 export const revalidate = 60;
 
 export async function generateMetadata(): Promise<Metadata> {
-  const postsPage = await (prisma as any).page.findUnique({ where: { slug: "posts" } });
+  let postsPage = null;
+  try {
+    postsPage = await (prisma as any).page.findUnique({ where: { slug: "posts" } });
+  } catch {
+    // DB unreachable during build
+  }
   const seoTitle = postsPage?.seoTitle || postsPage?.title || "บทความ / ข่าวสาร";
   const seoDesc = postsPage?.seoDescription || "บทความ ข่าวสาร ความรู้เกี่ยวกับการดูแลรักษารถยนต์ จาก PORNPISIT BATTERY";
   return {
@@ -475,17 +480,21 @@ function PostCard({ post, featured = false }: { post: any; featured?: boolean })
 
 export default async function PostsPage() {
   // 1. Fetch page data (sections) from DB — same as home
-  const postsPage = await (prisma as any).page.findUnique({
-    where: { slug: "posts" },
-    include: { sections: { where: { isActive: true }, orderBy: { order: "asc" } } },
-  });
+  let postsPage = null;
+  let posts: any[] = [];
+  try {
+    postsPage = await (prisma as any).page.findUnique({
+      where: { slug: "posts" },
+      include: { sections: { where: { isActive: true }, orderBy: { order: "asc" } } },
+    });
+    posts = await (prisma as any).post.findMany({
+      where: { published: true },
+      orderBy: { createdAt: "desc" },
+    });
+  } catch {
+    // DB unreachable during build
+  }
   const sections = postsPage?.sections || [];
-
-  // 2. Fetch published posts
-  const posts = await (prisma as any).post.findMany({
-    where: { published: true },
-    orderBy: { createdAt: "desc" },
-  });
 
   const categories = [...new Set(posts.map((p: any) => p.category).filter(Boolean))] as string[];
   const [featured, ...rest] = posts;

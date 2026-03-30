@@ -11,7 +11,12 @@ export const revalidate = 60;
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
   const { slug: rawSlug } = await params;
   const slug = decodeURIComponent(rawSlug);
-  const post = await (prisma as any).post.findUnique({ where: { slug } });
+  let post = null;
+  try {
+    post = await (prisma as any).post.findUnique({ where: { slug } });
+  } catch {
+    // DB unreachable during build
+  }
   if (!post) return { title: "ไม่พบบทความ" };
 
   const ogImage = post.coverImage || SITE_CONFIG.ogImage;
@@ -65,7 +70,13 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
 export default async function PostDetailPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug: rawSlug } = await params;
   const slug = decodeURIComponent(rawSlug);
-  const post = await (prisma as any).post.findUnique({ where: { slug } });
+  let post = null;
+  let relatedPosts: any[] = [];
+  try {
+    post = await (prisma as any).post.findUnique({ where: { slug } });
+  } catch {
+    // DB unreachable during build
+  }
 
   if (!post || !post.published) {
     notFound();
@@ -74,17 +85,21 @@ export default async function PostDetailPage({ params }: { params: Promise<{ slu
   const tags = post.tags ? post.tags.split(",").map((t: string) => t.trim()).filter(Boolean) : [];
 
   // Get related posts (same category, exclude self)
-  const relatedPosts = post.category
-    ? await (prisma as any).post.findMany({
-        where: {
-          published: true,
-          category: post.category,
-          NOT: { id: post.id },
-        },
-        take: 3,
-        orderBy: { createdAt: "desc" },
-      })
-    : [];
+  try {
+    relatedPosts = post.category
+      ? await (prisma as any).post.findMany({
+          where: {
+            published: true,
+            category: post.category,
+            NOT: { id: post.id },
+          },
+          take: 3,
+          orderBy: { createdAt: "desc" },
+        })
+      : [];
+  } catch {
+    // DB unreachable
+  }
 
   // JSON-LD Article structured data for Google
   const articleJsonLd = {
