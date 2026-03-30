@@ -49,8 +49,8 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     metadataBase: new URL(SITE_CONFIG.url),
     title: {
-      template: '%s | FIRSTCARCENTER บริการดูแลรักษารถยนต์ 24 ชม.',
-      default: 'บริการดูแลรักษารถยนต์นอกสถานที่ 24 ชั่วโมง | เปลี่ยนแบตเตอรี่ ซ่อมไดชาร์จ ไดสตาร์ท ปะยาง',
+      template: '%s | PORNPISIT BATTERY บริการแบตเตอรี่ 24 ชม.',
+      default: 'PORNPISIT BATTERY บริการแบตเตอรี่รถยนต์นอกสถานที่ 24 ชั่วโมง | เปลี่ยนแบตถึงที่',
     },
     description: SITE_CONFIG.description,
     keywords: SITE_CONFIG.keywords,
@@ -69,7 +69,7 @@ export async function generateMetadata(): Promise<Metadata> {
       },
     },
     openGraph: {
-      title: 'บริการดูแลรักษารถยนต์นอกสถานที่ 24 ชั่วโมง | FIRSTCARCENTER',
+      title: 'PORNPISIT BATTERY บริการแบตเตอรี่รถยนต์นอกสถานที่ 24 ชั่วโมง',
       description: SITE_CONFIG.shortDescription,
       url: SITE_CONFIG.url,
       siteName: SITE_CONFIG.siteName,
@@ -80,13 +80,13 @@ export async function generateMetadata(): Promise<Metadata> {
           url: SITE_CONFIG.ogImage,
           width: 1200,
           height: 630,
-          alt: 'FIRSTCARCENTER - บริการดูแลรักษารถยนต์นอกสถานที่ 24 ชั่วโมง',
+          alt: 'PORNPISIT BATTERY - บริการแบตเตอรี่รถยนต์นอกสถานที่ 24 ชั่วโมง',
         },
       ],
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'บริการดูแลรักษารถยนต์นอกสถานที่ 24 ชั่วโมง | FIRSTCARCENTER',
+      title: 'PORNPISIT BATTERY บริการแบตเตอรี่รถยนต์นอกสถานที่ 24 ชั่วโมง',
       description: SITE_CONFIG.shortDescription,
       images: [SITE_CONFIG.ogImage],
     },
@@ -163,28 +163,28 @@ export default async function RootLayout({
           navbar={
             headerSection ? (
               <DynamicNavbar
-                brandName={headerData.brandName || "FIRSTCARCENTER"}
-                brandSub={headerData.brandSub || ""}
+                brandName={headerData.brandName || "PORNPISIT BATTERY"}
+                brandSub={headerData.brandSub || "บริการแบตเตอรี่ 24 ชม."}
                 logoUrl={headerSection.imageUrl || ""}
-                phone={headerData.phone || "0887671679"}
+                phone={headerData.phone || "0996731296"}
                 phoneLabel={headerData.phoneLabel || "โทรด่วน"}
-                lineUrl={headerData.lineUrl || "https://lin.ee/xxqKaZn"}
+                lineUrl={headerData.lineUrl || "https://lin.ee/OBB86S4"}
                 lineLabel={headerData.lineLabel || "Line"}
                 links={Array.isArray(headerData.links) ? headerData.links : []}
-                logoSize={headerData.logoSize || 40}
-                logoSizeMobile={headerData.logoSizeMobile || 28}
-                navbarHeight={headerData.navbarHeight || 56}
-                navbarHeightMobile={headerData.navbarHeightMobile || 48}
-                navBgColor={headerData.navBgColor || "#0f172a"}
-                navTextColor={headerData.navTextColor || "#cbd5e1"}
+                logoSize={headerData.logoSize || 44}
+                logoSizeMobile={headerData.logoSizeMobile || 32}
+                navbarHeight={headerData.navbarHeight || 64}
+                navbarHeightMobile={headerData.navbarHeightMobile || 52}
+                navBgColor={headerData.navBgColor || "#0a0a0a"}
+                navTextColor={headerData.navTextColor || "#a3a3a3"}
                 navAccentColor={headerData.navAccentColor || "#dc2626"}
               />
             ) : null
           }
           footer={
             footerSection ? (() => {
-              const ftBg = footerData.footerBgColor || "#020617";
-              const ftText = footerData.footerTextColor || "#94a3b8";
+              const ftBg = footerData.footerBgColor || "#0a0a0a";
+              const ftText = footerData.footerTextColor || "#737373";
               const ftAccent = footerData.footerAccentColor || "#dc2626";
               return (
               <footer className="relative overflow-hidden" style={{ backgroundColor: ftBg, color: ftText }}>
@@ -202,10 +202,10 @@ export default async function RootLayout({
                     <div className="sm:col-span-2 md:col-span-4">
                       <div className="flex items-center gap-2.5 md:gap-3 mb-4 md:mb-5">
                         <div className="w-9 h-9 md:w-10 md:h-10 rounded-xl flex items-center justify-center shadow-lg" style={{ background: `linear-gradient(135deg, ${ftAccent}, ${ftAccent}cc)`, boxShadow: `0 4px 14px ${ftAccent}40` }}>
-                          <span className="text-white font-black text-base md:text-lg">F</span>
+                          <span className="text-white font-black text-base md:text-lg">P</span>
                         </div>
                         <span className="text-xl md:text-2xl font-black text-white tracking-tight">
-                          {footerData.brandName || "FIRSTCARCENTER"}
+                          {footerData.brandName || "PORNPISIT BATTERY"}
                         </span>
                       </div>
                       <p className="text-xs md:text-sm leading-relaxed mb-4 md:mb-5" style={{ color: ftText }}>{footerData.description || ""}</p>
@@ -292,7 +292,7 @@ export default async function RootLayout({
                             <div>
                               <div className="text-xs" style={{ color: `${ftText}88` }}>LINE</div>
                               <div className="text-white font-semibold text-sm group-hover:text-[#06C755] transition-colors">
-                                {footerData.lineId || "@730ohrmd"}
+                                {footerData.lineId || "@398kyxfq"}
                               </div>
                             </div>
                           </a>
@@ -312,7 +312,7 @@ export default async function RootLayout({
                             <div>
                               <div className="text-xs" style={{ color: `${ftText}88` }}>Facebook</div>
                               <div className="text-white font-semibold text-sm group-hover:text-[#1877F2] transition-colors">
-                                {footerData.brandName || "FIRSTCARCENTER"}
+                                {footerData.brandName || "PORNPISIT BATTERY"}
                               </div>
                             </div>
                           </a>
@@ -345,7 +345,7 @@ export default async function RootLayout({
                   {/* Bottom bar */}
                   <div className="pt-4 md:pt-6 flex flex-col sm:flex-row items-center justify-between gap-2 sm:gap-3" style={{ borderTop: `1px solid ${ftText}15` }}>
                     <p className="text-[10px] sm:text-xs" style={{ color: `${ftText}88` }}>
-                      © {new Date().getFullYear()} {footerData.copyright || "FIRSTCARCENTER. All rights reserved."}
+                      © {new Date().getFullYear()} {footerData.copyright || "PORNPISIT BATTERY. All rights reserved."}
                     </p>
                     <div className="flex items-center gap-1.5">
                       <div className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" />
@@ -359,9 +359,9 @@ export default async function RootLayout({
           }
           stickyBar={
             <StickyBottomBar
-              phone={headerData.phone || "0887671679"}
+              phone={headerData.phone || "0996731296"}
               phoneLabel={headerData.stickyPhoneLabel || headerData.phoneLabel || "โทรเรียกช่าง"}
-              lineUrl={headerData.lineUrl || "https://lin.ee/xxqKaZn"}
+              lineUrl={headerData.lineUrl || "https://lin.ee/OBB86S4"}
               lineLabel={headerData.stickyLineLabel || headerData.lineLabel || "แอดไลน์"}
             />
           }

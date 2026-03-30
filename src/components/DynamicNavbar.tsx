@@ -113,7 +113,7 @@ export default function DynamicNavbar({
           ) : (
             <div className="flex items-center gap-2.5">
               <div className="w-9 h-9 rounded-xl flex items-center justify-center shadow-lg" style={{ background: `linear-gradient(135deg, ${accentHex}, ${accentHex}cc)`, boxShadow: `0 4px 14px ${accentHex}40` }}>
-                <span className="text-white font-black text-base">F</span>
+                <span className="text-white font-black text-base">P</span>
               </div>
               <span className="text-xl font-black tracking-tight" style={{ color: '#ffffff' }}>
                 {brandName}

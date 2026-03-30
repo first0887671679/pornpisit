@@ -1,55 +1,53 @@
-// Centralized SEO Configuration for Firstcar
+// Centralized SEO Configuration for Pornpisit Battery
 // Update these values to match your actual business information
 
 export const SITE_CONFIG = {
-  name: "FIRSTCARCENTER",
-  siteName: "FIRSTCARCENTER บริการดูแลรักษารถยนต์นอกสถานที่ 24 ชม.",
-  url: "https://firstcarcenterthailand.com",
+  name: "PORNPISIT BATTERY",
+  siteName: "PORNPISIT BATTERY บริการแบตเตอรี่รถยนต์ 24 ชม.",
+  url: "https://pornpisitbattery.com",
   locale: "th_TH",
   language: "th",
-  phone: "0887671679",
-  phoneFormatted: "088-767-1679",
-  lineId: "@730ohrmd",
-  lineUrl: "https://lin.ee/xxqKaZn",
-  email: "info@firstcar-service.com",
-  facebook: "https://www.facebook.com/profile.php?id=61577014751997",
-  googleMap: "https://maps.app.goo.gl/Ur2fJNEtkoq8NxXE8",
+  phone: "0996731296",
+  phoneFormatted: "099-673-1296",
+  lineId: "@398kyxfq",
+  lineUrl: "https://lin.ee/OBB86S4",
+  email: "info@pornpisitbattery.com",
+  facebook: "https://www.facebook.com/profile.php?id=61586430572682",
+  googleMap: "https://maps.app.goo.gl/vEpxr93MhWHrDB3Y9?g_st=ic",
   address: {
-    street: "123 Main St",
-    locality: "Bangkok",
-    region: "Bangkok",
-    postalCode: "10110",
+    street: "ห้วยขวาง",
+    locality: "กรุงเทพมหานคร",
+    region: "กรุงเทพมหานคร",
+    postalCode: "10310",
     country: "TH",
   },
   geo: {
-    latitude: 13.7563,
-    longitude: 100.5018,
+    latitude: 13.7780,
+    longitude: 100.5730,
   },
-  logo: "https://firstcarcenterthailand.com/opengraph-image",
-  ogImage: "https://firstcarcenterthailand.com/opengraph-image",
+  logo: "https://pornpisitbattery.com/opengraph-image",
+  ogImage: "https://pornpisitbattery.com/opengraph-image",
   description:
-    "FIRSTCARCENTER ช่างซ่อมรถนอกสถานที่ 24 ชม. บริการช่วยเหลือรถเสียฉุกเฉิน โซนบางนา ศรีนครินทร์ สมุทรปราการ ปะยาง เปลี่ยนแบตเตอรี่ ไดชาร์จ ไดสตาร์ท ขัดสีรถ ขัดไฟหน้า ถึงไวใน 30 นาที",
+    "PORNPISIT BATTERY บริการเปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่ 24 ชั่วโมง ห้วยขวาง ดินแดง ลาดพร้าว บางกะปิ บางเขน จตุจักร ดุสิต บางซื่อ ถึงไวใน 30 นาที",
   shortDescription:
-    "FIRSTCARCENTER ช่างซ่อมรถนอกสถานที่ ถึงไวใน 30 นาที ปะยาง เปลี่ยนแบต ไดชาร์จ ขัดสี โซนบางนา ศรีนครินทร์ สมุทรปราการ",
+    "PORNPISIT BATTERY บริการแบตเตอรี่รถยนต์ 24 ชม. เปลี่ยนแบตถึงที่ ห้วยขวาง ดินแดง ลาดพร้าว บางกะปิ",
   keywords: [
-    "ช่างซ่อมรถนอกสถานที่",
-    "ช่างซ่อมรถนอกสถานที่ 24 ชม",
-    "ช่วยเหลือรถเสียฉุกเฉิน",
-    "ปะยางนอกสถานที่ 24 ชม",
-    "ร้านปะยางใกล้ฉัน",
-    "ปะยางนอกสถานที่ บางนา",
-    "เปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่",
-    "ร้านแบตเตอรี่รถยนต์ใกล้ฉัน",
-    "ร้านแบตเตอรี่ บางนา ศรีนครินทร์",
-    "ซ่อมไดชาร์จนอกสถานที่",
-    "เปลี่ยนไดสตาร์ทนอกสถานที่",
-    "ขัดสีรถยนต์นอกสถานที่",
-    "ขัดไฟหน้ารถนอกสถานที่",
-    "ช่างซ่อมรถ บางนา",
-    "ช่างซ่อมรถ ศรีนครินทร์",
-    "ช่างซ่อมรถ สมุทรปราการ",
-    "ซ่อมรถนอกสถานที่ เทพารักษ์",
-    "บริการรถยนต์ฉุกเฉิน 24 ชั่วโมง",
+    "เปลี่ยนแบตเตอรี่รถยนต์",
+    "แบตเตอรี่รถยนต์ 24 ชม",
+    "เปลี่ยนแบตเตอรี่นอกสถานที่",
+    "ร้านแบตเตอรี่ใกล้ฉัน",
+    "แบตเตอรี่รถยนต์ ห้วยขวาง",
+    "แบตเตอรี่รถยนต์ ดินแดง",
+    "แบตเตอรี่รถยนต์ ลาดพร้าว",
+    "แบตเตอรี่รถยนต์ บางกะปิ",
+    "แบตเตอรี่รถยนต์ จตุจักร",
+    "เปลี่ยนแบตเตอรี่ บางเขน",
+    "เปลี่ยนแบตเตอรี่ ดุสิต",
+    "เปลี่ยนแบตเตอรี่ บางซื่อ",
+    "แบตหมด รถสตาร์ทไม่ติด",
+    "บริการแบตเตอรี่ฉุกเฉิน",
+    "เปลี่ยนแบตรถยนต์ กรุงเทพ",
+    "ร้านแบตเตอรี่ 24 ชั่วโมง",
   ],
 };
 
@@ -60,7 +58,7 @@ export function generateLocalBusinessJsonLd() {
     "@type": "AutoRepair",
     "@id": `${SITE_CONFIG.url}/#organization`,
     name: SITE_CONFIG.siteName,
-    alternateName: "FIRSTCARCENTER Service",
+    alternateName: "Pornpisit Battery Service",
     image: SITE_CONFIG.logo,
     logo: {
       "@type": "ImageObject",
@@ -86,13 +84,8 @@ export function generateLocalBusinessJsonLd() {
     openingHoursSpecification: {
       "@type": "OpeningHoursSpecification",
       dayOfWeek: [
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday",
-        "Sunday",
+        "Monday", "Tuesday", "Wednesday", "Thursday",
+        "Friday", "Saturday", "Sunday",
       ],
       opens: "00:00",
       closes: "23:59",
@@ -103,47 +96,24 @@ export function generateLocalBusinessJsonLd() {
     areaServed: [
       {
         "@type": "City",
-        name: "สมุทรปราการ",
-        containsPlace: [
-          { "@type": "Place", name: "ศรีนครินทร์" },
-          { "@type": "Place", name: "เทพารักษ์" },
-          { "@type": "Place", name: "แพรกษา" },
-          { "@type": "Place", name: "วัดด่านสำโรง" },
-          { "@type": "Place", name: "วัดหนามแดง" },
-        ],
-      },
-      {
-        "@type": "City",
         name: "กรุงเทพมหานคร",
         containsPlace: [
-          { "@type": "Place", name: "สุขุมวิท" },
-          { "@type": "Place", name: "บางนา" },
-          { "@type": "Place", name: "แบริ่ง" },
-          { "@type": "Place", name: "ลาซาล" },
+          { "@type": "Place", name: "ห้วยขวาง" },
+          { "@type": "Place", name: "ดินแดง" },
+          { "@type": "Place", name: "ลาดพร้าว" },
+          { "@type": "Place", name: "บางกะปิ" },
+          { "@type": "Place", name: "บางเขน" },
+          { "@type": "Place", name: "จตุจักร" },
+          { "@type": "Place", name: "ดุสิต" },
+          { "@type": "Place", name: "บางซื่อ" },
         ],
       },
     ],
     sameAs: [SITE_CONFIG.lineUrl, SITE_CONFIG.facebook, SITE_CONFIG.googleMap],
     hasOfferCatalog: {
       "@type": "OfferCatalog",
-      name: "บริการดูแลรักษารถยนต์",
+      name: "บริการแบตเตอรี่รถยนต์",
       itemListElement: [
-        {
-          "@type": "OfferCatalog",
-          name: "ปะยางนอกสถานที่ 24 ชม.",
-          itemListElement: [
-            {
-              "@type": "Offer",
-              itemOffered: {
-                "@type": "Service",
-                name: "ปะยางนอกสถานที่ 24 ชม.",
-                url: `${SITE_CONFIG.url}/mobile-tire-repair`,
-                description:
-                  "บริการปะยางนอกสถานที่ตลอด 24 ชั่วโมง โซนบางนา ศรีนครินทร์ สมุทรปราการ ถึงไวใน 30 นาที",
-              },
-            },
-          ],
-        },
         {
           "@type": "OfferCatalog",
           name: "เปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่",
@@ -152,42 +122,10 @@ export function generateLocalBusinessJsonLd() {
               "@type": "Offer",
               itemOffered: {
                 "@type": "Service",
-                name: "เปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่",
+                name: "เปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่ 24 ชม.",
                 url: `${SITE_CONFIG.url}/battery-replacement`,
                 description:
-                  "บริการเปลี่ยนแบตเตอรี่รถยนต์ถึงที่ รวดเร็วทันใจ พร้อมเช็คระบบไฟฟรี รับประกัน 1 ปีเต็ม",
-              },
-            },
-          ],
-        },
-        {
-          "@type": "OfferCatalog",
-          name: "ซ่อม/เปลี่ยน ไดชาร์จ ไดสตาร์ท",
-          itemListElement: [
-            {
-              "@type": "Offer",
-              itemOffered: {
-                "@type": "Service",
-                name: "ซ่อม/เปลี่ยน ไดชาร์จ ไดสตาร์ท",
-                url: `${SITE_CONFIG.url}/alternator-starter`,
-                description:
-                  "ตรวจเช็คและซ่อมไดชาร์จ ไดสตาร์ทนอกสถานที่ อะไหล่แท้ทุกชิ้น วิเคราะห์ด้วย OBD",
-              },
-            },
-          ],
-        },
-        {
-          "@type": "OfferCatalog",
-          name: "ขัดสีรถ ลบรอย ขัดไฟหน้า",
-          itemListElement: [
-            {
-              "@type": "Offer",
-              itemOffered: {
-                "@type": "Service",
-                name: "ขัดสีรถ ลบรอย ขัดไฟหน้า",
-                url: `${SITE_CONFIG.url}/car-polishing`,
-                description:
-                  "บริการขัดสีรถลบรอย ขัดไฟหน้าเหลืองให้ใสปิ๊ง นอกสถานที่ถึงบ้าน ไม่ต้องทิ้งรถที่ร้าน",
+                  "บริการเปลี่ยนแบตเตอรี่รถยนต์ถึงที่ รวดเร็วทันใจ พร้อมเช็คระบบไฟฟรี รับประกันคุณภาพ",
               },
             },
           ],
@@ -197,7 +135,7 @@ export function generateLocalBusinessJsonLd() {
     aggregateRating: {
       "@type": "AggregateRating",
       ratingValue: "4.9",
-      reviewCount: "150",
+      reviewCount: "200",
       bestRating: "5",
       worstRating: "1",
     },
@@ -299,12 +237,8 @@ export function generateServiceJsonLd(
         "@type": "City",
         name: "กรุงเทพมหานคร",
       },
-      {
-        "@type": "City",
-        name: "สมุทรปราการ",
-      },
     ],
-    serviceType: "Auto Repair",
+    serviceType: "Battery Replacement Service",
     availableChannel: {
       "@type": "ServiceChannel",
       servicePhone: SITE_CONFIG.phone,

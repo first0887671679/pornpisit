@@ -1,5 +1,5 @@
 /**
- * Tailwind configuration with red-black branding.
+ * Tailwind configuration with red-black branding — PORNPISIT BATTERY
  */
 export default {
   content: [
@@ -8,8 +8,8 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#b30000", // red
-        dark: "#000000",   // black
+        primary: "#dc2626", // red
+        dark: "#0a0a0a",   // black
       },
     },
   },
