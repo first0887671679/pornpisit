@@ -511,17 +511,19 @@ export default async function Home() {
               {data.description || "ช่างออกนอกสถานที่ภายใน 30 นาที บริการ 24 ชั่วโมงทุกวัน ไม่เว้นวันหยุด"}
             </p>
 
-            <Link href={`tel:${cPhone}`}
-              className="group inline-flex items-center justify-center gap-3 bg-red-600 hover:bg-red-500 active:scale-[0.97] text-white font-black text-xl md:text-3xl h-16 md:h-20 px-8 md:px-16 rounded-2xl transition-all duration-300 shadow-[0_12px_50px_-8px_rgba(220,38,38,0.55)] hover:shadow-[0_16px_60px_-8px_rgba(220,38,38,0.7)] sm:hover:-translate-y-1 mb-4 w-full sm:w-auto">
-              <PhoneCall className="w-6 h-6 md:w-8 md:h-8 transition-transform group-hover:rotate-12" />
-              {cPhone.replace(/(\d{3})(\d{3})(\d{4})/, "$1-$2-$3")}
-            </Link>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+              <Link href={`tel:${cPhone}`}
+                className="group flex items-center justify-center gap-3 bg-red-600 hover:bg-red-500 active:scale-[0.97] text-white font-black text-xl md:text-3xl h-16 md:h-20 px-8 md:px-16 rounded-2xl transition-all duration-300 shadow-[0_12px_50px_-8px_rgba(220,38,38,0.55)] hover:shadow-[0_16px_60px_-8px_rgba(220,38,38,0.7)] sm:hover:-translate-y-1 w-full sm:w-auto">
+                <PhoneCall className="w-6 h-6 md:w-8 md:h-8 transition-transform group-hover:rotate-12" />
+                {cPhone.replace(/(\d{3})(\d{3})(\d{4})/, "$1-$2-$3")}
+              </Link>
 
-            <Link href={cLine} target="_blank"
-              className="group inline-flex items-center justify-center gap-3 bg-[#06C755] hover:bg-[#05b34b] active:scale-[0.97] text-white font-bold text-base md:text-xl h-14 md:h-16 px-8 md:px-12 rounded-2xl transition-all duration-300 shadow-[0_8px_30px_-8px_rgba(6,199,85,0.35)] sm:hover:-translate-y-0.5 w-full sm:w-auto">
-              <MessageCircle className="w-5 h-5 md:w-6 md:h-6 transition-transform group-hover:scale-110" />
-              แอดไลน์: {cLineId}
-            </Link>
+              <Link href={cLine} target="_blank"
+                className="group flex items-center justify-center gap-3 bg-[#06C755] hover:bg-[#05b34b] active:scale-[0.97] text-white font-bold text-base md:text-xl h-14 md:h-16 px-8 md:px-12 rounded-2xl transition-all duration-300 shadow-[0_8px_30px_-8px_rgba(6,199,85,0.35)] sm:hover:-translate-y-0.5 w-full sm:w-auto">
+                <MessageCircle className="w-5 h-5 md:w-6 md:h-6 transition-transform group-hover:scale-110" />
+                แอดไลน์: {cLineId}
+              </Link>
+            </div>
 
             <div className="flex flex-wrap justify-center gap-5 md:gap-8 mt-10 md:mt-14">
               {(Array.isArray(data.trustSignals) && data.trustSignals.length > 0 ? data.trustSignals : [
