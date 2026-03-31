@@ -1,3 +1,4 @@
+import { ensureBrandMigration } from "@/lib/auto-migrate-brand";
 import { Metadata } from "next";
 import { prisma } from "@/lib/prisma";
 import { SITE_CONFIG, generateFAQJsonLd, generateBreadcrumbJsonLd, generateWebPageJsonLd } from "@/lib/seo";
@@ -73,6 +74,9 @@ function getSection(sections: any[], type: string) {
 }
 
 export default async function Home() {
+  // Auto-migrate DB brand data on first request
+  await ensureBrandMigration();
+
   let homePage = null;
   try {
     homePage = await (prisma as any).page.findUnique({
