@@ -368,6 +368,66 @@ async function migrate() {
       console.log("[prebuild-migrate] Force-set posts page sections ✓");
     }
 
+    // ── 5b. Force-set contact-us page sections ──
+    const contactPage = await prisma.page.findUnique({
+      where: { slug: "contact-us" },
+      include: { sections: true },
+    });
+    if (contactPage) {
+      // Update page-level SEO
+      await prisma.page.update({
+        where: { id: contactPage.id },
+        data: {
+          seoTitle: "ติดต่อเรา | เปลี่ยนแบตเตอรี่นอกสถานที่ 24 ชม. ห้วยขวาง ดินแดง ลาดพร้าว | PORNPISIT BATTERY",
+          seoDescription: "ต้องการเปลี่ยนแบตเตอรี่ด่วน? โทร 099-673-1296 บริการเปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่ 24 ชม. โซนห้วยขวาง ดินแดง ลาดพร้าว บางกะปิ บางเขน จตุจักร ถึงไวใน 30 นาที",
+          seoKeywords: "ติดต่อเปลี่ยนแบตเตอรี่,เบอร์โทรช่างเปลี่ยนแบต,เปลี่ยนแบตเตอรี่ 24 ชม,เปลี่ยนแบตเตอรี่ ห้วยขวาง,เปลี่ยนแบตเตอรี่ ดินแดง,เปลี่ยนแบตเตอรี่ ลาดพร้าว",
+        },
+      });
+
+      for (const section of contactPage.sections) {
+        if (section.type === "hero") {
+          await prisma.pageSection.update({
+            where: { id: section.id },
+            data: {
+              content: JSON.stringify({
+                heading: 'ติดต่อเรา — เปลี่ยนแบตเตอรี่ด่วน <span class="text-red-400">24 ชั่วโมง</span>',
+                description: 'รถสตาร์ทไม่ติด? แบตหมด? โทรหาเราได้ตลอดเวลา ทีมช่างพร้อมนำแบตเตอรี่แท้ไปเปลี่ยนถึงที่คุณ ครอบคลุมพื้นที่ <strong class="text-white">ห้วยขวาง ดินแดง ลาดพร้าว บางกะปิ</strong> และพื้นที่ใกล้เคียง ประเมินราคาฟรี ไม่มีบวกเพิ่มหน้างาน',
+                ctaPhoneLabel: "โทรเรียกช่างเปลี่ยนแบต",
+                ctaLineLabel: "แอดไลน์สอบถาม",
+              }),
+            },
+          });
+        }
+        if (section.type === "areas") {
+          await prisma.pageSection.update({
+            where: { id: section.id },
+            data: {
+              content: JSON.stringify({
+                heading: 'พื้นที่ให้บริการ <span class="text-red-600">เปลี่ยนแบตเตอรี่นอกสถานที่</span> ของเรา',
+                description: "เพื่อความรวดเร็วในการเข้าถึงหน้างาน ภายใน 30 นาที เราให้บริการครอบคลุมพื้นที่ดังต่อไปนี้:",
+                areas: ["ห้วยขวาง", "ดินแดง", "ลาดพร้าว", "บางกะปิ", "บางเขน", "จตุจักร", "ดุสิต", "บางซื่อ"],
+              }),
+            },
+          });
+        }
+        if (section.type === "cta-bottom") {
+          await prisma.pageSection.update({
+            where: { id: section.id },
+            data: {
+              content: JSON.stringify({
+                heading: "แบตหมด? ติดต่อเราทันที!",
+                description: "ไม่ว่าจะดึกดื่นแค่ไหน ทีมช่างพร้อมนำแบตเตอรี่แท้ไปเปลี่ยนถึงที่ โทรหรือแอดไลน์ได้เลยตอนนี้",
+                ctaPhoneLabel: "โทรเรียกช่างเปลี่ยนแบต",
+                ctaLineLabel: "แอดไลน์สอบถาม",
+              }),
+            },
+          });
+        }
+        // header/footer on contact-us page already handled by the generic replacement step
+      }
+      console.log("[prebuild-migrate] Force-set contact-us page sections ✓");
+    }
+
     // ── 6. Update SiteSettings if exists ──
     try {
       const settings = await prisma.siteSettings.findFirst();

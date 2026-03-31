@@ -7,7 +7,7 @@ export const revalidate = 60;
 
 const SLUG = "mobile-tire-repair";
 const FALLBACK_TITLE = "ปะยางนอกสถานที่ 24 ชม. ห้วยขวาง ดินแดง ลาดพร้าว ถึงไว ด่วนทันใจ";
-const FALLBACK_DESC = "ยางแตก ยางรั่ว โทรเรียกเรา! บริการปะยางนอกสถานที่ด่วน โซนสุขุมวิท บางนา เทพารักษ์ วัดด่าน ช่างชำนาญงาน พร้อมให้บริการและแก้ปัญหาทันที";
+const FALLBACK_DESC = "ยางแตก ยางรั่ว โทรเรียกเรา! บริการปะยางนอกสถานที่ด่วน โซนห้วยขวาง ดินแดง ลาดพร้าว บางกะปิ ช่างชำนาญงาน พร้อมให้บริการและแก้ปัญหาทันที";
 
 export async function generateMetadata(): Promise<Metadata> {
   await ensureServicePages();
@@ -19,7 +19,7 @@ export async function generateMetadata(): Promise<Metadata> {
     description,
     keywords: page?.seoKeywords?.split(",") || [
       "ปะยางนอกสถานที่","ปะยางนอกสถานที่ 24 ชม","ร้านปะยางใกล้ฉัน",
-      "ปะยางนอกสถานที่ บางนา","ปะยางนอกสถานที่ ศรีนครินทร์","ยางแตก ยางรั่ว",
+      "ปะยางนอกสถานที่ ห้วยขวาง","ปะยางนอกสถานที่ ดินแดง","ยางแตก ยางรั่ว",
     ],
     alternates: { canonical: `/${SLUG}` },
     openGraph: {

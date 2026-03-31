@@ -6,7 +6,7 @@ import ServicePageRenderer from "@/components/ServicePageRenderer";
 export const revalidate = 60;
 
 const SLUG = "battery-replacement";
-const FALLBACK_TITLE = "ร้านแบตเตอรี่รถยนต์ นอกสถานที่ แบริ่ง ลาซาล แพรกษา เปลี่ยนแบตด่วน";
+const FALLBACK_TITLE = "ร้านแบตเตอรี่รถยนต์ นอกสถานที่ ห้วยขวาง ดินแดง ลาดพร้าว เปลี่ยนแบตด่วน";
 const FALLBACK_DESC = "รถสตาร์ทไม่ติด? ร้านแบตเตอรี่รถยนต์ใกล้ฉัน บริการเปลี่ยนแบตเตอรี่ด่วนนอกสถานที่ มีแบตแท้รองรับทุกรุ่น ช่างมืออาชีพพร้อมไปถึงหน้าบ้านคุณ";
 
 export async function generateMetadata(): Promise<Metadata> {
@@ -19,7 +19,7 @@ export async function generateMetadata(): Promise<Metadata> {
     description,
     keywords: page?.seoKeywords?.split(",") || [
       "ร้านแบตเตอรี่รถยนต์นอกสถานที่","ร้านแบตเตอรี่รถยนต์ใกล้ฉัน","เปลี่ยนแบตเตอรี่รถยนต์",
-      "เปลี่ยนแบตด่วน บางนา","เปลี่ยนแบตด่วน ศรีนครินทร์","รถสตาร์ทไม่ติด",
+      "เปลี่ยนแบตด่วน ห้วยขวาง","เปลี่ยนแบตด่วน ดินแดง","รถสตาร์ทไม่ติด",
     ],
     alternates: { canonical: `/${SLUG}` },
     openGraph: {
@@ -28,7 +28,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       siteName: SITE_CONFIG.siteName,
       locale: SITE_CONFIG.locale,
-      images: [{ url: SITE_CONFIG.ogImage, width: 1200, height: 630, alt: "ร้านแบตเตอรี่รถยนต์นอกสถานที่ เปลี่ยนแบตด่วน ศรีนครินทร์ แพรกษา" }],
+      images: [{ url: SITE_CONFIG.ogImage, width: 1200, height: 630, alt: "ร้านแบตเตอรี่รถยนต์นอกสถานที่ เปลี่ยนแบตด่วน ห้วยขวาง ดินแดง" }],
     },
     twitter: { card: "summary_large_image", title, description, images: [SITE_CONFIG.ogImage] },
   };

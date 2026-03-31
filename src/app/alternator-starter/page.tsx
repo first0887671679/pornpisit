@@ -6,8 +6,8 @@ import ServicePageRenderer from "@/components/ServicePageRenderer";
 export const revalidate = 60;
 
 const SLUG = "alternator-starter";
-const FALLBACK_TITLE = "ซ่อมเปลี่ยนไดชาร์จ ไดสตาร์ท นอกสถานที่ เทพารักษ์ ศรีนครินทร์";
-const FALLBACK_DESC = "รถดับกลางทาง สตาร์ทไม่ติด? บริการตรวจเช็คและเปลี่ยนไดชาร์จ ไดสตาร์ท นอกสถานที่ ไม่ต้องลากรถ ครอบคลุมพื้นที่สมุทรปราการ บางนา ประเมินราคาก่อนซ่อม";
+const FALLBACK_TITLE = "ซ่อมเปลี่ยนไดชาร์จ ไดสตาร์ท นอกสถานที่ ห้วยขวาง ดินแดง ลาดพร้าว";
+const FALLBACK_DESC = "รถดับกลางทาง สตาร์ทไม่ติด? บริการตรวจเช็คและเปลี่ยนไดชาร์จ ไดสตาร์ท นอกสถานที่ ไม่ต้องลากรถ ครอบคลุมพื้นที่ห้วยขวาง ดินแดง ลาดพร้าว ประเมินราคาก่อนซ่อม";
 
 export async function generateMetadata(): Promise<Metadata> {
   await ensureServicePages();
@@ -18,8 +18,8 @@ export async function generateMetadata(): Promise<Metadata> {
     title,
     description,
     keywords: page?.seoKeywords?.split(",") || [
-      "ซ่อมไดชาร์จนอกสถานที่","เปลี่ยนไดสตาร์ทนอกสถานที่","ซ่อมไดชาร์จ บางนา",
-      "เปลี่ยนไดสตาร์ท ศรีนครินทร์","รถดับกลางทาง","ช่างซ่อมไดชาร์จ",
+      "ซ่อมไดชาร์จนอกสถานที่","เปลี่ยนไดสตาร์ทนอกสถานที่","ซ่อมไดชาร์จ ห้วยขวาง",
+      "เปลี่ยนไดสตาร์ท ดินแดง","รถดับกลางทาง","ช่างซ่อมไดชาร์จ",
     ],
     alternates: { canonical: `/${SLUG}` },
     openGraph: {
@@ -28,7 +28,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       siteName: SITE_CONFIG.siteName,
       locale: SITE_CONFIG.locale,
-      images: [{ url: SITE_CONFIG.ogImage, width: 1200, height: 630, alt: "ช่างซ่อมไดชาร์จ เปลี่ยนไดสตาร์ท นอกสถานที่ เทพารักษ์ วัดด่าน" }],
+      images: [{ url: SITE_CONFIG.ogImage, width: 1200, height: 630, alt: "ช่างซ่อมไดชาร์จ เปลี่ยนไดสตาร์ท นอกสถานที่ ห้วยขวาง ดินแดง" }],
     },
     twitter: { card: "summary_large_image", title, description, images: [SITE_CONFIG.ogImage] },
   };

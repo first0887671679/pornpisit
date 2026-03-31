@@ -6,8 +6,8 @@ import ServicePageRenderer from "@/components/ServicePageRenderer";
 export const revalidate = 60;
 
 const SLUG = "car-polishing";
-const FALLBACK_TITLE = "รับขัดสีรถยนต์ ขัดไฟหน้านอกสถานที่ ถึงบ้านคุณ สุขุมวิท บางนา";
-const FALLBACK_DESC = "บริการขัดสีรถลบรอย ขัดไฟหน้าเหลืองให้ใสปิ๊ง นอกสถานที่ ไม่ต้องทิ้งรถไว้ที่ร้าน สะดวกสบาย บริการถึงบ้านย่านห้วยขวาง ดินแดง ลาดพร้าว แบริ่ง ลาซาล";
+const FALLBACK_TITLE = "รับขัดสีรถยนต์ ขัดไฟหน้านอกสถานที่ ถึงบ้านคุณ ห้วยขวาง ดินแดง ลาดพร้าว";
+const FALLBACK_DESC = "บริการขัดสีรถลบรอย ขัดไฟหน้าเหลืองให้ใสปิ๊ง นอกสถานที่ ไม่ต้องทิ้งรถไว้ที่ร้าน สะดวกสบาย บริการถึงบ้านย่านห้วยขวาง ดินแดง ลาดพร้าว บางกะปิ";
 
 export async function generateMetadata(): Promise<Metadata> {
   await ensureServicePages();
@@ -19,7 +19,7 @@ export async function generateMetadata(): Promise<Metadata> {
     description,
     keywords: page?.seoKeywords?.split(",") || [
       "ขัดสีรถยนต์นอกสถานที่","ขัดสีรถถึงบ้าน","ขัดไฟหน้ารถนอกสถานที่",
-      "ขัดสีรถ บางนา","ขัดสีรถ ศรีนครินทร์","ลบรอยขีดข่วนรถยนต์",
+      "ขัดสีรถ ห้วยขวาง","ขัดสีรถ ดินแดง","ลบรอยขีดข่วนรถยนต์",
     ],
     alternates: { canonical: `/${SLUG}` },
     openGraph: {
@@ -28,7 +28,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       siteName: SITE_CONFIG.siteName,
       locale: SITE_CONFIG.locale,
-      images: [{ url: SITE_CONFIG.ogImage, width: 1200, height: 630, alt: "ขัดสีรถยนต์ ลบรอย ขัดไฟหน้านอกสถานที่ ถึงบ้าน บางนา ลาซาล" }],
+      images: [{ url: SITE_CONFIG.ogImage, width: 1200, height: 630, alt: "ขัดสีรถยนต์ ลบรอย ขัดไฟหน้านอกสถานที่ ถึงบ้าน ห้วยขวาง ดินแดง" }],
     },
     twitter: { card: "summary_large_image", title, description, images: [SITE_CONFIG.ogImage] },
   };

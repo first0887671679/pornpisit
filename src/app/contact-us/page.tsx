@@ -6,8 +6,8 @@ import ServicePageRenderer from "@/components/ServicePageRenderer";
 export const revalidate = 60;
 
 const SLUG = "contact-us";
-const FALLBACK_TITLE = `เบอร์โทรช่างซ่อมรถ นอกสถานที่ 24 ชม. ห้วยขวาง ดินแดง ลาดพร้าว | PORNPISIT BATTERY`;
-const FALLBACK_DESC = "ต้องการช่างด่วน? เบอร์โทรติดต่อช่างซ่อมรถนอกสถานที่ ปะยาง เปลี่ยนแบต ไดชาร์จ โซนห้วยขวาง ดินแดง ลาดพร้าว เทพารักษ์ แพรกษา พร้อมออกเดินทางทันที โทรเลยตลอด 24 ชม.";
+const FALLBACK_TITLE = `ติดต่อเรา | เปลี่ยนแบตเตอรี่นอกสถานที่ 24 ชม. ห้วยขวาง ดินแดง ลาดพร้าว | PORNPISIT BATTERY`;
+const FALLBACK_DESC = "ต้องการเปลี่ยนแบตเตอรี่ด่วน? โทร 099-673-1296 บริการเปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่ 24 ชม. โซนห้วยขวาง ดินแดง ลาดพร้าว บางกะปิ บางเขน จตุจักร ถึงไวใน 30 นาที";
 
 export async function generateMetadata(): Promise<Metadata> {
   await ensureServicePages();
@@ -18,9 +18,9 @@ export async function generateMetadata(): Promise<Metadata> {
     title,
     description,
     keywords: page?.seoKeywords?.split(",") || [
-      "ติดต่อช่างซ่อมรถ","เบอร์โทรช่างซ่อมรถ","ช่างซ่อมรถ 24 ชม",
-      "ช่างซ่อมรถ บางนา","ช่างซ่อมรถ ศรีนครินทร์","ช่างซ่อมรถ สมุทรปราการ",
-      "เรียกช่างซ่อมรถด่วน","ช่างซ่อมรถนอกสถานที่ เทพารักษ์","ช่างซ่อมรถนอกสถานที่ แพรกษา",
+      "ติดต่อเปลี่ยนแบตเตอรี่","เบอร์โทรช่างเปลี่ยนแบต","เปลี่ยนแบตเตอรี่ 24 ชม",
+      "เปลี่ยนแบตเตอรี่ ห้วยขวาง","เปลี่ยนแบตเตอรี่ ดินแดง","เปลี่ยนแบตเตอรี่ ลาดพร้าว",
+      "เปลี่ยนแบตเตอรี่ บางกะปิ","เปลี่ยนแบตเตอรี่ บางเขน","เปลี่ยนแบตเตอรี่ จตุจักร",
     ],
     alternates: { canonical: `/${SLUG}` },
     openGraph: {
@@ -29,7 +29,7 @@ export async function generateMetadata(): Promise<Metadata> {
       type: "website",
       siteName: SITE_CONFIG.siteName,
       locale: SITE_CONFIG.locale,
-      images: [{ url: SITE_CONFIG.ogImage, width: 1200, height: 630, alt: `ติดต่อ ${SITE_CONFIG.name} ช่างซ่อมรถนอกสถานที่ 24 ชม.` }],
+      images: [{ url: SITE_CONFIG.ogImage, width: 1200, height: 630, alt: `ติดต่อ ${SITE_CONFIG.name} เปลี่ยนแบตเตอรี่นอกสถานที่ 24 ชม.` }],
     },
     twitter: { card: "summary_large_image", title, description, images: [SITE_CONFIG.ogImage] },
   };
@@ -79,23 +79,16 @@ function generateContactPageJsonLd() {
     areaServed: [
       {
         "@type": "City",
-        name: "สมุทรปราการ",
-        containsPlace: [
-          { "@type": "Place", name: "ศรีนครินทร์" },
-          { "@type": "Place", name: "เทพารักษ์" },
-          { "@type": "Place", name: "แพรกษา" },
-          { "@type": "Place", name: "วัดด่านสำโรง" },
-          { "@type": "Place", name: "วัดหนามแดง" },
-        ],
-      },
-      {
-        "@type": "City",
         name: "กรุงเทพมหานคร",
         containsPlace: [
-          { "@type": "Place", name: "สุขุมวิท" },
-          { "@type": "Place", name: "บางนา" },
-          { "@type": "Place", name: "แบริ่ง" },
-          { "@type": "Place", name: "ลาซาล" },
+          { "@type": "Place", name: "ห้วยขวาง" },
+          { "@type": "Place", name: "ดินแดง" },
+          { "@type": "Place", name: "ลาดพร้าว" },
+          { "@type": "Place", name: "บางกะปิ" },
+          { "@type": "Place", name: "บางเขน" },
+          { "@type": "Place", name: "จตุจักร" },
+          { "@type": "Place", name: "ดุสิต" },
+          { "@type": "Place", name: "บางซื่อ" },
         ],
       },
     ],
