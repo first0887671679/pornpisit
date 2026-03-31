@@ -12,16 +12,22 @@ export async function PUT(req: Request, { params }: { params: Promise<{ id: stri
     }
     const { sectionId } = await params;
     const body = await req.json();
+
+    // Build update data — only include fields that are provided
+    const updateData: Record<string, any> = {
+      type: body.type,
+      title: body.title ?? null,
+      content: body.content ?? "{}",
+      imageUrl: body.imageUrl ?? null,
+      isActive: body.isActive ?? true,
+    };
+    if (body.order !== undefined) {
+      updateData.order = body.order;
+    }
+
     const section = await (prisma as any).pageSection.update({
       where: { id: sectionId },
-      data: {
-        type: body.type,
-        title: body.title ?? null,
-        content: body.content ?? "{}",
-        imageUrl: body.imageUrl ?? null,
-        order: body.order,
-        isActive: body.isActive,
-      },
+      data: updateData,
     });
     // Revalidate all pages that depend on header/footer/sections
     revalidatePath("/", "layout");
@@ -32,6 +38,7 @@ export async function PUT(req: Request, { params }: { params: Promise<{ id: stri
     revalidatePath("/posts", "page");
     return NextResponse.json(section);
   } catch (error) {
+    console.error("[API] Failed to update section:", error);
     return NextResponse.json({ error: "Failed to update section" }, { status: 500 });
   }
 }
