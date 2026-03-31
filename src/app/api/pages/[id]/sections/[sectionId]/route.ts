@@ -23,7 +23,13 @@ export async function PUT(req: Request, { params }: { params: Promise<{ id: stri
         isActive: body.isActive,
       },
     });
+    // Revalidate all pages that depend on header/footer/sections
     revalidatePath("/", "layout");
+    revalidatePath("/", "page");
+    revalidatePath("/contact-us", "page");
+    revalidatePath("/check-price", "page");
+    revalidatePath("/battery-replacement", "page");
+    revalidatePath("/posts", "page");
     return NextResponse.json(section);
   } catch (error) {
     return NextResponse.json({ error: "Failed to update section" }, { status: 500 });

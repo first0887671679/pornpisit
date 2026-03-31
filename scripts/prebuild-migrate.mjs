@@ -143,13 +143,16 @@ async function migrate() {
           d.lineLabel = "Line";
           d.stickyPhoneLabel = "โทรเรียกช่าง";
           d.stickyLineLabel = "แอดไลน์";
-          d.links = [
-            { label: "หน้าแรก", href: "/" },
-            { label: "เปลี่ยนแบตเตอรี่", href: "/battery-replacement" },
-            { label: "เช็คราคาแบต", href: "/check-price" },
-            { label: "ติดต่อเรา", href: "/contact-us" },
-            { label: "บทความ", href: "/posts" },
-          ];
+          // Only set default links if no links exist yet (preserve admin edits)
+          if (!Array.isArray(d.links) || d.links.length === 0) {
+            d.links = [
+              { label: "หน้าแรก", href: "/" },
+              { label: "เปลี่ยนแบตเตอรี่", href: "/battery-replacement" },
+              { label: "เช็คราคาแบต", href: "/check-price" },
+              { label: "ติดต่อเรา", href: "/contact-us" },
+              { label: "บทความ", href: "/posts" },
+            ];
+          }
           await prisma.pageSection.update({ where: { id: section.id }, data: { content: JSON.stringify(d) } });
         }
 
