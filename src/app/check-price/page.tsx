@@ -2,7 +2,7 @@ import { Metadata } from "next";
 import { SITE_CONFIG, generateBreadcrumbJsonLd, generateWebPageJsonLd } from "@/lib/seo";
 import BatteryChecker from "@/components/BatteryChecker";
 import Link from "next/link";
-import { PhoneCall, MessageCircle, Clock, Shield, Zap, Award, Search } from "lucide-react";
+import { PhoneCall, MessageCircle, Clock, Shield, Zap, Award, Search, MapPin, Facebook, Map } from "lucide-react";
 
 const PAGE_TITLE = "เช็ครุ่นแบตเตอรี่รถยนต์ ค้นหาแบตเตอรี่ที่เหมาะสมตามรุ่นรถ | PORNPISIT BATTERY";
 const PAGE_DESC =
@@ -182,6 +182,77 @@ export default function CheckPricePage() {
                 <MessageCircle className="w-4 h-4 md:w-5 md:h-5" />
                 แอดไลน์ {SITE_CONFIG.lineId}
               </Link>
+            </div>
+          </div>
+        </section>
+
+        {/* ── Contact Section ── */}
+        <section id="contact" className="py-10 md:py-16 px-4 bg-white">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-slate-900 text-center mb-2">
+              ติดต่อเรา
+            </h2>
+            <p className="text-slate-500 text-sm text-center mb-8">
+              PORNPISIT BATTERY พร้อมให้บริการเปลี่ยนแบตเตอรี่ถึงที่ 24 ชั่วโมง
+            </p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              <Link
+                href="tel:0996731296"
+                className="flex items-center gap-4 bg-slate-50 hover:bg-red-50 border border-slate-200 hover:border-red-200 rounded-xl p-5 transition-all group"
+              >
+                <div className="w-12 h-12 bg-red-100 group-hover:bg-red-200 rounded-xl flex items-center justify-center flex-shrink-0 transition-colors">
+                  <PhoneCall className="w-6 h-6 text-red-600" />
+                </div>
+                <div>
+                  <div className="font-bold text-slate-900 text-sm">โทรศัพท์</div>
+                  <div className="text-red-600 font-semibold">099-673-1296</div>
+                </div>
+              </Link>
+              <Link
+                href="https://lin.ee/OBB86S4"
+                target="_blank"
+                className="flex items-center gap-4 bg-slate-50 hover:bg-green-50 border border-slate-200 hover:border-green-200 rounded-xl p-5 transition-all group"
+              >
+                <div className="w-12 h-12 bg-green-100 group-hover:bg-green-200 rounded-xl flex items-center justify-center flex-shrink-0 transition-colors">
+                  <MessageCircle className="w-6 h-6 text-[#00B900]" />
+                </div>
+                <div>
+                  <div className="font-bold text-slate-900 text-sm">LINE</div>
+                  <div className="text-[#00B900] font-semibold">@398kyxfq</div>
+                </div>
+              </Link>
+              <Link
+                href="https://www.facebook.com/profile.php?id=61586430572682"
+                target="_blank"
+                className="flex items-center gap-4 bg-slate-50 hover:bg-blue-50 border border-slate-200 hover:border-blue-200 rounded-xl p-5 transition-all group"
+              >
+                <div className="w-12 h-12 bg-blue-100 group-hover:bg-blue-200 rounded-xl flex items-center justify-center flex-shrink-0 transition-colors">
+                  <Facebook className="w-6 h-6 text-[#1877F2]" />
+                </div>
+                <div>
+                  <div className="font-bold text-slate-900 text-sm">Facebook</div>
+                  <div className="text-[#1877F2] font-semibold">PORNPISIT BATTERY</div>
+                </div>
+              </Link>
+              <Link
+                href="https://maps.app.goo.gl/vEpxr93MhWHrDB3Y9?g_st=ic"
+                target="_blank"
+                className="flex items-center gap-4 bg-slate-50 hover:bg-red-50 border border-slate-200 hover:border-red-200 rounded-xl p-5 transition-all group"
+              >
+                <div className="w-12 h-12 bg-red-100 group-hover:bg-red-200 rounded-xl flex items-center justify-center flex-shrink-0 transition-colors">
+                  <Map className="w-6 h-6 text-red-600" />
+                </div>
+                <div>
+                  <div className="font-bold text-slate-900 text-sm">Google Maps</div>
+                  <div className="text-red-600 font-semibold">ดูแผนที่ร้าน</div>
+                </div>
+              </Link>
+            </div>
+            <div className="mt-6 text-center">
+              <div className="inline-flex items-center gap-2 text-slate-500 text-sm">
+                <MapPin className="w-4 h-4 text-red-400" />
+                <span>บริการพื้นที่: ห้วยขวาง ดินแดง ลาดพร้าว บางกะปิ บางเขน จตุจักร ดุสิต บางซื่อ</span>
+              </div>
             </div>
           </div>
         </section>

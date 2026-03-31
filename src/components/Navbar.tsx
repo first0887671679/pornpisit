@@ -8,9 +8,10 @@ import { trackPhoneClick, trackLineClick } from "@/lib/gtm";
 
 const navLinks = [
   { label: "หน้าแรก", href: "/" },
-  { label: "บริการ", href: "#services" },
-  { label: "ทำไมต้องเรา", href: "#why-us" },
-  { label: "ติดต่อเรา", href: "#contact" },
+  { label: "เปลี่ยนแบตเตอรี่", href: "/battery-replacement" },
+  { label: "เช็คราคาแบต", href: "/check-price" },
+  { label: "บทความ", href: "/posts" },
+  { label: "ติดต่อเรา", href: "/contact-us" },
 ];
 
 export default function Navbar() {

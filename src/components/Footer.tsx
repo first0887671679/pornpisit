@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { PhoneCall, MessageCircle, MapPin, Clock } from "lucide-react";
+import { PhoneCall, MessageCircle, MapPin, Clock, Facebook, Map } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -28,18 +28,18 @@ export default function Footer() {
             <h4 className="text-lg font-bold mb-4">บริการของเรา</h4>
             <ul className="space-y-2 text-slate-300 text-sm">
               <li>
-                <Link href="/services/battery" className="hover:text-red-400 transition-colors">
-                  เปลี่ยนแบตเตอรี่รถยนต์นอกสถานที่
+                <Link href="/battery-replacement" className="hover:text-red-400 transition-colors">
+                  เปลี่ยนแบตเตอรี่รถยนต์
                 </Link>
               </li>
               <li>
-                <Link href="/services/battery" className="hover:text-red-400 transition-colors">
-                  พ่วงแบตเตอรี่ฉุกเฉิน
+                <Link href="/check-price" className="hover:text-red-400 transition-colors">
+                  เช็คราคาแบตเตอรี่
                 </Link>
               </li>
               <li>
-                <Link href="/services/battery" className="hover:text-red-400 transition-colors">
-                  ตรวจเช็คแบตเตอรี่ฟรี
+                <Link href="/contact-us" className="hover:text-red-400 transition-colors">
+                  ติดต่อเรา
                 </Link>
               </li>
             </ul>
@@ -54,7 +54,7 @@ export default function Footer() {
                 className="flex items-center gap-3 text-slate-300 hover:text-red-400 transition-colors"
               >
                 <PhoneCall className="w-5 h-5 text-red-400" />
-                <span>099-673-1296</span>
+                <span>โทรศัพท์ 099-673-1296</span>
               </Link>
               <Link
                 href="https://lin.ee/OBB86S4"
@@ -62,7 +62,23 @@ export default function Footer() {
                 className="flex items-center gap-3 text-slate-300 hover:text-red-400 transition-colors"
               >
                 <MessageCircle className="w-5 h-5 text-[#00B900]" />
-                <span>@398kyxfq</span>
+                <span>LINE @398kyxfq</span>
+              </Link>
+              <Link
+                href="https://www.facebook.com/profile.php?id=61586430572682"
+                target="_blank"
+                className="flex items-center gap-3 text-slate-300 hover:text-red-400 transition-colors"
+              >
+                <Facebook className="w-5 h-5 text-[#1877F2]" />
+                <span>Facebook PORNPISIT BATTERY</span>
+              </Link>
+              <Link
+                href="https://maps.app.goo.gl/vEpxr93MhWHrDB3Y9?g_st=ic"
+                target="_blank"
+                className="flex items-center gap-3 text-slate-300 hover:text-red-400 transition-colors"
+              >
+                <Map className="w-5 h-5 text-red-400" />
+                <span>Google Maps ดูแผนที่ร้าน</span>
               </Link>
             </div>
           </div>
