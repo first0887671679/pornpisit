@@ -49,6 +49,19 @@ export const authOptions: NextAuthOptions = {
   ],
   session: {
     strategy: "jwt",
+    maxAge: 60 * 60, // 1 hour — requires re-login after 1 hour
+  },
+  cookies: {
+    sessionToken: {
+      name: "next-auth.session-token",
+      options: {
+        httpOnly: true,
+        sameSite: "lax",
+        path: "/",
+        secure: process.env.NODE_ENV === "production",
+        maxAge: undefined, // session cookie — deleted when browser closes
+      },
+    },
   },
   pages: {
     signIn: "/login",

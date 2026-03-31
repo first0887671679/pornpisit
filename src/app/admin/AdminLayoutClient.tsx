@@ -8,6 +8,8 @@ import {
   ChevronDown, FileText, Smartphone, Eye, Menu, X, Home,
 } from "lucide-react";
 
+import { signOut } from "next-auth/react";
+
 const NAV_ITEMS = [
   { group: null, items: [
     { href: "/admin", icon: LayoutDashboard, label: "Dashboard" },
@@ -83,7 +85,10 @@ function SidebarContent({ pathname, onNavigate }: { pathname: string; onNavigate
       </nav>
 
       <div className="px-3 py-3 border-t border-slate-800">
-        <button className="flex items-center gap-3 px-4 py-2.5 w-full rounded-lg text-sm text-slate-500 hover:bg-red-500/10 hover:text-red-400 transition-colors">
+        <button
+          onClick={() => signOut({ callbackUrl: "/login" })}
+          className="flex items-center gap-3 px-4 py-2.5 w-full rounded-lg text-sm text-slate-500 hover:bg-red-500/10 hover:text-red-400 transition-colors"
+        >
           <LogOut size={18} />
           ออกจากระบบ
         </button>
@@ -110,7 +115,7 @@ export function AdminLayoutClient({ children }: { children: React.ReactNode }) {
   }, [open]);
 
   return (
-    <div className="min-h-screen bg-slate-50">
+    <div className="min-h-screen bg-slate-50 admin-light">
       {/* ── Desktop Sidebar ── */}
       <aside className="fixed inset-y-0 left-0 z-30 w-60 bg-slate-900 text-white hidden lg:flex flex-col">
         <SidebarContent pathname={pathname} />
