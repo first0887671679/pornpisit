@@ -126,7 +126,7 @@ export default function HeaderEditor() {
       if (!home) return;
 
       // Save header
-      await fetch(`/api/pages/${home.id}/sections/${sectionId}`, {
+      const headerRes = await fetch(`/api/pages/${home.id}/sections/${sectionId}`, {
         method: "PUT",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -153,10 +153,14 @@ export default function HeaderEditor() {
           isActive: true,
         }),
       });
+      if (!headerRes.ok) {
+        const err = await headerRes.json().catch(() => ({}));
+        throw new Error(err.error || `HTTP ${headerRes.status}`);
+      }
 
       // Save sub-header if exists
       if (subSectionId) {
-        await fetch(`/api/pages/${home.id}/sections/${subSectionId}`, {
+        const subRes = await fetch(`/api/pages/${home.id}/sections/${subSectionId}`, {
           method: "PUT",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify({
@@ -171,12 +175,16 @@ export default function HeaderEditor() {
             isActive: subActive,
           }),
         });
+        if (!subRes.ok) {
+          const err = await subRes.json().catch(() => ({}));
+          throw new Error(err.error || `HTTP ${subRes.status}`);
+        }
       }
 
       showMsg("บันทึกสำเร็จ!");
-    } catch (e) {
+    } catch (e: any) {
       console.error(e);
-      showMsg("เกิดข้อผิดพลาด");
+      showMsg("เกิดข้อผิดพลาด: " + (e.message || "ไม่สามารถบันทึกได้"));
     } finally {
       setSaving(false);
     }
