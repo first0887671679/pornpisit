@@ -490,8 +490,10 @@ async function _doEnsure() {
         }
       }
     } catch (e) {
-      // Ignore unique constraint errors from concurrent builds
-      if ((e as any)?.code !== "P2002") throw e;
+      // Ignore unique constraint and DB connection errors
+      if ((e as any)?.code !== "P2002") {
+        console.error("ensureServicePages error:", (e as any)?.message || e);
+      }
     }
   }
 
@@ -600,11 +602,15 @@ async function _doEnsure() {
 }
 
 /**
- * Get page data from DB by slug. Returns null if not found.
+ * Get page data from DB by slug. Returns null if not found or DB unreachable.
  */
 export async function getServicePageData(slug: string) {
-  return await (prisma as any).page.findUnique({
-    where: { slug },
-    include: { sections: { where: { isActive: true }, orderBy: { order: "asc" } } },
-  });
+  try {
+    return await (prisma as any).page.findUnique({
+      where: { slug },
+      include: { sections: { where: { isActive: true }, orderBy: { order: "asc" } } },
+    });
+  } catch {
+    return null;
+  }
 }

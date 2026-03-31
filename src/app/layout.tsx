@@ -121,10 +121,15 @@ export default async function RootLayout({
   children: React.ReactNode;
 }>) {
   // Fetch global header/footer from home page sections
-  const homePage = await (prisma as any).page.findUnique({
-    where: { slug: "home" },
-    include: { sections: { where: { isActive: true }, orderBy: { order: "asc" } } },
-  });
+  let homePage = null;
+  try {
+    homePage = await (prisma as any).page.findUnique({
+      where: { slug: "home" },
+      include: { sections: { where: { isActive: true }, orderBy: { order: "asc" } } },
+    });
+  } catch {
+    // DB unreachable during build — render with fallbacks
+  }
   const sections = homePage?.sections || [];
 
   // Find header and footer sections
