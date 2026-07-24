@@ -1,7 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { cache } from "react";
 import { Prompt, Sarabun } from "next/font/google";
-import Script from 'next/script'
 import { SITE_CONFIG, generateLocalBusinessJsonLd, generateWebSiteJsonLd } from "@/lib/seo";
 import { prisma } from "@/lib/prisma";
 import DynamicNavbar from "@/components/DynamicNavbar";
@@ -190,21 +189,23 @@ export default async function RootLayout({
         <link rel="dns-prefetch" href="https://images.unsplash.com" />
         <link rel="dns-prefetch" href="https://i.pravatar.cc" />
         <link rel="dns-prefetch" href="https://res.cloudinary.com" />
-        <Script id="gtm-head" strategy="afterInteractive">
-          {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-          new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-          j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-          'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-          })(window,document,'script','dataLayer','GTM-T3CWRXSQ');`}
-        </Script>
+        {/* Google tag (gtag.js) */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=GT-PZVK64WN"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'GT-PZVK64WN');`,
+          }}
+        />
       </head>
       <body
         className={`${prompt.variable} ${sarabun.variable} antialiased overflow-x-hidden w-full flex flex-col min-h-screen`}
       >
-        <noscript>
-          <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T3CWRXSQ"
-            height="0" width="0" style={{ display: 'none', visibility: 'hidden' }}></iframe>
-        </noscript>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessJsonLd) }}
