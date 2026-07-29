@@ -200,19 +200,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           }}
         />
         {/* End Google Tag Manager */}
-        {/* Google tag (gtag.js) */}
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=GT-PZVK64WN"
-        />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-gtag('config', 'GT-PZVK64WN');`,
-          }}
-        />
       </head>
       <body
         className={`${prompt.variable} ${sarabun.variable} antialiased overflow-x-hidden w-full flex flex-col min-h-screen`}
